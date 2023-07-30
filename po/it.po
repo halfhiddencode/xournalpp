@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-16 08:43+0000\n"
-"PO-Revision-Date: 2023-07-30 18:05\n"
+"PO-Revision-Date: 2023-07-30 19:07\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -92,7 +92,7 @@ msgstr "Applica alla pagina corrente"
 
 #: ../src/core/control/tools/EditSelection.cpp:400
 msgid "Arrange"
-msgstr "Disporre"
+msgstr "Disponi"
 
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:32
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:116
@@ -132,8 +132,8 @@ msgstr "Colore non impostato!"
 #: ../src/core/control/AudioController.cpp:118
 msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
-msgstr "Cartella Audio non impostata o invalida! Le registrazioni non funzioneranno!\n"
-"Per favore, imposta la cartella Audio in \"Preferenze > Registrazione Audio\""
+msgstr "Cartella dell'audio non impostata o invalida! Le registrazioni non funzioneranno!\n"
+"Imposta la cartella di registrazione in \"Preferenze > Registrazione audio\""
 
 #: ../src/core/control/Control.cpp:257
 msgid "Autosave failed with an error: {1}"
@@ -1227,7 +1227,7 @@ msgstr "Seleziona Oggetto"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:68
 msgid "Select PDF Area Text"
-msgstr "Selezionare area di testo PDF"
+msgstr "Seleziona area di testo PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:61
 msgid "Select PDF Text"
@@ -1412,7 +1412,7 @@ msgstr "Scambia la pagina corrente con quella sotto"
 
 #: ../src/core/gui/dialog/LanguageConfigGui.cpp:48
 msgid "System Default"
-msgstr "Lingua del sistema"
+msgstr "Predefinita di sistema"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:91
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:512
@@ -2087,7 +2087,7 @@ msgstr "<b>Barra degli strumenti vuota</b>\n"
 #: ../ui/fillOpacity.glade:80
 msgid "<b>Fill opacity settings</b>\n"
 "Select opacity for fill color"
-msgstr "<b>Impostazioni Opacità del riempimento</b>\n"
+msgstr "<b>Impostazioni opacità del riempimento</b>\n"
 "Seleziona l'opacità del colore di riempimento"
 
 #: ../ui/pageTemplate.glade:135
@@ -2104,7 +2104,7 @@ msgstr "<b>Separatori</b>"
 
 #: ../ui/settings.glade:952
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
-msgstr "<i>Assegna classi di dispositivo ad ogni dispositivo di input del sistema. Cambia questi valori solo se i tuoi dispositivi non sono correttamente abbinati. (ad esempio se la penna viene mostrata come touchscreen)</i>"
+msgstr "<i>Assegna classi di dispositivo a ogni dispositivo di immissione del sistema. Cambia questi valori solo se i tuoi dispositivi non sono correttamente abbinati. (ad esempio se la penna viene mostrata come touchscreen)</i>"
 
 #: ../ui/settings.glade:5863
 msgid "<i>Audio recordings are currently stored in a separate folder and referenced from the journal.</i>"
@@ -2163,11 +2163,11 @@ msgstr "<i>Ricarica gli sfondi PDF più spesso durante lo zoom per una migliore 
 
 #: ../ui/settings.glade:6390
 msgid "<i>Select language (requires restart)</i>"
-msgstr "<i>Seleziona la lingua (richiede riavvio)</i>"
+msgstr "<i>Seleziona la lingua (richiede il riavvio)</i>"
 
 #: ../ui/settings.glade:5718
 msgid "<i>Select the tool and Settings if you press the Default Button.</i>"
-msgstr "<i>Seleziona lo strumento e le impostazioni se si preme il pulsante Predefinito.</i>"
+msgstr "<i>Seleziona lo strumento e le impostazioni se premi il pulsante predefinito.</i>"
 
 #: ../ui/settings.glade:1729
 msgid "<i>Some devices report unexpectedly small or large pressures. This can be fixed by setting a minimum pressure or scaling the pressure reported by the device.</i>"
@@ -2175,7 +2175,7 @@ msgstr "<i>Alcuni dispositivi segnalano pressioni inaspettatamente piccole o gra
 
 #: ../ui/settings.glade:2491
 msgid "<i>Specify commands that are called once Hand Recognition triggers. The commands will be executed in the UI Thread, make sure they are not blocking!</i>"
-msgstr "<i>Specificare i comandi che verranno eseguiti quando si attiva il riconoscimento del palmo. I comandi verranno eseguiti nell'interfaccia grafica, assicurarsi che non siano bloccati!</i>"
+msgstr "<i>Specifica i comandi che verranno eseguiti quando si attiva il riconoscimento del palmo. I comandi verranno eseguiti nell'interfaccia grafica, assicurati che non siano bloccati!</i>"
 
 #: ../ui/settings.glade:5974
 msgid "<i>Specify the audio devices used for recording and playback of audio attachments.\n"
@@ -2191,7 +2191,7 @@ msgstr "<i>Qui puoi definire quali strumenti saranno selezionati se terrai premu
 
 #: ../ui/settings.glade:663
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
-msgstr "<i>Questo nome verrà proposto quando si esporta un documento in PDF.</i>"
+msgstr "<i>Questo nome sarà proposto quando esporti un documento in PDF.</i>"
 
 #: ../ui/settings.glade:492
 msgid "<i>This name will be proposed if you save a new document.</i>"
@@ -2473,7 +2473,7 @@ msgstr "Raggio per la zona morta"
 
 #: ../ui/latexSettings.glade:119
 msgid "Default LaTeX Text"
-msgstr "Testo LaTeX Predefinito"
+msgstr "Testo LaTeX predefinito"
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
@@ -2826,7 +2826,7 @@ msgstr "Se abilitato, Xournal++ aprirà automaticamente il documento più recent
 
 #: ../ui/latexSettings.glade:49
 msgid "If enabled, check that required LaTeX packages are installed and that the LaTeX commands are available before running the LaTeX tool."
-msgstr "Se abilitato, controllare che i pacchetti LaTeX richiesti siano installati e che i comandi LaTeX siano disponibili prima di eseguire lo strumento LaTeX."
+msgstr "Se abilitato, controlla che i pacchetti LaTeX richiesti siano installati e che i comandi LaTeX siano disponibili prima di eseguire lo strumento LaTeX."
 
 #: ../ui/exportSettings.glade:371
 msgid "If enabled, the layers of each page will be added one by one. The resulting PDF file can be used for a presentation."
@@ -2902,7 +2902,7 @@ msgstr "Lingua"
 
 #: ../ui/settings.glade:6445
 msgid "Language Settings"
-msgstr "Impostazioni Lingua"
+msgstr "Impostazioni della lingua"
 
 #: ../ui/main.glade:621
 msgid "Layout"
@@ -2918,7 +2918,7 @@ msgstr "Licenza"
 
 #: ../ui/latexSettings.glade:433
 msgid "Line numbers"
-msgstr "Numeri per le righe"
+msgstr "Numeri di riga"
 
 #: ../ui/settings.glade:902
 msgid "Load / Save"
@@ -3201,7 +3201,7 @@ msgstr "_Documenti Recenti"
 
 #: ../ui/main.glade:2062
 msgid "Record / Stop"
-msgstr "Registra / Stop"
+msgstr "Registra / Ferma"
 
 #: ../ui/settings.glade:6180
 msgid "Recording Quality"
@@ -3518,7 +3518,7 @@ msgstr "Sottolinea il testo selezionato"
 
 #: ../ui/settings.glade:3165
 msgid "Use available Stock Icons (requires restart)"
-msgstr "Usa le icone Stock disponibili (richiede riavvio)"
+msgstr "Usa le icone predefinite disponibili (richiede il riavvio)"
 
 #: ../ui/latexSettings.glade:529
 msgid "Use font from system theme."
