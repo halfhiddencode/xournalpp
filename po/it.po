@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-16 08:43+0000\n"
-"PO-Revision-Date: 2023-07-16 08:50\n"
+"PO-Revision-Date: 2023-07-30 18:05\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -3095,7 +3095,7 @@ msgstr "Pagine accoppiate"
 
 #: ../ui/main.glade:1360
 msgid "Paper B_ackground"
-msgstr "_Sfondo Carta"
+msgstr "_Sfondo carta"
 
 #: ../ui/pagesize.glade:18
 msgid "Paper Format"
@@ -3209,7 +3209,7 @@ msgstr "Qualità di registrazione"
 
 #: ../ui/main.glade:1323
 msgid "Rename Layer"
-msgstr "Rinomina Livello"
+msgstr "Rinomina livello"
 
 #: ../ui/renameLayerDialog.glade:8
 msgid "Rename selected layer"
@@ -3313,7 +3313,7 @@ msgstr "Impostazioni:"
 
 #: ../ui/settings.glade:5484
 msgid "Show Floating Toolbox"
-msgstr "Mostra Barra degli strumenti mobile"
+msgstr "Mostra la barra degli strumenti mobile"
 
 #: ../ui/settings.glade:3923 ../ui/settings.glade:4006
 msgid "Show Menubar"
@@ -3510,7 +3510,7 @@ msgstr "Tentare di selezionare prima l'oggetto."
 
 #: ../ui/settings.glade:5457 ../ui/settings.glade:5489
 msgid "Try to select object first; if nothing selected then show floating toolbox if enabled."
-msgstr "Tentare di selezionare prima l'oggetto; se non viene selezionato nulla, mostrare la barra degli strumenti mobile se abilitata."
+msgstr "Tenta di selezionare prima l'oggetto; se non viene selezionato nulla, mostrare la barra degli strumenti mobile se abilitata."
 
 #: ../ui/main.glade:2819
 msgid "Underline selected text"
@@ -3612,7 +3612,7 @@ msgstr "Zoom"
 
 #: ../ui/settings.glade:2767
 msgid "Zoom Gestures"
-msgstr "Gesti Zoom"
+msgstr "Gesti zoom"
 
 #: ../ui/settings.glade:4394
 msgid "Zoom Speed"
