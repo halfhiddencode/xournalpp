@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 19:42+0000\n"
-"PO-Revision-Date: 2023-07-30 20:05\n"
+"PO-Revision-Date: 2023-07-31 20:12\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -638,7 +638,9 @@ msgstr "Nie znaleziono programu generatora LaTeX w zmiennej środowiskowej PATH:
 msgid "Failed to find LaTeX generator program in PATH: {1}\n\n"
 "Since installation is detected within Flatpak, you need to install the Flatpak freedesktop Tex Live extension. For example, by running:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
-msgstr ""
+msgstr "Nie udało się znaleźć programu generatora LaTeX w PATH: {1}\n\n"
+"Ponieważ instalacja jest wykrywana w Flatpak, musisz zainstalować rozszerzenie Flatpak freedesktop Tex Live, na przykład uruchamiając:\n\n"
+"$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:177
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:217
@@ -682,7 +684,7 @@ msgstr "Wypełnij"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:586
 msgid "Fill Opacity"
-msgstr ""
+msgstr "Krycie wypełnienia"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:289
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -1367,7 +1369,7 @@ msgstr "Przepraszamy, póki co Xournal++ nie może otworzyć plików zdalnych.\n
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarCustomizeDialog.cpp:58
 msgid "Spacer"
-msgstr ""
+msgstr "Odstęp"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:23
 msgid "Staves"
@@ -1419,7 +1421,7 @@ msgstr "Tekst"
 #: ../src/core/gui/SearchBar.cpp:79
 #, c-format
 msgid "Text %zu times found on this page"
-msgstr ""
+msgstr "Tekst został znaleziony na tej stronie %zu razy"
 
 #: ../src/core/gui/SearchBar.cpp:77
 msgid "Text found on this page"
@@ -1447,16 +1449,17 @@ msgstr "Konfiguracja paska narzędzi \"{1}\" jest predefiniowana. Czy stworzyć 
 
 #: ../src/core/control/Control.cpp:2311
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "Załączony plik tła nie został znaleziony. Możliwe, że jego nazwa została zmieniona, został przeniesiony lub usunięty."
 
 #: ../src/core/control/XournalMain.cpp:245
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "Plik tła \"{1}\" nie został znaleziony. Być może zmieniła się jego nazwa bądź został przeniesiony lub usunięty."
 
 #: ../src/core/control/Control.cpp:2314
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
-msgstr ""
+msgstr "Plik tła {1} nie został znaleziony. Być może zmieniła się jego nazwa bądź został przeniesiony lub usunięty.\n"
+"Ostatnio był widoczny w: {2}\""
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:52
 msgid "The check for overwriting the background failed with:\n"
@@ -1492,7 +1495,7 @@ msgstr "Najnowszy plik loggera: {1}"
 
 #: ../src/core/control/XournalMain.cpp:174
 msgid "There are errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Znaleziono raporty błędów programu Xournal++. Prosimy o ich wysłanie w celu naprawy błędu."
 
 #: ../src/core/control/XournalMain.cpp:173
 msgid "There is an errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
@@ -2258,7 +2261,7 @@ msgstr "Ładowanie automatyczne"
 
 #: ../ui/settings.glade:4898
 msgid "Automatically Add Empty Last Page (excluding PDFs)"
-msgstr ""
+msgstr "Automatycznie dodaj pustą ostatnią stronę (z wyjątkiem PDF)"
 
 #: ../ui/settings.glade:462
 msgid "Autosaving"
@@ -2423,7 +2426,7 @@ msgstr "Domyślny tekst LaTeX"
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
-msgstr ""
+msgstr "Domyślna nazwa eksportowanego PDF"
 
 #: ../ui/settings.glade:637
 msgid "Default Save Name"
@@ -3029,7 +3032,7 @@ msgstr "P_oprzednia adnotowana strona"
 
 #: ../ui/settings.glade:3681
 msgid "Page numbering  "
-msgstr ""
+msgstr "Numeracja stron  "
 
 #: ../ui/exportSettings.glade:206
 msgid "Pages:"
@@ -3809,7 +3812,7 @@ msgstr "_wybielanie"
 
 #: ../ui/settings.glade:4878
 msgid "disabled"
-msgstr ""
+msgstr "wyłączony"
 
 #: ../ui/exportSettings.glade:310
 msgid "dpi"
