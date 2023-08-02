@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 19:42+0000\n"
-"PO-Revision-Date: 2023-07-30 20:05\n"
+"PO-Revision-Date: 2023-08-02 17:42\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -628,7 +628,7 @@ msgstr "Exportar sin lineas\n"
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "Fallo al eliminar el archivo: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
@@ -1064,7 +1064,7 @@ msgstr "Reproducir objeto"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Por favor, elimine el archivo manualmente"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:22
 msgid "Predefined"
@@ -1167,7 +1167,7 @@ msgstr "Guardar archivo"
 
 #: ../src/core/control/jobs/SaveJob.cpp:117
 msgid "Save file error, can't backup: {1}"
-msgstr ""
+msgstr "Error al guardar el archivo, no se puede hacer la copia de seguridad: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:125
 #: ../src/core/control/jobs/SaveJob.cpp:131
@@ -1495,11 +1495,11 @@ msgstr "Nombre del archivo de registro más reciente: {1}"
 
 #: ../src/core/control/XournalMain.cpp:174
 msgid "There are errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Xournal++ ha generado registros de errores. Envíe un informe de error para que pueda solucionarse."
 
 #: ../src/core/control/XournalMain.cpp:173
 msgid "There is an errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Xournal++ ha generado un registro de error. Envíe un informe de error para que pueda solucionarse."
 
 #: ../src/util/XojMsgBox.cpp:104
 msgid "There was an error displaying help: {1}"
@@ -2213,7 +2213,7 @@ msgstr "Las tres condiciones deben cumplirse para que se ignore el trazo.\n"
 #: ../ui/settings.glade:2167
 msgctxt "eraser is always visible"
 msgid "Always"
-msgstr ""
+msgstr "Siempre"
 
 #: ../ui/latexSettings.glade:45
 msgid "Always check LaTeX dependencies before running"
@@ -2426,7 +2426,7 @@ msgstr "Texto LaTeX por defecto"
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
-msgstr ""
+msgstr "Nombre de exportación PDF por defecto"
 
 #: ../ui/settings.glade:637
 msgid "Default Save Name"
@@ -2618,7 +2618,7 @@ msgstr "Tipo de borrador – no cambiar"
 
 #: ../ui/settings.glade:2193
 msgid "Eraser visibility"
-msgstr ""
+msgstr "Visibilidad del borrador"
 
 #: ../ui/exportSettings.glade:56
 msgid "Export"
@@ -2691,7 +2691,7 @@ msgstr "Ruta del archivo de plantilla global"
 
 #: ../ui/settings.glade:4038
 msgid "Go Fullscreen"
-msgstr ""
+msgstr "Pantalla completa"
 
 #: ../ui/goto.glade:14
 msgid "Go to Page"
@@ -2970,7 +2970,7 @@ msgstr "N_ext página anotada"
 #: ../ui/settings.glade:2166
 msgctxt "eraser is never visible"
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: ../ui/main.glade:1222
 msgid "New Page _After"
@@ -3032,7 +3032,7 @@ msgstr "Página anotada anterior"
 
 #: ../ui/settings.glade:3681
 msgid "Page numbering  "
-msgstr ""
+msgstr "Numeración de página  "
 
 #: ../ui/exportSettings.glade:206
 msgid "Pages:"
@@ -3266,7 +3266,7 @@ msgstr "Mostrar cuadro de herramientas flotante"
 
 #: ../ui/settings.glade:3923 ../ui/settings.glade:4006
 msgid "Show Menubar"
-msgstr ""
+msgstr "Mostrar barra de menús"
 
 #: ../ui/settings.glade:2994
 msgid "Show Menubar on Startup"
@@ -3278,7 +3278,7 @@ msgstr "Mostrar barra lateral"
 
 #: ../ui/settings.glade:3939 ../ui/settings.glade:4022
 msgid "Show Toolbar"
-msgstr ""
+msgstr "Mostrar barra de herramientas"
 
 #: ../ui/main.glade:605
 msgid "Show Toolbars"
@@ -3298,7 +3298,7 @@ msgstr "Mostrar barra de desplazamiento vertical en el costado izquierdo"
 
 #: ../ui/settings.glade:3728
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra lateral"
 
 #: ../ui/settings.glade:1078
 msgid "Slower strokes are assigned a greater pressure than faster strokes, if pressure information is absent.\n\n"
@@ -3518,12 +3518,12 @@ msgstr "Al dibujar con el tacto, los gestos con dos dedos destinados a desplazar
 #: ../ui/settings.glade:2168
 msgctxt "eraser is only visible when floating"
 msgid "When floating"
-msgstr ""
+msgstr "Al flotar"
 
 #: ../ui/settings.glade:2169
 msgctxt "eraser is only visible when touching the screen"
 msgid "When touching"
-msgstr ""
+msgstr "Al tocar"
 
 #: ../ui/settings.glade:5563
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
