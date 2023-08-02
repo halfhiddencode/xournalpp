@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 19:42+0000\n"
-"PO-Revision-Date: 2023-07-30 20:05\n"
+"PO-Revision-Date: 2023-08-02 13:50\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -32,7 +32,8 @@ msgstr "\n"
 #: ../src/core/control/Control.cpp:2324
 msgid "\n"
 "Proposed replacement file: \"{1}\""
-msgstr ""
+msgstr "\n"
+"Önerilen yedek dosya: \"{1}\""
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:37
 msgctxt "Page {pagenumber} \"of {pagecount}\""
@@ -45,7 +46,7 @@ msgstr "%F-Not-%H-%M"
 
 #: ../src/core/control/settings/Settings.cpp:145
 msgid "%{name}_annotated"
-msgstr ""
+msgstr "%{name}_açıklanmış"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:166
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
@@ -487,19 +488,19 @@ msgstr "Metni düzenle"
 
 #: ../src/util/ElementRange.cpp:101
 msgid "ElementRange::parse(): element indices start with 1"
-msgstr ""
+msgstr "ElementRange::parse(): öge indeksleri 1 ile başlar"
 
 #: ../src/util/ElementRange.cpp:95
 msgid "ElementRange::parse(): given element index is larger than maximum count."
-msgstr ""
+msgstr "ElementRange::parse(): verilen öge indeksi maksimum değerden büyük."
 
 #: ../src/util/ElementRange.cpp:98
 msgid "ElementRange::parse(): interval bounds must be in increasing order."
-msgstr ""
+msgstr "ElementRange::parse(): aralık sınırları artan sırada olmalıdır."
 
 #: ../src/util/ElementRange.cpp:91
 msgid "ElementRange::parse(): invalid element range."
-msgstr ""
+msgstr "ElementRange::parse(): geçersiz öge aralığı."
 
 #: ../src/core/undo/EmergencySaveRestore.cpp:22
 msgid "Emergency saved document"
@@ -561,7 +562,7 @@ msgstr "Otomatik kaydetme hatası: {1}"
 
 #: ../src/core/control/jobs/ImageExport.cpp:177
 msgid "Error while exporting the pdf background: I cannot find the pdf page number "
-msgstr ""
+msgstr "PDF arka planını dışa aktarırken hata: PDF sayfa sayısını bulamıyorum "
 
 #: ../src/util/Util.cpp:93
 msgid "Error {1} executing system command: {2}"
@@ -627,7 +628,7 @@ msgstr "Çizgiler olmadan dışa aktar\n"
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "Bu dosya silinemedi: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
@@ -637,7 +638,9 @@ msgstr "KONUM içinde LaTeX oluşturucu programı bulunamadı: {1}"
 msgid "Failed to find LaTeX generator program in PATH: {1}\n\n"
 "Since installation is detected within Flatpak, you need to install the Flatpak freedesktop Tex Live extension. For example, by running:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
-msgstr ""
+msgstr "PATH değişkeninde LaTeX oluşturma programı bulunamadı: {1}\n\n"
+"Kurulum Flatpak içinde tespit edildiği için, Flatpak freedesktop Tex Live uzantısını indirmeniz gerekiyor. Örneğin, şunu çalıştırarak:\n\n"
+"$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:177
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:217
@@ -650,7 +653,7 @@ msgstr "Resim yüklenemedi, resim boyutu belirlenemedi!"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:179
 msgid "Failed to open content.xml in zip archive: \"{1}\""
-msgstr ""
+msgstr "Zip arşivindeki content.xml dosyası açılamadı: \"{1}\""
 
 #: ../src/core/control/latex/LatexGenerator.cpp:72
 msgid "Failed to parse LaTeX generator command: {1}"
@@ -658,7 +661,7 @@ msgstr "LaTeX oluşturucu komutu ayrıştırılamadı: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:61
 msgid "Failed to parse LaTeX generator path: {1}"
-msgstr ""
+msgstr "LaTex oluşturucu dizini çözümlenemedi: {1}"
 
 #: ../src/core/control/LatexController.cpp:81
 msgid "Failed to read global template file. Please check your settings."
@@ -762,7 +765,7 @@ msgstr "Izgara Yakalama"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:53
 msgid "GtkSourceView was disabled when building Xournal++! Some options will not be available."
-msgstr ""
+msgstr "Xournal++ derlenirken GtkSourceView devre dışıydı! Bazı seçenekler kullanılamayacak."
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:98
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:539
@@ -947,7 +950,8 @@ msgstr "Tamam"
 #: ../src/core/control/XournalMain.cpp:667
 msgid "On export, only export the layers specified by RANGE (e.g. \"2-3,5,7-\")\n"
 "                                 No effect without -p/--create-pdf or -i/--create-img"
-msgstr ""
+msgstr "Dışa aktarımda yalnızca ARALIK kısmında belirtilen sayfaları dışa aktarın (ör. \"2-3,5,7-\")\n"
+"                                  -p/--create-pdf veya -i/-create-img kullanılmadan bir etkisi yoktur"
 
 #: ../src/core/control/XournalMain.cpp:663
 msgid "Only export the pages specified by RANGE (e.g. \"2-3,5,7-\")\n"
@@ -1028,7 +1032,7 @@ msgstr "Sayfa numarası"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:318
 msgid "Page type format is PageTypeFormat::Copy - converted to PageTypeFormat::Plain to avoid corrupted file"
-msgstr ""
+msgstr "Sayfa biçimi formatı PageTypeFormat::Copy - dosyanın bozulmasını engellemek için PageTypeFormat::Plain biçimine dönüşürüldü"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
 msgid "Paired pages"
@@ -1060,7 +1064,7 @@ msgstr "Nesne Oynat"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Lütfen dosyayı manuel olarak silin"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:22
 msgid "Predefined"
@@ -1163,7 +1167,7 @@ msgstr "Dosyayı Kaydet"
 
 #: ../src/core/control/jobs/SaveJob.cpp:117
 msgid "Save file error, can't backup: {1}"
-msgstr ""
+msgstr "Dosya kaydetme hatası, yedekleme yapılamıyor: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:125
 #: ../src/core/control/jobs/SaveJob.cpp:131
@@ -1176,7 +1180,7 @@ msgstr "Ölçek"
 
 #: ../src/core/gui/PageView.cpp:912
 msgid "Scroll to page {1}"
-msgstr ""
+msgstr "{1}. sayfaya kaydırın"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:434
 msgid "Search"
@@ -1202,18 +1206,18 @@ msgstr "Doğrusal PDF Metnini Seç"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:535
 msgid "Select Multi-Layer Rect"
-msgstr ""
+msgstr "Çok-Katmanlı Dikdörtgen Seç"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:76
 msgid "Select Multi-Layer Rectangle"
-msgstr ""
+msgstr "Çok-Katmanlı Dikdörtgen Seç"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:534
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:82
 msgid "Select Multi-Layer Region"
-msgstr ""
+msgstr "Çok-Katmanlı Bölge Seç"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:536
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
@@ -1276,7 +1280,7 @@ msgstr "Renk seç"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:97
 msgid "Select multi layer rect"
-msgstr ""
+msgstr "Çok katmanlı dikdörtgen seç"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:96
 msgid "Select multi layer region"
@@ -1450,7 +1454,7 @@ msgstr "Eklenmiş arka plan dosyası bulunamadı. Taşınmış, yeniden adlandı
 
 #: ../src/core/control/XournalMain.cpp:245
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "Arka plan dosyası \"{1}\" bulunamadı. Taşınmış, yeniden adlandırılmış veya silinmiş olabilir."
 
 #: ../src/core/control/Control.cpp:2314
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
