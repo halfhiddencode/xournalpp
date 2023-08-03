@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 19:42+0000\n"
-"PO-Revision-Date: 2023-08-03 02:29\n"
+"PO-Revision-Date: 2023-08-03 03:25\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -32,7 +32,8 @@ msgstr "\n"
 #: ../src/core/control/Control.cpp:2324
 msgid "\n"
 "Proposed replacement file: \"{1}\""
-msgstr ""
+msgstr "\n"
+"提案された代替ファイル:\"{1}\""
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:37
 msgctxt "Page {pagenumber} \"of {pagecount}\""
@@ -67,7 +68,7 @@ msgstr "<span foreground='red' size='x-large'>必要なUIファイルがあり�
 
 #: ../src/core/gui/PageView.cpp:914
 msgid "Add missing page"
-msgstr ""
+msgstr "不足しているページを追加"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:513
 msgid "Add/Edit TeX"
@@ -295,15 +296,15 @@ msgstr ""
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:179
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
-msgstr ""
+msgstr "{2} にあるツールバー{1} からツールを削除することができませんでした。"
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:174
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
-msgstr ""
+msgstr "{3} にあるツールバー{2} から{1} を削除できませんでした。"
 
 #: ../src/core/control/Control.cpp:248
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
-msgstr ""
+msgstr "自動保存するファイルの名前を「{1}」から「{2}」に変更できませんでした：{3}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:91
 msgid "Could not save .tex file: {1}"
@@ -311,12 +312,13 @@ msgstr ".tex ファイルを保存できませんでした: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:105
 msgid "Could not start {1}: {2} (exit code: {3})"
-msgstr ""
+msgstr "{1} を開始できませんでした：{2} (終了コード: {3})"
 
 #: ../src/core/undo/UndoRedoHandler.cpp:114
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
-msgstr ""
+msgstr "\"{1}\"をもとに戻せませんでした。\n"
+"うまく行かなかったようです… バグレポートを書いてください..."
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:253
 msgid "Could not write background \"{1}\", {2}"
@@ -324,7 +326,7 @@ msgstr ""
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:369
 msgid "Could not write background \"{1}\". Continuing anyway."
-msgstr ""
+msgstr "背景\"{1}\"を書き込めませんでした。とにかく続行します。"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -389,17 +391,19 @@ msgstr "破棄"
 
 #: ../src/core/control/XournalMain.cpp:687
 msgid "Display advanced export options"
-msgstr ""
+msgstr "高度なエクスポートオプションを表示"
 
 #: ../src/core/control/Control.cpp:2249
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
-msgstr ""
+msgstr "Autosaveファイルを開かないでください。上書きされてしまう可能性があります！\n"
+"Autosaveファイルを別のフォルダにコピーしてください。\n"
+"フォルダ {1} からのファイルは開けません。"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
-msgstr ""
+msgstr "背景のPDFを上書きしないでください。エラーの原因になります。"
 
 #: ../src/core/control/Control.cpp:2804
 msgid "Document file was removed."
@@ -407,7 +411,7 @@ msgstr "ドキュメントファイルが削除されました。"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:271
 msgid "Document is corrupted (no pages found in file)"
-msgstr ""
+msgstr "ドキュメントが破損しています(ファイルにページが見つかりません)"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:267
 msgid "Document is not complete (maybe the end is cut off?)"
@@ -592,7 +596,7 @@ msgstr "PDFでエクスポート"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:416
 msgid "Export as PDF"
-msgstr "PDFでエクスポート"
+msgstr "PDFにエクスポート"
 
 #: ../src/core/control/XournalMain.cpp:656
 msgid "Export layers progressively\n"
@@ -3126,7 +3130,7 @@ msgstr ""
 
 #: ../ui/main.glade:187
 msgid "Recent _Documents"
-msgstr "最近のドキュメント(_D)"
+msgstr "最近開いたドキュメント"
 
 #: ../ui/main.glade:2062
 msgid "Record / Stop"
@@ -3610,7 +3614,7 @@ msgstr "_8 行"
 
 #: ../ui/main.glade:196
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "注釈をつけるPDFを開く"
 
 #: ../ui/main.glade:702
 msgid "_Bottom to Top"
@@ -3642,7 +3646,7 @@ msgstr "消しゴム(_E)"
 
 #: ../ui/main.glade:237
 msgid "_Export as PDF"
-msgstr "PDFにエクスポート(_E)"
+msgstr "PDFにエクスポート"
 
 #: ../ui/main.glade:152
 msgid "_File"
