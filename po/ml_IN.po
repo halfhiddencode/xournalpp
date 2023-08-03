@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 14:58+0000\n"
-"PO-Revision-Date: 2023-08-03 15:05\n"
+"PO-Revision-Date: 2023-08-03 16:40\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -170,78 +170,79 @@ msgstr "നിർമിതമായത്"
 #: ../src/core/control/XournalMain.cpp:188
 #: ../src/core/gui/sidebar/Sidebar.cpp:94
 msgid "Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക"
 
 #: ../src/core/undo/ColorUndoAction.cpp:90
 msgid "Change color"
-msgstr ""
+msgstr "നിറം മാറ്റുക"
 
 #: ../src/core/undo/FontUndoAction.cpp:110
 msgid "Change font"
-msgstr ""
+msgstr "ഫോണ്ട് മാറ്റുക"
 
 #: ../src/core/undo/LineStyleUndoAction.cpp:78
 msgid "Change line style"
-msgstr ""
+msgstr "ലൈൻ ശൈലി മാറ്റുക"
 
 #: ../src/core/undo/FillUndoAction.cpp:81
 msgid "Change stroke fill"
-msgstr ""
+msgstr "സ്ട്രോക്ക് ഫിൽ മാറ്റുക"
 
 #: ../src/core/undo/SizeUndoAction.cpp:106
 msgid "Change stroke width"
-msgstr ""
+msgstr "സ്ട്രോക്ക് വീതി മാറ്റുക"
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "Clear list"
-msgstr ""
+msgstr "പട്ടിക നീക്കം ചെയ്യുക"
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:96
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
-msgstr ""
+msgstr "\"{1}\" നിറം അജ്ഞാതമാണ് (നിർദിഷ്ട നിറങ്ങളുടെ പട്ടികയിൽ ഉൾപ്പെടുത്തിയിട്ടില്ല)!"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:541
 msgid "Compass"
-msgstr ""
+msgstr "കോമ്പസ്"
 
 #: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:169
 msgid "Contents"
-msgstr ""
+msgstr "ഉള്ളടക്കം"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:431
 #: ../src/core/gui/toolbarMenubar/model/ToolbarModel.cpp:75
 #: ../src/core/gui/toolbarMenubar/model/ToolbarModel.cpp:81
 msgid "Copy"
-msgstr ""
+msgstr "പകർത്തുക"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:31
 msgid "Copy current"
-msgstr ""
+msgstr "നിലവിലുള്ളത് പകർത്തുക"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
-msgstr ""
+msgstr "താൾ പകർത്തുക"
 
 #: ../src/util/PathUtil.cpp:265
 msgid "Could not create folder: {1}\n"
 "Failed with error: {2}"
-msgstr ""
+msgstr "ഫോൾഡർ നിർമിക്കാൻ സാധിച്ചില്ല: {1}\n"
+"പിശകോടെ പരാജയപ്പെട്ടു: {2}"
 
 #: ../src/core/control/LatexController.cpp:341
 msgid "Could not load LaTeX PDF file"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) പി. ഡി. എഫ്. (PDF) ഫയൽ തുറക്കാൻ സാധിച്ചില്ല"
 
 #: ../src/core/control/LatexController.cpp:335
 msgid "Could not load LaTeX PDF file: {1}"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) പി. ഡി. എഫ്. (PDF) ഫയൽ തുറക്കാൻ സാധിച്ചില്ല: {1}"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:16
 msgid "Could not load pagetemplates.ini file"
-msgstr ""
+msgstr "പേജ്ടെംപ്ലേറ്റ്സ്.ഐഎൻഐ (pagetemplates.ini) ഫൈൽ തുറക്കാൻ സാധിച്ചില്ല"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:846
 msgid "Could not open attachment: {1}. Error message: Could not read file"
-msgstr ""
+msgstr "അറ്റാച്ച്മെന്റ് തുറക്കാൻ സാധിച്ചില്ല: {1}. പിശക് സംബന്ധിച്ച സന്ദേശം: ഫയൽ വായിക്കാൻ സാധിച്ചില്ല"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:855
 msgid "Could not open attachment: {1}. Error message: Could not write file"
@@ -352,93 +353,93 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:436
 #: ../src/core/undo/DeleteUndoAction.cpp:64
 msgid "Delete"
-msgstr ""
+msgstr "നീക്കം ചെയ്യുക"
 
 #: ../src/core/control/XournalMain.cpp:187
 msgid "Delete Logfile"
-msgstr ""
+msgstr "ലോഗ്ഫയൽ നീക്കം ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:489
 msgid "Delete current page"
-msgstr ""
+msgstr "നിലവിലുള്ള താൾ നീക്കം ചെയ്യുക"
 
 #: ../src/core/control/XournalMain.cpp:218
 msgid "Delete file"
-msgstr ""
+msgstr "ഫയൽ നീക്കം ചെയ്യുക"
 
 #: ../src/core/undo/RemoveLayerUndoAction.cpp:27
 msgid "Delete layer"
-msgstr ""
+msgstr "പാളി നീക്കം ചെയ്യുക"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:74
 msgid "Delete this layer"
-msgstr ""
+msgstr "ഈ പാളി നീക്കം ചെയ്യുക"
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
 msgid "Delete this page"
-msgstr ""
+msgstr "ഈ താൾ നീക്കം ചെയ്യുക"
 
 #: ../src/core/control/Control.cpp:2820
 msgid "Discard"
-msgstr ""
+msgstr "ഒഴിവാക്കുക"
 
 #: ../src/core/control/XournalMain.cpp:687
 msgid "Display advanced export options"
-msgstr ""
+msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവിധാനങ്ങൾ കാണിക്കുക"
 
 #: ../src/core/control/Control.cpp:2252
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
-msgstr ""
+msgstr "ഓട്ടോസേവ് ചെയ്ത ഫയലുകൾ തുറക്കരുത്. അവ വീണ്ടും മാറ്റി നിര്മിക്കപ്പെട്ടേക്കും. അവ മറ്റൊരു ഫോൾഡറിലേക്ക് പകർത്തുക. ഫോൾഡർ {1}-ലുള്ള ഫയലുകൾ തുറക്കാൻ സാധിക്കുന്നില്ല."
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
-msgstr ""
+msgstr "പിഡിഎഫ് പശ്ചാത്തലം തിരുത്തരുത്! അവ പിശകുകൾക്ക് കാരണമാകും!"
 
 #: ../src/core/control/Control.cpp:2814
 msgid "Document file was removed."
-msgstr ""
+msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:271
 msgid "Document is corrupted (no pages found in file)"
-msgstr ""
+msgstr "ഡോക്യുമെന്റ് അസാധുവായിരിക്കുന്നു (ഫയലിൽ ഒരു താള് പോലും കണ്ടെത്തിയില്ല)"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:267
 msgid "Document is not complete (maybe the end is cut off?)"
-msgstr ""
+msgstr "ഡോക്യുമെന്റ് പൂർണമല്ല (അവസാന ഭാഗം ഒഴിവാക്കപ്പെട്ടിരിക്കാം?)"
 
 #: ../src/core/model/Document.cpp:306 ../src/core/model/Document.cpp:315
 #: ../src/core/model/Document.cpp:318
 msgid "Document not loaded! ({1}), {2}"
-msgstr ""
+msgstr "ഡോക്യുമെന്റ് തുറക്കപ്പെട്ടില്ല! ({1}), {2}"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:25
 msgid "Dotted"
-msgstr ""
+msgstr "ഡോട്ട് ഇട്ടത്"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:136
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:38
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:524
 msgid "Draw Arrow"
-msgstr ""
+msgstr "അമ്പ് വരയ്ക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
 msgid "Draw Double Arrow"
-msgstr ""
+msgstr "ഇരട്ട തലയുള്ള അമ്പ് വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:134
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:523
 msgid "Draw Ellipse"
-msgstr ""
+msgstr "ദീർഘവൃത്തം വരയ്‌ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:130
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:529
 msgid "Draw Line"
-msgstr ""
+msgstr "ലൈൻ വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:132
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:34
@@ -446,75 +447,76 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:103
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:522
 msgid "Draw Rectangle"
-msgstr ""
+msgstr "ദീർഘചതുരം വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:142
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:46
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:530
 msgid "Draw Spline"
-msgstr ""
+msgstr "സ്പ്ലൈൻ വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:138
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:42
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:528
 msgid "Draw coordinate system"
-msgstr ""
+msgstr "കോർഡിനേറ്റ് സിസ്റ്റം വരയ്ക്കുക"
 
 #: ../src/core/undo/InsertUndoAction.cpp:33
 msgid "Draw stroke"
-msgstr ""
+msgstr "സ്ട്രോക്ക് വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:126
 msgid "Drawing Type - don't change"
-msgstr ""
+msgstr "വരയ്ക്കുന്ന ശൈലി - മാറ്റരുത്"
 
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:29
 msgid "Drawing Type Combo"
-msgstr ""
+msgstr "വരയ്ക്കുന്ന ശൈലി കോംബോ"
 
 #: ../src/core/undo/TextBoxUndoAction.cpp:43
 msgid "Edit text"
-msgstr ""
+msgstr "ടെക്സ്റ്റ് തിരുത്തുക"
 
 #: ../src/util/ElementRange.cpp:101
 msgid "ElementRange::parse(): element indices start with 1"
-msgstr ""
+msgstr "എലമെന്റ്::പാർസ്() (ElementRange::parse()): എലമെന്റ് ഇൻഡക്സുകൾ തുടങ്ങുന്നത് 1 മുതൽ ആരംഭിക്കുന്നു"
 
 #: ../src/util/ElementRange.cpp:95
 msgid "ElementRange::parse(): given element index is larger than maximum count."
-msgstr ""
+msgstr "എലമെന്റ്::പാർസ്() (ElementRange::parse()): തന്നിരിക്കുന്ന എലമെന്റ് ഇൻഡക്സ് പരമാവധിക്കുമപ്പുറമാണ്."
 
 #: ../src/util/ElementRange.cpp:98
 msgid "ElementRange::parse(): interval bounds must be in increasing order."
-msgstr ""
+msgstr "എലമെന്റ്::പാർസ്() (ElementRange::parse()): ഇടവേളയുടെ അതിരുകൾ ക്രമപ്രകാരം വർധിക്കുന്നവ ആയിരിക്കണം."
 
 #: ../src/util/ElementRange.cpp:91
 msgid "ElementRange::parse(): invalid element range."
-msgstr ""
+msgstr "എലമെന്റ്::പാർസ്() (ElementRange::parse()): അസാധുവായി എലമെന്റ് പരിധി."
 
 #: ../src/core/undo/EmergencySaveRestore.cpp:22
 msgid "Emergency saved document"
-msgstr ""
+msgstr "അടിയന്തിരമായി സേവ് ചെയ്ത ഡോക്യുമെന്റ്"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:286
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
-msgstr ""
+msgstr "ഈ ക്രമീകരണം മാറ്റുവാൻ സമ്മർദ്ദം തിരിച്ചറിയൽ, അല്ലെങ്കിൽ സമ്മർദാനുമാനം പ്രാപ്തമാക്കുക!"
 
 #: ../src/core/undo/AddUndoAction.cpp:64
 #: ../src/core/undo/DeleteUndoAction.cpp:61
 #: ../src/core/undo/EraseUndoAction.cpp:60
 msgid "Erase stroke"
-msgstr ""
+msgstr "സ്ട്രോക്ക് മായ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:89
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:315
 msgid "Eraser"
-msgstr ""
+msgstr "ഇറേസർ"
 
 #: ../src/core/control/Control.cpp:2543
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
-msgstr ""
+msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്നതിൽ പിശക് \"{1}\"\n"
+"{2}"
 
 #: ../src/core/gui/GladeGui.cpp:25
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
@@ -522,70 +524,72 @@ msgstr ""
 
 #: ../src/core/control/Control.cpp:2370
 msgid "Error opening file \"{1}\""
-msgstr ""
+msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/util/OutputStream.cpp:24
 msgid "Error opening file: \"{1}\""
-msgstr ""
+msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:489
 #: ../src/core/control/xojfile/LoadHandler.cpp:509
 msgid "Error reading PDF: {1}"
-msgstr ""
+msgstr "പി. ഡി. എഫ്. (PDF) വായിക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:564
 msgid "Error reading width of a stroke: {1}"
-msgstr ""
+msgstr "സ്‌ട്രോക്കിന്റെ വീതി അളക്കുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/jobs/ImageExport.cpp:168
 msgid "Error save image #1"
-msgstr ""
+msgstr "ചിത്രം സേവ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു #1"
 
 #: ../src/core/control/jobs/ImageExport.cpp:197
 msgid "Error save image #2"
-msgstr ""
+msgstr "ചിത്രം സേവ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു #2"
 
 #: ../src/core/control/jobs/AutosaveJob.cpp:21
 msgid "Error while autosaving: {1}"
-msgstr ""
+msgstr "ഓട്ടോസേവ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/jobs/ImageExport.cpp:177
 msgid "Error while exporting the pdf background: I cannot find the pdf page number "
-msgstr ""
+msgstr "പി. ഡി. എഫ്. എക്സ്പോര്ട്ട് ചെയ്യുന്നതിനിടെ പരാജയപ്പെട്ടു. പി. ഡി. എഫ്-ന്റെ താൾ നമ്പർ കണ്ടെത്താൻ സാധിച്ചില്ല "
 
 #: ../src/util/Util.cpp:93
 msgid "Error {1} executing system command: {2}"
-msgstr ""
+msgstr "സിസ്റ്റം നിർദ്ദേശം പാലിക്കുന്നതിൽ {1} പരാജയം നേരിട്ടു: {2}"
 
 #: ../src/core/control/CrashHandler.cpp:40
 msgid "Error: {1}"
-msgstr ""
+msgstr "തെറ്റ്: {1}"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:164
 msgid "Error: {1} is not a regular file. Please check your LaTeX template file settings. "
-msgstr ""
+msgstr "പിശക്: {1} ശരിയായ ഫയൽ അല്ല. ദയവായി നിങ്ങളുടെ ലാറ്റെക് (LaTeX) ടെമ്പ്ലേറ്റ് ഫയൽ ക്രമീകരങ്ങൾ പരിശോധിക്കുക. "
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:154
 msgid "Error: {1}. Please check the contents of {2}"
-msgstr ""
+msgstr "പിശക്: {1}. ദയവായി {2}-ന്റെ ഉള്ളടക്കം പരിശോധിക്കുക"
 
 #: ../src/core/control/XournalMain.cpp:640
 msgid "Export FILE as PDF"
-msgstr ""
+msgstr "ഫയൽ പിഡിഎഫ് ആയി എക്സ്പോർട്ട് ചെയ്യുക"
 
 #: ../src/core/control/XournalMain.cpp:642
 msgid "Export FILE as image files (one per page)\n"
 "                                 Guess the output format from the extension of IMGFILE\n"
 "                                 Supported formats: .png, .svg"
-msgstr ""
+msgstr "ഫയൽ ചിത്രങ്ങളുടെ ഫയലുകളായി (ഒരു താളിൽ ഒരു ചിത്രം എന്ന കണക്കിൽ) എക്സ്പോർട്ട് ചെയ്യുക\n"
+"                                 അനന്തര ഫയലിന്റെ ഫോർമാറ്റ് IMGFILE-ന്റെ എക്സ്റ്റൻഷണിന്റെ അടിസ്ഥാനത്തിൽ തീരുമാനിക്കുക\n"
+"                                 പിന്തുണയ്ക്കപ്പെട്ട ഫോർമാറ്റുകൾ: .png, .svg"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:23
 msgid "Export PDF"
-msgstr ""
+msgstr "പിഡിഎഫ് എക്സ്പോർട്ട് ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:416
 msgid "Export as PDF"
-msgstr ""
+msgstr "പിഡിഎഫ് ആയി എക്സ്പോർട്ട് ചെയ്യുക"
 
 #: ../src/core/control/XournalMain.cpp:656
 msgid "Export layers progressively\n"
@@ -657,7 +661,7 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:585
 msgid "Fill"
-msgstr ""
+msgstr "ഫിൽ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:586
 msgid "Fill Opacity"
@@ -669,7 +673,7 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:605
 msgid "Fine"
-msgstr ""
+msgstr "നേർത്ത"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:99
 msgid "Floating Toolbox (experimental)"
@@ -677,11 +681,11 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/FontButton.cpp:65
 msgid "Font"
-msgstr ""
+msgstr "ഫോണ്ട്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
 msgid "Forward"
-msgstr ""
+msgstr "മുന്നോട്ട്"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:72
 msgid "GNU GPLv2 or later"
@@ -689,15 +693,15 @@ msgstr ""
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:39
 msgid "GTK Version"
-msgstr ""
+msgstr "ജിടികെ വേർഷൻ"
 
 #: ../src/core/control/XournalMain.cpp:631
 msgid "Get version of xournalpp"
-msgstr ""
+msgstr "Xournalpp-യുടെ പതിപ്പ് ലഭിക്കുക"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:46
 msgid "Git commit"
-msgstr ""
+msgstr "ഗിറ്റ് കമ്മിറ്റ്"
 
 #: ../src/core/control/LatexController.cpp:76
 msgid "Global template file does not exist. Please check your settings."
@@ -709,31 +713,31 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:467
 msgid "Go to first page"
-msgstr ""
+msgstr "അടുത്ത താളിലേക്ക് പോകുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:471
 msgid "Go to last page"
-msgstr ""
+msgstr "അവസാനത്തെ താളിലേക്ക് പോകുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:474
 msgid "Go to next layer"
-msgstr ""
+msgstr "അടുത്ത പാളിയിലേക്ക് പോകുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:469
 msgid "Go to page"
-msgstr ""
+msgstr "താളിലേക്ക് പോകുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:473
 msgid "Go to previous layer"
-msgstr ""
+msgstr "മുൻപത്തെ താളിലേക്ക് പോവുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:475
 msgid "Go to top layer"
-msgstr ""
+msgstr "മുകളിലത്തെ പാളിയിലേക്ക് പോവുക"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:24
 msgid "Graph"
-msgstr ""
+msgstr "ഗ്രാഫ്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:441
 msgid "Grid Snapping"
@@ -760,64 +764,64 @@ msgstr ""
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:33
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:514
 msgid "Image"
-msgstr ""
+msgstr "ചിത്രം"
 
 #: ../src/core/control/ExportHelper.cpp:78
 msgid "Image file successfully created"
-msgstr ""
+msgstr "ചിത്രത്തിന്റെ ഫയൽ വിജയകരമായി നിർമ്മിക്കപ്പെട്ടു"
 
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:21
 msgid "Images"
-msgstr ""
+msgstr "ചിത്രങ്ങൾ"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:74
 msgid "Insert a copy of the current layer below"
-msgstr ""
+msgstr "നിലവിലുള്ള പാളിയുടെ പകർപ്പ് താഴേക്ക് ചേർക്കുക"
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
 msgid "Insert a copy of the current page below"
-msgstr ""
+msgstr "നിലവിലുള്ള താളിന്റെ പകർപ്പ് താഴേക്ക് ചേർക്കുക"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:95
 msgid "Insert after current page"
-msgstr ""
+msgstr "നിലവിലുള്ള താളിനു ശേഷം ചേർക്കുക"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:96
 msgid "Insert at end"
-msgstr ""
+msgstr "അവസാനം ചേർക്കുക"
 
 #: ../src/core/undo/InsertUndoAction.cpp:82
 msgid "Insert elements"
-msgstr ""
+msgstr "എലെമെന്റുകൾ ചേർക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:92
 #: ../src/core/undo/InsertUndoAction.cpp:37
 msgid "Insert image"
-msgstr ""
+msgstr "ചിത്രം ചേർക്കുക"
 
 #: ../src/core/undo/InsertUndoAction.cpp:39
 msgid "Insert latex"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ചേർക്കുക"
 
 #: ../src/core/undo/InsertLayerUndoAction.cpp:29
 msgid "Insert layer"
-msgstr ""
+msgstr "പാളി ചേർക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:485
 msgid "Insert page"
-msgstr ""
+msgstr "താൾ ചേർക്കുക"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:26
 msgid "Isometric Dotted"
-msgstr ""
+msgstr "ഐസോമെട്രിക് ആയി ഡോട്ടുകൾ ഉള്ളത്"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:27
 msgid "Isometric Graph"
-msgstr ""
+msgstr "ഐസോമെട്രിക് ഗ്രാഫ്"
 
 #: ../src/core/control/XournalMain.cpp:627
 msgid "Jump to Page (first Page: 1)"
-msgstr ""
+msgstr "താളിലേക്ക് ചാടുക (ആദ്യത്തെ താൾ: 1)"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:48
 msgid "LaTeX editor theme:"
@@ -833,95 +837,95 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:237
 msgid "Layer Combo"
-msgstr ""
+msgstr "പാളികളുടെ കോംബോ"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:78
 msgid "Layer Preview"
-msgstr ""
+msgstr "പാളിയുടെ പ്രീവ്യൂ"
 
 #: ../src/core/control/layer/LayerController.cpp:375
 msgid "Layer {1}"
-msgstr ""
+msgstr "പാളി {1}"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:78
 msgid "Layerstack Preview"
-msgstr ""
+msgstr "പാളികളുടെ കൂട്ടം പ്രിവ്യു"
 
 #: ../src/core/gui/PageView.cpp:849
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
-msgstr ""
+msgstr "ലോഡ് ചെയ്യുന്നു..."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:454
 msgid "Manage Toolbars"
-msgstr ""
+msgstr "ടൂൾബാറുകൾ ക്രമീകരിക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:606
 msgid "Medium"
-msgstr ""
+msgstr "ഇടത്തരം"
 
 #: ../src/core/undo/MergeLayerDownUndoAction.cpp:32
 msgid "Merge layer down"
-msgstr ""
+msgstr "പാളികൾ താഴേക്ക് കൂട്ടി ചേർക്കുക"
 
 #: ../src/core/undo/MoveUndoAction.cpp:19
 msgid "Move"
-msgstr ""
+msgstr "നീക്കുക"
 
 #: ../src/core/undo/MoveLayerUndoAction.cpp:26
 msgid "Move layer"
-msgstr ""
+msgstr "പാളി നീക്കുക"
 
 #: ../src/core/undo/SwapUndoAction.cpp:68
 msgid "Move page downwards"
-msgstr ""
+msgstr "താൾ താഴേക്ക് നീക്കുക"
 
 #: ../src/core/undo/SwapUndoAction.cpp:68
 msgid "Move page upwards"
-msgstr ""
+msgstr "താൾ മുകളിലേക്ക് നീക്കുക"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:75
 msgid "New"
-msgstr ""
+msgstr "പുതിയത്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:413
 msgid "New Xournal"
-msgstr ""
+msgstr "പുതിയ Xournal"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:470
 msgid "Next"
-msgstr ""
+msgstr "അടുത്തത്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:478
 msgid "Next annotated page"
-msgstr ""
+msgstr "അടുത്ത വ്യാഖ്യാനിക്കപ്പെട്ട താൾ"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:68
 msgid "No device"
-msgstr ""
+msgstr "ഉപകരണങ്ങൾ ഒന്നുമില്ല"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:172
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:212
 msgid "No pages to export!"
-msgstr ""
+msgstr "എക്സ്പോർട്ട് ചെയ്യാനായി താളുകൾ ഇല്ല!"
 
 #: ../src/core/control/Control.cpp:1470
 msgid "No pdf pages available to append. You may need to reopen the document first."
-msgstr ""
+msgstr "കൂട്ടിച്ചേർക്കാനായി പിഡിഎഫ് താളുകൾ ലഭ്യമല്ല. നിങ്ങൾ ഒരിക്കൽ കൂടി ഡോക്യുമെന്റ് തുറക്കേണ്ടതായി വരും."
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
 msgid "No recent files"
-msgstr ""
+msgstr "സമീപകാല ഫയലുകൾ ഒന്നുമില്ല"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:128
 msgid "Normal drawing"
-msgstr ""
+msgstr "സാധാരണ വര"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:184
 #: ../src/core/plugin/Plugin.cpp:265 ../src/core/plugin/Plugin.cpp:288
 msgid "OK"
-msgstr ""
+msgstr "ശരി"
 
 #: ../src/core/control/XournalMain.cpp:667
 msgid "On export, only export the layers specified by RANGE (e.g. \"2-3,5,7-\")\n"
@@ -935,74 +939,74 @@ msgstr ""
 
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 msgid "Open Image"
-msgstr ""
+msgstr "ചിത്രം തുറക്കുക"
 
 #: ../src/core/control/XournalMain.cpp:185
 msgid "Open Logfile"
-msgstr ""
+msgstr "ലോഗ്‌ഫയൽ തുറക്കുക"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "Open Logfile directory"
-msgstr ""
+msgstr "ലോഗ്‌ഫയൽ ഡയറക്ടറി തുറക്കുക"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:414
 msgid "Open file"
-msgstr ""
+msgstr "ഫയൽ തുറക്കുക"
 
 #: ../src/core/control/jobs/PdfExportJob.cpp:15
 msgid "PDF Export"
-msgstr ""
+msgstr "പിഡിഎഫ് എക്സ്പോർട്ട്"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:41
 msgid "PDF Page {1}"
-msgstr ""
+msgstr "പിഡിഎഫ് താൾ {1}"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
-msgstr ""
+msgstr "പിഡിഎഫ് പശ്ചാത്തലം കാണ്മാനില്ല"
 
 #: ../src/core/control/ExportHelper.cpp:120
 msgid "PDF file successfully created"
-msgstr ""
+msgstr "പിഡിഎഫ് ഫയൽ വിജയകരമായി നിർമ്മിക്കപ്പെട്ടു"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:26
 #: ../src/core/control/jobs/PdfExportJob.cpp:20
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:47
 msgid "PDF files"
-msgstr ""
+msgstr "പിഡിഎഫ് ഫയലുകൾ"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:47
 msgid "PDF {1}"
-msgstr ""
+msgstr "പിഡിഎഫ് {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:27
 msgid "PNG graphics"
-msgstr ""
+msgstr "പിഎൻജി ഗ്രാഫിക്സ്"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:88
 msgid "Page"
-msgstr ""
+msgstr "താൾ"
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:85
 msgid "Page Preview"
-msgstr ""
+msgstr "താളിന്റെ പ്രീവ്യൂ"
 
 #: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:84
 msgid "Page background changed"
-msgstr ""
+msgstr "താളിന്റെ പശ്ചാത്തലം മാറ്റിയിരിക്കുന്നു"
 
 #: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
 msgid "Page deleted"
-msgstr ""
+msgstr "താൾ നീക്കം ചെയ്തു"
 
 #: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
 msgid "Page inserted"
-msgstr ""
+msgstr "താൾ ചേർക്കപ്പെട്ടു"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:61
 msgid "Page number"
-msgstr ""
+msgstr "താൾ സംഖ്യ"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:318
 msgid "Page type format is PageTypeFormat::Copy - converted to PageTypeFormat::Plain to avoid corrupted file"
@@ -1015,7 +1019,7 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 #: ../src/core/undo/AddUndoAction.cpp:66
 msgid "Paste"
-msgstr ""
+msgstr "ഒട്ടിക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
 msgid "Pause / Play"
