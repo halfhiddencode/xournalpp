@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 19:42+0000\n"
-"PO-Revision-Date: 2023-08-03 03:25\n"
+"PO-Revision-Date: 2023-08-03 04:47\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -435,7 +435,7 @@ msgstr "矢印を描く"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
 msgid "Draw Double Arrow"
-msgstr ""
+msgstr "二重矢印"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:134
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
@@ -467,7 +467,7 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:42
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:528
 msgid "Draw coordinate system"
-msgstr ""
+msgstr "座標を表示"
 
 #: ../src/core/undo/InsertUndoAction.cpp:33
 msgid "Draw stroke"
@@ -503,7 +503,7 @@ msgstr ""
 
 #: ../src/core/undo/EmergencySaveRestore.cpp:22
 msgid "Emergency saved document"
-msgstr ""
+msgstr "緊急保存された文書"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:285
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
@@ -523,7 +523,8 @@ msgstr "消しゴム"
 #: ../src/core/control/Control.cpp:2540
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
-msgstr ""
+msgstr "PDF ファイル \"{1}\"\n"
+"{2} の注釈付時にエラーが発生しました"
 
 #: ../src/core/gui/GladeGui.cpp:25
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
@@ -544,7 +545,7 @@ msgstr "PDF読み込みエラー: {1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:564
 msgid "Error reading width of a stroke: {1}"
-msgstr ""
+msgstr "ストロークの幅を読み取る際にエラーが発生しました: {1}"
 
 #: ../src/core/control/jobs/ImageExport.cpp:168
 msgid "Error save image #1"
@@ -564,7 +565,7 @@ msgstr "PDF背景をエクスポート中にエラーが発生しました: pdf�
 
 #: ../src/util/Util.cpp:93
 msgid "Error {1} executing system command: {2}"
-msgstr ""
+msgstr "システムコマンド{1} 実行時のエラー： {2}"
 
 #: ../src/core/control/CrashHandler.cpp:40
 msgid "Error: {1}"
@@ -576,7 +577,7 @@ msgstr "エラー： {1} は通常のファイルではありません。LaTeX�
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:154
 msgid "Error: {1}. Please check the contents of {2}"
-msgstr ""
+msgstr "エラー： {1}。{2} の内容を確認してください。"
 
 #: ../src/core/control/XournalMain.cpp:640
 msgid "Export FILE as PDF"
