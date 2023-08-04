@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 14:58+0000\n"
-"PO-Revision-Date: 2023-08-03 15:05\n"
+"POT-Creation-Date: 2023-08-04 07:18+0000\n"
+"PO-Revision-Date: 2023-08-04 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -65,7 +65,7 @@ msgstr "<span foreground='red' size='x-large'>遺失必須的使用者界面檔�
 "  不在工作目錄\n"
 "  不在 {2}"
 
-#: ../src/core/gui/PageView.cpp:914
+#: ../src/core/gui/PageView.cpp:934
 msgid "Add missing page"
 msgstr "新增遺失的頁面"
 
@@ -865,7 +865,7 @@ msgstr "{1}圖層"
 msgid "Layerstack Preview"
 msgstr "圖層疊預覽"
 
-#: ../src/core/gui/PageView.cpp:849
+#: ../src/core/gui/PageView.cpp:869
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -1171,7 +1171,7 @@ msgstr "保存文件錯誤: {1}"
 msgid "Scale"
 msgstr "縮放"
 
-#: ../src/core/gui/PageView.cpp:912
+#: ../src/core/gui/PageView.cpp:932
 msgid "Scroll to page {1}"
 msgstr ""
 
@@ -1534,7 +1534,7 @@ msgstr "嘗試緊急儲存當下打開的文件…"
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr "無法打開全域模板檔案{1}。它存在嘛？"
 
-#: ../src/core/gui/PageView.cpp:371
+#: ../src/core/gui/PageView.cpp:375
 msgid "Unable to play audio recording {1}"
 msgstr "無法播放錄音{1}"
 
