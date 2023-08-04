@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 14:58+0000\n"
-"PO-Revision-Date: 2023-08-04 01:28\n"
+"PO-Revision-Date: 2023-08-04 02:29\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -300,28 +300,29 @@ msgstr "ഉപകരണ ഘടകം {1} ടൂൾബാർ {2}-ലെ {3}-ആ�
 
 #: ../src/core/control/Control.cpp:248
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
-msgstr ""
+msgstr "ഓട്ടോസേവ് ഫയൽ നാമം \"{1}\"-ൽ നിന്നും \"{2}\"-ലേക്ക് തിരുത്താൻ സാധിച്ചില്ല: {3}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:91
 msgid "Could not save .tex file: {1}"
-msgstr ""
+msgstr ".ടെക്സ് ഫയൽ സേവ് ചെയ്യാൻ സാധിച്ചില്ല: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:105
 msgid "Could not start {1}: {2} (exit code: {3})"
-msgstr ""
+msgstr "{1} ആരംഭിക്കാൻ സാധിച്ചില്ല: {2} (നിർഗമന കോഡ്: {3})"
 
 #: ../src/core/undo/UndoRedoHandler.cpp:114
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
-msgstr ""
+msgstr "\"{1}\" പഴയപടിയാക്കാൻ സാധിച്ചില്ല\n"
+"എന്തോ തകരാർ സംഭവിച്ചു... ദയവായി ബഗ്ഗ്‌ റിപ്പോർട്ട് എഴുതുക…"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:253
 msgid "Could not write background \"{1}\", {2}"
-msgstr ""
+msgstr "പശ്ചാത്തലം എഴുതാൻ സാധിച്ചില്ല \"{1}\", {2}"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:369
 msgid "Could not write background \"{1}\". Continuing anyway."
-msgstr ""
+msgstr "പശ്ചാത്തലം എഴുതാൻ സാധിച്ചില്ല \"{1}\". എന്നിരുന്നാലും തുടരുന്നു."
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -337,19 +338,19 @@ msgstr "ഇഷ്ടാനുസൃതമായി എക്സ്പോർട�
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:455
 msgid "Customize Toolbars"
-msgstr ""
+msgstr "ടൂൾബാറുകൾ ഇഷ്ടാനുസൃതമാക്കുക"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:34
 msgid "Customized"
-msgstr ""
+msgstr "ഇഷ്ടാനുസൃതം"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:430
 msgid "Cut"
-msgstr ""
+msgstr "കട്ട്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:515
 msgid "Default Tool"
-msgstr ""
+msgstr "മൂല ഉപകരണം"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:436
 #: ../src/core/undo/DeleteUndoAction.cpp:64
@@ -521,7 +522,7 @@ msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്�
 
 #: ../src/core/gui/GladeGui.cpp:25
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
-msgstr ""
+msgstr "ഗ്ലേഡ് ഫയൽ \"{1}\" ലോഡ് ചെയ്യുന്നതിൽ പിശക് സംഭവിച്ചു (\"{2}\" ലോഡ് ചെയ്യാൻ ശ്രമിക്കൂ)"
 
 #: ../src/core/control/Control.cpp:2370
 msgid "Error opening file \"{1}\""
@@ -1029,37 +1030,37 @@ msgstr ""
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:88
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:296
 msgid "Pen"
-msgstr ""
+msgstr "പേന"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:20
 msgid "Plain"
-msgstr ""
+msgstr "ലളിതമായ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:538
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:94
 msgid "Play Object"
-msgstr ""
+msgstr "വസ്തു പ്രവർത്തിപ്പിക്കുക"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "ദയവായി ഈ ഫയൽ സ്വമേധയാ നീക്കം ചെയ്യുക"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:22
 msgid "Predefined"
-msgstr ""
+msgstr "മുൻപ് നിശ്ചയിച്ച പ്രകാരം"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Presentation mode"
-msgstr ""
+msgstr "അവതരണ മട്ട്‌"
 
 #: ../src/core/gui/dialog/LanguageConfigGui.cpp:64
 msgid "Previously selected language not available anymore!"
-msgstr ""
+msgstr "മുൻപ് തിരഞ്ഞെടുത്ത ഭാഷ ഇനി മുതൽ ലഭ്യമല്ല!"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:417
 msgid "Print"
-msgstr ""
+msgstr "പ്രിൻ്റ് ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:547
 msgid "Record Audio / Stop Recording"
@@ -1338,83 +1339,83 @@ msgstr ""
 #: ../src/core/control/XournalMain.cpp:514
 msgid "Sorry, Xournal++ cannot open remote files at the moment.\n"
 "You have to copy the file to a local directory."
-msgstr ""
+msgstr "ക്ഷമിക്കണം, Xournal++-നു വിദൂര ഫയലുകൾ തുറക്കാൻ ഇപ്പോൾ സാധിക്കില്ല. ലോക്കൽ ഡയറക്ടറിയിലേക്ക് ആ ഫയൽ നിങ്ങൾക്ക് പകർത്തേണ്ടതായി വരും."
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarCustomizeDialog.cpp:58
 msgid "Spacer"
-msgstr ""
+msgstr "വിടവ്"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:23
 msgid "Staves"
-msgstr ""
+msgstr "സ്റ്റേവ്സ്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:552
 msgid "Stop"
-msgstr ""
+msgstr "നിര്‍ത്തുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:140
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:47
 #: ../src/core/undo/RecognizerUndoAction.cpp:76
 msgid "Stroke recognizer"
-msgstr ""
+msgstr "സ്ട്രോക്ക് തിരിച്ചറിയുന്നത്"
 
 #: ../src/core/control/CrashHandler.cpp:42
 msgid "Successfully saved document to \"{1}\""
-msgstr ""
+msgstr "വിജയകരമായി ഡോക്യുമെന്റ് \"{1}\"-ലേക്ക് സേവ് ചെയ്തു"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:97
 msgid "Supported files"
-msgstr ""
+msgstr "അനുവദനീയമായ ഫയലുകൾ"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:72
 msgid "Swap the current layer with the one above"
-msgstr ""
+msgstr "നിലവിലെ പാളി മുകളിലെ പാളിയുമായി കൈമാറുക"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:73
 msgid "Swap the current layer with the one below"
-msgstr ""
+msgstr "നിലവിലെ പാളി താഴത്തെ പാളിയുമായി കൈമാറുക"
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:79
 msgid "Swap the current page with the one above"
-msgstr ""
+msgstr "നിലവിലെ താൾ മുകളിലത്തേതുമായി കൈമാറുക"
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
 msgid "Swap the current page with the one below"
-msgstr ""
+msgstr "നിലവിലെ താൾ താഴത്തേതുമായി കൈമാറുക"
 
 #: ../src/core/gui/dialog/LanguageConfigGui.cpp:48
 msgid "System Default"
-msgstr ""
+msgstr "സിസ്റ്റം സ്ഥിരസ്ഥിതി"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:91
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:512
 msgid "Text"
-msgstr ""
+msgstr "ടെക്സ്റ്റ്"
 
 #: ../src/core/gui/SearchBar.cpp:79
 #, c-format
 msgid "Text %zu times found on this page"
-msgstr ""
+msgstr "ഈ താളിൽ ടെക്സ്റ്റ് %zu തവണ കണ്ടെത്തി"
 
 #: ../src/core/gui/SearchBar.cpp:77
 msgid "Text found on this page"
-msgstr ""
+msgstr "ഈ താളിൽ ടെക്സ്റ്റ് കണ്ടെത്തി"
 
 #: ../src/core/gui/SearchBar.cpp:133
 msgid "Text found once on page {1}"
-msgstr ""
+msgstr "താളിൽ ടെക്സ്റ്റ് ഒരു തവണ കണ്ടെത്തി {1}"
 
 #: ../src/core/gui/SearchBar.cpp:134
 msgid "Text found {1} times on page {2}"
-msgstr ""
+msgstr "{2}-ആം താളിൽ ടെക്സ്റ്റ് {1} തവണ കണ്ടെത്തി"
 
 #: ../src/core/gui/SearchBar.cpp:84
 msgid "Text not found"
-msgstr ""
+msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്ല"
 
 #: ../src/core/gui/SearchBar.cpp:139
 msgid "Text not found, searched on all pages"
-msgstr ""
+msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്ല, എല്ലാ താളുകളിലും തിരഞ്ഞു"
 
 #: ../src/core/control/Control.cpp:1260
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -1503,7 +1504,7 @@ msgstr ""
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:50
 msgid "Toolbars"
-msgstr ""
+msgstr "ടൂൾബാറുകൾ"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document…"
@@ -1524,11 +1525,11 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
 #: ../src/core/undo/UndoRedoHandler.cpp:182
 msgid "Undo"
-msgstr ""
+msgstr "പഴയപടിയാക്കുക"
 
 #: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo: "
-msgstr ""
+msgstr "പഴയപടിയാക്കുക: "
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:316
 msgid "Unexpected root tag: {1}"
