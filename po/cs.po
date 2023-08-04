@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 14:58+0000\n"
-"PO-Revision-Date: 2023-08-03 15:04\n"
+"POT-Creation-Date: 2023-08-04 07:18+0000\n"
+"PO-Revision-Date: 2023-08-04 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -66,7 +66,7 @@ msgstr "<span foreground='red' size='x-large'>Chybí požadovaný soubor uživat
 "  Nebyl nalezen v Pracovní Cestě\n"
 "  Nebyl nalezen v {2}"
 
-#: ../src/core/gui/PageView.cpp:914
+#: ../src/core/gui/PageView.cpp:934
 msgid "Add missing page"
 msgstr "Přidat chybějící stránku"
 
@@ -870,7 +870,7 @@ msgstr "Vrstva {1}"
 msgid "Layerstack Preview"
 msgstr "Náhled balíčku vrstev"
 
-#: ../src/core/gui/PageView.cpp:849
+#: ../src/core/gui/PageView.cpp:869
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -1177,7 +1177,7 @@ msgstr "Chyba ukládání souboru: {1}"
 msgid "Scale"
 msgstr "Škálovat"
 
-#: ../src/core/gui/PageView.cpp:912
+#: ../src/core/gui/PageView.cpp:932
 msgid "Scroll to page {1}"
 msgstr "Přejít na stránku {1}"
 
@@ -1541,7 +1541,7 @@ msgstr "Pokus o nouzové uložení aktuálně otevřeného dokumentu…"
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr "Nepodařilo se otevřít soubor globální šablony {1}. Existuje?"
 
-#: ../src/core/gui/PageView.cpp:371
+#: ../src/core/gui/PageView.cpp:375
 msgid "Unable to play audio recording {1}"
 msgstr "Nebylo možno přehrát zvukovou nahrávku {1}"
 
