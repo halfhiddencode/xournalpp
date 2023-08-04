@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-04 07:38\n"
+"PO-Revision-Date: 2023-08-04 18:40\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -26,7 +26,8 @@ msgstr "\n\n"
 #: ../src/core/control/jobs/BaseExportJob.cpp:53
 msgid "\n"
 " Do you want to continue?"
-msgstr "നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുവോ?"
+msgstr "\n"
+"നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുവോ?"
 
 #: ../src/core/control/Control.cpp:2327
 msgid "\n"
