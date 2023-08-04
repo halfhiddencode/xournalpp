@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 14:58+0000\n"
-"PO-Revision-Date: 2023-08-03 15:05\n"
+"POT-Creation-Date: 2023-08-04 07:18+0000\n"
+"PO-Revision-Date: 2023-08-04 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -65,7 +65,7 @@ msgstr "<span foreground='red' size='x-large'>ui  की एक महेत्�
 "वर्किंग पाठ मेइन नहीं \n"
 "{2} मैं नहीं"
 
-#: ../src/core/gui/PageView.cpp:914
+#: ../src/core/gui/PageView.cpp:934
 msgid "Add missing page"
 msgstr ""
 
@@ -854,7 +854,7 @@ msgstr "परत {1}"
 msgid "Layerstack Preview"
 msgstr "परतदार पूर्वावलोकन"
 
-#: ../src/core/gui/PageView.cpp:849
+#: ../src/core/gui/PageView.cpp:869
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -1159,7 +1159,7 @@ msgstr "फ़ाइल त्रुटि सहेजें: {1}"
 msgid "Scale"
 msgstr "पैमाना"
 
-#: ../src/core/gui/PageView.cpp:912
+#: ../src/core/gui/PageView.cpp:932
 msgid "Scroll to page {1}"
 msgstr ""
 
@@ -1522,7 +1522,7 @@ msgstr ""
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr ""
 
-#: ../src/core/gui/PageView.cpp:371
+#: ../src/core/gui/PageView.cpp:375
 msgid "Unable to play audio recording {1}"
 msgstr ""
 
