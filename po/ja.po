@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 14:58+0000\n"
-"PO-Revision-Date: 2023-08-03 16:40\n"
+"POT-Creation-Date: 2023-08-04 07:18+0000\n"
+"PO-Revision-Date: 2023-08-04 07:38\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -66,7 +66,7 @@ msgstr "<span foreground='red' size='x-large'>必要なUIファイルがあり�
 " 作業ディレクトリの中にありません\n"
 " {2}の中にありません"
 
-#: ../src/core/gui/PageView.cpp:914
+#: ../src/core/gui/PageView.cpp:934
 msgid "Add missing page"
 msgstr "不足しているページを追加"
 
@@ -870,7 +870,7 @@ msgstr "レイヤー {1}"
 msgid "Layerstack Preview"
 msgstr "レイヤースタックのプレビュー"
 
-#: ../src/core/gui/PageView.cpp:849
+#: ../src/core/gui/PageView.cpp:869
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -1177,7 +1177,7 @@ msgstr "ファイルの保存エラー: {1}"
 msgid "Scale"
 msgstr ""
 
-#: ../src/core/gui/PageView.cpp:912
+#: ../src/core/gui/PageView.cpp:932
 msgid "Scroll to page {1}"
 msgstr "ページ {1} までスクロール"
 
@@ -1536,7 +1536,7 @@ msgstr ""
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr ""
 
-#: ../src/core/gui/PageView.cpp:371
+#: ../src/core/gui/PageView.cpp:375
 msgid "Unable to play audio recording {1}"
 msgstr "録音した音声 {1} を再生できません"
 
