@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-05 10:57\n"
+"PO-Revision-Date: 2023-08-05 12:06\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -600,18 +600,25 @@ msgid "Export layers progressively\n"
 "                                 This results in N export pages per page with N layers,\n"
 "                                 building up the layer stack progressively.\n"
 "                                 The resulting PDF file can be used for a presentation.\n"
-msgstr ""
+msgstr "പാളികൾ ഒന്നൊന്നായി എക്സ്പോർട്ട് ചെയ്യുക\n"
+"                                 പിഡിഎഫ് എക്സ്പോർട്ട് ചെയ്യുമ്പോൾ ഒന്നിന് പിറകെ ഒന്നായി പാളികൾ റെൻഡർ ചെയ്യുക\n"
+"                                 ഇതിന്റെ പരിണിത ഫലമായി N പാളികൾ ഉണ്ടെങ്കിൽ N എക്സ്പോർട്ട് താളുകൾ ലഭിക്കും\n"
+"                                 ഒന്നൊന്നായി പാളികളുടെ കൂന നിർമിക്കുന്നു\n"
+"                                 ഇങ്ങനെ ലഭിക്കുന്ന പിഡിഎഫ് ഫയൽ ഒരു പ്രസന്റേഷൻ അവതരിപ്പിക്കുന്നതിനായി ഉപയോഗിക്കാം.\n"
 
 #: ../src/core/control/XournalMain.cpp:647
 msgid "Export without background\n"
 "                                 The exported file has transparent or white background,\n"
 "                                 depending on what its format supports\n"
-msgstr ""
+msgstr "പശ്ചാത്തല രഹിത എക്സ്പോർട്ട്\n"
+"                                 എക്സ്പോർട്ട് ചെയ്യപ്പെടുന്ന ഫയലിന് രശ്‌മീപാരകമായ/വെള്ള പശ്ചാത്തലം ഉണ്ടണ്ടാകും\n"
+"                                 അത് ഫയലിന്റെ തരത്തിന്റെ അടിസ്ഥാനത്തിലായിരിക്കും തീരുമാനിക്കുക\n"
 
 #: ../src/core/control/XournalMain.cpp:652
 msgid "Export without ruling\n"
 "                                 The exported file has no paper ruling\n"
-msgstr ""
+msgstr "റൂളിംഗ് ഇല്ലാതെ എക്സ്പോർട്ട് ചെയ്യുക\n"
+"                                 എക്സ്പോർട്ട് ചെയ്ത ഫയലിന് പേപ്പർ റൂളിംഗ് ഉണ്ടാകില്ല\n"
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
@@ -1523,11 +1530,11 @@ msgstr "{1}-ലുള്ള ആഗോള ടെമ്പ്ലേറ്റ് �
 
 #: ../src/core/gui/PageView.cpp:375
 msgid "Unable to play audio recording {1}"
-msgstr ""
+msgstr "ഓഡിയോ റെക്കോർഡിങ് പ്രവർത്തിപ്പിക്കാൻ സാധിക്കുന്നില്ല {1}"
 
 #: ../src/core/control/Control.cpp:1484
 msgid "Unable to retrieve pdf page."
-msgstr ""
+msgstr "പിഡിഎഫ് താൾ ലഭ്യമാക്കാൻ സാധിക്കുന്നില്ല."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
 #: ../src/core/undo/UndoRedoHandler.cpp:182
@@ -1540,27 +1547,27 @@ msgstr "പഴയപടിയാക്കുക: "
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:316
 msgid "Unexpected root tag: {1}"
-msgstr ""
+msgstr "പ്രതീക്ഷിക്കാത്ത മൂല ടാഗ്: {1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:337
 msgid "Unexpected tag in document: \"{1}\""
-msgstr ""
+msgstr "ഡോക്യൂമെന്റിൽ അപ്രതീക്ഷിതമായ ടാഗ്: \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:540
 msgid "Unknown background type: {1}"
-msgstr ""
+msgstr "അജ്ഞാതമായ പശ്ചാത്തല തരം: {1}"
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:80
 msgid "Unknown color value \"{1}\""
-msgstr ""
+msgstr "നിറത്തിന്റെ മൂല്യം അജ്ഞാതം \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:496
 msgid "Unknown domain type: {1}"
-msgstr ""
+msgstr "ഡൊമൈൻ തരം അജ്ഞാതം: {1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:256
 msgid "Unknown parser error"
-msgstr ""
+msgstr "അജ്ഞാതമായ പാഴ്സർ പിശക്"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:444
 msgid "Unknown pixmap::domain type: {1}"
@@ -1568,23 +1575,23 @@ msgstr "അറിവില്ലാത്ത പിക്സ്മാപ്::ഡ
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:632
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
-msgstr ""
+msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് ക്യാപ് തരം: \"{1}\", വട്ടത്തിലുള്ളതെന്ന് അനുമാനിക്കുന്നു"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:650
 msgid "Unknown stroke type: \"{1}\", assuming pen"
-msgstr ""
+msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് തരം: \"{1}\", പേന ആണെന്ന് അനുമാനിക്കുന്നു"
 
 #: ../src/core/control/Control.cpp:2699
 msgid "Unsaved Document"
-msgstr ""
+msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്റ്"
 
 #: ../src/core/control/jobs/ImageExport.cpp:108
 msgid "Unsupported graphics format: "
-msgstr ""
+msgstr "നിരവലംബമായ ഗ്രാഫിക്സ് തരം: "
 
 #: ../src/core/control/Control.cpp:2335
 msgid "Use proposed PDF"
-msgstr ""
+msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപയോഗിക്കുക"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:33
 msgid "Version"
@@ -1665,11 +1672,11 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:136
 msgid "Zoom Slider"
-msgstr ""
+msgstr "സൂം സ്ലൈഡർ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:459
 msgid "Zoom fit to screen"
-msgstr ""
+msgstr "സ്ക്രീനിന് സമമായി സൂം ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:458
 msgid "Zoom in"
@@ -1677,11 +1684,11 @@ msgstr "വലുതാക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:457
 msgid "Zoom out"
-msgstr ""
+msgstr "ചെറുതാക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:460
 msgid "Zoom to 100%"
-msgstr ""
+msgstr "100% വലുപ്പത്തിലേക്ക് എത്തിക്കുക"
 
 #: ../src/core/control/Control.cpp:2642
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
@@ -1689,58 +1696,58 @@ msgstr ""
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
 msgid "_Cancel"
-msgstr ""
+msgstr "_ഉപേക്ഷിക്കുക"
 
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
 msgid "_Open"
-msgstr ""
+msgstr "_തുറക്കുക"
 
 #: ../src/core/control/Control.cpp:2643
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
 msgid "_Save"
-msgstr ""
+msgstr "_സേവ്"
 
 #: ../src/core/control/DeviceListHelper.cpp:101
 msgid "cursor"
-msgstr ""
+msgstr "കഴ്സർ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:304
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:504
 msgid "dash-/ dotted"
-msgstr ""
+msgstr "ഡാഷ്-/ ഡോട്ടുള്ളത്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:301
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:502
 msgid "dashed"
-msgstr ""
+msgstr "ഡാഷുകൾ ഉള്ളത്"
 
 #: ../src/core/gui/dialog/PluginDialogEntry.cpp:30
 msgid "default disabled"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതി പ്രവർത്തനരഹിതം"
 
 #: ../src/core/gui/dialog/PluginDialogEntry.cpp:30
 msgid "default enabled"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതി പ്രവർത്തനക്ഷമം"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:319
 msgid "delete stroke"
-msgstr ""
+msgstr "സ്ട്രോക്ക് നീക്കം ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:307
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:505
 msgid "dotted"
-msgstr ""
+msgstr "ഡോട്ട് ഇട്ടത്"
 
 #: ../src/core/undo/AddUndoAction.cpp:74
 #: ../src/core/undo/DeleteUndoAction.cpp:72
 msgid "elements"
-msgstr ""
+msgstr "ഘടകങ്ങൾ"
 
 #: ../src/core/control/DeviceListHelper.cpp:99
 msgid "eraser"
-msgstr ""
+msgstr "ഇറേസർ"
 
 #: ../src/core/control/Control.cpp:2266
 msgid "file: {1}"
@@ -1810,7 +1817,7 @@ msgstr "വൈറ്റ്ഔട്ട്"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:1058
 msgid "xoj-File: {1}"
-msgstr ""
+msgstr "എക്സ്ഓജെ-ഫയൽ (xoj-File): {1}"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:121
 msgid "xoj-preview-extractor: call with INPUT.xoj OUTPUT.png"
@@ -1854,7 +1861,7 @@ msgstr ""
 
 #: ../ui/settings.glade:4375 ../ui/settings.glade:4386
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: ../ui/settings.glade:2727
 msgid "% greater than the initial distance between the two touches."
@@ -1870,7 +1877,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5611
 msgid "%."
-msgstr ""
+msgstr "%."
 
 #: ../ui/settings.glade:564
 msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
@@ -1964,19 +1971,19 @@ msgstr "1,30"
 
 #: ../ui/settings.glade:2712
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../ui/settings.glade:1204
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../ui/settings.glade:3497
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../ui/settings.glade:1297
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../ui/images.glade:88
 msgid "<b>... or select already used Image:</b>"
@@ -1984,23 +1991,23 @@ msgstr ""
 
 #: ../ui/pageTemplate.glade:245
 msgid "<b>Background Color</b>"
-msgstr ""
+msgstr "<b>പശ്ചാത്തല നിറം</b>"
 
 #: ../ui/pageTemplate.glade:258
 msgid "<b>Background</b>"
-msgstr ""
+msgstr "<b>പശ്ചാത്തലം</b>"
 
 #: ../ui/toolbarCustomizeDialog.glade:141
 msgid "<b>Color</b>"
-msgstr ""
+msgstr "<b>നിറം</b>"
 
 #: ../ui/toolbarCustomizeDialog.glade:86
 msgid "<b>Default Tools</b>"
-msgstr ""
+msgstr "<b>സ്ഥിരസ്ഥിതിയിലുള്ള ടൂളുകൾ</b>"
 
 #: ../ui/settings.glade:5788
 msgid "<b>Default</b>"
-msgstr ""
+msgstr "<b>സ്ഥിരസ്ഥിതി</b>"
 
 #: ../ui/exportSettings.glade:122
 msgid "<b>Document export settings</b>\n"
@@ -2147,53 +2154,54 @@ msgstr ""
 
 #: ../ui/about.glade:9
 msgid "About Xournal++"
-msgstr ""
+msgstr "Xournal++-നെ കുറിച്ച്"
 
 #: ../ui/settings.glade:5523
 msgid "Action on Tool Tap"
-msgstr ""
+msgstr "ടൂൾ തൊടുമ്പോഴുള്ള പ്രവർത്തനം"
 
 #: ../ui/settings.glade:4668
 msgid "Add additional horizontal space of"
-msgstr ""
+msgstr "കൂടുതൽ സമാന്തരമായി ചേർക്കേണ്ട വ്യാപ്തി"
 
 #: ../ui/settings.glade:4646
 msgid "Add additional vertical space of"
-msgstr ""
+msgstr "കൂടുതൽ കുത്തനെ ചേർക്കേണ്ട വ്യാപ്തി"
 
 #: ../ui/settings.glade:5049
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്തവയുടെ വലിപ്പം പുനർനിർണയിച്ച ശേഷം എല്ലാ സ്ട്രോക്കുകളുടെയും വീതി പുനർനിർണയത്തിന് മുൻപുള്ള വീതിയ്ക്ക് സമമായിരിക്കും. "
 
 #: ../ui/exportSettings.glade:49
 msgid "All"
-msgstr ""
+msgstr "എല്ലാം"
 
 #: ../ui/exportSettings.glade:174
 msgid "All pages"
-msgstr ""
+msgstr "എല്ലാ താളുകളും"
 
 #: ../ui/settings.glade:5488
 msgid "All three conditions must be met before stroke is ignored.\n"
 "It must be short in time and length and we can't have ignored another stroke recently."
-msgstr ""
+msgstr "സ്ട്രോക്ക് അവഗണിക്കപ്പെടുന്നതിന് മുൻപ് എല്ലാ മൂന്ന് നിബന്ധനകളും പാലിച്ചിരിക്കണം.\n"
+"അത് സമയത്തിലും നീളത്തിലും ചെറുതായിരിക്കണം, മറ്റൊരു സ്ട്രോക്ക് സമീപസമയത്തിൽ അവഗണിക്കപ്പെട്ടിട്ടുണ്ടായിരിക്കരുത്."
 
 #: ../ui/settings.glade:2167
 msgctxt "eraser is always visible"
 msgid "Always"
-msgstr ""
+msgstr "എപ്പോഴും"
 
 #: ../ui/latexSettings.glade:45
 msgid "Always check LaTeX dependencies before running"
-msgstr ""
+msgstr "പ്രവർത്തിപ്പിക്കുന്നതിന് മുൻപ് എപ്പോഴും ലാറ്റെക് (LaTeX) ഡിപെൻഡൻസികൾ ശ്രദ്ധിക്കണം"
 
 #: ../ui/main.glade:1253
 msgid "Append New PDF Pages"
-msgstr ""
+msgstr "പുതിയ പിഡിഎഫ് താളുകൾ ചേർക്കുക"
 
 #: ../ui/settings.glade:226
 msgid "Arithmetic mean"
-msgstr ""
+msgstr "ശരാശരി"
 
 #: ../ui/settings.glade:1949
 msgid "Artifact workaround"
@@ -2201,11 +2209,11 @@ msgstr ""
 
 #: ../ui/settings.glade:6086
 msgid "Audio Devices"
-msgstr ""
+msgstr "ഓഡിയോ ഉപകരണങ്ങൾ"
 
 #: ../ui/settings.glade:6329
 msgid "Audio Recording"
-msgstr ""
+msgstr "ഓഡിയോ റെക്കോർഡിങ്"
 
 #: ../ui/pluginEntry.glade:57
 msgid "Author: "
@@ -2229,80 +2237,80 @@ msgstr ""
 
 #: ../ui/settings.glade:4914
 msgid "Automatically Add Empty Last Page (excluding PDFs)"
-msgstr ""
+msgstr "ഒടുക്കം അനൈച്ഛികമായി ഒഴിഞ്ഞ താളുകൾ ചേർക്കുക (പിഡിഎഫുകൾ ഒഴികെ)"
 
 #: ../ui/settings.glade:462
 msgid "Autosaving"
-msgstr ""
+msgstr "ഓട്ടോസേവ് ചെയ്യുന്നു"
 
 #: ../ui/settings.glade:611 ../ui/settings.glade:781
 msgid "Available Placeholders"
-msgstr ""
+msgstr "ലഭ്യമായ പ്ലേസ്ഹോൾഡറുകൾ"
 
 #: ../ui/settings.glade:1142
 msgid "Averaging method"
-msgstr ""
+msgstr "ശരാശരി നിർണയിക്കുന്ന വിധം"
 
 #: ../ui/settings.glade:3117
 msgid "Background color between pages"
-msgstr ""
+msgstr "താളുകൾക്കിടയിലെ പശ്ചാത്തല നിറം"
 
 #: ../ui/settings.glade:3882
 msgid "Base speed"
-msgstr ""
+msgstr "മൂല വേഗത"
 
 #: ../ui/settings.glade:3713
 msgid "Below preview"
-msgstr ""
+msgstr "താഴെ പ്രീവ്യൂ"
 
 #: ../ui/settings.glade:3347
 msgctxt "stylus cursor uses a big pen icon"
 msgid "Big pen icon"
-msgstr ""
+msgstr "വലിയ പേന ചിഹ്നം"
 
 #: ../ui/settings.glade:3552
 msgid "Border Color"
-msgstr ""
+msgstr "അതിര് നിറം"
 
 #: ../ui/settings.glade:3513
 msgid "Border Width"
-msgstr ""
+msgstr "അതിര് വീതി"
 
 #: ../ui/settings.glade:3106
 msgid "Border color"
-msgstr ""
+msgstr "അതിര് നിറം"
 
 #: ../ui/settings.glade:3091
 msgid "Border color for current page and other selections"
-msgstr ""
+msgstr "ഈ താളിനും മറ്റു തിരഞ്ഞെടുത്തവയ്ക്കുമുള്ള അതിര് നിറം"
 
 #: ../ui/main.glade:321
 msgid "Bring Forward"
-msgstr ""
+msgstr "മുന്നോട്ട് കൊണ്ടുവരിക"
 
 #: ../ui/main.glade:312
 msgid "Bring to Front"
-msgstr ""
+msgstr "മുന്നിലേക്ക് കൊണ്ടുവരിക"
 
 #: ../ui/settings.glade:1192
 msgid "Buffersize"
-msgstr ""
+msgstr "ബഫർ വലിപ്പം"
 
 #: ../ui/settings.glade:2020
 msgid "Button 1"
-msgstr ""
+msgstr "ബട്ടൺ 1"
 
 #: ../ui/settings.glade:2058
 msgid "Button 2"
-msgstr ""
+msgstr "ബട്ടൺ 2"
 
 #: ../ui/pageTemplate.glade:160
 msgid "Change"
-msgstr ""
+msgstr "മാറ്റുക"
 
 #: ../ui/latexSettings.glade:205
 msgid "Choose a global LaTeX template file"
-msgstr ""
+msgstr "ആഗോള ലാറ്റെക് (LaTeX) ടെമ്പ്ലേറ്റ് ഫയൽ തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/settings.glade:3395 ../ui/settings.glade:3538
 msgid "Choose the color to use for \"Highlight cursor position\""
@@ -2310,11 +2318,11 @@ msgstr ""
 
 #: ../ui/settings.glade:3409
 msgid "Circle Color"
-msgstr ""
+msgstr "വൃത്തത്തിന്റെ നിറം"
 
 #: ../ui/settings.glade:3714
 msgid "Circle background"
-msgstr ""
+msgstr "വൃത്തത്തിന്റെ പശ്ചാത്തലം"
 
 #: ../ui/settings.glade:4206
 msgid "Clear cached paged while scrolling"
@@ -2322,11 +2330,11 @@ msgstr ""
 
 #: ../ui/settings.glade:3219
 msgid "Color"
-msgstr ""
+msgstr "നിറം"
 
 #: ../ui/settings.glade:3274
 msgid "Colors"
-msgstr ""
+msgstr "നിറങ്ങൾ"
 
 #: ../ui/texdialog.glade:163
 msgid "Command Output"
@@ -2350,7 +2358,7 @@ msgstr ""
 
 #: ../ui/main.glade:2777
 msgid "Copy selected text"
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് പകർത്തുക"
 
 #: ../ui/pageTemplate.glade:192
 msgid "Copy the background of the current page instead of using the background set above."
@@ -2358,19 +2366,19 @@ msgstr ""
 
 #: ../ui/exportSettings.glade:190
 msgid "Current page"
-msgstr ""
+msgstr "നിലവിലെ താൾ"
 
 #: ../ui/settings.glade:3595
 msgid "Cursor"
-msgstr ""
+msgstr "കഴ്സർ"
 
 #: ../ui/settings.glade:3329
 msgid "Cursor icon for pen"
-msgstr ""
+msgstr "പേനയ്ക്കുള്ള കഴ്സർ ചിഹ്നം"
 
 #: ../ui/settings.glade:1380
 msgid "Cusp detection"
-msgstr ""
+msgstr "കസ്പ് കണ്ടെത്തൽ"
 
 #: ../ui/settings.glade:2607
 msgid "Custom Commands (for Method \"Custom\")"
@@ -2378,19 +2386,19 @@ msgstr ""
 
 #: ../ui/settings.glade:3165
 msgid "Dark Theme (requires restart)"
-msgstr ""
+msgstr "ഇരുണ്ട തീം (ആപ്പ് പുനഃപ്രവൃത്തിക്കേണ്ടി വരും)"
 
 #: ../ui/settings.glade:243
 msgid "Deadzone"
-msgstr ""
+msgstr "ഡെഡ്‌സോൺ"
 
 #: ../ui/settings.glade:1221
 msgid "Deadzone radius"
-msgstr ""
+msgstr "ഡെഡ്സോണിന്റെ ആരം"
 
 #: ../ui/latexSettings.glade:119
 msgid "Default LaTeX Text"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള ലാറ്റെക് (LaTeX) ടെക്സ്റ്റ്"
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
@@ -2406,27 +2414,27 @@ msgstr ""
 
 #: ../ui/settings.glade:525 ../ui/settings.glade:696
 msgid "Default name: "
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള നാമം: "
 
 #: ../ui/settings.glade:5828
 msgid "Defaults"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതി"
 
 #: ../ui/main.glade:1301
 msgid "Delete Layer"
-msgstr ""
+msgstr "പാളി നീക്കം ചെയ്യുക"
 
 #: ../ui/settingsButtonConfig.glade:132
 msgid "Delete stroke"
-msgstr ""
+msgstr "സ്ട്രോക്ക് നീക്കം ചെയ്യുക"
 
 #: ../ui/settingsButtonConfig.glade:25
 msgid "Device"
-msgstr ""
+msgstr "ഉപകരണം"
 
 #: ../ui/settings.glade:2526
 msgid "Disable"
-msgstr ""
+msgstr "പ്രവർത്തന രഹിതമാക്കുക"
 
 #: ../ui/settings.glade:2880
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2584,15 +2592,15 @@ msgstr ""
 
 #: ../ui/exportSettings.glade:56
 msgid "Export"
-msgstr ""
+msgstr "എക്സ്പോര്‍ട്ട്‌"
 
 #: ../ui/main.glade:247
 msgid "Export as..."
-msgstr ""
+msgstr "എക്സ്പോർട്ട് ചെയ്യേണ്ട വിധം..."
 
 #: ../ui/exportSettings.glade:367
 msgid "Export layers progressively"
-msgstr ""
+msgstr "പാളികൾ ഒന്നൊന്നായി എക്സ്പോർട്ട് ചെയ്യുക"
 
 #. Keep the order the same as in listBackgroundType and use the translation of these types in parentheses.
 #: ../ui/exportSettings.glade:352
@@ -2751,19 +2759,19 @@ msgstr ""
 
 #: ../ui/settings.glade:1891
 msgid "Ignore the first"
-msgstr ""
+msgstr "ഒന്നാമത്തേത് അവഗണിക്കുക"
 
 #: ../ui/exportSettings.glade:145
 msgid "Image quality"
-msgstr ""
+msgstr "ചിത്രത്തിന്റെ ഗുണം"
 
 #: ../ui/settings.glade:246
 msgid "Inertia"
-msgstr ""
+msgstr "അചേതനശക്തി"
 
 #: ../ui/settings.glade:6014
 msgid "Input Device"
-msgstr ""
+msgstr "ഇൻപുട്ട് ഉപകരണം"
 
 #: ../ui/settings.glade:988
 msgid "Input Devices"
@@ -2795,7 +2803,7 @@ msgstr ""
 
 #: ../ui/settings.glade:6354
 msgid "LaTeX"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTex)"
 
 #: ../ui/latexSettings.glade:354
 msgid "LaTeX executable settings"
@@ -2807,71 +2815,71 @@ msgstr ""
 
 #: ../ui/settings.glade:6443 ../ui/settings.glade:6491
 msgid "Language"
-msgstr ""
+msgstr "ഭാഷ"
 
 #: ../ui/settings.glade:6461
 msgid "Language Settings"
-msgstr ""
+msgstr "ഭാഷാ ക്രമീകരണങ്ങള്‍"
 
 #: ../ui/main.glade:621
 msgid "Layout"
-msgstr ""
+msgstr "ലേഔട്ട്"
 
 #: ../ui/settings.glade:3662
 msgid "Left / Right-Handed"
-msgstr ""
+msgstr "ഇടത്/വലത് ഹസ്തം"
 
 #: ../ui/about.glade:335
 msgid "License"
-msgstr ""
+msgstr "ലൈസന്‍സ്"
 
 #: ../ui/latexSettings.glade:433
 msgid "Line numbers"
-msgstr ""
+msgstr "ലൈൻ സംഖ്യ"
 
 #: ../ui/settings.glade:902
 msgid "Load / Save"
-msgstr ""
+msgstr "ലോഡ്/സേവ്"
 
 #: ../ui/images.glade:73
 msgid "Load file"
-msgstr ""
+msgstr "ഫയൽ തുറക്കുക"
 
 #: ../ui/pageTemplate.glade:54
 msgid "Load from file"
-msgstr ""
+msgstr "ഫയലിൽ നിന്നും ലോഡ് ചെയ്യുക"
 
 #: ../ui/settings.glade:3220
 msgid "Lucide"
-msgstr ""
+msgstr "ലുസൈഡ്"
 
 #: ../ui/toolbarManageDialog.glade:9
 msgid "Manage Toolbar"
-msgstr ""
+msgstr "ടൂൾബാറുകൾ ക്രമീകരിക്കുക"
 
 #: ../ui/settings.glade:1284
 msgid "Mass"
-msgstr ""
+msgstr "സാന്ദ്രത"
 
 #: ../ui/settings.glade:1283 ../ui/settings.glade:1295
 msgid "Mass: the higher the mass, the more inertia and the more stabilization"
-msgstr ""
+msgstr "സാന്ദ്രത: എത്ര കൂടുതൽ സാന്ദ്രത ഉണ്ടോ അത്രയധികം അചലനശക്തിയും സ്ഥിരതയും കൈവരും"
 
 #: ../ui/settings.glade:5428
 msgid "Max Length (mm)"
-msgstr ""
+msgstr "ഏറ്റവും കൂടുതൽ നീളം (മിമീ/mm)"
 
 #: ../ui/settings.glade:3895
 msgid "Max multiplier"
-msgstr ""
+msgstr "ഏറ്റവും വലിയ ഗുണിതസംഖ്യ"
 
 #: ../ui/main.glade:2903
 msgid "Merge Down"
-msgstr ""
+msgstr "താഴേക്ക് കൂട്ടിച്ചേർക്കുക"
 
 #: ../ui/main.glade:1312
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "പാളി താഴേക്ക് കൂട്ടി ചേർക്കുക"
 
 #: ../ui/settings.glade:1058
 msgid "Merge button events with stylus tip events\n"
