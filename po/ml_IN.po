@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-04 18:40\n"
+"PO-Revision-Date: 2023-08-05 01:15\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -615,52 +615,55 @@ msgstr ""
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "ഫയൽ നീക്കം ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ഉത്പാദിപ്പിക്കുന്ന പ്രോഗ്രാം \"{1}\" എന്ന പാതയിൽ കണ്ടെത്തുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:78
 msgid "Failed to find LaTeX generator program in PATH: {1}\n\n"
 "Since installation is detected within Flatpak, you need to install the Flatpak freedesktop Tex Live extension. For example, by running:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ഉത്പാദിപ്പിക്കുന്ന പ്രോഗ്രാം \"{1}\" എന്ന പാതയിൽ കണ്ടെത്തുന്നതിൽ പരാജയപ്പെട്ടു.\n\n"
+"ഫ്ലാറ്റ്പാക്കിനകത്ത് ഇൻസ്റ്റാളേഷൻ കണ്ടെത്തിയതിനാൽ, നിങ്ങൾക്ക് ഫ്ലാറ്റ്പാക് ഫ്രീഡെസ്ക്ടോപ് ടെക്സ് ലൈവ് എക്സ്റ്റൻഷൻ ഇൻസ്റ്റാൾ ചെയ്യേണ്ടതായി വരും. ഉദാഹരണത്തിന്, ഇപ്രകാരം പ്രവർത്തിക്കുക:\n\n"
+"$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:177
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:217
 msgid "Failed to initialize PDF Cairo surface"
-msgstr ""
+msgstr "പിഡിഎഫ് കെയ്റോ പ്രതലം ഇനിഷ്യലൈസ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../src/core/control/tools/ImageHandler.cpp:70
 msgid "Failed to load image, could not determine image size!"
-msgstr ""
+msgstr "ചിത്രം തുറക്കുന്നതിൽ പരാജയപെട്ടു, അതിന്റെ വലുപ്പം തിട്ടപ്പെടുത്താൻ സാധിച്ചില്ല!"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:179
 msgid "Failed to open content.xml in zip archive: \"{1}\""
-msgstr ""
+msgstr "സിപ് ആർകൈവിനകത്തുള്ള (zip archive) കോൺടെന്റ്.എക്സ്എംഎൽ (content.xml) തുറക്കാൻ സാധിച്ചില്ല: \"{1}\""
 
 #: ../src/core/control/latex/LatexGenerator.cpp:72
 msgid "Failed to parse LaTeX generator command: {1}"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ഉത്പാദിപ്പിക്കുന്ന കമാൻഡ് വായിച്ചെടുക്കുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:61
 msgid "Failed to parse LaTeX generator path: {1}"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ഉത്പാദിപ്പിക്കുന്ന വസ്തുവിന്റെ പാത വായിച്ചെടുക്കുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/core/control/LatexController.cpp:81
 msgid "Failed to read global template file. Please check your settings."
-msgstr ""
+msgstr "ആഗോള ടെമ്പ്ലേറ്റ് ഫയൽ വായിക്കുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക."
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:108
 msgid "Failed to resolve path with the following error:\n"
 "{1}"
-msgstr ""
+msgstr "പാത തിരിച്ചറിയുന്നതിൽ ഇനി പറയുന്ന പിശകോടെ പരാജയപ്പെട്ടു: {1}"
 
 #: ../src/util/PathUtil.cpp:166 ../src/util/PathUtil.cpp:183
 msgid "File couldn't be opened. You have to do it manually:\n"
 "URL: {1}"
-msgstr ""
+msgstr "ഫയൽ തുറക്കാൻ സാധിച്ചില്ല. നിങ്ങൾക്ക് സ്വമേധയാ അത് ചെയ്യേണ്ടി വരും:\n"
+"URL: {1}"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:585
 msgid "Fill"
@@ -668,11 +671,11 @@ msgstr "ഫിൽ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:586
 msgid "Fill Opacity"
-msgstr ""
+msgstr "ഫിൽ ഒപാസിറ്റി"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:290
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
-msgstr ""
+msgstr "ഇൻപുട്ട് സമ്മർദ്ദം ഫിൽറ്റർ ചെയ്യുക. സമ്മർദ്ദ ഗുണിതസംഖ്യ ഉപയോഗിച്ച് സമ്മർദ്ദം ഗുണിക്കുക. മിനിമം സമ്മർദ്ദത്തെക്കാൾ കുറവെങ്കിൽ, മിനിമം അളവ് തന്നെ ഉപയോഗിക്കുക."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:605
 msgid "Fine"
@@ -680,7 +683,7 @@ msgstr "നേർത്ത"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:99
 msgid "Floating Toolbox (experimental)"
-msgstr ""
+msgstr "പൊങ്ങിക്കിടക്കുന്ന ടൂൾബോക്സ് (പരീക്ഷണാവസ്ഥയിൽ)"
 
 #: ../src/core/gui/toolbarMenubar/FontButton.cpp:65
 msgid "Font"
@@ -692,7 +695,7 @@ msgstr "മുന്നോട്ട്"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:72
 msgid "GNU GPLv2 or later"
-msgstr ""
+msgstr "ഗ്നു ജിപിഎൽവി2 അല്ലെങ്കിൽ അതിനു ശേഷം"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:39
 msgid "GTK Version"
@@ -708,11 +711,11 @@ msgstr "ഗിറ്റ് കമ്മിറ്റ്"
 
 #: ../src/core/control/LatexController.cpp:76
 msgid "Global template file does not exist. Please check your settings."
-msgstr ""
+msgstr "ആഗോള ടെമ്പ്ലേറ്റ് നിലവിലില്ല. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക."
 
 #: ../src/core/control/LatexController.cpp:87
 msgid "Global template file is not a regular file. Please check your settings. "
-msgstr ""
+msgstr "ആഗോള ടെമ്പ്ലേറ്റ് ഒരു സാധാരണ ഫയൽ അല്ല. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക. "
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:467
 msgid "Go to first page"
@@ -744,11 +747,11 @@ msgstr "ഗ്രാഫ്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:441
 msgid "Grid Snapping"
-msgstr ""
+msgstr "ഗ്രിഡ് സ്നാപ്പിങ്"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:53
 msgid "GtkSourceView was disabled when building Xournal++! Some options will not be available."
-msgstr ""
+msgstr "ജിടികെ സോഴ്സ് വ്യൂ (GtkSourceView) Xournal++ നിർമിക്കുന്ന സമയം പ്രവർത്തനരഹിതമാക്കിയിരുന്നു! അതിനാൽ ചില സംവിധാനങ്ങൾ ലഭ്യമാവില്ല."
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:98
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:539
@@ -828,15 +831,15 @@ msgstr "താളിലേക്ക് ചാടുക (ആദ്യത്തെ
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:48
 msgid "LaTeX editor theme:"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) എഡിറ്ററിന്റെ തീം:"
 
 #: ../src/core/control/LatexController.cpp:244
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ഉത്‌പാദക സംവിധാനം ഒരു പിശക് നേരിട്ടു: {1} (നിർഗമന കോഡ്: {2})"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:251
 msgid "Layer"
-msgstr ""
+msgstr "പാളി"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:237
 msgid "Layer Combo"
@@ -1289,11 +1292,11 @@ msgstr ""
 
 #: ../src/core/control/tools/EditSelection.cpp:434
 msgid "Send to back"
-msgstr ""
+msgstr "പിന്നോട്ടയക്കുക"
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarCustomizeDialog.cpp:57
 msgid "Separator"
-msgstr ""
+msgstr "വേർപെടുത്തൽ"
 
 #: ../src/core/control/XournalMain.cpp:671
 msgid "Set DPI for PNG exports. Default is 300\n"
@@ -1314,23 +1317,23 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:540
 msgid "Setsquare"
-msgstr ""
+msgstr "സെറ്റ്സ്‌ക്വയർ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:517
 msgid "Shape Recognizer"
-msgstr ""
+msgstr "ആകൃതി തിരിച്ചറിയുന്നത്"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:77
 msgid "Show all"
-msgstr ""
+msgstr "എല്ലാം കാണിക്കുക"
 
 #: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:102
 msgid "Show only not used pages (one unused page)"
-msgstr ""
+msgstr "ഉപയോഗിക്കാത്ത താളുകൾ മാത്രം കാണിക്കുക (ഒരു ഉപയോഗിക്കാത്ത താൾ)"
 
 #: ../src/core/gui/dialog/backgroundSelect/PdfPagesDialog.cpp:103
 msgid "Show only not used pages ({1} unused pages)"
-msgstr ""
+msgstr "ഉപയോഗിക്കാത്ത താളുകൾ മാത്രം കാണിക്കുക ({1} ഉപയോഗിക്കാത്ത താളുകൾ)"
 
 #: ../src/core/control/XournalMain.cpp:499
 msgid "Sorry, Xournal++ can only open one file at once.\n"
