@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-05 12:06\n"
+"PO-Revision-Date: 2023-08-05 13:06\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -1454,27 +1454,27 @@ msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന�
 
 #: ../src/core/control/Control.cpp:2378
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
-msgstr ""
+msgstr "ഇപ്പോൾ തുറക്കാൻ ശ്രമിക്കുന്ന ഫയലിന്റെ പതിപ്പ് Xournal++ പിന്തുണയ്ക്കുന്ന പതിപ്പിനേക്കാൾ പുതുതാണ്. ആയതിനാൽ ശരിയായ വിധം ഫയൽ പ്രവർത്തിച്ചേക്കണമെന്നില്ല. എന്തുതന്നെയായാലും ഫയൽ തുറക്കണോ?"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:140
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
-msgstr ""
+msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (മൈമ്ടൈപ്പ് കണ്ടെത്തിയില്ല): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:148
 msgid "The file is no valid .xopp file (Mimetype wrong): \"{1}\""
-msgstr ""
+msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (മൈമ്ടൈപ്പ് തെറ്റാണ്): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:157
 msgid "The file is no valid .xopp file (Version missing): \"{1}\""
-msgstr ""
+msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (പതിപ്പ് കാണ്മാനില്ല): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:170
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
-msgstr ""
+msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (പതിപ്പിന്റെ സ്ട്രിംഗ് അസാധുവാണ്): \"{1}\""
 
 #: ../src/core/control/LatexController.cpp:303
 msgid "The formula is empty when rendered or invalid."
-msgstr ""
+msgstr "റെൻഡർ ചെയ്യുമ്പോൾ ഫോർമുല ശൂന്യമാണ്/അസാധുവാണ്."
 
 #: ../src/core/control/XournalMain.cpp:178
 msgid "The most recent log file name: {1}"
@@ -1668,7 +1668,8 @@ msgstr "നിങ്ങൾ ഉപയോഗിക്കുന്നത് \"{1}/{
 msgid "Your current document does not contain PDF Page no {1}\n"
 "Would you like to insert this page?\n\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
-msgstr ""
+msgstr "നിങ്ങളുടെ നിലവിലുള്ള ഡോക്യുമെന്റിൽ പിഡിഎഫ് താൾ സംഖ്യ {1} ഇല്ല. ഈ താൾ ഡോക്യൂമെന്റിലേക്ക് ചേർക്കേണമോ?\n\n"
+"അഭിപ്രായം: നിങ്ങൾക്ക് ജേർണൽ (Journal) → പേപ്പർ പശ്ചാത്തലം (Paper Background) → പിഡിഎഫ് പശ്ചാത്തലം (PDF Background) ഉപയോഗിച്ച് ഒരു പിഡിഎഫ് താൾ ചേർക്കാവുന്നതാണ്."
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:136
 msgid "Zoom Slider"
@@ -1821,43 +1822,43 @@ msgstr "എക്സ്ഓജെ-ഫയൽ (xoj-File): {1}"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:121
 msgid "xoj-preview-extractor: call with INPUT.xoj OUTPUT.png"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): ഇപ്രകാരം വിളിക്കുക: INPUT.xoj OUTPUT.png"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:185
 msgid "xoj-preview-extractor: could not find icon \"{1}\""
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): ചിഹ്നം കണ്ടെത്താനായില്ല \"{1}\""
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:142
 msgid "xoj-preview-extractor: file \"{1}\" contains no preview"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): ഫയൽ \"{1}\"-ൽ പ്രീവ്യൂ അടങ്ങിയിട്ടില്ല"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:134
 msgid "xoj-preview-extractor: file \"{1}\" is not .xoj file"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): ഫയൽ \"{1}\" ഒരു .xoj ഫയൽ അല്ല"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:147
 msgid "xoj-preview-extractor: no preview and page found, maybe an invalid file?"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): പ്രീവ്യൂ ഇല്ല, താളും കണ്ടെത്തിയില്ല. ഒരുപക്ഷെ അസാധുവായ ഫയൽ ആയേക്കാം?"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:138
 msgid "xoj-preview-extractor: opening input file \"{1}\" failed"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): ഇൻപുട്ട് ഫയൽ \"{1}\" തുറക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:202
 msgid "xoj-preview-extractor: opening output file \"{1}\" failed"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): ഔട്ട്പുട്ട് ഫയൽ \"{1}\" തുറക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:209
 msgid "xoj-preview-extractor: successfully extracted"
-msgstr ""
+msgstr "എക്സ്ഓജെ-പ്രീവ്യൂ-എക്സ്ട്രാക്ടർ (xoj-preview-extractor): വിജയകരമായി നേടിയെടുത്തു"
 
 #: ../src/util/PathUtil.cpp:255
 msgid "xournalpp-{1}"
-msgstr ""
+msgstr "xournalpp-{1}"
 
 #: ../ui/main.glade:31
 msgid " = Floating Toolbox (experimental) ="
-msgstr ""
+msgstr " = പൊങ്ങിക്കിടക്കുന്ന ടൂൾബോക്സ് (പരീക്ഷണാവസ്ഥയിൽ) ="
 
 #: ../ui/settings.glade:4375 ../ui/settings.glade:4386
 msgid "%"
@@ -1865,15 +1866,15 @@ msgstr "%"
 
 #: ../ui/settings.glade:2727
 msgid "% greater than the initial distance between the two touches."
-msgstr ""
+msgstr "% ഇരു സ്പർശ തലങ്ങൾ തമ്മിലുള്ള ദൂരത്തേക്കാൾ കൂടുതൽ."
 
 #: ../ui/latexSettings.glade:217
 msgid "%%XPP_TEXT_COLOR%%"
-msgstr ""
+msgstr "%%XPP_TEXT_COLOR%%"
 
 #: ../ui/latexSettings.glade:180
 msgid "%%XPP_TOOL_INPUT%%"
-msgstr ""
+msgstr "%%XPP_TOOL_INPUT%%"
 
 #: ../ui/settings.glade:5611
 msgid "%."
