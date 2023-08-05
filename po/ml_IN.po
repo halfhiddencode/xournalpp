@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-05 01:15\n"
+"PO-Revision-Date: 2023-08-05 02:53\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -1020,7 +1020,7 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
 msgid "Paired pages"
-msgstr ""
+msgstr "ജോഡിയാക്കിയ താളുകൾ"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 #: ../src/core/undo/AddUndoAction.cpp:66
@@ -1029,7 +1029,7 @@ msgstr "ഒട്ടിക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
 msgid "Pause / Play"
-msgstr ""
+msgstr "നിറുത്തുക/തുടരുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:88
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:296
@@ -1068,11 +1068,11 @@ msgstr "പ്രിൻ്റ് ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:547
 msgid "Record Audio / Stop Recording"
-msgstr ""
+msgstr "ഓഡിയോ റെക്കോർഡ് ചെയ്യുക/നിറുത്തുക"
 
 #: ../src/core/control/Control.cpp:1016
 msgid "Recorder could not be started."
-msgstr ""
+msgstr "റെക്കോർഡർ തുടങ്ങാൻ സാധിച്ചില്ല."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:426
 #: ../src/core/undo/UndoRedoHandler.cpp:194
@@ -1089,15 +1089,15 @@ msgstr "പിഡിഎഫ് പശ്ചാത്തലം നീക്കം 
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:170
 msgid "Removed tool item from Toolbar {1} ID {2}"
-msgstr ""
+msgstr "ടൂൾബാർ {1} ID {2}-ൽ നിന്നും ടൂൾ തരം നീക്കം ചെയ്തു"
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:168
 msgid "Removed tool item {1} from Toolbar {2} ID {3}"
-msgstr ""
+msgstr "ടൂൾബാർ {2} ID {3}-ൽ നിന്നും ടൂൾ തരം {1} നീക്കം ചെയ്തു"
 
 #: ../src/core/undo/LayerRenameUndoAction.cpp:20
 msgid "Rename layer"
-msgstr ""
+msgstr "പാളി പുനർനാമകരണം ചെയ്യുക"
 
 #: ../src/util/XojMsgBox.cpp:86
 msgid "Replace"
@@ -1117,7 +1117,7 @@ msgstr "കറക്കം"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:439
 msgid "Rotation Snapping"
-msgstr ""
+msgstr "കറക്കൽ സ്നാപ്പിങ്"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:21
 msgid "Ruled"
@@ -1133,7 +1133,7 @@ msgstr "എസ് വി ജി (SVG) ഗ്രാഫിക്സ്"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:152
 msgid "Sample LaTeX file generated successfully."
-msgstr ""
+msgstr "ഉദാഹരണ (ലാറ്റെക്) LaTeX ഫയൽ വിജയകരമായി ഉത്പാദിപ്പിച്ചു."
 
 #: ../src/core/control/Control.cpp:2815 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:415
@@ -1284,11 +1284,11 @@ msgstr "കോംബോ തിരഞ്ഞെടുക്കുക"
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "Send Bugreport"
-msgstr ""
+msgstr "ബഗ്ഗ്‌ റിപ്പോർട്ട് അയക്കുക"
 
 #: ../src/core/control/tools/EditSelection.cpp:426
 msgid "Send backward"
-msgstr ""
+msgstr "പിന്നിലേക്ക് അയക്കുക"
 
 #: ../src/core/control/tools/EditSelection.cpp:434
 msgid "Send to back"
@@ -1301,7 +1301,8 @@ msgstr "വേർപെടുത്തൽ"
 #: ../src/core/control/XournalMain.cpp:671
 msgid "Set DPI for PNG exports. Default is 300\n"
 "                                 No effect without -i/--create-img=foo.png"
-msgstr ""
+msgstr "പിഎൻജി എക്സ്പോർട്ടിന് വേണ്ടി ഡിപിഐ തീരുമാനിക്കുക. സ്ഥിരമൂല്യം 300 ആണ്\n"
+"                                 -i/--create-img=foo.png ഉപയോഗിക്കാതെ ഒരു ഫലവും ലഭിക്കില്ല"
 
 #: ../src/core/control/XournalMain.cpp:681
 msgid "Set page height for PNG exports\n"
@@ -1338,7 +1339,8 @@ msgstr "ഉപയോഗിക്കാത്ത താളുകൾ മാത്�
 #: ../src/core/control/XournalMain.cpp:499
 msgid "Sorry, Xournal++ can only open one file at once.\n"
 "Others are ignored."
-msgstr ""
+msgstr "ക്ഷമിക്കണം, Xournal++-നു ഒരു സമയം ഒറ്റ ഫയൽ മാത്രമേ തുറക്കാൻ സാധിക്കുകയുള്ളൂ.\n"
+"മറ്റുള്ളവ തിരസ്കരിക്കപ്പെടും."
 
 #: ../src/core/control/XournalMain.cpp:514
 msgid "Sorry, Xournal++ cannot open remote files at the moment.\n"
@@ -1431,16 +1433,17 @@ msgstr ""
 
 #: ../src/core/control/XournalMain.cpp:245
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
 #: ../src/core/control/Control.cpp:2317
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
-msgstr ""
+msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം.\n"
+"അത് അവസാനം കണ്ട പാത: \"{2}\""
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:52
 msgid "The check for overwriting the background failed with:\n"
-msgstr ""
+msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന്നതിനു വേണ്ടിയുള്ള പരിശോധനയിൽ ഇത് സഹിതം പരാജയപ്പെട്ടു:\n"
 
 #: ../src/core/control/Control.cpp:2378
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
@@ -1561,7 +1564,7 @@ msgstr ""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:444
 msgid "Unknown pixmap::domain type: {1}"
-msgstr ""
+msgstr "അറിവില്ലാത്ത പിക്സ്മാപ്::ഡൊമൈൻ (pixmap::domain) തരം:{1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:632
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
@@ -1585,47 +1588,47 @@ msgstr ""
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:33
 msgid "Version"
-msgstr ""
+msgstr "പതിപ്പ്"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:537
 msgid "Vertical Space"
-msgstr ""
+msgstr "കുത്തനെയുള്ള വ്യാപ്തി"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:93
 msgid "Vertical space"
-msgstr ""
+msgstr "കുത്തനെയുള്ള വ്യാപ്തി"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:604
 msgid "Very Fine"
-msgstr ""
+msgstr "വളരെ നേർത്ത"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:608
 msgid "Very Thick"
-msgstr ""
+msgstr "വളരെ കനത്തിലുള്ള"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:32
 msgid "With PDF background"
-msgstr ""
+msgstr "പിഡിഎഫ് പശ്ചാത്തലം സഹിതം"
 
 #: ../src/core/undo/InsertUndoAction.cpp:35
 msgid "Write text"
-msgstr ""
+msgstr "ടെക്സ്റ്റ് എഴുതുക"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:1042
 msgid "Wrong count of points ({1})"
-msgstr ""
+msgstr "തെറ്റായ പോയിന്റ്‌സിന്റെ സംഖ്യ ({1})"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:1059
 msgid "Wrong number of pressure values, got {1}, expected {2}"
-msgstr ""
+msgstr "തെറ്റായ സമ്മർദ്ദത്തിന്റെ മൂല്യങ്ങൾ, ലഭിച്ചത് {1}, പ്രതീക്ഷിച്ചത് {2}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:253
 msgid "XML Parser error: {1}"
-msgstr ""
+msgstr "എക്സ്എംഎൽ വായിക്കുന്നതിൽ പിശക്: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:29
 msgid "Xournal (Compatibility)"
-msgstr ""
+msgstr "Xournal (പൊരുത്തം)"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:55
 msgid "Xournal files"
@@ -1648,11 +1651,11 @@ msgstr "Xournal++ ടെമ്പ്ലേറ്റ്"
 #: ../src/core/control/PageBackgroundChangeController.cpp:201
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
-msgstr ""
+msgstr "നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കുന്നതിന് വേണ്ടി പിഡിഫ് താളുകൾ ഇല്ല. പ്രവൃത്തി ഉപേക്ഷിക്കുക. മറ്റൊരു പശ്ചാത്തല തരം ദയവായി തിരഞ്ഞെടുക്കുക: മെനു \"ജേർണൽ\" → \"താൾ ടെമ്പ്ലേറ്റ് കോൺഫിഗർ ചെയ്യുക\"."
 
 #: ../src/core/control/XournalMain.cpp:176
 msgid "You're using \"{1}/{2}\" branch."
-msgstr ""
+msgstr "നിങ്ങൾ ഉപയോഗിക്കുന്നത് \"{1}/{2}\" ബ്രാഞ്ച് ആണ്."
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:86
 msgid "Your current document does not contain PDF Page no {1}\n"
