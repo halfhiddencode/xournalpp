@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-05 13:06\n"
+"PO-Revision-Date: 2023-08-05 14:08\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -1904,7 +1904,29 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Y\t\tYear (e.g. 2001)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\tA % sign"
-msgstr ""
+msgstr "%a\t\tചുരുക്കിയ ആഴ്ച്ച പേര് (ഉദാ. Thu.)\n"
+"%A\t\tമുഴുവൻ ആഴ്ച്ച പേര് (ഉദാ. Thursday)\n"
+"%b\t\tചുരുക്കിയ മാസപ്പര് (ഉദാ. Aug)\n"
+"%B\t\tമുഴുവൻ മാസപ്പര് (ഉദാ. August)\n"
+"%c\t\tദിവസവും സമയവും രേഖപ്പെടുത്തുംവിധം (ഉദാ. Thu Aug 23 14:55:02 2001)\n"
+"%d\t\tമാസത്തിലെ ദിവസം (ഉദാ. 01-31)\n"
+"%F\t\tദിവസം രേഖപ്പെടുത്തുംവിധം (ഉദാ. 2001-08-23)\n"
+"%H\t\t24 മണിക്കൂർ രൂപത്തിൽ സമയം (ഉദാ. 00-23)\n"
+"%I\t\t12 മണിക്കൂർ രൂപത്തിൽ സമയം (ഉദാ. 01-12)\n"
+"%j\t\tവർഷത്തിലെ ദിവസം (ഉദാ. 001-366)\n"
+"%m\tദശാംശം രൂപത്തിൽ മാസം (ഉദാ. 01-12)\n"
+"%M\tമിനിറ്റ് (ഉദാ. 00-59)\n"
+"%p\t\tAM അല്ലെങ്കിൽ PM (ഉദാ. PM)\n"
+"%S\t\tസെക്കന്റ് (ഉദാ. 00-61)\n"
+"%U\t\tആഴ്ചയിലെ ആദ്യത്തെ ദിവസമായി ഞായറാഴ്ച്ച കണക്കാക്കിക്കൊണ്ടുള്ള ആഴ്ച്ച സംഖ്യ (ഉദാ. 00-53)\n"
+"%w\t\tഞായറാഴ്ച 0-ത്തിൽ തുടങ്ങുന്ന ആഴ്ച്ച അക്കം (ഉദാ. 0-6)\n"
+"%W\tആഴ്ചയിലെ ആദ്യത്തെ ദിവസമായി തിങ്കളാഴ്ച്ച കണക്കാക്കിക്കൊണ്ടുള്ള ആഴ്ച സംഖ്യ (ഉദാ. 00-53)\n"
+"%x\t\tദിവസം രേഖപ്പെടുത്തുംവിധം (ഉദാ. 08/23/01)\n"
+"%X\t\tസമയം രേഖപ്പെടുത്തുംവിധം (ഉദാ. 14:55:02)\n"
+"%y\t\tവർഷം, അവസാന രണ്ടക്കം (ഉദാ. 00-99)\n"
+"%Y\t\tവർഷം (ഉദാ. 2001)\n"
+"%Z\t\tടൈംസോൺ പേര് അല്ലെങ്കിൽ അതിന്റെ ചുരുക്കം (ഉദാ. CDT)\n"
+"%%\tA % sign"
 
 #: ../ui/settings.glade:734
 msgid "%{name}\tThe name of the exported document\n"
@@ -2027,15 +2049,15 @@ msgstr ""
 
 #: ../ui/pageTemplate.glade:135
 msgid "<b>Page size</b>"
-msgstr ""
+msgstr "<b>താൾ വലുപ്പം</b>"
 
 #: ../ui/pagesize.glade:142
 msgid "<b>Pagesize</b>"
-msgstr ""
+msgstr "<b>താൾ വലുപ്പം</b>"
 
 #: ../ui/toolbarCustomizeDialog.glade:196
 msgid "<b>Separators</b>"
-msgstr ""
+msgstr "<b>വേർപെടുത്തൽ</b>"
 
 #: ../ui/settings.glade:952
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2339,23 +2361,23 @@ msgstr "നിറങ്ങൾ"
 
 #: ../ui/texdialog.glade:163
 msgid "Command Output"
-msgstr ""
+msgstr "കമാൻഡ് ഫലം"
 
 #: ../ui/main.glade:1263
 msgid "Configure Page Template"
-msgstr ""
+msgstr "താൾ ടെമ്പ്ലേറ്റ് സജ്ജീകരിക്കുക"
 
 #: ../ui/pageTemplate.glade:18
 msgid "Configure new page template"
-msgstr ""
+msgstr "പുതിയ താൾ ടെമ്പ്ലേറ്റ് സജ്ജീകരിക്കുക"
 
 #: ../ui/pageTemplate.glade:187
 msgid "Copy current page background instead"
-msgstr ""
+msgstr "നിലവിലെ താളിന്റെ പശ്ചാത്തലം പകരം പകർത്തുക"
 
 #: ../ui/pageTemplate.glade:269
 msgid "Copy current page size instead"
-msgstr ""
+msgstr "നിലവിയിലെ താളിന്റെ വലുപ്പം പകരം പകർത്തുക"
 
 #: ../ui/main.glade:2777
 msgid "Copy selected text"
@@ -2363,7 +2385,7 @@ msgstr "തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് പ�
 
 #: ../ui/pageTemplate.glade:192
 msgid "Copy the background of the current page instead of using the background set above."
-msgstr ""
+msgstr "നിലവിയിലെ താളിന്റെ പശ്ചാത്തലം മുകളിലെ പശ്ചാത്തല കൂട്ടത്തിന് പകരം പകർത്തുക."
 
 #: ../ui/exportSettings.glade:190
 msgid "Current page"
@@ -2383,7 +2405,7 @@ msgstr "കസ്പ് കണ്ടെത്തൽ"
 
 #: ../ui/settings.glade:2607
 msgid "Custom Commands (for Method \"Custom\")"
-msgstr ""
+msgstr "ഇഷ്ടാനുസൃത കമാൻഡുകൾ (\"ഇഷ്ടാനുസൃതം\" എന്ന വിധത്തിന്)"
 
 #: ../ui/settings.glade:3165
 msgid "Dark Theme (requires restart)"
@@ -2403,15 +2425,15 @@ msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള ലാറ്റ�
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള പിഡിഎഫ് എക്സ്പോർട്ട് നാമം"
 
 #: ../ui/settings.glade:637
 msgid "Default Save Name"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള സേവ് നാമം"
 
 #: ../ui/settings.glade:6229
 msgid "Default Seek Time (in seconds)"
-msgstr ""
+msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള തിരച്ചിൽ സമയം (സെക്കന്റുകളിൽ)"
 
 #: ../ui/settings.glade:525 ../ui/settings.glade:696
 msgid "Default name: "
@@ -2451,15 +2473,15 @@ msgstr ""
 
 #: ../ui/settingsDeviceClassConfig.glade:41
 msgid "Disabled"
-msgstr ""
+msgstr "പ്രവർത്തന രഹിതമായത്"
 
 #: ../ui/settings.glade:2386
 msgid "Disabling Method"
-msgstr ""
+msgstr "പ്രവർത്തന രഹിതമാക്കും വിധം"
 
 #: ../ui/settings.glade:4533
 msgid "Display DPI Calibration"
-msgstr ""
+msgstr "ഡിസ്‌പ്ലേയുടെ ഡിപിഐ (DPI) സജ്ജീകരണം"
 
 #: ../ui/settings.glade:5363
 msgid "Do not draw for inputs of short time and length unless it comes in short succession. Instead, show floating toolbox."
@@ -2467,7 +2489,7 @@ msgstr ""
 
 #: ../ui/settings.glade:1252
 msgid "Drag"
-msgstr ""
+msgstr "വലിക്കുക"
 
 #: ../ui/settings.glade:1046
 msgid "Drag LEFT from start point acts like shift key is being held.\n"
@@ -2513,35 +2535,35 @@ msgstr ""
 
 #: ../ui/main.glade:2911 ../ui/main.glade:2948
 msgid "Duplicate"
-msgstr ""
+msgstr "ഡ്യൂപ്ലിക്കേറ്റ്"
 
 #: ../ui/main.glade:1243
 msgid "Duplicate Page"
-msgstr ""
+msgstr "ഡ്യൂപ്ലിക്കേറ്റ് താൾ"
 
 #: ../ui/main.glade:2985
 msgid "Edit (not implemented yet)"
-msgstr ""
+msgstr "തിരുത്തുക (ഇത് വരെ നടപ്പിലാക്കിയിട്ടില്ല)"
 
 #: ../ui/latexSettings.glade:606
 msgid "Editor settings"
-msgstr ""
+msgstr "തിരുത്തൽ യന്ത്രത്തിന്റെ ക്രമീകരണങ്ങൾ"
 
 #: ../ui/settings.glade:2514
 msgid "Enable"
-msgstr ""
+msgstr "പ്രവർത്തനക്ഷമമാക്കുക"
 
 #: ../ui/settings.glade:4944
 msgid "Enable  with determination radius of "
-msgstr ""
+msgstr "പ്രവർത്തനക്ഷമമാക്കുക, തിട്ടപ്പെടുത്തൽ ആരം "
 
 #: ../ui/settings.glade:834
 msgid "Enable Autoloading of Journals"
-msgstr ""
+msgstr "ജേർണലുകൾ താനേ തുറക്കും വിധം സജ്ജീകരിക്കുക"
 
 #: ../ui/settings.glade:381
 msgid "Enable Autosaving"
-msgstr ""
+msgstr "ഓട്ടോസേവ് പ്രവർത്തന ക്ഷമമാക്കുക"
 
 #: ../ui/settings.glade:1087
 msgid "Enable Pressure Inference <i>(Guess pressure from drawing speed when device-supplied pressure is not available)</i>"
@@ -2549,11 +2571,11 @@ msgstr ""
 
 #: ../ui/settings.glade:1694
 msgid "Enable Pressure Sensitivity"
-msgstr ""
+msgstr "സമ്മർദ്ദം തിരിച്ചറിയുന്നത് പ്രവർത്തനക്ഷമമാക്കുക"
 
 #: ../ui/settings.glade:5358
 msgid "Enable Tap action"
-msgstr ""
+msgstr "രണ്ടുവട്ടം സ്പർശിച്ചാലുള്ള പ്രവൃത്തി സജ്ജമാക്കുക"
 
 #: ../ui/settings.glade:851
 msgid "Enable autoloading of most recent file on application startup"
@@ -2614,7 +2636,7 @@ msgstr ""
 
 #: ../ui/main.glade:1831 ../ui/main.glade:2036
 msgid "Fill opacity"
-msgstr ""
+msgstr "ഫിൽ ഒപാസിറ്റി"
 
 #: ../ui/settings.glade:1397
 msgid "Finalize the stroke"
@@ -2732,7 +2754,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3203
 msgid "Icon Theme"
-msgstr ""
+msgstr "ചിഹ്നത്തിന്റെ തീം"
 
 #: ../ui/settings.glade:5232
 msgid "If activated, shapes that have been recognized by the shape recognizer will be snapped to the grid automatically. This may lead to unexpected results if you have the shape recognizer turned on while writing."
@@ -2756,7 +2778,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5376
 msgid "Ignore Time (ms)"
-msgstr ""
+msgstr "സമയം അവഗണിക്കുക (മി. സെ.)"
 
 #: ../ui/settings.glade:1891
 msgid "Ignore the first"
@@ -2776,31 +2798,31 @@ msgstr "ഇൻപുട്ട് ഉപകരണം"
 
 #: ../ui/settings.glade:988
 msgid "Input Devices"
-msgstr ""
+msgstr "ഇൻപുട്ട് ഉപകരണങ്ങൾ"
 
 #: ../ui/settings.glade:1453
 msgid "Input System"
-msgstr ""
+msgstr "ഇൻപുട്ട് സംവിധാനം"
 
 #: ../ui/settings.glade:1422
 msgid "Input stabilization"
-msgstr ""
+msgstr "ഇൻപുട്ട് സ്ഥിരതപ്പെടുത്തൽ"
 
 #: ../ui/settings.glade:1402
 msgid "Input stabilization can create a gap at the end of your stroke. If enabled, this gap is filled."
-msgstr ""
+msgstr "ഇൻപുട്ട് സ്ഥിരതപ്പെടുത്തൽ മൂലം നിങ്ങളുടെ സ്‌ട്രോക്കിന്റെ അറ്റത്ത് വിടവ് രൂപപ്പെടാൻ സാധ്യതയുണ്ടാക്കുന്നു. പ്രവർത്തനക്ഷമമാക്കിയാൽ, ഈ വിടവ് നികത്തപ്പെടും."
 
 #: ../ui/texdialog.glade:9
 msgid "Insert Latex"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) ചേർക്കുക"
 
 #: ../ui/main.glade:2940
 msgid "Insert Page After"
-msgstr ""
+msgstr "ശേഷം താൾ ചേർക്കുക"
 
 #: ../ui/main.glade:2932
 msgid "Insert Page Before"
-msgstr ""
+msgstr "മുൻപേ താൾ ചേർക്കുക"
 
 #: ../ui/settings.glade:6354
 msgid "LaTeX"
@@ -2808,11 +2830,11 @@ msgstr "ലാറ്റെക് (LaTex)"
 
 #: ../ui/latexSettings.glade:354
 msgid "LaTeX executable settings"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) പ്രവർത്തനശേഷിയുള്ള ക്രമീകരണങ്ങൾ"
 
 #: ../ui/latexSettings.glade:297
 msgid "LaTeX generation command"
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) നിർമാണ കമാൻഡ്"
 
 #: ../ui/settings.glade:6443 ../ui/settings.glade:6491
 msgid "Language"
@@ -2901,31 +2923,31 @@ msgstr ""
 
 #: ../ui/settings.glade:1629 ../ui/settingsDeviceClassConfig.glade:42
 msgid "Mouse"
-msgstr ""
+msgstr "മൗസ്"
 
 #: ../ui/settings.glade:1598
 msgid "Mouse Buttons"
-msgstr ""
+msgstr "മൗസ് ബട്ടണുകൾ"
 
 #: ../ui/settingsDeviceClassConfig.glade:43
 msgid "Mouse+Keyboard Combo"
-msgstr ""
+msgstr "മൗസ്+കീബോർഡ് കോംബോ"
 
 #: ../ui/main.glade:2895 ../ui/main.glade:2970
 msgid "Move Down"
-msgstr ""
+msgstr "താഴേയ്ക്കു നീക്കുക"
 
 #: ../ui/main.glade:490
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത പാളി താഴേക്ക് നീക്കുക"
 
 #: ../ui/main.glade:480
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത പാളി മുകളിലേക്ക് നീക്കുക"
 
 #: ../ui/main.glade:2887 ../ui/main.glade:2962
 msgid "Move Up"
-msgstr ""
+msgstr "മുകളിലേക്ക് നീക്കുക"
 
 #: ../ui/settings.glade:3893
 msgid "Multiply the panning speed by up to this amount, based on how much of the selected element is out of view."
@@ -2938,37 +2960,37 @@ msgstr ""
 #: ../ui/settings.glade:2166
 msgctxt "eraser is never visible"
 msgid "Never"
-msgstr ""
+msgstr "ഒരിക്കലും ചെയ്യരുത്"
 
 #: ../ui/main.glade:1222
 msgid "New Page _After"
-msgstr ""
+msgstr "പുതിയ താൾ _ശേഷം"
 
 #: ../ui/main.glade:1212
 msgid "New Page _Before"
-msgstr ""
+msgstr "പുതിയ താൾ _മുൻപേ"
 
 #: ../ui/main.glade:1233
 msgid "New Page at _End"
-msgstr ""
+msgstr "പുതിയ താൾ _അവസാനം"
 
 #: ../ui/main.glade:1290
 msgid "New _Layer"
-msgstr ""
+msgstr "പുതിയ _പാളി"
 
 #: ../ui/settings.glade:3345
 msgctxt "stylus cursor uses no icon"
 msgid "No icon"
-msgstr ""
+msgstr "ചിഹ്നമില്ല"
 
 #: ../ui/exportSettings.glade:46
 msgid "No ruling"
-msgstr ""
+msgstr "റൂളിംഗ് ഇല്ല"
 
 #: ../ui/exportSettings.glade:43 ../ui/settings.glade:223
 #: ../ui/settings.glade:240 ../ui/settings.glade:3712
 msgid "None"
-msgstr ""
+msgstr "ഒന്നുമില്ല"
 
 #: ../ui/settings.glade:4782
 msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
@@ -2980,35 +3002,35 @@ msgstr ""
 
 #: ../ui/settings.glade:1108
 msgid "Options"
-msgstr ""
+msgstr "ഓപ്ഷനുകൾ"
 
 #: ../ui/settings.glade:6037
 msgid "Output Device"
-msgstr ""
+msgstr "ഔട്പുട്ട് ഉപകരണം"
 
 #: ../ui/texdialog.glade:143
 msgid "Output generated by the LaTeX command."
-msgstr ""
+msgstr "ലാറ്റെക് (LaTeX) കമാൻഡ് ഉപയോഗിച്ച് നിർമിച്ച ഫലം."
 
 #: ../ui/settings.glade:5652
 msgid "PDF Cache"
-msgstr ""
+msgstr "പിഡിഎഫ് കാഷ് (cache)"
 
 #: ../ui/main.glade:1186
 msgid "P_revious Annotated Page"
-msgstr ""
+msgstr "മു_ൻപേ വിശകലനം ചെയ്ത താൾ"
 
 #: ../ui/settings.glade:3697
 msgid "Page numbering  "
-msgstr ""
+msgstr "താൾ സംഖ്യ തിട്ടപ്പെടുത്തും വിധം  "
 
 #: ../ui/exportSettings.glade:206
 msgid "Pages:"
-msgstr ""
+msgstr "താളുകൾ:"
 
 #: ../ui/settings.glade:4836
 msgid "Paired Pages"
-msgstr ""
+msgstr "ജോഡിയാക്കിയ താളുകൾ"
 
 #: ../ui/main.glade:1360
 msgid "Paper B_ackground"
@@ -3323,32 +3345,32 @@ msgstr ""
 
 #: ../ui/settings.glade:2224
 msgid "Stylus"
-msgstr ""
+msgstr "സ്റ്റൈലസ്"
 
 #: ../ui/settings.glade:2114
 msgid "Stylus Buttons"
-msgstr ""
+msgstr "സ്റ്റൈലസ് ബട്ടണുകൾ"
 
 #: ../ui/settings.glade:2150
 msgid "Stylus-based eraser is visible"
-msgstr ""
+msgstr "സ്റ്റൈലസ് ബന്ധമുള്ള ഇറേസർ ദൃഷ്ടിയിലുണ്ട്"
 
 #: ../ui/settings.glade:5439
 msgid "Successive (ms)"
-msgstr ""
+msgstr "തുടരെ തുടരെ"
 
 #: ../ui/latexSettings.glade:461
 msgid "Syntax highlighting"
-msgstr ""
+msgstr "സിന്റാക്സ് ഹൈലൈറ്റ്"
 
 #: ../ui/settings.glade:3348
 msgctxt "stylus cursor uses system cursor"
 msgid "System cursor"
-msgstr ""
+msgstr "സിസ്റ്റം കഴ്സർ"
 
 #: ../ui/main.glade:949
 msgid "T_oolbars"
-msgstr ""
+msgstr "ടൂ_ൾബാറുകൾ"
 
 #: ../ui/texdialog.glade:125
 msgid "TeX Source"
@@ -3364,11 +3386,11 @@ msgstr ""
 
 #: ../ui/settings.glade:2559 ../ui/settings.glade:2572
 msgid "Test"
-msgstr ""
+msgstr "പരിശോധന"
 
 #: ../ui/latexSettings.glade:318
 msgid "Test configuration"
-msgstr ""
+msgstr "പരിശോധന സജ്ജീകരണം"
 
 #: ../ui/latexSettings.glade:322
 msgid "Test if the current configuration is valid by running the LaTeX generation command on the global template file with a test formula."
@@ -3376,7 +3398,7 @@ msgstr ""
 
 #: ../ui/main.glade:2050
 msgid "Text Font..."
-msgstr ""
+msgstr "ടെക്സ്റ്റ്‌ ഫോണ്ട്..."
 
 #: ../ui/latexSettings.glade:152
 msgid "The LaTeX file to use as a template for the LaTeX tool."
@@ -3421,7 +3443,7 @@ msgstr ""
 #: ../ui/settings.glade:2310 ../ui/settings.glade:2934
 #: ../ui/settingsDeviceClassConfig.glade:46
 msgid "Touchscreen"
-msgstr ""
+msgstr "ടച്ച്സ്ക്രീൻ"
 
 #: ../ui/settings.glade:5468
 msgid "Try to select object first."
@@ -3457,7 +3479,7 @@ msgstr ""
 
 #: ../ui/settings.glade:4795
 msgid "Usually 0 or 1"
-msgstr ""
+msgstr "സാധാരണയായി 0 അല്ലെങ്കിൽ 1"
 
 #: ../ui/settings.glade:229
 msgid "Velocity based Gaussian weights"
@@ -3465,7 +3487,7 @@ msgstr ""
 
 #: ../ui/pluginEntry.glade:131
 msgid "Version: "
-msgstr ""
+msgstr "പതിപ്പ്: "
 
 #: ../ui/settings.glade:4266
 msgid "View"
@@ -3505,95 +3527,95 @@ msgstr ""
 
 #: ../ui/exportSettings.glade:29
 msgid "Width"
-msgstr ""
+msgstr "വീതി"
 
 #: ../ui/pagesize.glade:189
 msgid "Width:"
-msgstr ""
+msgstr "വീതി:"
 
 #: ../ui/about.glade:307
 msgid "With help from the community"
-msgstr ""
+msgstr "കൂട്ടായ്മയുടെ സഹായത്തോടെ"
 
 #: ../ui/latexSettings.glade:493
 msgid "Wrap text"
-msgstr ""
+msgstr "ടെക്സ്റ്റ് ആവരണം ചെയ്യുക"
 
 #: ../ui/settings.glade:254
 msgid "Xournal++ Preferences"
-msgstr ""
+msgstr "Xournal++ ഇച്ഛാനുസൃതങ്ങൾ"
 
 #: ../ui/settings.glade:4564
 msgid "Zoom"
-msgstr ""
+msgstr "സൂം"
 
 #: ../ui/settings.glade:2767
 msgid "Zoom Gestures"
-msgstr ""
+msgstr "സൂം ആംഗ്യങ്ങൾ"
 
 #: ../ui/settings.glade:4410
 msgid "Zoom Speed"
-msgstr ""
+msgstr "സൂം വേഗത"
 
 #: ../ui/main.glade:742
 msgid "_1 Column"
-msgstr ""
+msgstr "_1 ശ്രേണി"
 
 #: ../ui/main.glade:847
 msgid "_1 Row"
-msgstr ""
+msgstr "_1 നിര"
 
 #: ../ui/main.glade:753
 msgid "_2 Columns"
-msgstr ""
+msgstr "_2 ശ്രേണികൾ"
 
 #: ../ui/main.glade:858
 msgid "_2 Rows"
-msgstr ""
+msgstr "_2 നിരകൾ"
 
 #: ../ui/main.glade:764
 msgid "_3 Columns"
-msgstr ""
+msgstr "_3 ശ്രേണികൾ"
 
 #: ../ui/main.glade:869
 msgid "_3 Rows"
-msgstr ""
+msgstr "_3 നിരകൾ"
 
 #: ../ui/main.glade:775
 msgid "_4 Columns"
-msgstr ""
+msgstr "_4 ശ്രേണികൾ"
 
 #: ../ui/main.glade:880
 msgid "_4 Rows"
-msgstr ""
+msgstr "_4 നിരകൾ"
 
 #: ../ui/main.glade:786
 msgid "_5 Columns"
-msgstr ""
+msgstr "_5 ശ്രേണികൾ"
 
 #: ../ui/main.glade:891
 msgid "_5 Rows"
-msgstr ""
+msgstr "_5 നിരകൾ"
 
 #: ../ui/main.glade:797
 msgid "_6 Columns"
-msgstr ""
+msgstr "_6 ശ്രേണികൾ"
 
 #: ../ui/main.glade:902
 msgid "_6 Rows"
-msgstr ""
+msgstr "_6 നിരകൾ"
 
 #: ../ui/main.glade:808
 msgid "_7 Columns"
-msgstr ""
+msgstr "_7 ശ്രേണികൾ"
 
 #: ../ui/main.glade:913
 msgid "_7 Rows"
-msgstr ""
+msgstr "_7 നിരകൾ"
 
 #: ../ui/main.glade:819
 msgid "_8 Columns"
-msgstr ""
+msgstr "_8 ശ്രേണികൾ"
 
 #: ../ui/main.glade:924
 msgid "_8 Rows"
