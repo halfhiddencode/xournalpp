@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 11:11+0000\n"
-"PO-Revision-Date: 2023-08-06 11:37\n"
+"POT-Creation-Date: 2023-08-06 17:02+0000\n"
+"PO-Revision-Date: 2023-08-06 17:42\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -81,11 +81,11 @@ msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവ�
 msgid "All files"
 msgstr "എല്ലാ ഫയലുകളും"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:213
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
 msgid "Apply to all pages"
 msgstr "എല്ലാ താളുകൾക്കും ബാധകമാകുക"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:200
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
 msgid "Apply to current page"
 msgstr "നിലവിലുള്ള താളിൽ ബാധകമാകുക"
 
@@ -215,7 +215,7 @@ msgstr "ഉള്ളടക്കം"
 msgid "Copy"
 msgstr "പകർത്തുക"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:31
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
 msgid "Copy current"
 msgstr "നിലവിലുള്ളത് പകർത്തുക"
 
@@ -237,32 +237,32 @@ msgstr "ലാറ്റെക് (LaTeX) പി. ഡി. എഫ്. (PDF) ഫയ
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "ലാറ്റെക് (LaTeX) പി. ഡി. എഫ്. (PDF) ഫയൽ തുറക്കാൻ സാധിച്ചില്ല: {1}"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:16
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:25
 msgid "Could not load pagetemplates.ini file"
 msgstr "പേജ്ടെംപ്ലേറ്റ്സ്.ഐഎൻഐ (pagetemplates.ini) ഫൈൽ തുറക്കാൻ സാധിച്ചില്ല"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:846
+#: ../src/core/control/xojfile/LoadHandler.cpp:829
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "അറ്റാച്ച്മെന്റ് തുറക്കാൻ സാധിച്ചില്ല: {1}. പിശക് സംബന്ധിച്ച സന്ദേശം: ഫയൽ വായിക്കാൻ സാധിച്ചില്ല"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:855
+#: ../src/core/control/xojfile/LoadHandler.cpp:838
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "അറ്റാച്ച്മെന്റ് തുറക്കാൻ സാധിച്ചില്ല: {1}. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: ഫയലിലേക്ക് എഴുതാൻ സാധിച്ചില്ല"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:827
-#: ../src/core/control/xojfile/LoadHandler.cpp:1155
-#: ../src/core/control/xojfile/LoadHandler.cpp:1173
+#: ../src/core/control/xojfile/LoadHandler.cpp:810
+#: ../src/core/control/xojfile/LoadHandler.cpp:1138
+#: ../src/core/control/xojfile/LoadHandler.cpp:1156
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "അറ്റാച്ച്മെന്റ് തുറക്കാൻ സാധിച്ചില്ല: {1}. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: ഫയലിന്റെ വലിപ്പം നൽകിയില്ല"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:818
-#: ../src/core/control/xojfile/LoadHandler.cpp:834
-#: ../src/core/control/xojfile/LoadHandler.cpp:1148
-#: ../src/core/control/xojfile/LoadHandler.cpp:1162
+#: ../src/core/control/xojfile/LoadHandler.cpp:801
+#: ../src/core/control/xojfile/LoadHandler.cpp:817
+#: ../src/core/control/xojfile/LoadHandler.cpp:1131
+#: ../src/core/control/xojfile/LoadHandler.cpp:1145
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "അറ്റാച്ച്മെന്റ് തുറക്കാൻ സാധിച്ചില്ല: {1}. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:187
+#: ../src/core/control/xojfile/LoadHandler.cpp:188
 msgid "Could not open file: \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ സാധിച്ചില്ല: \"{1}\""
 
@@ -276,12 +276,12 @@ msgid "Could not parse general toolbar.ini file: {1}\n"
 "No Toolbars will be available"
 msgstr "പൊതുവായ ടൂൾബാർ.ഐഎൻഐ (toolbar.ini) ഫയൽ വിശകലനം ചെയ്യാൻ സാധിച്ചില്ല: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:403
-#: ../src/core/control/xojfile/LoadHandler.cpp:426
+#: ../src/core/control/xojfile/LoadHandler.cpp:386
+#: ../src/core/control/xojfile/LoadHandler.cpp:409
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "ചിത്രം വായിക്കാൻ സാധിച്ചില്ല: {1}. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:436
+#: ../src/core/control/xojfile/LoadHandler.cpp:419
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "ക്ലോൺ ചെയ്ത പശ്ചാത്തല ചിത്രത്തെ സംബന്ധിച്ച താളിന്റെ സംഖ്യ വായിച്ചെടുക്കാൻ സാധിച്ചില്ല: {1}."
 
@@ -321,7 +321,7 @@ msgstr "\"{1}\" പഴയപടിയാക്കാൻ സാധിച്ചി
 msgid "Could not write background \"{1}\", {2}"
 msgstr "പശ്ചാത്തലം എഴുതാൻ സാധിച്ചില്ല \"{1}\", {2}"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:369
+#: ../src/core/control/xojfile/SaveHandler.cpp:350
 msgid "Could not write background \"{1}\". Continuing anyway."
 msgstr "പശ്ചാത്തലം എഴുതാൻ സാധിച്ചില്ല \"{1}\". എന്നിരുന്നാലും തുടരുന്നു."
 
@@ -404,11 +404,11 @@ msgstr "പിഡിഎഫ് പശ്ചാത്തലം തിരുത്�
 msgid "Document file was removed."
 msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:271
+#: ../src/core/control/xojfile/LoadHandler.cpp:272
 msgid "Document is corrupted (no pages found in file)"
 msgstr "ഡോക്യുമെന്റ് അസാധുവായിരിക്കുന്നു (ഫയലിൽ ഒരു താള് പോലും കണ്ടെത്തിയില്ല)"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:267
+#: ../src/core/control/xojfile/LoadHandler.cpp:268
 msgid "Document is not complete (maybe the end is cut off?)"
 msgstr "ഡോക്യുമെന്റ് പൂർണമല്ല (അവസാന ഭാഗം ഒഴിവാക്കപ്പെട്ടിരിക്കാം?)"
 
@@ -417,7 +417,7 @@ msgstr "ഡോക്യുമെന്റ് പൂർണമല്ല (അവസ
 msgid "Document not loaded! ({1}), {2}"
 msgstr "ഡോക്യുമെന്റ് തുറക്കപ്പെട്ടില്ല! ({1}), {2}"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:25
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:34
 msgid "Dotted"
 msgstr "ഡോട്ട് ഇട്ടത്"
 
@@ -533,12 +533,12 @@ msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ട�
 msgid "Error opening file: \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:489
-#: ../src/core/control/xojfile/LoadHandler.cpp:509
+#: ../src/core/control/xojfile/LoadHandler.cpp:472
+#: ../src/core/control/xojfile/LoadHandler.cpp:492
 msgid "Error reading PDF: {1}"
 msgstr "പി. ഡി. എഫ്. (PDF) വായിക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:564
+#: ../src/core/control/xojfile/LoadHandler.cpp:547
 msgid "Error reading width of a stroke: {1}"
 msgstr "സ്‌ട്രോക്കിന്റെ വീതി അളക്കുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
@@ -645,7 +645,7 @@ msgstr "പിഡിഎഫ് കെയ്റോ പ്രതലം ഇനിഷ
 msgid "Failed to load image, could not determine image size!"
 msgstr "ചിത്രം തുറക്കുന്നതിൽ പരാജയപെട്ടു, അതിന്റെ വലുപ്പം തിട്ടപ്പെടുത്താൻ സാധിച്ചില്ല!"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:179
+#: ../src/core/control/xojfile/LoadHandler.cpp:180
 msgid "Failed to open content.xml in zip archive: \"{1}\""
 msgstr "സിപ് ആർകൈവിനകത്തുള്ള (zip archive) കോൺടെന്റ്.എക്സ്എംഎൽ (content.xml) തുറക്കാൻ സാധിച്ചില്ല: \"{1}\""
 
@@ -748,7 +748,7 @@ msgstr "മുൻപത്തെ താളിലേക്ക് പോവുക"
 msgid "Go to top layer"
 msgstr "മുകളിലത്തെ പാളിയിലേക്ക് പോവുക"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:24
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:33
 msgid "Graph"
 msgstr "ഗ്രാഫ്"
 
@@ -774,7 +774,7 @@ msgstr "എല്ലാം മറയ്ക്കുക"
 msgid "Highlighter"
 msgstr "ഹൈലൈറ്റർ"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:33
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:514
 msgid "Image"
 msgstr "ചിത്രം"
@@ -824,11 +824,11 @@ msgstr "പാളി ചേർക്കുക"
 msgid "Insert page"
 msgstr "താൾ ചേർക്കുക"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:26
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:35
 msgid "Isometric Dotted"
 msgstr "ഐസോമെട്രിക് ആയി ഡോട്ടുകൾ ഉള്ളത്"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:27
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:36
 msgid "Isometric Graph"
 msgstr "ഐസോമെട്രിക് ഗ്രാഫ്"
 
@@ -1021,10 +1021,6 @@ msgstr "താൾ ചേർക്കപ്പെട്ടു"
 msgid "Page number"
 msgstr "താൾ സംഖ്യ"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:318
-msgid "Page type format is PageTypeFormat::Copy - converted to PageTypeFormat::Plain to avoid corrupted file"
-msgstr ""
-
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
 msgid "Paired pages"
 msgstr "ജോഡിയാക്കിയ താളുകൾ"
@@ -1043,7 +1039,7 @@ msgstr "നിറുത്തുക/തുടരുക"
 msgid "Pen"
 msgstr "പേന"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:20
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
 msgstr "ലളിതമായ"
 
@@ -1110,7 +1106,7 @@ msgstr "പാളി പുനർനാമകരണം ചെയ്യുക"
 msgid "Replace"
 msgstr "പകരം വയ്ക്കുക"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1192
+#: ../src/core/control/xojfile/LoadHandler.cpp:1175
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "ആവശ്യപ്പെട്ട താത്കാലിക ഫയൽ അറ്റാച്മെന്റിനു വേണ്ടി കണ്ടെത്താൻ സാധിച്ചില്ല {1}"
 
@@ -1126,11 +1122,11 @@ msgstr "കറക്കം"
 msgid "Rotation Snapping"
 msgstr "കറക്കൽ സ്നാപ്പിങ്"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:21
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:30
 msgid "Ruled"
 msgstr "റൂൾഡ്"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:22
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:31
 msgid "Ruled with vertical line"
 msgstr "കുത്തനെയുള്ള റൂൾഡ് വരകൾ"
 
@@ -1358,7 +1354,7 @@ msgstr "ക്ഷമിക്കണം, Xournal++-നു വിദൂര ഫയ�
 msgid "Spacer"
 msgstr "വിടവ്"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:23
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:32
 msgid "Staves"
 msgstr "സ്റ്റേവ്സ്"
 
@@ -1456,19 +1452,19 @@ msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന�
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "ഇപ്പോൾ തുറക്കാൻ ശ്രമിക്കുന്ന ഫയലിന്റെ പതിപ്പ് Xournal++ പിന്തുണയ്ക്കുന്ന പതിപ്പിനേക്കാൾ പുതുതാണ്. ആയതിനാൽ ശരിയായ വിധം ഫയൽ പ്രവർത്തിച്ചേക്കണമെന്നില്ല. എന്തുതന്നെയായാലും ഫയൽ തുറക്കണോ?"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:140
+#: ../src/core/control/xojfile/LoadHandler.cpp:141
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
 msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (മൈമ്ടൈപ്പ് കണ്ടെത്തിയില്ല): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:148
+#: ../src/core/control/xojfile/LoadHandler.cpp:149
 msgid "The file is no valid .xopp file (Mimetype wrong): \"{1}\""
 msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (മൈമ്ടൈപ്പ് തെറ്റാണ്): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:157
+#: ../src/core/control/xojfile/LoadHandler.cpp:158
 msgid "The file is no valid .xopp file (Version missing): \"{1}\""
 msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (പതിപ്പ് കാണ്മാനില്ല): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:170
+#: ../src/core/control/xojfile/LoadHandler.cpp:171
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (പതിപ്പിന്റെ സ്ട്രിംഗ് അസാധുവാണ്): \"{1}\""
 
@@ -1500,7 +1496,7 @@ msgstr "കനത്തിലുള്ളത്"
 msgid "This document is not saved yet."
 msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ് ചെയ്യപ്പെട്ടിട്ടില്ല."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:167
+#: ../src/core/control/PageBackgroundChangeController.cpp:162
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "ഈ ചിത്രം പ്രദർശിപ്പിക്കാൻ സാധിച്ചില്ല. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: {1}"
 
@@ -1545,15 +1541,15 @@ msgstr "പഴയപടിയാക്കുക"
 msgid "Undo: "
 msgstr "പഴയപടിയാക്കുക: "
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:316
+#: ../src/core/control/xojfile/LoadHandler.cpp:317
 msgid "Unexpected root tag: {1}"
 msgstr "പ്രതീക്ഷിക്കാത്ത മൂല ടാഗ്: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:337
+#: ../src/core/control/xojfile/LoadHandler.cpp:338
 msgid "Unexpected tag in document: \"{1}\""
 msgstr "ഡോക്യൂമെന്റിൽ അപ്രതീക്ഷിതമായ ടാഗ്: \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:540
+#: ../src/core/control/xojfile/LoadHandler.cpp:523
 msgid "Unknown background type: {1}"
 msgstr "അജ്ഞാതമായ പശ്ചാത്തല തരം: {1}"
 
@@ -1561,23 +1557,23 @@ msgstr "അജ്ഞാതമായ പശ്ചാത്തല തരം: {1}"
 msgid "Unknown color value \"{1}\""
 msgstr "നിറത്തിന്റെ മൂല്യം അജ്ഞാതം \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:496
+#: ../src/core/control/xojfile/LoadHandler.cpp:479
 msgid "Unknown domain type: {1}"
 msgstr "ഡൊമൈൻ തരം അജ്ഞാതം: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:256
+#: ../src/core/control/xojfile/LoadHandler.cpp:257
 msgid "Unknown parser error"
 msgstr "അജ്ഞാതമായ പാഴ്സർ പിശക്"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:444
+#: ../src/core/control/xojfile/LoadHandler.cpp:427
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "അറിവില്ലാത്ത പിക്സ്മാപ്::ഡൊമൈൻ (pixmap::domain) തരം:{1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:632
+#: ../src/core/control/xojfile/LoadHandler.cpp:615
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് ക്യാപ് തരം: \"{1}\", വട്ടത്തിലുള്ളതെന്ന് അനുമാനിക്കുന്നു"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:650
+#: ../src/core/control/xojfile/LoadHandler.cpp:633
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് തരം: \"{1}\", പേന ആണെന്ന് അനുമാനിക്കുന്നു"
 
@@ -1613,7 +1609,7 @@ msgstr "വളരെ നേർത്ത"
 msgid "Very Thick"
 msgstr "വളരെ കനത്തിലുള്ള"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:32
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:40
 msgid "With PDF background"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം സഹിതം"
 
@@ -1621,15 +1617,15 @@ msgstr "പിഡിഎഫ് പശ്ചാത്തലം സഹിതം"
 msgid "Write text"
 msgstr "ടെക്സ്റ്റ് എഴുതുക"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1042
+#: ../src/core/control/xojfile/LoadHandler.cpp:1025
 msgid "Wrong count of points ({1})"
 msgstr "തെറ്റായ പോയിന്റ്‌സിന്റെ സംഖ്യ ({1})"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1059
+#: ../src/core/control/xojfile/LoadHandler.cpp:1042
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr "തെറ്റായ സമ്മർദ്ദത്തിന്റെ മൂല്യങ്ങൾ, ലഭിച്ചത് {1}, പ്രതീക്ഷിച്ചത് {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:253
+#: ../src/core/control/xojfile/LoadHandler.cpp:254
 msgid "XML Parser error: {1}"
 msgstr "എക്സ്എംഎൽ വായിക്കുന്നതിൽ പിശക്: {1}"
 
@@ -1655,7 +1651,7 @@ msgstr "Xournal++ ഫയലുകൾ"
 msgid "Xournal++ template"
 msgstr "Xournal++ ടെമ്പ്ലേറ്റ്"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:202
+#: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കുന്നതിന് വേണ്ടി പിഡിഫ് താളുകൾ ഇല്ല. പ്രവൃത്തി ഉപേക്ഷിക്കുക. മറ്റൊരു പശ്ചാത്തല തരം ദയവായി തിരഞ്ഞെടുക്കുക: മെനു \"ജേർണൽ\" → \"താൾ ടെമ്പ്ലേറ്റ് കോൺഫിഗർ ചെയ്യുക\"."
@@ -1816,7 +1812,7 @@ msgstr "ട്രാക്‌പോയിന്റ്"
 msgid "whiteout"
 msgstr "വൈറ്റ്ഔട്ട്"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1058
+#: ../src/core/control/xojfile/LoadHandler.cpp:1041
 msgid "xoj-File: {1}"
 msgstr "എക്സ്ഓജെ-ഫയൽ (xoj-File): {1}"
 
