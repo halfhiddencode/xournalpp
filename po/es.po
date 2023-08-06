@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-06 17:41\n"
+"PO-Revision-Date: 2023-08-06 18:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -582,7 +582,7 @@ msgstr "Error: {1}. Por favor, compruebe los contenidos de {2}"
 
 #: ../src/core/control/XournalMain.cpp:640
 msgid "Export FILE as PDF"
-msgstr "Exportar en formato PDF"
+msgstr "Exportar archivo en formato PDF"
 
 #: ../src/core/control/XournalMain.cpp:642
 msgid "Export FILE as image files (one per page)\n"
