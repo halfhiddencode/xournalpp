@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 11:11+0000\n"
-"PO-Revision-Date: 2023-08-06 11:37\n"
+"POT-Creation-Date: 2023-08-06 17:02+0000\n"
+"PO-Revision-Date: 2023-08-06 17:41\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -81,11 +81,11 @@ msgstr "Σύνθετες επιλογές εξαγωγής"
 msgid "All files"
 msgstr "Όλα τα αρχεία"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:213
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
 msgid "Apply to all pages"
 msgstr "Εφαρμογή σε όλες τις σελίδες"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:200
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
 msgid "Apply to current page"
 msgstr "Εφαρμογή στην τρέχουσα σελίδα"
 
@@ -216,7 +216,7 @@ msgstr "Περιεχόμενα"
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:31
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
 msgid "Copy current"
 msgstr "Αντιγραφή τρέχοντος"
 
@@ -238,32 +238,32 @@ msgstr "Δεν ήταν δυνατό να φορτωθεί το αρχείο LaT
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "Δεν ήταν δυνατό να φορτωθεί το αρχείο LaTeX PDF: {1}"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:16
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:25
 msgid "Could not load pagetemplates.ini file"
 msgstr "Απέτυχε η φόρτωση του αρχείου pagetemplates.ini"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:846
+#: ../src/core/control/xojfile/LoadHandler.cpp:829
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "Απέτυχε το άνοιγμα του συνημμένου: {1}. Μήνυμα σφάλματος: Δεν ήταν δυνατή η ανάγνωση του αρχείου"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:855
+#: ../src/core/control/xojfile/LoadHandler.cpp:838
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "Απέτυχε το άνοιγμα του συνημμένου: {1}. Μήνυμα σφάλματος: Δεν ήταν δυνατή η εγγραφή του αρχείου"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:827
-#: ../src/core/control/xojfile/LoadHandler.cpp:1155
-#: ../src/core/control/xojfile/LoadHandler.cpp:1173
+#: ../src/core/control/xojfile/LoadHandler.cpp:810
+#: ../src/core/control/xojfile/LoadHandler.cpp:1138
+#: ../src/core/control/xojfile/LoadHandler.cpp:1156
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "Απέτυχε το άνοιγμα του συνημμένου: {1}. Μήνυμα σφάλματος: Δεν δόθηκε αποδεκτό μέγεθος αρχείου"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:818
-#: ../src/core/control/xojfile/LoadHandler.cpp:834
-#: ../src/core/control/xojfile/LoadHandler.cpp:1148
-#: ../src/core/control/xojfile/LoadHandler.cpp:1162
+#: ../src/core/control/xojfile/LoadHandler.cpp:801
+#: ../src/core/control/xojfile/LoadHandler.cpp:817
+#: ../src/core/control/xojfile/LoadHandler.cpp:1131
+#: ../src/core/control/xojfile/LoadHandler.cpp:1145
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "Απέτυχε το άνοιγμα του συνημμένου: {1}. Μήνυμα σφάλματος: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:187
+#: ../src/core/control/xojfile/LoadHandler.cpp:188
 msgid "Could not open file: \"{1}\""
 msgstr "Δεν ήταν δυνατό το άνοιγμα αρχείου: \"{1}\""
 
@@ -279,12 +279,12 @@ msgid "Could not parse general toolbar.ini file: {1}\n"
 msgstr "Αδύνατη προσπέλαση γενικού αρχείου toolbar.ini: {1}\n"
 "Οι γραμμές εργαλείων δεν θα είναι διαθέσιμες"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:403
-#: ../src/core/control/xojfile/LoadHandler.cpp:426
+#: ../src/core/control/xojfile/LoadHandler.cpp:386
+#: ../src/core/control/xojfile/LoadHandler.cpp:409
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "Απέτυχε η ανάγνωση της εικόνας: {1}. Μήνυμα σφάλματος: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:436
+#: ../src/core/control/xojfile/LoadHandler.cpp:419
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "Δεν ήταν δυνατή η ανάγνωση αριθμού σελίδας για κλωνοποιημένη εικόνα φόντου: {1}."
 
@@ -324,7 +324,7 @@ msgstr "Δεν ήταν δυνατή η αντιστροφή του \"{1}\"\n"
 msgid "Could not write background \"{1}\", {2}"
 msgstr "Αδυναμία εγγραφής φόντου \"{1}\", {2}"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:369
+#: ../src/core/control/xojfile/SaveHandler.cpp:350
 msgid "Could not write background \"{1}\". Continuing anyway."
 msgstr "Αδυναμία εγγραφής φόντου \"{1}\". Συνέχεια αγνοώντας το."
 
@@ -409,11 +409,11 @@ msgstr "Μην επανεγγράφετε το PDF του υποβάθρου! Θ
 msgid "Document file was removed."
 msgstr "Το έγγραφο αφαιρέθηκε."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:271
+#: ../src/core/control/xojfile/LoadHandler.cpp:272
 msgid "Document is corrupted (no pages found in file)"
 msgstr "Το έγγραφο είναι κατεστραμμένο (δεν βρέθηκαν σελίδες στο αρχείο)"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:267
+#: ../src/core/control/xojfile/LoadHandler.cpp:268
 msgid "Document is not complete (maybe the end is cut off?)"
 msgstr "Το έγγραφο είναι ημιτελές (μήπως έχει αποκοπεί το τέλος;)"
 
@@ -422,7 +422,7 @@ msgstr "Το έγγραφο είναι ημιτελές (μήπως έχει α�
 msgid "Document not loaded! ({1}), {2}"
 msgstr "Το έγγραφο δεν φορτώθηκε! ({1}),{2}"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:25
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:34
 msgid "Dotted"
 msgstr "Διάστικτη"
 
@@ -538,12 +538,12 @@ msgstr "Σφάλμα κατά το άνοιγμα αρχείου \"{1}\""
 msgid "Error opening file: \"{1}\""
 msgstr "Σφάλμα κατά το άνοιγμα αρχείου: \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:489
-#: ../src/core/control/xojfile/LoadHandler.cpp:509
+#: ../src/core/control/xojfile/LoadHandler.cpp:472
+#: ../src/core/control/xojfile/LoadHandler.cpp:492
 msgid "Error reading PDF: {1}"
 msgstr "Σφάλμα ανάγνωσης PDF: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:564
+#: ../src/core/control/xojfile/LoadHandler.cpp:547
 msgid "Error reading width of a stroke: {1}"
 msgstr "Σφάλμα ανάγνωσης πλάτους μιας μολυβιάς: {1}"
 
@@ -639,7 +639,7 @@ msgstr ""
 msgid "Failed to load image, could not determine image size!"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:179
+#: ../src/core/control/xojfile/LoadHandler.cpp:180
 msgid "Failed to open content.xml in zip archive: \"{1}\""
 msgstr ""
 
@@ -742,7 +742,7 @@ msgstr "Πηγαίνετε στην προηγούμενη στρώση"
 msgid "Go to top layer"
 msgstr "Μετάβαση στην πρώτη στρώση"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:24
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:33
 msgid "Graph"
 msgstr "Γράφημα"
 
@@ -768,7 +768,7 @@ msgstr "Aπόκρυψη όλων"
 msgid "Highlighter"
 msgstr "Υπογραμμισμός"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:33
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:514
 msgid "Image"
 msgstr "Εικόνα"
@@ -818,11 +818,11 @@ msgstr "Εισαγωγή στρώσης"
 msgid "Insert page"
 msgstr "Εισαγωγή σελίδας"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:26
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:35
 msgid "Isometric Dotted"
 msgstr "Ισομετρική Διακεκομμένη"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:27
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:36
 msgid "Isometric Graph"
 msgstr "Ισομετρικό Γράφημα"
 
@@ -1015,10 +1015,6 @@ msgstr "Η σελίδα εισήχθη"
 msgid "Page number"
 msgstr "Αριθμός σελίδας"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:318
-msgid "Page type format is PageTypeFormat::Copy - converted to PageTypeFormat::Plain to avoid corrupted file"
-msgstr ""
-
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
 msgid "Paired pages"
 msgstr "Διπλές σελίδες"
@@ -1037,7 +1033,7 @@ msgstr "Παύση/Αναπαραγωγή"
 msgid "Pen"
 msgstr "Στυλό"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:20
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
 msgstr "Κενή"
 
@@ -1104,7 +1100,7 @@ msgstr "Μετονομασία επιπέδου"
 msgid "Replace"
 msgstr "Αντικατάσταση"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1192
+#: ../src/core/control/xojfile/LoadHandler.cpp:1175
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "Το προσωρινό αρχείο που ζητήθηκε δεν βρέθηκε για επισύναψη {1}"
 
@@ -1120,11 +1116,11 @@ msgstr "Περιστροφή"
 msgid "Rotation Snapping"
 msgstr "Περιστροφή με σκάλες"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:21
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:30
 msgid "Ruled"
 msgstr "Ριγέ"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:22
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:31
 msgid "Ruled with vertical line"
 msgstr "Ριγέ με κάθετη"
 
@@ -1352,7 +1348,7 @@ msgstr "Συγγνώμη το Xournal++ δεν μπορεί να ανοίξει 
 msgid "Spacer"
 msgstr ""
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:23
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:32
 msgid "Staves"
 msgstr "Πεντέγραμμο"
 
@@ -1449,19 +1445,19 @@ msgstr ""
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:140
+#: ../src/core/control/xojfile/LoadHandler.cpp:141
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
 msgstr "Το αρχείο δεν είναι έγκυρο .xopp αρχείο (έλλειψη Mimetype): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:148
+#: ../src/core/control/xojfile/LoadHandler.cpp:149
 msgid "The file is no valid .xopp file (Mimetype wrong): \"{1}\""
 msgstr "Το αρχείο δεν είναι έγκυρο .xopp αρχείο (λάθος Mimetype): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:157
+#: ../src/core/control/xojfile/LoadHandler.cpp:158
 msgid "The file is no valid .xopp file (Version missing): \"{1}\""
 msgstr "Το αρχείο δεν είναι έγκυρο .xopp αρχείο (έλλειψη Version): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:170
+#: ../src/core/control/xojfile/LoadHandler.cpp:171
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "Το αρχείο δεν είναι έγκυρο .xopp αρχείο (Version string κατεστραμμένο): \"{1}\""
 
@@ -1493,7 +1489,7 @@ msgstr "Παχύ"
 msgid "This document is not saved yet."
 msgstr "Το αρχείο δεν έχει αποθηκευτεί ακόμα."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:167
+#: ../src/core/control/PageBackgroundChangeController.cpp:162
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "Απέτυχε η φόρτωση της εικόνας. Μήνυμα σφάλματος: {1}"
 
@@ -1538,15 +1534,15 @@ msgstr "Αναίρεση"
 msgid "Undo: "
 msgstr "Αναίρεση: "
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:316
+#: ../src/core/control/xojfile/LoadHandler.cpp:317
 msgid "Unexpected root tag: {1}"
 msgstr "Μη αναμενόμενη ετικέτα ρίζας: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:337
+#: ../src/core/control/xojfile/LoadHandler.cpp:338
 msgid "Unexpected tag in document: \"{1}\""
 msgstr "Μη αναμενόμενη ετικέτα στο έγγραφο: \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:540
+#: ../src/core/control/xojfile/LoadHandler.cpp:523
 msgid "Unknown background type: {1}"
 msgstr "Άγνωστος τύπος φόντου: {1}"
 
@@ -1554,23 +1550,23 @@ msgstr "Άγνωστος τύπος φόντου: {1}"
 msgid "Unknown color value \"{1}\""
 msgstr "Άγνωστη τιμή χρώματος \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:496
+#: ../src/core/control/xojfile/LoadHandler.cpp:479
 msgid "Unknown domain type: {1}"
 msgstr "Άγνωστος τύπος τομέα: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:256
+#: ../src/core/control/xojfile/LoadHandler.cpp:257
 msgid "Unknown parser error"
 msgstr "Άγνωστο σφάλμα αναλυτή"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:444
+#: ../src/core/control/xojfile/LoadHandler.cpp:427
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "Άγνωστος pixmap::τύπος τομέα: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:632
+#: ../src/core/control/xojfile/LoadHandler.cpp:615
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:650
+#: ../src/core/control/xojfile/LoadHandler.cpp:633
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Άγνωστος τύπος μολυβιάς: \"{1}\", υποθέτω στυλό"
 
@@ -1606,7 +1602,7 @@ msgstr "Πολύ λεπτό"
 msgid "Very Thick"
 msgstr "Πολύ παχύ"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:32
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:40
 msgid "With PDF background"
 msgstr "Με φόντο PDF"
 
@@ -1614,15 +1610,15 @@ msgstr "Με φόντο PDF"
 msgid "Write text"
 msgstr "Σύνταξη κειμένου"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1042
+#: ../src/core/control/xojfile/LoadHandler.cpp:1025
 msgid "Wrong count of points ({1})"
 msgstr "Λάθος μέτρημα σημείων ({1})"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1059
+#: ../src/core/control/xojfile/LoadHandler.cpp:1042
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr ""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:253
+#: ../src/core/control/xojfile/LoadHandler.cpp:254
 msgid "XML Parser error: {1}"
 msgstr "Σφάλμα αναλυτή XML: {1}"
 
@@ -1648,7 +1644,7 @@ msgstr "Αρχεία Xournal++"
 msgid "Xournal++ template"
 msgstr "Πρότυπο Xournal++"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:202
+#: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Δεν έχετε σελίδες PDF για να επιλέξετε. Ακύρωση ενέργειας.\n"
@@ -1811,7 +1807,7 @@ msgstr "trackpoint"
 msgid "whiteout"
 msgstr "διορθωτικό υγρό"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1058
+#: ../src/core/control/xojfile/LoadHandler.cpp:1041
 msgid "xoj-File: {1}"
 msgstr "xoj-Αρχείο: {1}"
 
