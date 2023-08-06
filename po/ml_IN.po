@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-05 14:08\n"
+"POT-Creation-Date: 2023-08-06 11:11+0000\n"
+"PO-Revision-Date: 2023-08-06 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുവോ?"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2328
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -65,7 +65,7 @@ msgstr "<span foreground='red' size='x-large'>ആവശ്യമുള്ള യ
 "  പ്രവർത്തന പാതയിലല്ല\n"
 "  {2}-ൽ അല്ല"
 
-#: ../src/core/gui/PageView.cpp:934
+#: ../src/core/gui/PageView.cpp:939
 msgid "Add missing page"
 msgstr "കാണാതായ താൾ ചേർക്കുക"
 
@@ -133,11 +133,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
 msgstr "ഓഡിയോ ഫോൾഡർ സജ്ജമാക്കിയില്ല/അസാധുവാണ്! ആയതിനാൽ റെക്കോർഡിംഗ് പ്രവർത്തനയോഗ്യമല്ല! ദയവായി ശരിയായ റെക്കോർഡിങ് ഫോൾഡർ \"മുൻഗണനകൾ (Preferences) > ഓഡിയോ റെക്കോർഡിങ് (Audio recording)\" വഴി സജ്ജമാക്കുക"
 
-#: ../src/core/control/Control.cpp:257
+#: ../src/core/control/Control.cpp:258
 msgid "Autosave failed with an error: {1}"
 msgstr "ഓട്ടോസേവ് ഒരു പിശക് മൂലം പരാജയപ്പെട്ടു: {1}"
 
-#: ../src/core/control/Control.cpp:237
+#: ../src/core/control/Control.cpp:238
 msgid "Autosave renamed from {1} to {2}"
 msgstr "ഓട്ടോസേവ് നാമം {1}-ൽ നിന്നും {2} ആയി മാറ്റിയിരിക്കുന്നു"
 
@@ -151,7 +151,7 @@ msgid "Back"
 msgstr "പിന്നോട്ട്"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:197
-#: ../src/core/model/XojPage.cpp:168
+#: ../src/core/model/XojPage.cpp:169
 msgid "Background"
 msgstr "പശ്ചാത്തലം"
 
@@ -167,9 +167,9 @@ msgstr "മുന്നിലേക്ക് കൊണ്ടുവരിക"
 msgid "Built on"
 msgstr "നിർമിതമായത്"
 
-#: ../src/core/control/Control.cpp:2339 ../src/core/control/Control.cpp:2823
+#: ../src/core/control/Control.cpp:2340 ../src/core/control/Control.cpp:2824
 #: ../src/core/control/XournalMain.cpp:188
-#: ../src/core/gui/sidebar/Sidebar.cpp:94
+#: ../src/core/gui/sidebar/Sidebar.cpp:93
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
@@ -205,7 +205,7 @@ msgstr "\"{1}\" നിറം അജ്ഞാതമാണ് (നിർദിഷ�
 msgid "Compass"
 msgstr "കോമ്പസ്"
 
-#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:169
+#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
 msgstr "ഉള്ളടക്കം"
 
@@ -229,11 +229,11 @@ msgid "Could not create folder: {1}\n"
 msgstr "ഫോൾഡർ നിർമിക്കാൻ സാധിച്ചില്ല: {1}\n"
 "പിശകോടെ പരാജയപ്പെട്ടു: {2}"
 
-#: ../src/core/control/LatexController.cpp:341
+#: ../src/core/control/LatexController.cpp:342
 msgid "Could not load LaTeX PDF file"
 msgstr "ലാറ്റെക് (LaTeX) പി. ഡി. എഫ്. (PDF) ഫയൽ തുറക്കാൻ സാധിച്ചില്ല"
 
-#: ../src/core/control/LatexController.cpp:335
+#: ../src/core/control/LatexController.cpp:336
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "ലാറ്റെക് (LaTeX) പി. ഡി. എഫ്. (PDF) ഫയൽ തുറക്കാൻ സാധിച്ചില്ല: {1}"
 
@@ -285,21 +285,21 @@ msgstr "ചിത്രം വായിക്കാൻ സാധിച്ചി�
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "ക്ലോൺ ചെയ്ത പശ്ചാത്തല ചിത്രത്തെ സംബന്ധിച്ച താളിന്റെ സംഖ്യ വായിച്ചെടുക്കാൻ സാധിച്ചില്ല: {1}."
 
-#: ../src/core/undo/UndoRedoHandler.cpp:143
+#: ../src/core/undo/UndoRedoHandler.cpp:144
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "\"{1}\" വീണ്ടും ചെയ്യാൻ സാധിച്ചില്ല\n"
 "എന്തോ തകരാർ സംഭവിച്ചു... ദയവായി ബഗ്ഗ്‌ റിപ്പോർട്ട് എഴുതുക…"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:179
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:180
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
 msgstr "ഉപകരണ ഘടകം ടൂൾബാർ {1}-ലെ {2}-ആം സ്ഥാനത്തു നിന്നും നീക്കം ചെയ്യാൻ സാധിച്ചില്ല"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:174
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:175
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr "ഉപകരണ ഘടകം {1} ടൂൾബാർ {2}-ലെ {3}-ആം സ്ഥാനത്തു നിന്നും നീക്കം ചെയ്യാൻ സാധിച്ചില്ല"
 
-#: ../src/core/control/Control.cpp:248
+#: ../src/core/control/Control.cpp:249
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "ഓട്ടോസേവ് ഫയൽ നാമം \"{1}\"-ൽ നിന്നും \"{2}\"-ലേക്ക് തിരുത്താൻ സാധിച്ചില്ല: {3}"
 
@@ -311,7 +311,7 @@ msgstr ".ടെക്സ് ഫയൽ സേവ് ചെയ്യാൻ സാ�
 msgid "Could not start {1}: {2} (exit code: {3})"
 msgstr "{1} ആരംഭിക്കാൻ സാധിച്ചില്ല: {2} (നിർഗമന കോഡ്: {3})"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:114
+#: ../src/core/undo/UndoRedoHandler.cpp:115
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "\"{1}\" പഴയപടിയാക്കാൻ സാധിച്ചില്ല\n"
@@ -378,11 +378,11 @@ msgstr "പാളി നീക്കം ചെയ്യുക"
 msgid "Delete this layer"
 msgstr "ഈ പാളി നീക്കം ചെയ്യുക"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Delete this page"
 msgstr "ഈ താൾ നീക്കം ചെയ്യുക"
 
-#: ../src/core/control/Control.cpp:2820
+#: ../src/core/control/Control.cpp:2821
 msgid "Discard"
 msgstr "ഒഴിവാക്കുക"
 
@@ -390,7 +390,7 @@ msgstr "ഒഴിവാക്കുക"
 msgid "Display advanced export options"
 msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവിധാനങ്ങൾ കാണിക്കുക"
 
-#: ../src/core/control/Control.cpp:2252
+#: ../src/core/control/Control.cpp:2253
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -400,7 +400,7 @@ msgstr "ഓട്ടോസേവ് ചെയ്ത ഫയലുകൾ തുറ
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം തിരുത്തരുത്! അവ പിശകുകൾക്ക് കാരണമാകും!"
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "Document file was removed."
 msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
@@ -515,7 +515,7 @@ msgstr "സ്ട്രോക്ക് മായ്ക്കുക"
 msgid "Eraser"
 msgstr "ഇറേസർ"
 
-#: ../src/core/control/Control.cpp:2543
+#: ../src/core/control/Control.cpp:2544
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്നതിൽ പിശക് \"{1}\"\n"
@@ -525,7 +525,7 @@ msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്�
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "ഗ്ലേഡ് ഫയൽ \"{1}\" ലോഡ് ചെയ്യുന്നതിൽ പിശക് സംഭവിച്ചു (\"{2}\" ലോഡ് ചെയ്യാൻ ശ്രമിക്കൂ)"
 
-#: ../src/core/control/Control.cpp:2370
+#: ../src/core/control/Control.cpp:2371
 msgid "Error opening file \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
@@ -657,7 +657,7 @@ msgstr "ലാറ്റെക് (LaTeX) ഉത്പാദിപ്പിക്
 msgid "Failed to parse LaTeX generator path: {1}"
 msgstr "ലാറ്റെക് (LaTeX) ഉത്പാദിപ്പിക്കുന്ന വസ്തുവിന്റെ പാത വായിച്ചെടുക്കുന്നതിൽ പരാജയപ്പെട്ടു: {1}"
 
-#: ../src/core/control/LatexController.cpp:81
+#: ../src/core/control/LatexController.cpp:82
 msgid "Failed to read global template file. Please check your settings."
 msgstr "ആഗോള ടെമ്പ്ലേറ്റ് ഫയൽ വായിക്കുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക."
 
@@ -716,11 +716,11 @@ msgstr "Xournalpp-യുടെ പതിപ്പ് ലഭിക്കുക"
 msgid "Git commit"
 msgstr "ഗിറ്റ് കമ്മിറ്റ്"
 
-#: ../src/core/control/LatexController.cpp:76
+#: ../src/core/control/LatexController.cpp:77
 msgid "Global template file does not exist. Please check your settings."
 msgstr "ആഗോള ടെമ്പ്ലേറ്റ് നിലവിലില്ല. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക."
 
-#: ../src/core/control/LatexController.cpp:87
+#: ../src/core/control/LatexController.cpp:88
 msgid "Global template file is not a regular file. Please check your settings. "
 msgstr "ആഗോള ടെമ്പ്ലേറ്റ് ഒരു സാധാരണ ഫയൽ അല്ല. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക. "
 
@@ -791,15 +791,15 @@ msgstr "ചിത്രങ്ങൾ"
 msgid "Insert a copy of the current layer below"
 msgstr "നിലവിലുള്ള പാളിയുടെ പകർപ്പ് താഴേക്ക് ചേർക്കുക"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Insert a copy of the current page below"
 msgstr "നിലവിലുള്ള താളിന്റെ പകർപ്പ് താഴേക്ക് ചേർക്കുക"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:95
+#: ../src/core/gui/sidebar/Sidebar.cpp:94
 msgid "Insert after current page"
 msgstr "നിലവിലുള്ള താളിനു ശേഷം ചേർക്കുക"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:96
+#: ../src/core/gui/sidebar/Sidebar.cpp:95
 msgid "Insert at end"
 msgstr "അവസാനം ചേർക്കുക"
 
@@ -840,7 +840,7 @@ msgstr "താളിലേക്ക് ചാടുക (ആദ്യത്തെ
 msgid "LaTeX editor theme:"
 msgstr "ലാറ്റെക് (LaTeX) എഡിറ്ററിന്റെ തീം:"
 
-#: ../src/core/control/LatexController.cpp:244
+#: ../src/core/control/LatexController.cpp:245
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
 msgstr "ലാറ്റെക് (LaTeX) ഉത്‌പാദക സംവിധാനം ഒരു പിശക് നേരിട്ടു: {1} (നിർഗമന കോഡ്: {2})"
 
@@ -864,7 +864,7 @@ msgstr "പാളി {1}"
 msgid "Layerstack Preview"
 msgstr "പാളികളുടെ കൂട്ടം പ്രിവ്യു"
 
-#: ../src/core/gui/PageView.cpp:869
+#: ../src/core/gui/PageView.cpp:874
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -923,7 +923,7 @@ msgstr "ഉപകരണങ്ങൾ ഒന്നുമില്ല"
 msgid "No pages to export!"
 msgstr "എക്സ്പോർട്ട് ചെയ്യാനായി താളുകൾ ഇല്ല!"
 
-#: ../src/core/control/Control.cpp:1470
+#: ../src/core/control/Control.cpp:1471
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "കൂട്ടിച്ചേർക്കാനായി പിഡിഎഫ് താളുകൾ ലഭ്യമല്ല. നിങ്ങൾ ഒരിക്കൽ കൂടി ഡോക്യുമെന്റ് തുറക്കേണ്ടതായി വരും."
 
@@ -936,7 +936,7 @@ msgid "Normal drawing"
 msgstr "സാധാരണ വര"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:184
-#: ../src/core/plugin/Plugin.cpp:265 ../src/core/plugin/Plugin.cpp:288
+#: ../src/core/plugin/Plugin.cpp:266 ../src/core/plugin/Plugin.cpp:289
 msgid "OK"
 msgstr "ശരി"
 
@@ -1001,7 +1001,7 @@ msgstr "പിഎൻജി ഗ്രാഫിക്സ്"
 msgid "Page"
 msgstr "താൾ"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:85
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:86
 msgid "Page Preview"
 msgstr "താളിന്റെ പ്രീവ്യൂ"
 
@@ -1077,28 +1077,28 @@ msgstr "പ്രിൻ്റ് ചെയ്യുക"
 msgid "Record Audio / Stop Recording"
 msgstr "ഓഡിയോ റെക്കോർഡ് ചെയ്യുക/നിറുത്തുക"
 
-#: ../src/core/control/Control.cpp:1016
+#: ../src/core/control/Control.cpp:1017
 msgid "Recorder could not be started."
 msgstr "റെക്കോർഡർ തുടങ്ങാൻ സാധിച്ചില്ല."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:426
-#: ../src/core/undo/UndoRedoHandler.cpp:194
+#: ../src/core/undo/UndoRedoHandler.cpp:195
 msgid "Redo"
 msgstr "വീണ്ടും ചെയ്യുക"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:189
+#: ../src/core/undo/UndoRedoHandler.cpp:190
 msgid "Redo: "
 msgstr "വീണ്ടും ചെയ്യുക: "
 
-#: ../src/core/control/Control.cpp:2338
+#: ../src/core/control/Control.cpp:2339
 msgid "Remove PDF Background"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം നീക്കം ചെയ്യുക"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:170
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:171
 msgid "Removed tool item from Toolbar {1} ID {2}"
 msgstr "ടൂൾബാർ {1} ID {2}-ൽ നിന്നും ടൂൾ തരം നീക്കം ചെയ്തു"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:168
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:169
 msgid "Removed tool item {1} from Toolbar {2} ID {3}"
 msgstr "ടൂൾബാർ {2} ID {3}-ൽ നിന്നും ടൂൾ തരം {1} നീക്കം ചെയ്തു"
 
@@ -1142,16 +1142,16 @@ msgstr "എസ് വി ജി (SVG) ഗ്രാഫിക്സ്"
 msgid "Sample LaTeX file generated successfully."
 msgstr "ഉദാഹരണ (ലാറ്റെക്) LaTeX ഫയൽ വിജയകരമായി ഉത്പാദിപ്പിച്ചു."
 
-#: ../src/core/control/Control.cpp:2815 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2816 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:415
 msgid "Save"
 msgstr "സേവ്"
 
-#: ../src/core/control/Control.cpp:2815
+#: ../src/core/control/Control.cpp:2816
 msgid "Save As..."
 msgstr "സേവ് തരം..."
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:85
 msgid "Save File"
 msgstr "ഫയൽ സേവ്"
@@ -1169,7 +1169,7 @@ msgstr "ഫയൽ സേവ് ചെയ്യുന്നതിനിടെ പ
 msgid "Scale"
 msgstr "സ്കെയിൽ"
 
-#: ../src/core/gui/PageView.cpp:932
+#: ../src/core/gui/PageView.cpp:937
 msgid "Scroll to page {1}"
 msgstr "{1}-ആം താളിലേക്ക് സ്ക്രോൾ ചെയ്യുക"
 
@@ -1253,7 +1253,7 @@ msgstr "മണ്ഡലം തിരഞ്ഞെടുക്കുക"
 msgid "Select Text from pdf"
 msgstr "പിഡിഎഫിൽ നിന്നും ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/control/Control.cpp:2337
+#: ../src/core/control/Control.cpp:2338
 msgid "Select another PDF"
 msgstr "മറ്റൊരു പിഡിഎഫ് തിരഞ്ഞെടുക്കുക"
 
@@ -1388,11 +1388,11 @@ msgstr "നിലവിലെ പാളി മുകളിലെ പാളിയ
 msgid "Swap the current layer with the one below"
 msgstr "നിലവിലെ പാളി താഴത്തെ പാളിയുമായി കൈമാറുക"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:79
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
 msgid "Swap the current page with the one above"
 msgstr "നിലവിലെ താൾ മുകളിലത്തേതുമായി കൈമാറുക"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
 msgid "Swap the current page with the one below"
 msgstr "നിലവിലെ താൾ താഴത്തേതുമായി കൈമാറുക"
 
@@ -1430,11 +1430,11 @@ msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്�
 msgid "Text not found, searched on all pages"
 msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്ല, എല്ലാ താളുകളിലും തിരഞ്ഞു"
 
-#: ../src/core/control/Control.cpp:1260
+#: ../src/core/control/Control.cpp:1261
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2314
+#: ../src/core/control/Control.cpp:2315
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
@@ -1442,7 +1442,7 @@ msgstr ""
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
-#: ../src/core/control/Control.cpp:2317
+#: ../src/core/control/Control.cpp:2318
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം.\n"
@@ -1452,7 +1452,7 @@ msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്ത�
 msgid "The check for overwriting the background failed with:\n"
 msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന്നതിനു വേണ്ടിയുള്ള പരിശോധനയിൽ ഇത് സഹിതം പരാജയപ്പെട്ടു:\n"
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2379
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "ഇപ്പോൾ തുറക്കാൻ ശ്രമിക്കുന്ന ഫയലിന്റെ പതിപ്പ് Xournal++ പിന്തുണയ്ക്കുന്ന പതിപ്പിനേക്കാൾ പുതുതാണ്. ആയതിനാൽ ശരിയായ വിധം ഫയൽ പ്രവർത്തിച്ചേക്കണമെന്നില്ല. എന്തുതന്നെയായാലും ഫയൽ തുറക്കണോ?"
 
@@ -1472,7 +1472,7 @@ msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക�
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "ഫയൽ നേരായ വിധത്തിലുള്ള .എക്സ്ഓപിപി (.xopp) ഫയൽ അല്ല (പതിപ്പിന്റെ സ്ട്രിംഗ് അസാധുവാണ്): \"{1}\""
 
-#: ../src/core/control/LatexController.cpp:303
+#: ../src/core/control/LatexController.cpp:304
 msgid "The formula is empty when rendered or invalid."
 msgstr "റെൻഡർ ചെയ്യുമ്പോൾ ഫോർമുല ശൂന്യമാണ്/അസാധുവാണ്."
 
@@ -1496,11 +1496,11 @@ msgstr "സഹായം ലഭ്യമാക്കുന്നതിൽ ഒര�
 msgid "Thick"
 msgstr "കനത്തിലുള്ളത്"
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "This document is not saved yet."
 msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ് ചെയ്യപ്പെട്ടിട്ടില്ല."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:166
+#: ../src/core/control/PageBackgroundChangeController.cpp:167
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "ഈ ചിത്രം പ്രദർശിപ്പിക്കാൻ സാധിച്ചില്ല. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: {1}"
 
@@ -1528,20 +1528,20 @@ msgstr "അടിയന്തിരമായി ഇപ്പോൾ തുറന�
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr "{1}-ലുള്ള ആഗോള ടെമ്പ്ലേറ്റ് ഫയൽ തുറക്കാൻ സാധിക്കുന്നില്ല. ആ ഫയൽ നിലവിലുണ്ടോ?"
 
-#: ../src/core/gui/PageView.cpp:375
+#: ../src/core/gui/PageView.cpp:380
 msgid "Unable to play audio recording {1}"
 msgstr "ഓഡിയോ റെക്കോർഡിങ് പ്രവർത്തിപ്പിക്കാൻ സാധിക്കുന്നില്ല {1}"
 
-#: ../src/core/control/Control.cpp:1484
+#: ../src/core/control/Control.cpp:1485
 msgid "Unable to retrieve pdf page."
 msgstr "പിഡിഎഫ് താൾ ലഭ്യമാക്കാൻ സാധിക്കുന്നില്ല."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
-#: ../src/core/undo/UndoRedoHandler.cpp:182
+#: ../src/core/undo/UndoRedoHandler.cpp:183
 msgid "Undo"
 msgstr "പഴയപടിയാക്കുക"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:177
+#: ../src/core/undo/UndoRedoHandler.cpp:178
 msgid "Undo: "
 msgstr "പഴയപടിയാക്കുക: "
 
@@ -1581,7 +1581,7 @@ msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് ക്യാ�
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് തരം: \"{1}\", പേന ആണെന്ന് അനുമാനിക്കുന്നു"
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2700
 msgid "Unsaved Document"
 msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്റ്"
 
@@ -1589,7 +1589,7 @@ msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്�
 msgid "Unsupported graphics format: "
 msgstr "നിരവലംബമായ ഗ്രാഫിക്സ് തരം: "
 
-#: ../src/core/control/Control.cpp:2335
+#: ../src/core/control/Control.cpp:2336
 msgid "Use proposed PDF"
 msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപയോഗിക്കുക"
 
@@ -1645,7 +1645,7 @@ msgstr "Xournal ഫയലുകൾ"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ കഴിഞ്ഞ തവണ പ്രവർത്തന രഹിതമായിരുന്നു. ഏറ്റവും അവസാനം തിരുത്തിക്കൊണ്ടിരുന്ന ഫയൽ തിരികെ കൊണ്ടുവരേണ്ടതുണ്ടോ?"
 
-#: ../src/core/control/Control.cpp:2648
+#: ../src/core/control/Control.cpp:2649
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ ഫയലുകൾ"
@@ -1655,7 +1655,7 @@ msgstr "Xournal++ ഫയലുകൾ"
 msgid "Xournal++ template"
 msgstr "Xournal++ ടെമ്പ്ലേറ്റ്"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:201
+#: ../src/core/control/PageBackgroundChangeController.cpp:202
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കുന്നതിന് വേണ്ടി പിഡിഫ് താളുകൾ ഇല്ല. പ്രവൃത്തി ഉപേക്ഷിക്കുക. മറ്റൊരു പശ്ചാത്തല തരം ദയവായി തിരഞ്ഞെടുക്കുക: മെനു \"ജേർണൽ\" → \"താൾ ടെമ്പ്ലേറ്റ് കോൺഫിഗർ ചെയ്യുക\"."
@@ -1664,7 +1664,7 @@ msgstr "നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കു�
 msgid "You're using \"{1}/{2}\" branch."
 msgstr "നിങ്ങൾ ഉപയോഗിക്കുന്നത് \"{1}/{2}\" ബ്രാഞ്ച് ആണ്."
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:86
+#: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Your current document does not contain PDF Page no {1}\n"
 "Would you like to insert this page?\n\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
@@ -1691,7 +1691,7 @@ msgstr "ചെറുതാക്കുക"
 msgid "Zoom to 100%"
 msgstr "100% വലുപ്പത്തിലേക്ക് എത്തിക്കുക"
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1704,7 +1704,7 @@ msgstr "_ഉപേക്ഷിക്കുക"
 msgid "_Open"
 msgstr "_തുറക്കുക"
 
-#: ../src/core/control/Control.cpp:2643
+#: ../src/core/control/Control.cpp:2644
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
 msgid "_Save"
@@ -1750,7 +1750,7 @@ msgstr "ഘടകങ്ങൾ"
 msgid "eraser"
 msgstr "ഇറേസർ"
 
-#: ../src/core/control/Control.cpp:2266
+#: ../src/core/control/Control.cpp:2267
 msgid "file: {1}"
 msgstr "ഫയൽ: {1}"
 
