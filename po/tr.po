@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-06 02:08\n"
+"PO-Revision-Date: 2023-08-06 03:04\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -1920,7 +1920,29 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Y\t\tYear (e.g. 2001)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\tA % sign"
-msgstr ""
+msgstr "%a\t\tKısaltılmış hafta içi adı (ör. Per)\n"
+"%A\t\tHafta içi tam ad (ör. Perşembe)\n"
+"%b\t\tKısaltılmış ay adı (ör. Ağu)\n"
+"%B\t\tTam ay adı (ör. Ağustos)\n"
+"%c\t\tTarih ve saat gösterimi (ör. Perş 23 Ağu 14:55:02 2001)\n"
+"%d\t\tAyın günü (01-31)\n"
+"%F\t\tTarih gösterimi (ör. 2001-08-23)\n"
+"%H\t\t24s biçiminde saat (00-23)\n"
+"%I\t\t12s biçiminde saat (01-12)\n"
+"%j\t\tYılın günü (001-366)\n"
+"%m\tOndalık sayı olarak ay (01-12)\n"
+"%M\tDakika (00-59)\n"
+"%p\t\tAM veya PM gösterilme (ör. PM)\n"
+"%S\t\tsecond (00-61)\n"
+"%U\t\tHafta başı Pazar olan hafta sayısı (00-53)\n"
+"%w\t\tHafta içi ondalık sayı olarak, Pazar günü 0 olarak (0-6)\n"
+"%W\tHafta başı Pazartesi olan hafta sayısı (00-53)\n"
+"%x\t\tTarih gösterimi (ör. 08/23/01)\n"
+"%X\t\tZaman gösterimi (ör. 14:55:02)\n"
+"%y\t\tYıl, son iki basamak (00-99)\n"
+"%Y\t\tYıl (ör. 2001)\n"
+"%Z\t\tSaat dilimi adı veya kısaltması (ör. CDT)\n"
+"%%\tBir % işareti"
 
 #: ../ui/settings.glade:734
 msgid "%{name}\tThe name of the exported document\n"
@@ -1947,7 +1969,30 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Y\t\t\tYear (e.g. 2001)\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\tA % sign"
-msgstr ""
+msgstr "%{name}\tDışa aktarılan dökümanın adı\n"
+"%a\t\t\tKısaltılmış hafta içi adı (ör. Per)\n"
+"%A\t\t\tHafta içi tam ad (ör. Perşembe)\n"
+"%b\t\t\tKısaltılmış ay adı (ör. Ağu)\n"
+"%B\t\t\tTam ay adı (ör. Ağustos)\n"
+"%c\t\t\tTarih ve saat gösterimi (ör. Perş 23 Ağu 14:55:02 2001)\n"
+"%d\t\t\tAyın günü (01-31)\n"
+"%F\t\t\tTarih gösterimi (ör. 2001-08-23)\n"
+"%H\t\t\t24s biçiminde saat (00-23)\n"
+"%I\t\t\t12s biçiminde saat (01-12)\n"
+"%j\t\t\tYılın günü (001-366)\n"
+"%m\t\tOndalık sayı olarak ay (01-12)\n"
+"%M\t\tDakika (00-59)\n"
+"%p\t\t\tAM veya PM gösterilme (ör. PM)\n"
+"%S\t\t\tsecond (00-61)\n"
+"%U\t\t\tHafta başı Pazar olan hafta sayısı (00-53)\n"
+"%w\t\t\tHafta içi ondalık sayı olarak, Pazar günü 0 olarak (0-6)\n"
+"%W\t\tHafta başı Pazartesi olan hafta sayısı (00-53)\n"
+"%x\t\t\tTarih gösterimi (ör. 08/23/01)\n"
+"%X\t\t\tZaman gösterimi (ör. 14:55:02)\n"
+"%y\t\t\tYıl, son iki basamak (00-99)\n"
+"%Y\t\t\tYıl (ör. 2001)\n"
+"%Z\t\t\tSaat dilimi adı veya kısaltması (ör. CDT)\n"
+"%%\t\tBir % işareti"
 
 #: ../ui/settings.glade:3233
 msgid "(requires restart)"
@@ -2141,7 +2186,7 @@ msgstr "<i>Kalemin bir düğmesine basılırsa veya silgi kullanılırsa seçile
 
 #: ../ui/settings.glade:663
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
-msgstr ""
+msgstr "<i>Bir dökümanı PDF olarak dışa aktarırsanız bu ad önerilecektir.</i>"
 
 #: ../ui/settings.glade:492
 msgid "<i>This name will be proposed if you save a new document.</i>"
@@ -2262,7 +2307,7 @@ msgstr "Otomatik Yükleme"
 
 #: ../ui/settings.glade:4914
 msgid "Automatically Add Empty Last Page (excluding PDFs)"
-msgstr ""
+msgstr "Otomatikman Boş bir Son Sayfa Ekle (PDF'ler hariç)"
 
 #: ../ui/settings.glade:462
 msgid "Autosaving"
@@ -2286,7 +2331,7 @@ msgstr "Temel Hız"
 
 #: ../ui/settings.glade:3713
 msgid "Below preview"
-msgstr ""
+msgstr "Ön izlemenin altı"
 
 #: ../ui/settings.glade:3347
 msgctxt "stylus cursor uses a big pen icon"
@@ -2347,7 +2392,7 @@ msgstr "Daire Rengi"
 
 #: ../ui/settings.glade:3714
 msgid "Circle background"
-msgstr ""
+msgstr "Çember arka plan"
 
 #: ../ui/settings.glade:4206
 msgid "Clear cached paged while scrolling"
@@ -2427,7 +2472,7 @@ msgstr "Varsayılan LaTeX Metni"
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
-msgstr ""
+msgstr "Varsayılan Pdf dışa aktarma adı"
 
 #: ../ui/settings.glade:637
 msgid "Default Save Name"
@@ -3033,7 +3078,7 @@ msgstr "_Önceki Açıklamalı Sayfa"
 
 #: ../ui/settings.glade:3697
 msgid "Page numbering  "
-msgstr ""
+msgstr "Sayfa numaralandırma  "
 
 #: ../ui/exportSettings.glade:206
 msgid "Pages:"
@@ -3291,7 +3336,7 @@ msgstr "Başlık çubuğunda dosyanın yolunu görüntüle"
 
 #: ../ui/settings.glade:3047
 msgid "Show page number in title bar"
-msgstr ""
+msgstr "Başlık çubuğunda sayfa sayısını göster"
 
 #: ../ui/settings.glade:3624
 msgid "Show sidebar on the right side"
@@ -3303,7 +3348,7 @@ msgstr "Sol tarafta dikey kaydırma çubuğunu göster"
 
 #: ../ui/settings.glade:3744
 msgid "Sidebar"
-msgstr ""
+msgstr "Kenar çubuğu"
 
 #: ../ui/settings.glade:1078
 msgid "Slower strokes are assigned a greater pressure than faster strokes, if pressure information is absent.\n\n"
@@ -3334,7 +3379,7 @@ msgstr "Bir Yakınlaştırma Adımı İçin Hız"
 
 #: ../ui/settings.glade:3715
 msgid "Square background"
-msgstr ""
+msgstr "Kare arka plan"
 
 #: ../ui/settingsButtonConfig.glade:130
 msgid "Standard"
@@ -3366,7 +3411,7 @@ msgstr "Stilus Düğmeleri"
 
 #: ../ui/settings.glade:2150
 msgid "Stylus-based eraser is visible"
-msgstr ""
+msgstr "Kalem tabanlı silgi görünür durumda"
 
 #: ../ui/settings.glade:5439
 msgid "Successive (ms)"
@@ -3523,12 +3568,12 @@ msgstr "Dokunarak çizim yapılırken, sayfayı kaydırmaya yönelik olan iki pa
 #: ../ui/settings.glade:2168
 msgctxt "eraser is only visible when floating"
 msgid "When floating"
-msgstr ""
+msgstr "Hareket ederken"
 
 #: ../ui/settings.glade:2169
 msgctxt "eraser is only visible when touching the screen"
 msgid "When touching"
-msgstr ""
+msgstr "Dokunurken"
 
 #: ../ui/settings.glade:5579
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
@@ -3856,9 +3901,9 @@ msgstr "_Çok Kalın"
 
 #: ../ui/settings.glade:4879
 msgid "when drawing on last page"
-msgstr ""
+msgstr "son sayfada çizerken"
 
 #: ../ui/settings.glade:4864
 msgid "when scrolling to end of last page"
-msgstr ""
+msgstr "son sayfanın sonuna kaydırırken"
 
