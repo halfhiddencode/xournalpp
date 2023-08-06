@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-04 07:38\n"
+"POT-Creation-Date: 2023-08-06 11:11+0000\n"
+"PO-Revision-Date: 2023-08-06 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Бажаєте продовжити?"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2328
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -66,7 +66,7 @@ msgstr "<span foreground='red' size='x-large'>Відсутній необхід�
 "  Відсутній в Робочому Каталозі\n"
 "  Відсутній в {2}"
 
-#: ../src/core/gui/PageView.cpp:934
+#: ../src/core/gui/PageView.cpp:939
 msgid "Add missing page"
 msgstr "Додати відсутню сторінку"
 
@@ -135,11 +135,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "Тека з аудіо не задана чи не відповідна! Запис не працюватиме!\n"
 "Будь ласка, задайте теку для записів через \"Властивості > Запис аудіо\""
 
-#: ../src/core/control/Control.cpp:257
+#: ../src/core/control/Control.cpp:258
 msgid "Autosave failed with an error: {1}"
 msgstr "Автозбереження не вдалося з помилкою: {1}"
 
-#: ../src/core/control/Control.cpp:237
+#: ../src/core/control/Control.cpp:238
 msgid "Autosave renamed from {1} to {2}"
 msgstr "Автозбереження перейменовано з {1} в {2}"
 
@@ -153,7 +153,7 @@ msgid "Back"
 msgstr "Назад"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:197
-#: ../src/core/model/XojPage.cpp:168
+#: ../src/core/model/XojPage.cpp:169
 msgid "Background"
 msgstr "Тло"
 
@@ -169,9 +169,9 @@ msgstr "На передній план"
 msgid "Built on"
 msgstr "Побудований на"
 
-#: ../src/core/control/Control.cpp:2339 ../src/core/control/Control.cpp:2823
+#: ../src/core/control/Control.cpp:2340 ../src/core/control/Control.cpp:2824
 #: ../src/core/control/XournalMain.cpp:188
-#: ../src/core/gui/sidebar/Sidebar.cpp:94
+#: ../src/core/gui/sidebar/Sidebar.cpp:93
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -207,7 +207,7 @@ msgstr "Колір \"{1}\" невідомий (не визначено у спи
 msgid "Compass"
 msgstr "Компас"
 
-#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:169
+#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
 msgstr "Вміст"
 
@@ -231,11 +231,11 @@ msgid "Could not create folder: {1}\n"
 msgstr "Не вдалося створити теку: {1}\n"
 "Невдача з помилкою: {2}"
 
-#: ../src/core/control/LatexController.cpp:341
+#: ../src/core/control/LatexController.cpp:342
 msgid "Could not load LaTeX PDF file"
 msgstr "Не вдалося завантажити LaTeX PDF файл"
 
-#: ../src/core/control/LatexController.cpp:335
+#: ../src/core/control/LatexController.cpp:336
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "Не вдалося завантажити LaTeX PDF файл: {1}"
 
@@ -287,20 +287,20 @@ msgstr ""
 msgid "Could not read page number for cloned background image: {1}."
 msgstr ""
 
-#: ../src/core/undo/UndoRedoHandler.cpp:143
+#: ../src/core/undo/UndoRedoHandler.cpp:144
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr ""
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:179
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:180
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
 msgstr ""
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:174
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:175
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:248
+#: ../src/core/control/Control.cpp:249
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr ""
 
@@ -312,7 +312,7 @@ msgstr "Неможливо зберегти .tex файл : {1}"
 msgid "Could not start {1}: {2} (exit code: {3})"
 msgstr ""
 
-#: ../src/core/undo/UndoRedoHandler.cpp:114
+#: ../src/core/undo/UndoRedoHandler.cpp:115
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr ""
@@ -378,11 +378,11 @@ msgstr "Видалити шар"
 msgid "Delete this layer"
 msgstr "Вилучити цей шар"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Delete this page"
 msgstr "Видалити цю сторінку"
 
-#: ../src/core/control/Control.cpp:2820
+#: ../src/core/control/Control.cpp:2821
 msgid "Discard"
 msgstr "Відмінити"
 
@@ -390,7 +390,7 @@ msgstr "Відмінити"
 msgid "Display advanced export options"
 msgstr "Відобразити додаткові параметри експорту"
 
-#: ../src/core/control/Control.cpp:2252
+#: ../src/core/control/Control.cpp:2253
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -400,7 +400,7 @@ msgstr ""
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "Document file was removed."
 msgstr "Файл документу видалено."
 
@@ -515,7 +515,7 @@ msgstr "Стерти штрих"
 msgid "Eraser"
 msgstr "Гумка"
 
-#: ../src/core/control/Control.cpp:2543
+#: ../src/core/control/Control.cpp:2544
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Помилка анотації PDF-файлу \"{1}\"\n"
@@ -525,7 +525,7 @@ msgstr "Помилка анотації PDF-файлу \"{1}\"\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Помилка при завантаженні файлу glade \"{1}\" (спробуйте завантажити \"{2}\")"
 
-#: ../src/core/control/Control.cpp:2370
+#: ../src/core/control/Control.cpp:2371
 msgid "Error opening file \"{1}\""
 msgstr "Помилка відкриття файлу \"{1}\""
 
@@ -646,7 +646,7 @@ msgstr ""
 msgid "Failed to parse LaTeX generator path: {1}"
 msgstr ""
 
-#: ../src/core/control/LatexController.cpp:81
+#: ../src/core/control/LatexController.cpp:82
 msgid "Failed to read global template file. Please check your settings."
 msgstr ""
 
@@ -704,11 +704,11 @@ msgstr "Отримати версію xournalpp"
 msgid "Git commit"
 msgstr "Git-коміт"
 
-#: ../src/core/control/LatexController.cpp:76
+#: ../src/core/control/LatexController.cpp:77
 msgid "Global template file does not exist. Please check your settings."
 msgstr ""
 
-#: ../src/core/control/LatexController.cpp:87
+#: ../src/core/control/LatexController.cpp:88
 msgid "Global template file is not a regular file. Please check your settings. "
 msgstr ""
 
@@ -779,15 +779,15 @@ msgstr "Зображення"
 msgid "Insert a copy of the current layer below"
 msgstr "Вставити копію поточного шару нижче"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Insert a copy of the current page below"
 msgstr "Вставити копію поточної сторінки нижче"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:95
+#: ../src/core/gui/sidebar/Sidebar.cpp:94
 msgid "Insert after current page"
 msgstr "Вставити після поточної сторінки"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:96
+#: ../src/core/gui/sidebar/Sidebar.cpp:95
 msgid "Insert at end"
 msgstr "Вставити в кінці"
 
@@ -828,7 +828,7 @@ msgstr "Перейти до сторінки (перша сторінка: 1)"
 msgid "LaTeX editor theme:"
 msgstr "Тема редактора LaTeX:"
 
-#: ../src/core/control/LatexController.cpp:244
+#: ../src/core/control/LatexController.cpp:245
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
 msgstr "Latex генерація зіткнулася з помилкою: {1} (код виходу: {2})"
 
@@ -852,7 +852,7 @@ msgstr "Шар {1}"
 msgid "Layerstack Preview"
 msgstr "Попередній перегляд стеку шарів"
 
-#: ../src/core/gui/PageView.cpp:869
+#: ../src/core/gui/PageView.cpp:874
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -911,7 +911,7 @@ msgstr "Пристрій відсутній"
 msgid "No pages to export!"
 msgstr "Відсутні сторінки для експорту!"
 
-#: ../src/core/control/Control.cpp:1470
+#: ../src/core/control/Control.cpp:1471
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Немає сторінок pdf, доступних для додавання. Вам може знадобитися заново відкрити документ."
 
@@ -924,7 +924,7 @@ msgid "Normal drawing"
 msgstr "Нормальний малюнок"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:184
-#: ../src/core/plugin/Plugin.cpp:265 ../src/core/plugin/Plugin.cpp:288
+#: ../src/core/plugin/Plugin.cpp:266 ../src/core/plugin/Plugin.cpp:289
 msgid "OK"
 msgstr "OK"
 
@@ -991,7 +991,7 @@ msgstr "Зображення PNG"
 msgid "Page"
 msgstr "Сторінка"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:85
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:86
 msgid "Page Preview"
 msgstr "Попередній перегляд"
 
@@ -1067,28 +1067,28 @@ msgstr "Друк"
 msgid "Record Audio / Stop Recording"
 msgstr "Запис аудіо / Зупинити запис"
 
-#: ../src/core/control/Control.cpp:1016
+#: ../src/core/control/Control.cpp:1017
 msgid "Recorder could not be started."
 msgstr "Неможливо запустити запис."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:426
-#: ../src/core/undo/UndoRedoHandler.cpp:194
+#: ../src/core/undo/UndoRedoHandler.cpp:195
 msgid "Redo"
 msgstr "Повторити"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:189
+#: ../src/core/undo/UndoRedoHandler.cpp:190
 msgid "Redo: "
 msgstr "Повторити: "
 
-#: ../src/core/control/Control.cpp:2338
+#: ../src/core/control/Control.cpp:2339
 msgid "Remove PDF Background"
 msgstr "Видалити тло PDF"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:170
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:171
 msgid "Removed tool item from Toolbar {1} ID {2}"
 msgstr ""
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:168
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:169
 msgid "Removed tool item {1} from Toolbar {2} ID {3}"
 msgstr ""
 
@@ -1132,16 +1132,16 @@ msgstr "Графіка SVG"
 msgid "Sample LaTeX file generated successfully."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2815 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2816 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:415
 msgid "Save"
 msgstr "Зберегти"
 
-#: ../src/core/control/Control.cpp:2815
+#: ../src/core/control/Control.cpp:2816
 msgid "Save As..."
 msgstr "Зберегти як..."
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:85
 msgid "Save File"
 msgstr "Зберегти Файл"
@@ -1159,7 +1159,7 @@ msgstr "Помилка зберігання файлу: {1}"
 msgid "Scale"
 msgstr "Масштаб"
 
-#: ../src/core/gui/PageView.cpp:932
+#: ../src/core/gui/PageView.cpp:937
 msgid "Scroll to page {1}"
 msgstr "Прокрутити до сторінки {1}"
 
@@ -1243,7 +1243,7 @@ msgstr ""
 msgid "Select Text from pdf"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2337
+#: ../src/core/control/Control.cpp:2338
 msgid "Select another PDF"
 msgstr ""
 
@@ -1376,11 +1376,11 @@ msgstr ""
 msgid "Swap the current layer with the one below"
 msgstr ""
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:79
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
 msgid "Swap the current page with the one above"
 msgstr ""
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
 msgid "Swap the current page with the one below"
 msgstr ""
 
@@ -1418,11 +1418,11 @@ msgstr ""
 msgid "Text not found, searched on all pages"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1260
+#: ../src/core/control/Control.cpp:1261
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2314
+#: ../src/core/control/Control.cpp:2315
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
@@ -1430,7 +1430,7 @@ msgstr ""
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2317
+#: ../src/core/control/Control.cpp:2318
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
@@ -1439,7 +1439,7 @@ msgstr ""
 msgid "The check for overwriting the background failed with:\n"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2379
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr ""
 
@@ -1459,7 +1459,7 @@ msgstr ""
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr ""
 
-#: ../src/core/control/LatexController.cpp:303
+#: ../src/core/control/LatexController.cpp:304
 msgid "The formula is empty when rendered or invalid."
 msgstr ""
 
@@ -1483,11 +1483,11 @@ msgstr ""
 msgid "Thick"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "This document is not saved yet."
 msgstr ""
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:166
+#: ../src/core/control/PageBackgroundChangeController.cpp:167
 msgid "This image could not be loaded. Error message: {1}"
 msgstr ""
 
@@ -1515,20 +1515,20 @@ msgstr ""
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr ""
 
-#: ../src/core/gui/PageView.cpp:375
+#: ../src/core/gui/PageView.cpp:380
 msgid "Unable to play audio recording {1}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1484
+#: ../src/core/control/Control.cpp:1485
 msgid "Unable to retrieve pdf page."
 msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
-#: ../src/core/undo/UndoRedoHandler.cpp:182
+#: ../src/core/undo/UndoRedoHandler.cpp:183
 msgid "Undo"
 msgstr ""
 
-#: ../src/core/undo/UndoRedoHandler.cpp:177
+#: ../src/core/undo/UndoRedoHandler.cpp:178
 msgid "Undo: "
 msgstr ""
 
@@ -1568,7 +1568,7 @@ msgstr ""
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2700
 msgid "Unsaved Document"
 msgstr ""
 
@@ -1576,7 +1576,7 @@ msgstr ""
 msgid "Unsupported graphics format: "
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2335
+#: ../src/core/control/Control.cpp:2336
 msgid "Use proposed PDF"
 msgstr ""
 
@@ -1632,7 +1632,7 @@ msgstr ""
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2648
+#: ../src/core/control/Control.cpp:2649
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr ""
@@ -1642,7 +1642,7 @@ msgstr ""
 msgid "Xournal++ template"
 msgstr ""
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:201
+#: ../src/core/control/PageBackgroundChangeController.cpp:202
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr ""
@@ -1651,7 +1651,7 @@ msgstr ""
 msgid "You're using \"{1}/{2}\" branch."
 msgstr ""
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:86
+#: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Your current document does not contain PDF Page no {1}\n"
 "Would you like to insert this page?\n\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
@@ -1677,7 +1677,7 @@ msgstr ""
 msgid "Zoom to 100%"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1690,7 +1690,7 @@ msgstr ""
 msgid "_Open"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2643
+#: ../src/core/control/Control.cpp:2644
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
 msgid "_Save"
@@ -1736,7 +1736,7 @@ msgstr ""
 msgid "eraser"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2266
+#: ../src/core/control/Control.cpp:2267
 msgid "file: {1}"
 msgstr ""
 
