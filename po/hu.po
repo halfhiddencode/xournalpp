@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-04 07:38\n"
+"POT-Creation-Date: 2023-08-06 11:11+0000\n"
+"PO-Revision-Date: 2023-08-06 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Kívánja folytatni?"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2328
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -66,7 +66,7 @@ msgstr "<span foreground='red' size='x-large'>A szükséges UI fájl hiányzik:\
 "  A munkakönyvtárban nem található\n"
 "  A {2} könyvtárban nem található"
 
-#: ../src/core/gui/PageView.cpp:934
+#: ../src/core/gui/PageView.cpp:939
 msgid "Add missing page"
 msgstr "Hiányzó oldal hozzáadása"
 
@@ -135,11 +135,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "A hangmappa nincs beállítva vagy érvénytelen! A felvétel nem fog működni!\n"
 "Kérjük, állítsa be a felvétel mappáját a „Beállítások > Hangfelvétel” menüpontban"
 
-#: ../src/core/control/Control.cpp:257
+#: ../src/core/control/Control.cpp:258
 msgid "Autosave failed with an error: {1}"
 msgstr "Az automatikus mentés során hiba lépett fel: {1}"
 
-#: ../src/core/control/Control.cpp:237
+#: ../src/core/control/Control.cpp:238
 msgid "Autosave renamed from {1} to {2}"
 msgstr "Az automatikus mentés átnevezve {1}-ról {2}-ra"
 
@@ -153,7 +153,7 @@ msgid "Back"
 msgstr "Vissza"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:197
-#: ../src/core/model/XojPage.cpp:168
+#: ../src/core/model/XojPage.cpp:169
 msgid "Background"
 msgstr "Háttér"
 
@@ -169,9 +169,9 @@ msgstr "Előrehozás"
 msgid "Built on"
 msgstr "Készítési időpont"
 
-#: ../src/core/control/Control.cpp:2339 ../src/core/control/Control.cpp:2823
+#: ../src/core/control/Control.cpp:2340 ../src/core/control/Control.cpp:2824
 #: ../src/core/control/XournalMain.cpp:188
-#: ../src/core/gui/sidebar/Sidebar.cpp:94
+#: ../src/core/gui/sidebar/Sidebar.cpp:93
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -207,7 +207,7 @@ msgstr "A(z) „{1}” szín ismeretlen (nincs definiálva az alapértelmezett s
 msgid "Compass"
 msgstr "Iránytű"
 
-#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:169
+#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
 msgstr "Tartalom"
 
@@ -231,11 +231,11 @@ msgid "Could not create folder: {1}\n"
 msgstr "A következő mappa nem hozható létre: {1}\n"
 "Hiba: {2}"
 
-#: ../src/core/control/LatexController.cpp:341
+#: ../src/core/control/LatexController.cpp:342
 msgid "Could not load LaTeX PDF file"
 msgstr "Nem sikerült a LaTeX PDF-fájl betöltése"
 
-#: ../src/core/control/LatexController.cpp:335
+#: ../src/core/control/LatexController.cpp:336
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "Nem sikerült a LaTeX PDF-fájl betöltése: {1}"
 
@@ -289,21 +289,21 @@ msgstr "A kép nem olvasható: {1}. Hibaüzenet: {2}"
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "A klónozott háttérkép {1} oldalszámának olvasása sikertelen."
 
-#: ../src/core/undo/UndoRedoHandler.cpp:143
+#: ../src/core/undo/UndoRedoHandler.cpp:144
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Az előrelépés nem sikerült „{1}”\n"
 "Valami nem sikerült… Kérem írjon hibajelentést…"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:179
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:180
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
 msgstr "Nem sikerült eltávolítani az eszközt az {1} eszköztár {2} pozíciójáról"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:174
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:175
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr "Nem sikerült eltávolítani a(z) {1} eszközt a(z) {2} eszköztár {3} pozíciójáról"
 
-#: ../src/core/control/Control.cpp:248
+#: ../src/core/control/Control.cpp:249
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "Nem sikerült átnevezni az automatikusan mentett fájlt erről: „{1}” erre: „{2}”: {3}"
 
@@ -315,7 +315,7 @@ msgstr "Nem sikerült elmenteni a .tex fájlt: {1}"
 msgid "Could not start {1}: {2} (exit code: {3})"
 msgstr "A(z) {1} elindítása sikertelen: {2} (visszatérési érték: {3})"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:114
+#: ../src/core/undo/UndoRedoHandler.cpp:115
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "A visszalépés nem sikerült „{1}”\n"
@@ -382,11 +382,11 @@ msgstr "Réteg törlése"
 msgid "Delete this layer"
 msgstr "Réteg törlése"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Delete this page"
 msgstr "Oldal törlése"
 
-#: ../src/core/control/Control.cpp:2820
+#: ../src/core/control/Control.cpp:2821
 msgid "Discard"
 msgstr "Módosítások elvetése"
 
@@ -394,7 +394,7 @@ msgstr "Módosítások elvetése"
 msgid "Display advanced export options"
 msgstr "A haladó exportálási lehetőségek megjelenítése"
 
-#: ../src/core/control/Control.cpp:2252
+#: ../src/core/control/Control.cpp:2253
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -406,7 +406,7 @@ msgstr "Ne nyissa meg az automatikusan mentett fájlokat. Felülíródhatnak!\n"
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Ne írja felül a PDF-hátterét! Ez hibákat okozhat!"
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "Document file was removed."
 msgstr "A dokumentumfájl eltávolításra került."
 
@@ -521,7 +521,7 @@ msgstr "Vonásírás kiradírozása"
 msgid "Eraser"
 msgstr "Radír"
 
-#: ../src/core/control/Control.cpp:2543
+#: ../src/core/control/Control.cpp:2544
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Hiba történt a(z) „{1}” PDF-fájl megjegyzése közben\n"
@@ -531,7 +531,7 @@ msgstr "Hiba történt a(z) „{1}” PDF-fájl megjegyzése közben\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Hiba a(z) „{1}” glade-fájl betöltése közben (próbálja meg betölteni a(z) „{2}” fájlt)"
 
-#: ../src/core/control/Control.cpp:2370
+#: ../src/core/control/Control.cpp:2371
 msgid "Error opening file \"{1}\""
 msgstr "Hiba történt a fájl megnyitása közben: {1}"
 
@@ -663,7 +663,7 @@ msgstr "Nem sikerült a LaTeX-létrehozó parancs értelmezése közben: {1}"
 msgid "Failed to parse LaTeX generator path: {1}"
 msgstr "Nem sikerült a LaTeX-létrehozó elérési útjának elemzése: {1}"
 
-#: ../src/core/control/LatexController.cpp:81
+#: ../src/core/control/LatexController.cpp:82
 msgid "Failed to read global template file. Please check your settings."
 msgstr "Nem sikerült beolvasni a globális sablonfájlt. Kérjük, ellenőrizze a beállításokat!"
 
@@ -722,11 +722,11 @@ msgstr "A xournalpp verzió lehívása"
 msgid "Git commit"
 msgstr "Git commit"
 
-#: ../src/core/control/LatexController.cpp:76
+#: ../src/core/control/LatexController.cpp:77
 msgid "Global template file does not exist. Please check your settings."
 msgstr "A globális sablonfájl nem létezik. Kérjük, ellenőrizze a beállításokat!"
 
-#: ../src/core/control/LatexController.cpp:87
+#: ../src/core/control/LatexController.cpp:88
 msgid "Global template file is not a regular file. Please check your settings. "
 msgstr "A globális sablonfájl nem szabályos. Kérjük, ellenőrizze a beállításokat! "
 
@@ -797,15 +797,15 @@ msgstr "Képek"
 msgid "Insert a copy of the current layer below"
 msgstr "Jelenlegi réteg másolatának beillesztése alulra"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Insert a copy of the current page below"
 msgstr "Jelenlegi oldal másolatának beillesztése alulra"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:95
+#: ../src/core/gui/sidebar/Sidebar.cpp:94
 msgid "Insert after current page"
 msgstr "Beszúrás a jelenlegi oldal után"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:96
+#: ../src/core/gui/sidebar/Sidebar.cpp:95
 msgid "Insert at end"
 msgstr "Beszúrás a végére"
 
@@ -846,7 +846,7 @@ msgstr "Ugrás adott oldalra (első oldal: 1)"
 msgid "LaTeX editor theme:"
 msgstr "LaTeX-szerkesztő téma:"
 
-#: ../src/core/control/LatexController.cpp:244
+#: ../src/core/control/LatexController.cpp:245
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
 msgstr "A LaTeX-létrehozó közben a következő hiba lépett fel: {1} (visszatérési érték: {2})"
 
@@ -870,7 +870,7 @@ msgstr "{1}. réteg"
 msgid "Layerstack Preview"
 msgstr "Egymásra helyezett rétegek előnézete"
 
-#: ../src/core/gui/PageView.cpp:869
+#: ../src/core/gui/PageView.cpp:874
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -929,7 +929,7 @@ msgstr "Nincs eszköz"
 msgid "No pages to export!"
 msgstr "Nincs exportálandó oldal!"
 
-#: ../src/core/control/Control.cpp:1470
+#: ../src/core/control/Control.cpp:1471
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Nem érhető el több hozzáfűzhető pdf oldal. Szükséges lehet a dokumentum újbóli megnyitása."
 
@@ -942,7 +942,7 @@ msgid "Normal drawing"
 msgstr "Normál rajz"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:184
-#: ../src/core/plugin/Plugin.cpp:265 ../src/core/plugin/Plugin.cpp:288
+#: ../src/core/plugin/Plugin.cpp:266 ../src/core/plugin/Plugin.cpp:289
 msgid "OK"
 msgstr "Rendben"
 
@@ -1009,7 +1009,7 @@ msgstr "PNG kép"
 msgid "Page"
 msgstr "Oldal"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:85
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:86
 msgid "Page Preview"
 msgstr "Oldal előnézete"
 
@@ -1085,28 +1085,28 @@ msgstr "Nyomtatás"
 msgid "Record Audio / Stop Recording"
 msgstr "Hangfelvétel indítása/leállítása"
 
-#: ../src/core/control/Control.cpp:1016
+#: ../src/core/control/Control.cpp:1017
 msgid "Recorder could not be started."
 msgstr "A felvételt nem sikerült elindítani."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:426
-#: ../src/core/undo/UndoRedoHandler.cpp:194
+#: ../src/core/undo/UndoRedoHandler.cpp:195
 msgid "Redo"
 msgstr "Ismétlés"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:189
+#: ../src/core/undo/UndoRedoHandler.cpp:190
 msgid "Redo: "
 msgstr "Ismétlés: "
 
-#: ../src/core/control/Control.cpp:2338
+#: ../src/core/control/Control.cpp:2339
 msgid "Remove PDF Background"
 msgstr "PDF-háttér eltávolítása"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:170
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:171
 msgid "Removed tool item from Toolbar {1} ID {2}"
 msgstr "Eszköz eltávolítva a(z) {1} ID {2} eszköztárról"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:168
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:169
 msgid "Removed tool item {1} from Toolbar {2} ID {3}"
 msgstr "Eszköz {1} eltávolítva a(z) {2} ID {3} eszköztárról"
 
@@ -1150,16 +1150,16 @@ msgstr "SVG ábra"
 msgid "Sample LaTeX file generated successfully."
 msgstr "A LaTeX-mintafájl sikeresen létrehozva."
 
-#: ../src/core/control/Control.cpp:2815 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2816 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:415
 msgid "Save"
 msgstr "Mentés"
 
-#: ../src/core/control/Control.cpp:2815
+#: ../src/core/control/Control.cpp:2816
 msgid "Save As..."
 msgstr "Mentés másként..."
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:85
 msgid "Save File"
 msgstr "Fájl mentése"
@@ -1177,7 +1177,7 @@ msgstr "Hiba történt a fájl mentése közben: {1}"
 msgid "Scale"
 msgstr "Méretezés"
 
-#: ../src/core/gui/PageView.cpp:932
+#: ../src/core/gui/PageView.cpp:937
 msgid "Scroll to page {1}"
 msgstr "Görgessen a(z) {1}. oldalra"
 
@@ -1261,7 +1261,7 @@ msgstr "Terület kijelölése"
 msgid "Select Text from pdf"
 msgstr "Szöveg kijelölése PDF-fájlból"
 
-#: ../src/core/control/Control.cpp:2337
+#: ../src/core/control/Control.cpp:2338
 msgid "Select another PDF"
 msgstr "Másik PDF kijelölése"
 
@@ -1401,11 +1401,11 @@ msgstr "Jelenlegi réteg megcserélése a felette levővel"
 msgid "Swap the current layer with the one below"
 msgstr "Jelenlegi réteg megcserélése az alatta levővel"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:79
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
 msgid "Swap the current page with the one above"
 msgstr "Jelenlegi oldal megcserélése a felette levővel"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
 msgid "Swap the current page with the one below"
 msgstr "Jelenlegi oldal megcserélése az alatta levővel"
 
@@ -1443,11 +1443,11 @@ msgstr "A keresett szöveg nem található"
 msgid "Text not found, searched on all pages"
 msgstr "A keresett szöveg nem található egyik oldalon sem"
 
-#: ../src/core/control/Control.cpp:1260
+#: ../src/core/control/Control.cpp:1261
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Az eszköztárbeállítás \"{1}\" rögzítve van, szeretne belőle egy módosítható másolatot készíteni?"
 
-#: ../src/core/control/Control.cpp:2314
+#: ../src/core/control/Control.cpp:2315
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "A csatolt háttérfájl nem található. Lehet, hogy áthelyezték, átnevezték vagy törölték."
 
@@ -1455,7 +1455,7 @@ msgstr "A csatolt háttérfájl nem található. Lehet, hogy áthelyezték, átn
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "A(z) „{1}” háttérfájl nem található. Lehet, hogy áthelyezték, átnevezték vagy törölték."
 
-#: ../src/core/control/Control.cpp:2317
+#: ../src/core/control/Control.cpp:2318
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "A(z) {1}-háttérfájl nem található. Lehet, hogy áthelyezték, átnevezték vagy törölték.\n"
@@ -1465,7 +1465,7 @@ msgstr "A(z) {1}-háttérfájl nem található. Lehet, hogy áthelyezték, átne
 msgid "The check for overwriting the background failed with:\n"
 msgstr "A háttér felülírásának ellenőrzése sikertelen volt:\n"
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2379
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "A betöltendő fájl fájlformátumának verziója újabb, mint a Xournal++ jelen verziója által jelenleg támogatott, ezért előfordulhat, hogy nem töltődik be megfelelően. Megnyitás mégis?"
 
@@ -1485,7 +1485,7 @@ msgstr "A fájl nem érvényes .xopp fájl (hiányzó verzió): „{1}”"
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "A fájl nem érvényes .xopp fájl (a verzió karakterlánca sérült): „{1}”"
 
-#: ../src/core/control/LatexController.cpp:303
+#: ../src/core/control/LatexController.cpp:304
 msgid "The formula is empty when rendered or invalid."
 msgstr "A képlet üres, vagy érvénytelen."
 
@@ -1509,11 +1509,11 @@ msgstr "Hiba a súgó megjelenítésekor: {1}"
 msgid "Thick"
 msgstr "Vastag"
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "This document is not saved yet."
 msgstr "Ez a dokumentum még nincs elmentve."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:166
+#: ../src/core/control/PageBackgroundChangeController.cpp:167
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "A kép betöltése nem sikerült. Hibaüzenet: {1}"
 
@@ -1541,20 +1541,20 @@ msgstr "Megkíséreljük menteni az éppen megnyitott dokumentumot…"
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr "Nem lehet megnyitni a globális sablonfájlt itt: {1}. Létezik?"
 
-#: ../src/core/gui/PageView.cpp:375
+#: ../src/core/gui/PageView.cpp:380
 msgid "Unable to play audio recording {1}"
 msgstr "Nem sikerült a hangfelvétel lejátszása: {1}"
 
-#: ../src/core/control/Control.cpp:1484
+#: ../src/core/control/Control.cpp:1485
 msgid "Unable to retrieve pdf page."
 msgstr "Nem sikerült a PDF-oldal lekérése."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
-#: ../src/core/undo/UndoRedoHandler.cpp:182
+#: ../src/core/undo/UndoRedoHandler.cpp:183
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:177
+#: ../src/core/undo/UndoRedoHandler.cpp:178
 msgid "Undo: "
 msgstr "Visszavonás: "
 
@@ -1594,7 +1594,7 @@ msgstr "Ismeretlen vonásírásvégtípus: „{1}”, kereket feltételezve"
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Ismeretlen vonásírás típusa: „{1}”, tollat feltételezve"
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2700
 msgid "Unsaved Document"
 msgstr "Nem mentett dokumentum"
 
@@ -1602,7 +1602,7 @@ msgstr "Nem mentett dokumentum"
 msgid "Unsupported graphics format: "
 msgstr "Nem támogatott grafikus formátum: "
 
-#: ../src/core/control/Control.cpp:2335
+#: ../src/core/control/Control.cpp:2336
 msgid "Use proposed PDF"
 msgstr "Használja a javasolt PDF-fájlt"
 
@@ -1658,7 +1658,7 @@ msgstr "Xournal fájlok"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "A Xournal++ legutóbb összeomlott. Szeretné visszaállítani az utoljára szerkesztett fájlt?"
 
-#: ../src/core/control/Control.cpp:2648
+#: ../src/core/control/Control.cpp:2649
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ fájlok"
@@ -1668,7 +1668,7 @@ msgstr "Xournal++ fájlok"
 msgid "Xournal++ template"
 msgstr "Xournal++ sablon"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:201
+#: ../src/core/control/PageBackgroundChangeController.cpp:202
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Nincsenek PDF-oldalak, amelyek közül választhat. A művelet megszakítása.\n"
@@ -1678,7 +1678,7 @@ msgstr "Nincsenek PDF-oldalak, amelyek közül választhat. A művelet megszakí
 msgid "You're using \"{1}/{2}\" branch."
 msgstr "Ön a(z) „{1}/{2}” ágat használja."
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:86
+#: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Your current document does not contain PDF Page no {1}\n"
 "Would you like to insert this page?\n\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
@@ -1706,7 +1706,7 @@ msgstr "Kicsinyítés"
 msgid "Zoom to 100%"
 msgstr "Tényleges méret"
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1719,7 +1719,7 @@ msgstr "_Mégse"
 msgid "_Open"
 msgstr "_Megnyitás…"
 
-#: ../src/core/control/Control.cpp:2643
+#: ../src/core/control/Control.cpp:2644
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
 msgid "_Save"
@@ -1765,7 +1765,7 @@ msgstr "elemek"
 msgid "eraser"
 msgstr "radír"
 
-#: ../src/core/control/Control.cpp:2266
+#: ../src/core/control/Control.cpp:2267
 msgid "file: {1}"
 msgstr "fájl: {1}"
 
