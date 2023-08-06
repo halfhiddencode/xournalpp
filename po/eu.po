@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-04 07:18+0000\n"
-"PO-Revision-Date: 2023-08-04 07:38\n"
+"POT-Creation-Date: 2023-08-06 11:11+0000\n"
+"PO-Revision-Date: 2023-08-06 11:37\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Jarraitu nahi duzu?"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2328
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -66,7 +66,7 @@ msgstr "<span foreground='red' size='x-large'>UI fitxategia falta da:\n"
 "  Ez dago Lanerako bidean\n"
 "  Ez dago hemen: {2}"
 
-#: ../src/core/gui/PageView.cpp:934
+#: ../src/core/gui/PageView.cpp:939
 msgid "Add missing page"
 msgstr "Gehitu falta den orria"
 
@@ -135,11 +135,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "Audio karpeta ez dago ezarrita edo baliogabea da! Grabaketak ez du funtzionatuko!\n"
 "Ezarri grabaketa karpeta \"Hobespenak > Audio-grabazioa\" atalean"
 
-#: ../src/core/control/Control.cpp:257
+#: ../src/core/control/Control.cpp:258
 msgid "Autosave failed with an error: {1}"
 msgstr "Gordetze automatikoak huts egin du, mezua: {1}"
 
-#: ../src/core/control/Control.cpp:237
+#: ../src/core/control/Control.cpp:238
 msgid "Autosave renamed from {1} to {2}"
 msgstr "Gordetze automatikoak {1}-(r)i {2} izen berria eman dio"
 
@@ -153,7 +153,7 @@ msgid "Back"
 msgstr "Aurrekoa"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:197
-#: ../src/core/model/XojPage.cpp:168
+#: ../src/core/model/XojPage.cpp:169
 msgid "Background"
 msgstr "Atzeko planoa"
 
@@ -169,9 +169,9 @@ msgstr "Ekarri aurrera"
 msgid "Built on"
 msgstr "Integratua"
 
-#: ../src/core/control/Control.cpp:2339 ../src/core/control/Control.cpp:2823
+#: ../src/core/control/Control.cpp:2340 ../src/core/control/Control.cpp:2824
 #: ../src/core/control/XournalMain.cpp:188
-#: ../src/core/gui/sidebar/Sidebar.cpp:94
+#: ../src/core/gui/sidebar/Sidebar.cpp:93
 msgid "Cancel"
 msgstr "Utzi"
 
@@ -207,7 +207,7 @@ msgstr "'{1}' kolore ezezaguna (ez dago gogoko koloreen zerrendan)!"
 msgid "Compass"
 msgstr "Iparrorratza"
 
-#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:169
+#: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
 msgstr "Edukiak"
 
@@ -231,11 +231,11 @@ msgid "Could not create folder: {1}\n"
 msgstr "Ezin izan da karpeta sortu: {1}\n"
 "Huts egin du: {2}"
 
-#: ../src/core/control/LatexController.cpp:341
+#: ../src/core/control/LatexController.cpp:342
 msgid "Could not load LaTeX PDF file"
 msgstr "Ezin izan da LaTeX PDF fitxategia kargatu"
 
-#: ../src/core/control/LatexController.cpp:335
+#: ../src/core/control/LatexController.cpp:336
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "Ezin izan da LaTeX PDF fitxategia kargatu: {1}"
 
@@ -289,21 +289,21 @@ msgstr "Ezin izan da irudia irakurri: {1}. Errore mezua: {2}"
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "Ezin izan da orrialdearen zenbakia irakurri klonatutako atzeko planoko irudirako: {1}."
 
-#: ../src/core/undo/UndoRedoHandler.cpp:143
+#: ../src/core/undo/UndoRedoHandler.cpp:144
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Ezin izan da \"{1}\" berregin\n"
 "Zerbait gaizki joan da… Mesedez, idatzi akatsen berri…"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:179
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:180
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
 msgstr "Ezin izan da {1} tresna-barratik {2} kokalekuko tresna"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:174
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:175
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr "Ezin izan da {2} tresna-barratik {3} kokalekuko {1} tresna"
 
-#: ../src/core/control/Control.cpp:248
+#: ../src/core/control/Control.cpp:249
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "Ezin izan da berrizendatu fitxategia '{1}'-etik '{2}'-era: {3}"
 
@@ -315,7 +315,7 @@ msgstr "Ezin izan da .tex fitxategia gorde: {1}"
 msgid "Could not start {1}: {2} (exit code: {3})"
 msgstr "Ezin izan da hasi {1}: {2} (irteera-kodea: {3})"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:114
+#: ../src/core/undo/UndoRedoHandler.cpp:115
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Ezin izan da \"{1}\" desegin\n"
@@ -382,11 +382,11 @@ msgstr "Ezabatu geruza"
 msgid "Delete this layer"
 msgstr "Ezabatu geruza hau"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Delete this page"
 msgstr "Ezabatu orri hau"
 
-#: ../src/core/control/Control.cpp:2820
+#: ../src/core/control/Control.cpp:2821
 msgid "Discard"
 msgstr "Baztertu"
 
@@ -394,7 +394,7 @@ msgstr "Baztertu"
 msgid "Display advanced export options"
 msgstr "Erakutsi esportatzeko aukera aurreratuak"
 
-#: ../src/core/control/Control.cpp:2252
+#: ../src/core/control/Control.cpp:2253
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -406,7 +406,7 @@ msgstr "Ez ireki automatikoki gordetako fitxategiak. Agian gainidatziko dira!\n"
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Ez gainidatzi atzeko planoko PDFa! Horrek akatsak eragingo ditu!"
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "Document file was removed."
 msgstr "Dokumentu fitxategia kendu da."
 
@@ -521,7 +521,7 @@ msgstr "Ezabatu trazua"
 msgid "Eraser"
 msgstr "Borragoma"
 
-#: ../src/core/control/Control.cpp:2543
+#: ../src/core/control/Control.cpp:2544
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Errorea PDF oharrak fitxategian \"{1}\"\n"
@@ -531,7 +531,7 @@ msgstr "Errorea PDF oharrak fitxategian \"{1}\"\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Errorea \"{1}\" Glade fitxategia kargatzean (saiatu \"{2}\" kargatzen)"
 
-#: ../src/core/control/Control.cpp:2370
+#: ../src/core/control/Control.cpp:2371
 msgid "Error opening file \"{1}\""
 msgstr "Errorea \"{1}\" fitxategia irekitzean"
 
@@ -663,7 +663,7 @@ msgstr "Huts egin du aztertzen LaTex-en komando sortzailea: {1}"
 msgid "Failed to parse LaTeX generator path: {1}"
 msgstr "Ezin izan da analizatu LaTeX sorgailuaren bidea: {1}"
 
-#: ../src/core/control/LatexController.cpp:81
+#: ../src/core/control/LatexController.cpp:82
 msgid "Failed to read global template file. Please check your settings."
 msgstr "Huts egin du txantiloi fitxategia globala irakurtzen. Aztertu zure ezarpenak."
 
@@ -723,11 +723,11 @@ msgstr "Eskuratu xournalpp-ren bertsioa"
 msgid "Git commit"
 msgstr "Git commit"
 
-#: ../src/core/control/LatexController.cpp:76
+#: ../src/core/control/LatexController.cpp:77
 msgid "Global template file does not exist. Please check your settings."
 msgstr "Txantiloi fitxategi globalik ez dago. Aztertu zure ezarpenak."
 
-#: ../src/core/control/LatexController.cpp:87
+#: ../src/core/control/LatexController.cpp:88
 msgid "Global template file is not a regular file. Please check your settings. "
 msgstr "Txantiloi fitxategi globala ez da ohiko fitxategia. Aztertu zure ezarpenak. "
 
@@ -798,15 +798,15 @@ msgstr "Irudiak"
 msgid "Insert a copy of the current layer below"
 msgstr "Txertatu kopia bat uneko geruzaren kopia bat azpian"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Insert a copy of the current page below"
 msgstr "Txertatu kopia bat uneko orriaren azpian"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:95
+#: ../src/core/gui/sidebar/Sidebar.cpp:94
 msgid "Insert after current page"
 msgstr "Txertatu uneko orrialdearen ondoren"
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:96
+#: ../src/core/gui/sidebar/Sidebar.cpp:95
 msgid "Insert at end"
 msgstr "Txertatu bukaeran"
 
@@ -847,7 +847,7 @@ msgstr "Joan orrialde honetara (lehenengo orrialdea: 1)"
 msgid "LaTeX editor theme:"
 msgstr "LaTeX editorearen itxura:"
 
-#: ../src/core/control/LatexController.cpp:244
+#: ../src/core/control/LatexController.cpp:245
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
 msgstr "Latexa sortzean errore bat aurkitu da: {1} (irteera kodea: {2})"
 
@@ -871,7 +871,7 @@ msgstr "Geruza {1}"
 msgid "Layerstack Preview"
 msgstr "Geruza pilaren aurrebista"
 
-#: ../src/core/gui/PageView.cpp:869
+#: ../src/core/gui/PageView.cpp:874
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:29
 msgid "Loading..."
@@ -930,7 +930,7 @@ msgstr "Ez dago gailurik"
 msgid "No pages to export!"
 msgstr "Ez dago orririk esportatzeko!"
 
-#: ../src/core/control/Control.cpp:1470
+#: ../src/core/control/Control.cpp:1471
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Ez dago pdf orririk eransteko. Komeni da aurretik dokumentua berriro irekitzea."
 
@@ -943,7 +943,7 @@ msgid "Normal drawing"
 msgstr "Marrazketa arrunta"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:184
-#: ../src/core/plugin/Plugin.cpp:265 ../src/core/plugin/Plugin.cpp:288
+#: ../src/core/plugin/Plugin.cpp:266 ../src/core/plugin/Plugin.cpp:289
 msgid "OK"
 msgstr "Ados"
 
@@ -1010,7 +1010,7 @@ msgstr "SVG irudiak"
 msgid "Page"
 msgstr "Orria"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:85
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:86
 msgid "Page Preview"
 msgstr "Orriaren aurrebista"
 
@@ -1086,28 +1086,28 @@ msgstr "Inprimatu"
 msgid "Record Audio / Stop Recording"
 msgstr "Grabatu audioa / Gelditu grabazioa"
 
-#: ../src/core/control/Control.cpp:1016
+#: ../src/core/control/Control.cpp:1017
 msgid "Recorder could not be started."
 msgstr "Ezin izan da grabagailua abiatu."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:426
-#: ../src/core/undo/UndoRedoHandler.cpp:194
+#: ../src/core/undo/UndoRedoHandler.cpp:195
 msgid "Redo"
 msgstr "Berregin"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:189
+#: ../src/core/undo/UndoRedoHandler.cpp:190
 msgid "Redo: "
 msgstr "Berregin: "
 
-#: ../src/core/control/Control.cpp:2338
+#: ../src/core/control/Control.cpp:2339
 msgid "Remove PDF Background"
 msgstr "Kendu atzeko planoko PDFa"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:170
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:171
 msgid "Removed tool item from Toolbar {1} ID {2}"
 msgstr "Tresna elementua kendu da tresna barratik {1} ID {2}"
 
-#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:168
+#: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:169
 msgid "Removed tool item {1} from Toolbar {2} ID {3}"
 msgstr "{1} tresna elementua kendu da tresna barratik {2} ID {3}"
 
@@ -1151,16 +1151,16 @@ msgstr "SVG irudiak"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Frogako LaTex fitxategia behar bezala sortu da."
 
-#: ../src/core/control/Control.cpp:2815 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2816 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:415
 msgid "Save"
 msgstr "Gorde"
 
-#: ../src/core/control/Control.cpp:2815
+#: ../src/core/control/Control.cpp:2816
 msgid "Save As..."
 msgstr "Gorde honela..."
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:85
 msgid "Save File"
 msgstr "Gorde fitxategia"
@@ -1178,7 +1178,7 @@ msgstr "Errorea fitxategia gordetzean: {1}"
 msgid "Scale"
 msgstr "Jarri eskalan"
 
-#: ../src/core/gui/PageView.cpp:932
+#: ../src/core/gui/PageView.cpp:937
 msgid "Scroll to page {1}"
 msgstr "Korritu {1} orrialdera"
 
@@ -1262,7 +1262,7 @@ msgstr "Hautatu area"
 msgid "Select Text from pdf"
 msgstr "Hautatu testua pdf-an"
 
-#: ../src/core/control/Control.cpp:2337
+#: ../src/core/control/Control.cpp:2338
 msgid "Select another PDF"
 msgstr "Hautatu beste PDF"
 
@@ -1402,11 +1402,11 @@ msgstr "Ordeztu uneko geruza aurrekoarekin"
 msgid "Swap the current layer with the one below"
 msgstr "Ordeztu uneko geruza hurrengoarekin"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:79
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
 msgid "Swap the current page with the one above"
 msgstr "Ordeztu uneko orria aurrekoarekin"
 
-#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
+#: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:81
 msgid "Swap the current page with the one below"
 msgstr "Ordeztu uneko orria hurrengoarekin"
 
@@ -1444,11 +1444,11 @@ msgstr "Testua ez da aurkitu"
 msgid "Text not found, searched on all pages"
 msgstr "Testua ez da aurkitu, orri guztietan bilatu ondoren"
 
-#: ../src/core/control/Control.cpp:1260
+#: ../src/core/control/Control.cpp:1261
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Toolbarconfiguration \"{1}\" lehenetsia dago, nahi duzu kopia bat sortu bera editatzeko?"
 
-#: ../src/core/control/Control.cpp:2314
+#: ../src/core/control/Control.cpp:2315
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Ezin izan da erantsitako atzeko planoa aurkitu. Baliteke mugitu, izena aldatu edo ezabatu izana."
 
@@ -1456,7 +1456,7 @@ msgstr "Ezin izan da erantsitako atzeko planoa aurkitu. Baliteke mugitu, izena a
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "Ezin izan da \"{1}\" atzeko planoa aurkitu. Baliteke mugitu, izena aldatu edo ezabatu izana."
 
-#: ../src/core/control/Control.cpp:2317
+#: ../src/core/control/Control.cpp:2318
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Ezin izan da atzeko planoaren {1} fitxategia aurkitu. Baliteke mugitu, izena aldatu edo ezabatu izana.\n"
@@ -1466,7 +1466,7 @@ msgstr "Ezin izan da atzeko planoaren {1} fitxategia aurkitu. Baliteke mugitu, i
 msgid "The check for overwriting the background failed with:\n"
 msgstr "Atzeko planoa gainidazteko azterketak huts egin du:\n"
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2379
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Kargatuko den fitxategia Xournal++en uneko bertsiok onartzen duena baino bertsio berriago batez sortu da, beraz baliteke behar bezala ez kargatzea. Ireki edonola?"
 
@@ -1486,7 +1486,7 @@ msgstr "Fitxategi hau ez baliozko .xopp fitxategia (bertsioa falta da): \"{1}\""
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "Fitxategi hau ez baliozko .xopp fitxategia (bertsio-katea hondatua): \"{1}\""
 
-#: ../src/core/control/LatexController.cpp:303
+#: ../src/core/control/LatexController.cpp:304
 msgid "The formula is empty when rendered or invalid."
 msgstr "Formula hutsik dago bihurtzean edo baliogabea da."
 
@@ -1510,11 +1510,11 @@ msgstr "Laguntza erakusteak huts egin du: {1}"
 msgid "Thick"
 msgstr "Lodia"
 
-#: ../src/core/control/Control.cpp:2814
+#: ../src/core/control/Control.cpp:2815
 msgid "This document is not saved yet."
 msgstr "Dokumentu hau oraindik ez da gorde."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:166
+#: ../src/core/control/PageBackgroundChangeController.cpp:167
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "Irudia ezin da kargatu. Errore mezua: {1}"
 
@@ -1542,20 +1542,20 @@ msgstr "Une honetan irekita dagoen dokumentua larrialdiz gordetzen saiatzen…"
 msgid "Unable to open global template file at {1}. Does it exist?"
 msgstr "Ezin izan da {1}-eko txantiloi fitxategi globala ireki. Ba al dago?"
 
-#: ../src/core/gui/PageView.cpp:375
+#: ../src/core/gui/PageView.cpp:380
 msgid "Unable to play audio recording {1}"
 msgstr "Ezin da erreproduzitu audio grabazioa {1}"
 
-#: ../src/core/control/Control.cpp:1484
+#: ../src/core/control/Control.cpp:1485
 msgid "Unable to retrieve pdf page."
 msgstr "Ezin izan da pdf orria berreskuratu."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
-#: ../src/core/undo/UndoRedoHandler.cpp:182
+#: ../src/core/undo/UndoRedoHandler.cpp:183
 msgid "Undo"
 msgstr "Desegin"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:177
+#: ../src/core/undo/UndoRedoHandler.cpp:178
 msgid "Undo: "
 msgstr "Desegin: "
 
@@ -1595,7 +1595,7 @@ msgstr "Trazu mota ezezaguna: \"{1}\", biribila suposatzen da"
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Trazu mota ezezaguna: {1}, arkatza erabiliko da"
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2700
 msgid "Unsaved Document"
 msgstr "Gorde gabeko dokumentua"
 
@@ -1603,7 +1603,7 @@ msgstr "Gorde gabeko dokumentua"
 msgid "Unsupported graphics format: "
 msgstr "Onartu gabeko formatu grafikoa: "
 
-#: ../src/core/control/Control.cpp:2335
+#: ../src/core/control/Control.cpp:2336
 msgid "Use proposed PDF"
 msgstr "Erabili proposatutako PDFa"
 
@@ -1659,7 +1659,7 @@ msgstr "Xournal fitxategiak"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++-ek huts egin du azkenekoan. Nahi al duzu editatutako azken fitxategia leheneratzea?"
 
-#: ../src/core/control/Control.cpp:2648
+#: ../src/core/control/Control.cpp:2649
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ fitxategiak"
@@ -1669,7 +1669,7 @@ msgstr "Xournal++ fitxategiak"
 msgid "Xournal++ template"
 msgstr "Xournal++ txantiloia"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:201
+#: ../src/core/control/PageBackgroundChangeController.cpp:202
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Ez daukazu PDF orririk hautatzeko. Utzi eragiketa.\n"
@@ -1679,7 +1679,7 @@ msgstr "Ez daukazu PDF orririk hautatzeko. Utzi eragiketa.\n"
 msgid "You're using \"{1}/{2}\" branch."
 msgstr "\"{1}/{2}\" adarra erabiltzen ari zara."
 
-#: ../src/core/gui/sidebar/Sidebar.cpp:86
+#: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Your current document does not contain PDF Page no {1}\n"
 "Would you like to insert this page?\n\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
@@ -1707,7 +1707,7 @@ msgstr "Txikiagotu"
 msgid "Zoom to 100%"
 msgstr "%100 eskala"
 
-#: ../src/core/control/Control.cpp:2642
+#: ../src/core/control/Control.cpp:2643
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1720,7 +1720,7 @@ msgstr "_Utzi"
 msgid "_Open"
 msgstr "_Ireki"
 
-#: ../src/core/control/Control.cpp:2643
+#: ../src/core/control/Control.cpp:2644
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
 msgid "_Save"
@@ -1766,7 +1766,7 @@ msgstr "elementuak"
 msgid "eraser"
 msgstr "borragoma"
 
-#: ../src/core/control/Control.cpp:2266
+#: ../src/core/control/Control.cpp:2267
 msgid "file: {1}"
 msgstr "fitxategia: {1}"
 
