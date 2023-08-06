@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 11:11+0000\n"
-"PO-Revision-Date: 2023-08-06 11:37\n"
+"POT-Creation-Date: 2023-08-06 17:02+0000\n"
+"PO-Revision-Date: 2023-08-06 17:41\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -82,11 +82,11 @@ msgstr "Esportatzeko aukera aurreratuak"
 msgid "All files"
 msgstr "Fitxategi guztiak"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:213
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
 msgid "Apply to all pages"
 msgstr "Aplikatu orri guztiei"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:200
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
 msgid "Apply to current page"
 msgstr "Aplikatu uneko orriari"
 
@@ -217,7 +217,7 @@ msgstr "Edukiak"
 msgid "Copy"
 msgstr "Kopiatu"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:31
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
 msgid "Copy current"
 msgstr "Kopiatu unekoa"
 
@@ -239,32 +239,32 @@ msgstr "Ezin izan da LaTeX PDF fitxategia kargatu"
 msgid "Could not load LaTeX PDF file: {1}"
 msgstr "Ezin izan da LaTeX PDF fitxategia kargatu: {1}"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:16
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:25
 msgid "Could not load pagetemplates.ini file"
 msgstr "Ezin izan da pagetemplates.ini fitxategia kargatu"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:846
+#: ../src/core/control/xojfile/LoadHandler.cpp:829
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: ezin da fitxategia irakurri"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:855
+#: ../src/core/control/xojfile/LoadHandler.cpp:838
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: ezin da fitxategia idatzi"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:827
-#: ../src/core/control/xojfile/LoadHandler.cpp:1155
-#: ../src/core/control/xojfile/LoadHandler.cpp:1173
+#: ../src/core/control/xojfile/LoadHandler.cpp:810
+#: ../src/core/control/xojfile/LoadHandler.cpp:1138
+#: ../src/core/control/xojfile/LoadHandler.cpp:1156
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: ez da fitxategi-tamaina baliozkoa"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:818
-#: ../src/core/control/xojfile/LoadHandler.cpp:834
-#: ../src/core/control/xojfile/LoadHandler.cpp:1148
-#: ../src/core/control/xojfile/LoadHandler.cpp:1162
+#: ../src/core/control/xojfile/LoadHandler.cpp:801
+#: ../src/core/control/xojfile/LoadHandler.cpp:817
+#: ../src/core/control/xojfile/LoadHandler.cpp:1131
+#: ../src/core/control/xojfile/LoadHandler.cpp:1145
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "Ezin izan da eranskina ireki: {1}. Errore mezua: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:187
+#: ../src/core/control/xojfile/LoadHandler.cpp:188
 msgid "Could not open file: \"{1}\""
 msgstr "Ezin da {1} fitxategia ireki"
 
@@ -280,12 +280,12 @@ msgid "Could not parse general toolbar.ini file: {1}\n"
 msgstr "Ezin izan da toolbar.ini fitxategi orokorra analizatu: {1}\n"
 "Tresna-barrak ez dira erabilgarri egongo"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:403
-#: ../src/core/control/xojfile/LoadHandler.cpp:426
+#: ../src/core/control/xojfile/LoadHandler.cpp:386
+#: ../src/core/control/xojfile/LoadHandler.cpp:409
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "Ezin izan da irudia irakurri: {1}. Errore mezua: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:436
+#: ../src/core/control/xojfile/LoadHandler.cpp:419
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "Ezin izan da orrialdearen zenbakia irakurri klonatutako atzeko planoko irudirako: {1}."
 
@@ -325,7 +325,7 @@ msgstr "Ezin izan da \"{1}\" desegin\n"
 msgid "Could not write background \"{1}\", {2}"
 msgstr "Ezin izan da atzeko planoa idatzi \"{1}\", {2}"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:369
+#: ../src/core/control/xojfile/SaveHandler.cpp:350
 msgid "Could not write background \"{1}\". Continuing anyway."
 msgstr "Ezin izan da \"{1}\" atzeko planoa idatzi. Jarraitu hala ere."
 
@@ -410,11 +410,11 @@ msgstr "Ez gainidatzi atzeko planoko PDFa! Horrek akatsak eragingo ditu!"
 msgid "Document file was removed."
 msgstr "Dokumentu fitxategia kendu da."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:271
+#: ../src/core/control/xojfile/LoadHandler.cpp:272
 msgid "Document is corrupted (no pages found in file)"
 msgstr "Dokumentua hondatuta dago (fitxategian ez da orririk aurkitu)"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:267
+#: ../src/core/control/xojfile/LoadHandler.cpp:268
 msgid "Document is not complete (maybe the end is cut off?)"
 msgstr "Dokumentua ez dago osatuta (akaso bukaera ebakita dago?)"
 
@@ -423,7 +423,7 @@ msgstr "Dokumentua ez dago osatuta (akaso bukaera ebakita dago?)"
 msgid "Document not loaded! ({1}), {2}"
 msgstr "Dokumentua ez da kargatu! ({1}), {2}"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:25
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:34
 msgid "Dotted"
 msgstr "Puntu-lerroa"
 
@@ -539,12 +539,12 @@ msgstr "Errorea \"{1}\" fitxategia irekitzean"
 msgid "Error opening file: \"{1}\""
 msgstr "Errorea \"{1}\" fitxategia irekitzean"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:489
-#: ../src/core/control/xojfile/LoadHandler.cpp:509
+#: ../src/core/control/xojfile/LoadHandler.cpp:472
+#: ../src/core/control/xojfile/LoadHandler.cpp:492
 msgid "Error reading PDF: {1}"
 msgstr "Errorea {1} PDF irakurtzean"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:564
+#: ../src/core/control/xojfile/LoadHandler.cpp:547
 msgid "Error reading width of a stroke: {1}"
 msgstr "Errorea trazuaren zabalera irakurtzean: {1}"
 
@@ -651,7 +651,7 @@ msgstr "Akats bat gertatu da Cairo PDF orriaren azalera abiaraztean"
 msgid "Failed to load image, could not determine image size!"
 msgstr "Ezin izan da irudia kargatu, ezin izan da zehaztu irudiaren tamaina!"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:179
+#: ../src/core/control/xojfile/LoadHandler.cpp:180
 msgid "Failed to open content.xml in zip archive: \"{1}\""
 msgstr "Ezin izan da ireki zip artxiboko content.xml: \"{1}\""
 
@@ -755,7 +755,7 @@ msgstr "Joan aurreko geruzara"
 msgid "Go to top layer"
 msgstr "Joan goiko geruzara"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:24
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:33
 msgid "Graph"
 msgstr "Grafoa"
 
@@ -781,7 +781,7 @@ msgstr "Ezkutatu denak"
 msgid "Highlighter"
 msgstr "Nabarmentzailea"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:33
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:514
 msgid "Image"
 msgstr "Irudia"
@@ -831,11 +831,11 @@ msgstr "Txertatu geruza"
 msgid "Insert page"
 msgstr "Txertatu orria"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:26
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:35
 msgid "Isometric Dotted"
 msgstr "Puntu-sareta isometrikoa"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:27
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:36
 msgid "Isometric Graph"
 msgstr "Grafo isometrikoa"
 
@@ -1030,10 +1030,6 @@ msgstr "Orria txertatua"
 msgid "Page number"
 msgstr "Orriaren zenbakia"
 
-#: ../src/core/control/xojfile/SaveHandler.cpp:318
-msgid "Page type format is PageTypeFormat::Copy - converted to PageTypeFormat::Plain to avoid corrupted file"
-msgstr "Orrialde motaren formatua PageTypeFormat::Copy da - PageTypeFormat::Plain bihurtu da fitxategi hondatuta ekiditeko"
-
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
 msgid "Paired pages"
 msgstr "Parekatutako orriak"
@@ -1052,7 +1048,7 @@ msgstr "Pausatu / erreproduzitu"
 msgid "Pen"
 msgstr "Arkatza"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:20
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
 msgstr "Arrunta"
 
@@ -1119,7 +1115,7 @@ msgstr "Berrizendatu geruza"
 msgid "Replace"
 msgstr "Ordeztu"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1192
+#: ../src/core/control/xojfile/LoadHandler.cpp:1175
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "Eskatutako behin-behineko fitxategia ez da aurkitu eranskinean {1}"
 
@@ -1135,11 +1131,11 @@ msgstr "Biraketa"
 msgid "Rotation Snapping"
 msgstr "Biraketaren atxikipena"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:21
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:30
 msgid "Ruled"
 msgstr "Lerroduna"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:22
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:31
 msgid "Ruled with vertical line"
 msgstr "Lerroduna marra bertikalarekin"
 
@@ -1372,7 +1368,7 @@ msgstr "Xournal++-ek ezin du urruneko fitxategirik ireki momentuz.\n"
 msgid "Spacer"
 msgstr "Bereizlea"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:23
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:32
 msgid "Staves"
 msgstr "Pentagramak"
 
@@ -1470,19 +1466,19 @@ msgstr "Atzeko planoa gainidazteko azterketak huts egin du:\n"
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Kargatuko den fitxategia Xournal++en uneko bertsiok onartzen duena baino bertsio berriago batez sortu da, beraz baliteke behar bezala ez kargatzea. Ireki edonola?"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:140
+#: ../src/core/control/xojfile/LoadHandler.cpp:141
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
 msgstr "Fitxategi hau ez baliozko .xopp fitxategia (Mimetype falta da): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:148
+#: ../src/core/control/xojfile/LoadHandler.cpp:149
 msgid "The file is no valid .xopp file (Mimetype wrong): \"{1}\""
 msgstr "Fitxategi hau ez baliozko .xopp fitxategia (okerreko mimetype): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:157
+#: ../src/core/control/xojfile/LoadHandler.cpp:158
 msgid "The file is no valid .xopp file (Version missing): \"{1}\""
 msgstr "Fitxategi hau ez baliozko .xopp fitxategia (bertsioa falta da): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:170
+#: ../src/core/control/xojfile/LoadHandler.cpp:171
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "Fitxategi hau ez baliozko .xopp fitxategia (bertsio-katea hondatua): \"{1}\""
 
@@ -1514,7 +1510,7 @@ msgstr "Lodia"
 msgid "This document is not saved yet."
 msgstr "Dokumentu hau oraindik ez da gorde."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:167
+#: ../src/core/control/PageBackgroundChangeController.cpp:162
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "Irudia ezin da kargatu. Errore mezua: {1}"
 
@@ -1559,15 +1555,15 @@ msgstr "Desegin"
 msgid "Undo: "
 msgstr "Desegin: "
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:316
+#: ../src/core/control/xojfile/LoadHandler.cpp:317
 msgid "Unexpected root tag: {1}"
 msgstr "Ustekabeko root etiketa: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:337
+#: ../src/core/control/xojfile/LoadHandler.cpp:338
 msgid "Unexpected tag in document: \"{1}\""
 msgstr "Ustekabeko etiketa dokumentuan: \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:540
+#: ../src/core/control/xojfile/LoadHandler.cpp:523
 msgid "Unknown background type: {1}"
 msgstr "Atzeko plano mota ezezaguna: {1}"
 
@@ -1575,23 +1571,23 @@ msgstr "Atzeko plano mota ezezaguna: {1}"
 msgid "Unknown color value \"{1}\""
 msgstr "Kolore balio ezezaguna: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:496
+#: ../src/core/control/xojfile/LoadHandler.cpp:479
 msgid "Unknown domain type: {1}"
 msgstr "Domeinu mota ezezaguna: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:256
+#: ../src/core/control/xojfile/LoadHandler.cpp:257
 msgid "Unknown parser error"
 msgstr "Analisi errore ezezaguna"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:444
+#: ../src/core/control/xojfile/LoadHandler.cpp:427
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "Pixmap::domain mota ezezaguna: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:632
+#: ../src/core/control/xojfile/LoadHandler.cpp:615
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr "Trazu mota ezezaguna: \"{1}\", biribila suposatzen da"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:650
+#: ../src/core/control/xojfile/LoadHandler.cpp:633
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Trazu mota ezezaguna: {1}, arkatza erabiliko da"
 
@@ -1627,7 +1623,7 @@ msgstr "Oso fina"
 msgid "Very Thick"
 msgstr "Oso lodia"
 
-#: ../src/core/control/pagetype/PageTypeHandler.cpp:32
+#: ../src/core/control/pagetype/PageTypeHandler.cpp:40
 msgid "With PDF background"
 msgstr "Atzeko planoko PDFrekin"
 
@@ -1635,15 +1631,15 @@ msgstr "Atzeko planoko PDFrekin"
 msgid "Write text"
 msgstr "Idatzi testua"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1042
+#: ../src/core/control/xojfile/LoadHandler.cpp:1025
 msgid "Wrong count of points ({1})"
 msgstr "Puntuen zenbaketa okerra ({1})"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1059
+#: ../src/core/control/xojfile/LoadHandler.cpp:1042
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr "Presio-balio kopuru okerra, eskuratua {1}, espero zen {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:253
+#: ../src/core/control/xojfile/LoadHandler.cpp:254
 msgid "XML Parser error: {1}"
 msgstr "XML analizatzailearen errorea: {1}"
 
@@ -1669,7 +1665,7 @@ msgstr "Xournal++ fitxategiak"
 msgid "Xournal++ template"
 msgstr "Xournal++ txantiloia"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:202
+#: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Ez daukazu PDF orririk hautatzeko. Utzi eragiketa.\n"
@@ -1832,7 +1828,7 @@ msgstr "trackpoint"
 msgid "whiteout"
 msgstr "tinta zuzentzailea"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1058
+#: ../src/core/control/xojfile/LoadHandler.cpp:1041
 msgid "xoj-File: {1}"
 msgstr "xoj-fitxategia: {1}"
 
