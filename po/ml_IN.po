@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-06 17:42\n"
+"PO-Revision-Date: 2023-08-08 13:37\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -1958,7 +1958,8 @@ msgstr ""
 #: ../ui/settings.glade:5451
 msgid "... AND How much time must have passed since last stroke.\n\n"
 "<i>Recommended: 500ms</i>"
-msgstr ""
+msgstr "... കൂടാതെ അവസാന സ്‌ട്രോക്കിനു ശേഷം എത്ര സമയം കടന്നു പോയിട്ടുണ്ട്.\n"
+"<i>ശുപാർശ ചെയ്യുന്നത്: 500 മി. സെ. </i>"
 
 #: ../ui/settings.glade:1265
 msgid "0,4"
@@ -2006,7 +2007,7 @@ msgstr "5"
 
 #: ../ui/images.glade:88
 msgid "<b>... or select already used Image:</b>"
-msgstr ""
+msgstr "<b>... അല്ലെങ്കിൽ ഒരുവട്ടം ഉപയോഗിച്ച ചിത്രം തന്നെ വീണ്ടും തിരഞ്ഞെടുക്കുക</b>"
 
 #: ../ui/pageTemplate.glade:245
 msgid "<b>Background Color</b>"
@@ -2031,17 +2032,19 @@ msgstr "<b>സ്ഥിരസ്ഥിതി</b>"
 #: ../ui/exportSettings.glade:122
 msgid "<b>Document export settings</b>\n"
 "Set export parameters"
-msgstr ""
+msgstr "<b>ഡോക്യുമെന്റ് എക്സ്പോർട്ട് ക്രമീകരണങ്ങൾ</b>"
 
 #: ../ui/main.glade:110
 msgid "<b>Empty Toolbox</b>\n"
 "            <i>Menu: View/Toolbars</i>"
-msgstr ""
+msgstr "<b>ഒഴിഞ്ഞ ടൂൾബോക്സ്</b>\n"
+"            <i>മെനു: കാണുക/ടൂൾബാറുകൾ</i>"
 
 #: ../ui/fillOpacity.glade:80
 msgid "<b>Fill opacity settings</b>\n"
 "Select opacity for fill color"
-msgstr ""
+msgstr "<b>ഫിൽ ഒപാസിറ്റി ക്രമീകരണങ്ങൾ</b>\n"
+"ഫിൽ നിറത്തിന് വേണ്ടി ഒപാസിറ്റി തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/pageTemplate.glade:135
 msgid "<b>Page size</b>"
@@ -2057,7 +2060,7 @@ msgstr "<b>വേർപെടുത്തൽ</b>"
 
 #: ../ui/settings.glade:952
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
-msgstr ""
+msgstr "<i>നിങ്ങളുടെ സിസ്റ്റത്തിന്റെ ഓരോ ഇൻപുട്ട് ഉപകരണങ്ങൾക്കും ഉപകരണ തരം നൽകുക. നിങ്ങളുടെ ഉപകരണങ്ങൾ ആ മൂല്യങ്ങളോട് ചേരുന്നില്ലെങ്കിൽ മാത്രം അത് മാറ്റുക. (ഉദാ. നിങ്ങളുടെ പേന ടച്ച്സ്ക്രീൻ ആയി രേഖപ്പെടുന്ന ഘട്ടത്തിൽ)</i>"
 
 #: ../ui/settings.glade:5879
 msgid "<i>Audio recordings are currently stored in a separate folder and referenced from the journal.</i>"
