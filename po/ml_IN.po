@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-08 13:37\n"
+"PO-Revision-Date: 2023-08-08 15:14\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -2064,11 +2064,11 @@ msgstr "<i>നിങ്ങളുടെ സിസ്റ്റത്തിന്�
 
 #: ../ui/settings.glade:5879
 msgid "<i>Audio recordings are currently stored in a separate folder and referenced from the journal.</i>"
-msgstr ""
+msgstr "<i>ഓഡിയോ റെക്കോർഡിങ്ങുകൾ നിലവിൽ മറ്റൊരു ഫോൾഡറിൽ സൂക്ഷിക്കപ്പെട്ടിരിക്കുന്നു. അവ ജേർണലിൽ നിന്നും റഫറൻസ് ചെയ്യപ്പെടുന്നു.</i>"
 
 #: ../ui/settings.glade:6297
 msgid "<i>Changes take only effect on new recordings and playbacks.</i>"
-msgstr ""
+msgstr "<i>മാറ്റങ്ങൾ പുതിയ റെക്കോർഡിങ്ങുകളിലും പ്ലേബാക്കുകളിലും മാത്രമേ ബാധകമാകുന്നുളളൂ.</i>"
 
 #: ../ui/settings.glade:1502
 msgid "<i>Define which tools will be selected if you press a mouse button. After you release the button the previously selected tool will be selected.</i>"
