@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-12 21:29\n"
+"PO-Revision-Date: 2023-08-12 22:40\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -2644,11 +2644,11 @@ msgstr "സ്ട്രോക്ക് അന്തിമമായി തീര�
 
 #: ../ui/main.glade:2575
 msgid "Find next occurrence of the search string"
-msgstr ""
+msgstr "തിരയുന്ന സ്ട്രിംഗിന്റെ അടുത്ത പ്രഭാവം കണ്ടെത്തുക"
 
 #: ../ui/main.glade:2553
 msgid "Find previous occurrence of the search string"
-msgstr ""
+msgstr "തിരയുന്ന സ്ട്രിംഗിന്റെ മുൻപത്തെ പ്രഭാവം കണ്ടെത്തുക"
 
 #: ../ui/settings.glade:4783
 msgid "First Page Offset "
@@ -2736,7 +2736,7 @@ msgstr ""
 
 #: ../ui/main.glade:1954
 msgid "Highlighter Opti_ons"
-msgstr ""
+msgstr "ഹൈലൈറ്റർ ഓപ്ഷ_നുകൾ"
 
 #: ../ui/settings.glade:5408
 msgid "How short (screen mm)  of the stroke  AND...\n\n"
@@ -2750,7 +2750,7 @@ msgstr ""
 
 #: ../ui/about.glade:157
 msgid "Icon Designers"
-msgstr ""
+msgstr "ചിഹ്നം രൂപകൽപന ചെയ്തവർ"
 
 #: ../ui/settings.glade:3203
 msgid "Icon Theme"
@@ -2915,11 +2915,11 @@ msgstr ""
 
 #: ../ui/settings.glade:1752
 msgid "Minimum Pressure:"
-msgstr ""
+msgstr "ഏറ്റവും കുറഞ്ഞ സമ്മർദ്ദം:"
 
 #: ../ui/settings.glade:5287
 msgid "Minimum Stroke Size"
-msgstr ""
+msgstr "ഏറ്റവും കുറഞ്ഞ സ്ട്രോക്ക് വലുപ്പം"
 
 #: ../ui/settings.glade:1629 ../ui/settingsDeviceClassConfig.glade:42
 msgid "Mouse"
@@ -2998,7 +2998,7 @@ msgstr ""
 
 #: ../ui/fillOpacity.glade:14
 msgid "Opacity settings"
-msgstr ""
+msgstr "ഒപാസിറ്റി ക്രമീകരണങ്ങൾ"
 
 #: ../ui/settings.glade:1108
 msgid "Options"
@@ -3034,19 +3034,19 @@ msgstr "ജോഡിയാക്കിയ താളുകൾ"
 
 #: ../ui/main.glade:1360
 msgid "Paper B_ackground"
-msgstr ""
+msgstr "പേപ്പർ പ_ശ്ചാത്തലം"
 
 #: ../ui/pagesize.glade:18
 msgid "Paper Format"
-msgstr ""
+msgstr "പേപ്പർ ഫോർമാറ്റ്"
 
 #: ../ui/main.glade:1350
 msgid "Paper _Color"
-msgstr ""
+msgstr "പേപ്പർ _നിറം"
 
 #: ../ui/main.glade:1340
 msgid "Paper _Format"
-msgstr ""
+msgstr "പേപ്പർ _ഫോർമാറ്റ്"
 
 #: ../ui/about.glade:210
 msgid "Partially based on Xournal\n"
@@ -3123,11 +3123,11 @@ msgstr ""
 
 #: ../ui/settings.glade:3461
 msgid "Radius"
-msgstr ""
+msgstr "വൃത്തപരിധി"
 
 #: ../ui/exportSettings.glade:160
 msgid "Range"
-msgstr ""
+msgstr "വ്യാപ്തി"
 
 #: ../ui/settings.glade:5582
 msgid "Re-render when the page's zoom changes by more than "
@@ -3135,23 +3135,23 @@ msgstr ""
 
 #: ../ui/main.glade:187
 msgid "Recent _Documents"
-msgstr ""
+msgstr "അടുത്തിടെയുള്ള _ഡോക്യൂമെന്റുകൾ"
 
 #: ../ui/main.glade:2062
 msgid "Record / Stop"
-msgstr ""
+msgstr "റെക്കോർഡ്/നിറുത്തുക"
 
 #: ../ui/settings.glade:6196
 msgid "Recording Quality"
-msgstr ""
+msgstr "റെക്കോർഡിംഗ് ഗുണമേന്മ"
 
 #: ../ui/main.glade:1323
 msgid "Rename Layer"
-msgstr ""
+msgstr "പാളി പുനർനാമകരണം ചെയ്യുക"
 
 #: ../ui/renameLayerDialog.glade:8
 msgid "Rename selected layer"
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത പാളി പുനർനാമകരണം ചെയ്യുക"
 
 #: ../ui/settings.glade:5091
 msgid "Resizing"
@@ -3179,47 +3179,47 @@ msgstr ""
 
 #: ../ui/pageTemplate.glade:40
 msgid "Save to file"
-msgstr ""
+msgstr "ഫയലിലേക്ക് സേവ് ചെയ്യുക"
 
 #: ../ui/settings.glade:3824
 msgid "Scrollbars"
-msgstr ""
+msgstr "സ്ക്രോൾബാറുകൾ"
 
 #: ../ui/settings.glade:4749
 msgid "Scrolling outside the page"
-msgstr ""
+msgstr "താളിനു പുറത്ത് സ്ക്രോൾ ചെയ്യുക"
 
 #: ../ui/pageTemplate.glade:177
 msgid "Select Background Color"
-msgstr ""
+msgstr "പശ്ചാത്തല നിറം തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/settings.glade:5916
 msgid "Select Folder"
-msgstr ""
+msgstr "ഫോൾഡർ തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/images.glade:8
 msgid "Select Image"
-msgstr ""
+msgstr "ചിത്രം തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/main.glade:1408
 msgid "Select Linear Text"
-msgstr ""
+msgstr "രേഖീയമായ ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/pdfpages.glade:8
 msgid "Select PDF Page"
-msgstr ""
+msgstr "പിഡിഎഫ് താൾ തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/main.glade:1420
 msgid "Select Text In Rectangle"
-msgstr ""
+msgstr "ദീർഘചതുരത്തിലെ പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/settings.glade:4091
 msgid "Select toolbar:"
-msgstr ""
+msgstr "ടൂൾബാർ തിരഞ്ഞെടുക്കുക:"
 
 #: ../ui/settings.glade:3142
 msgid "Selection Color (Text, Stroke Selection etc.)"
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത നിറം (ടെക്സ്റ്റ്, തിരഞ്ഞെടുത്ത സ്ട്രോക്ക് തുടങ്ങിയവ)"
 
 #: ../ui/settings.glade:3910
 msgid "Selection Edge Panning"
@@ -3227,11 +3227,11 @@ msgstr ""
 
 #: ../ui/main.glade:330
 msgid "Send Backward"
-msgstr ""
+msgstr "പിന്നിലേക്ക് അയക്കുക"
 
 #: ../ui/main.glade:339
 msgid "Send to Back"
-msgstr ""
+msgstr "പിന്നോട്ടയക്കുക"
 
 #: ../ui/settings.glade:1824
 msgid "Sensitivity Scale"
@@ -3243,11 +3243,11 @@ msgstr ""
 
 #: ../ui/main.glade:835
 msgid "Set Rows"
-msgstr ""
+msgstr "വരി സെറ്റ് ചെയ്യുക"
 
 #: ../ui/settings.glade:5491
 msgid "Settings:"
-msgstr ""
+msgstr "ക്രമീകരണങ്ങള്‍:"
 
 #: ../ui/settings.glade:5500
 msgid "Show Floating Toolbox"
@@ -3267,31 +3267,31 @@ msgstr ""
 
 #: ../ui/settings.glade:3955 ../ui/settings.glade:4038
 msgid "Show Toolbar"
-msgstr ""
+msgstr "ടൂൾബാർ കാണിക്കുക"
 
 #: ../ui/main.glade:605
 msgid "Show Toolbars"
-msgstr ""
+msgstr "ടൂൾബാറുകൾ കാണിക്കുക"
 
 #: ../ui/settings.glade:3031
 msgid "Show filepath in title bar"
-msgstr ""
+msgstr "ടൈറ്റിൽ ബാറിൽ ഫയലിന്റെ പാത കാണിക്കുക"
 
 #: ../ui/settings.glade:3047
 msgid "Show page number in title bar"
-msgstr ""
+msgstr "ടൈറ്റിൽ ബാറിൽ താൾ സംഖ്യ കാണിക്കുക"
 
 #: ../ui/settings.glade:3624
 msgid "Show sidebar on the right side"
-msgstr ""
+msgstr "സൈഡ്ബാർ വലത് വശത്ത് കാണിക്കുക"
 
 #: ../ui/settings.glade:3640
 msgid "Show vertical scrollbar on the left side"
-msgstr ""
+msgstr "ഇടത് വശത്ത് കുത്തനെയുള്ള സ്‌ക്രോൾബാർ കാണിക്കുക"
 
 #: ../ui/settings.glade:3744
 msgid "Sidebar"
-msgstr ""
+msgstr "സൈഡ്ബാർ"
 
 #: ../ui/settings.glade:1078
 msgid "Slower strokes are assigned a greater pressure than faster strokes, if pressure information is absent.\n\n"
@@ -3301,11 +3301,11 @@ msgstr ""
 #: ../ui/settings.glade:3346
 msgctxt "stylus cursor uses a small dot"
 msgid "Small dot icon"
-msgstr ""
+msgstr "ചെറിയ ഡോട്ട് ചിഹ്നം"
 
 #: ../ui/settings.glade:5250
 msgid "Snapping"
-msgstr ""
+msgstr "സ്നാപ്പിങ്"
 
 #: ../ui/about.glade:270
 msgid "Source Code / Bug Tracker"
