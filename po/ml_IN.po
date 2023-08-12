@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-08 15:14\n"
+"PO-Revision-Date: 2023-08-12 21:29\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -1953,7 +1953,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3233
 msgid "(requires restart)"
-msgstr ""
+msgstr "(റീസ്റ്റാർട്ട് ആവശ്യമാണ്)"
 
 #: ../ui/settings.glade:5451
 msgid "... AND How much time must have passed since last stroke.\n\n"
@@ -2072,7 +2072,7 @@ msgstr "<i>മാറ്റങ്ങൾ പുതിയ റെക്കോർഡ�
 
 #: ../ui/settings.glade:1502
 msgid "<i>Define which tools will be selected if you press a mouse button. After you release the button the previously selected tool will be selected.</i>"
-msgstr ""
+msgstr "<i>മൗസ് ബട്ടൺ അമർത്തുമ്പോൾ ഏതൊക്കെ ടൂളുകൾ തിരഞ്ഞെടുക്കണമെന്ന് തീരമുമാനിക്കുക. അമർത്തിപ്പിടിച്ച ബട്ടൺ വിടുമ്പോൾ മുൻപ് തിരഞ്ഞെടുത്ത ടൂൾ പ്രവർത്തനസജ്ജമാകും.</i>"
 
 #: ../ui/settings.glade:2866
 msgid "<i>Disabling GTK's built-in touchscreen scrolling can work around scrolling bugs on some platforms. Consider changing this setting if you experience jumps/sudden changes in scroll position when attempting to scroll with a touchscreen.</i>"
@@ -2080,12 +2080,13 @@ msgstr ""
 
 #: ../ui/exportSettings.glade:240
 msgid "<i>Example:</i> 1-3 or 1,3,5-7 etc."
-msgstr ""
+msgstr "<i>ഉദാഹരണം:</i> 1-3 അല്ലെങ്കിൽ 1,3,5-7 തുടങ്ങിയവ."
 
 #: ../ui/settings.glade:362
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xoj\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>ഡോക്യുമെന്റ് മുൻപേ സേവ് ചെയ്തു വച്ചിട്ടുണ്ടെങ്കിൽ അവ ഇതേ ഫോൾഡറിൽ .autosave.xoj എന്ന എക്സ്റ്റൻഷനോടെ നിങ്ങൾക്ക് കണ്ടെത്താനാകും\n"
+"ഫയൽ ഇതുവരെ സേവ് ചെയ്തു വച്ചിട്ടില്ലെങ്കിൽ അത് നിങ്ങൾക്ക് ~/.cache/xournalpp/autosaves എന്ന സ്ഥലത്ത് കണ്ടെത്താനാകും.</i>"
 
 #: ../ui/settings.glade:4615
 msgid "<i>If you add additional space beside the pages you can choose the area of the screen you would like to work on.</i>"
@@ -2114,19 +2115,19 @@ msgstr ""
 
 #: ../ui/settings.glade:6406
 msgid "<i>Select language (requires restart)</i>"
-msgstr ""
+msgstr "<i>ഭാഷ തിരഞ്ഞെടുക്കുക (റീസ്റ്റാർട്ട് ആവശ്യമാണ്)</i>"
 
 #: ../ui/settings.glade:5734
 msgid "<i>Select the tool and Settings if you press the Default Button.</i>"
-msgstr ""
+msgstr "<i>സ്ഥിരസ്ഥിതി ബട്ടൺ അമർത്തിയെങ്കിൽ ടൂളും ക്രമീകരണങ്ങളും തിരഞ്ഞെടുക്കുക.</i>"
 
 #: ../ui/settings.glade:1729
 msgid "<i>Some devices report unexpectedly small or large pressures. This can be fixed by setting a minimum pressure or scaling the pressure reported by the device.</i>"
-msgstr ""
+msgstr "<i>ചില ഉപകരണങ്ങൾ അപ്രതീക്ഷിതമായി കുറഞ്ഞതോ കൂടിയതോ ആയ സമ്മർദ്ദം രേഖപ്പെടുത്തും. ഇത് പരിഹരിക്കാൻ ഉപകരണം രേഖപ്പെടുത്തുന്ന ഏറ്റവും കുറഞ്ഞ സമ്മർദ്ദം സെറ്റ് ചെയ്യുകയോ, അല്ലെങ്കിൽ ആ സമ്മർദ്ദത്തെ സ്കെയിൽ ചെയ്യുകയോ ചെയ്യാം. </i>"
 
 #: ../ui/settings.glade:2491
 msgid "<i>Specify commands that are called once Hand Recognition triggers. The commands will be executed in the UI Thread, make sure they are not blocking!</i>"
-msgstr ""
+msgstr "<i>ഹാൻഡ് റെക്കഗ്നിഷൻ പ്രവർത്തനം ആരംഭിക്കുമ്പോൾ വിളിക്കേണ്ട കമാൻഡുകൾ കുറിച്ച് വയ്ക്കുക. യുഐ ത്രെഡ് മുഖേന അവ പ്രവർത്തിപ്പിക്കപ്പെടും. അവ തടയപ്പെടുന്നില്ലെന്ന് ഉറപ്പു വരുത്തുക!</i>"
 
 #: ../ui/settings.glade:5990
 msgid "<i>Specify the audio devices used for recording and playback of audio attachments.\n"
@@ -2255,7 +2256,7 @@ msgstr ""
 
 #: ../ui/settings.glade:874
 msgid "Autoloading"
-msgstr ""
+msgstr "തനിയെ ലോഡ് ചെയ്യുക"
 
 #: ../ui/settings.glade:4914
 msgid "Automatically Add Empty Last Page (excluding PDFs)"
@@ -2468,7 +2469,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3804
 msgid "Disable scrollbar fade out"
-msgstr ""
+msgstr "സ്‌ക്രോൾബാർ ഫെയ്ഡ് ഔട്ട് പ്രവർത്തനരഹിതമാക്കുക"
 
 #: ../ui/settingsDeviceClassConfig.glade:41
 msgid "Disabled"
@@ -2514,7 +2515,7 @@ msgstr ""
 
 #: ../ui/main.glade:1540
 msgid "Draw Coordinate System"
-msgstr ""
+msgstr "കോർഡിനേറ്റ് സിസ്റ്റം വരയ്ക്കുക"
 
 #: ../ui/main.glade:1551
 msgid "Draw _Line"
@@ -2602,15 +2603,15 @@ msgstr ""
 
 #: ../ui/main.glade:1845
 msgid "Eraser Optio_ns"
-msgstr ""
+msgstr "ഇറേസർ ഓപ്ഷ_നുകൾ"
 
 #: ../ui/settingsButtonConfig.glade:129
 msgid "Eraser Type - don't change"
-msgstr ""
+msgstr "ഇറേസർ തരം - മാറ്റരുത്"
 
 #: ../ui/settings.glade:2193
 msgid "Eraser visibility"
-msgstr ""
+msgstr "ഇറേസർ ദൃശ്യത"
 
 #: ../ui/exportSettings.glade:56
 msgid "Export"
@@ -2631,7 +2632,7 @@ msgstr ""
 
 #: ../ui/main.glade:1821 ../ui/main.glade:2026
 msgid "Fi_ll"
-msgstr ""
+msgstr "ഫി_ൽ"
 
 #: ../ui/main.glade:1831 ../ui/main.glade:2036
 msgid "Fill opacity"
@@ -2639,7 +2640,7 @@ msgstr "ഫിൽ ഒപാസിറ്റി"
 
 #: ../ui/settings.glade:1397
 msgid "Finalize the stroke"
-msgstr ""
+msgstr "സ്ട്രോക്ക് അന്തിമമായി തീരുമാനിക്കുക"
 
 #: ../ui/main.glade:2575
 msgid "Find next occurrence of the search string"
