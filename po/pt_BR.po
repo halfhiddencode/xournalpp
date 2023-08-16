@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-16 00:08\n"
+"PO-Revision-Date: 2023-08-16 01:49\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -46,7 +46,7 @@ msgstr "%F-Nota-%H-%M"
 
 #: ../src/core/control/settings/Settings.cpp:145
 msgid "%{name}_annotated"
-msgstr ""
+msgstr "%{name}_anotado"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:166
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
@@ -163,7 +163,7 @@ msgstr "Trazer para a frente"
 
 #: ../src/core/control/tools/EditSelection.cpp:405
 msgid "Bring to front"
-msgstr "Trazer para frente"
+msgstr "Trazer para o primeiro plano"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:36
 msgid "Built on"
@@ -323,7 +323,7 @@ msgstr "Não foi possível desfazer \"{1}\"\n"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:253
 msgid "Could not write background \"{1}\", {2}"
-msgstr "Não foi possível escrever o fundo \"{1}\", {2}"
+msgstr "Não foi possível salvar o fundo \"{1}\", {2}"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:350
 msgid "Could not write background \"{1}\". Continuing anyway."
@@ -436,7 +436,7 @@ msgstr "Desenhar Seta"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
 msgid "Draw Double Arrow"
-msgstr "Desenhar seta dupla"
+msgstr "Desenhar Seta Dupla"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:134
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
@@ -713,7 +713,7 @@ msgstr "GNU GPLv2 ou posterior"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:39
 msgid "GTK Version"
-msgstr ""
+msgstr "Versão GTK"
 
 #: ../src/core/control/XournalMain.cpp:631
 msgid "Get version of xournalpp"
@@ -804,11 +804,11 @@ msgstr "Inserir uma cópia da página atual abaixo"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:94
 msgid "Insert after current page"
-msgstr ""
+msgstr "Inserir após página atual"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:95
 msgid "Insert at end"
-msgstr ""
+msgstr "Inserir no final"
 
 #: ../src/core/undo/InsertUndoAction.cpp:82
 msgid "Insert elements"
@@ -936,7 +936,7 @@ msgstr "Nenhuma página de PDF disponível para ser adicionada. Primeiro você p
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
 msgid "No recent files"
-msgstr ""
+msgstr "Sem arquivos recentes"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:128
 msgid "Normal drawing"
@@ -1060,7 +1060,7 @@ msgstr "Reproduzir objeto"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Por favor, deletar o arquivo manualmente"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:22
 msgid "Predefined"
@@ -1163,7 +1163,7 @@ msgstr "Salvar Arquivo"
 
 #: ../src/core/control/jobs/SaveJob.cpp:117
 msgid "Save file error, can't backup: {1}"
-msgstr ""
+msgstr "Erro ao salvar aquivo, não se pode fazer ‘backup’: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:125
 #: ../src/core/control/jobs/SaveJob.cpp:131
@@ -1176,7 +1176,7 @@ msgstr "Escala"
 
 #: ../src/core/gui/PageView.cpp:937
 msgid "Scroll to page {1}"
-msgstr ""
+msgstr "Rolar para a página {1}"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:434
 msgid "Search"
@@ -1202,18 +1202,18 @@ msgstr "Selecionar Texto do PDF em Linha"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:535
 msgid "Select Multi-Layer Rect"
-msgstr ""
+msgstr "Selecionar Retângulo de Multicamada"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:76
 msgid "Select Multi-Layer Rectangle"
-msgstr ""
+msgstr "Selecionar Retângulo de Multicamada"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:534
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:82
 msgid "Select Multi-Layer Region"
-msgstr ""
+msgstr "Selecionar Região de Multicamada"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:536
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
@@ -1276,11 +1276,11 @@ msgstr "Selecionar cor"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:97
 msgid "Select multi layer rect"
-msgstr ""
+msgstr "Selecionar retângulo de multi camada"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:96
 msgid "Select multi layer region"
-msgstr ""
+msgstr "Selecionar região de multi camada"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:95
 msgid "Select rectangle"
@@ -1366,7 +1366,7 @@ msgstr "Desculpa, o Xournal++ não consegue abrir arquivos remotos por enquanto.
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarCustomizeDialog.cpp:58
 msgid "Spacer"
-msgstr ""
+msgstr "Espaçador"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:32
 msgid "Staves"
@@ -1418,7 +1418,7 @@ msgstr "Texto"
 #: ../src/core/gui/SearchBar.cpp:79
 #, c-format
 msgid "Text %zu times found on this page"
-msgstr ""
+msgstr "Texto achado %zu vezes nessa página"
 
 #: ../src/core/gui/SearchBar.cpp:77
 msgid "Text found on this page"
@@ -1446,16 +1446,16 @@ msgstr "A configuração da barra de ferramentas \"{1}\" está predefinida, voc�
 
 #: ../src/core/control/Control.cpp:2315
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "O arquivo de fundo anexado não pode ser encontrado. Ele pode ter sido movido, renomeado ou deletado."
 
 #: ../src/core/control/XournalMain.cpp:245
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "O arquivo de fundo anexado \"{1}\" não pôde ser encontrado. Ele pode ter sido movido, renomeado ou excluído."
 
 #: ../src/core/control/Control.cpp:2318
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
-msgstr ""
+msgstr "O arquivo de fundo anexado \"{1}\" não pôde ser encontrado. Ele pode ter sido movido, renomeado ou excluído. Foi visto por último em: \"{2}\""
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:52
 msgid "The check for overwriting the background failed with:\n"
@@ -1491,11 +1491,11 @@ msgstr "O nome do registro de arquivo mais recente: {1}"
 
 #: ../src/core/control/XournalMain.cpp:174
 msgid "There are errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Existem registros de erro de Xournal++. Por favor, reporte a falha para ela poder ser corrigida."
 
 #: ../src/core/control/XournalMain.cpp:173
 msgid "There is an errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Existe um registro de erro de Xournal++. Por favor, reporte a falha para ela poder ser corrigida."
 
 #: ../src/util/XojMsgBox.cpp:104
 msgid "There was an error displaying help: {1}"
@@ -1636,7 +1636,7 @@ msgstr "Contagem errada de pontos ({1})"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:1042
 msgid "Wrong number of pressure values, got {1}, expected {2}"
-msgstr ""
+msgstr "Número errado de valores de pressão, recebido {1}, esperado {2}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:254
 msgid "XML Parser error: {1}"
@@ -1672,7 +1672,7 @@ msgstr "Você não tem nenhuma página PDF para selecionar. Cancelar operação.
 
 #: ../src/core/control/XournalMain.cpp:176
 msgid "You're using \"{1}/{2}\" branch."
-msgstr ""
+msgstr "Você está usando a ramificação \"{1}/{2}\"."
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Your current document does not contain PDF Page no {1}\n"
@@ -1915,7 +1915,29 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Y\t\tYear (e.g. 2001)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\tA % sign"
-msgstr ""
+msgstr "%a\t\tNome do dia da semana abreviado (por exemplo, Qui.)\n"
+"%A\t\tNome do dia da semana completo (por exemplo, Quinta-feira)\n"
+"%b\t\tNome do mês abreviado (por exemplo, Ago.)\n"
+"%B\t\tNome completo do mês (por exemplo, Agosto)\n"
+"%c\t\tRepresentação da data e hora (por exemplo, Qui. 23 de agosto 14:55:02 2001)\n"
+"%d\t\tDia do mês (01-31)\n"
+"%F\t\tData representativa (exemplo, 23-08-2001)\n"
+"%H\t\tHora em formato de 24h (00-23)\n"
+"%I\t\tHora em formato de 12h (01-12)\n"
+"%j\t\tDia do ano (001-366)\n"
+"%m\tMês como um número decimal (01-12)\n"
+"%M\tMinuto (00-59)\n"
+"%p\t\tAM ou PM designação (exemplo, PM)\n"
+"%S\t\tSegundo (00-61)\n"
+"%U\t\tNúmero da semana com o primeiro domingo como primeiro dia da semana (00-53)\n"
+"%w\t\tDia na semana como número decimal, com o domingo indicando 0 (0-6)\n"
+"%W\tNúmero da semana com a primeira segunda-feira como primeiro dia da semana (00-53)\n"
+"%x\t\tRepresentação de data (exemplo, 23/08/01)\n"
+"%X\t\tRepresentação de horário (por exemplo, 14:55:02)\n"
+"%y\t\tAno, com os últimos dois dígitos (00-99)\n"
+"%Y\t\tAno (exemplo, 2001)\n"
+"%Z Nome ou abreviação do fuso horário (por exemplo, CDT)\n"
+"%% A % sinal"
 
 #: ../ui/settings.glade:734
 msgid "%{name}\tThe name of the exported document\n"
@@ -1942,7 +1964,30 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Y\t\t\tYear (e.g. 2001)\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\tA % sign"
-msgstr ""
+msgstr "%{name} Nome do arquivo exportado\n"
+"%a\t\tNome do dia da semana abreviado (por exemplo, Qui.)\n"
+"%A\t\tNome do dia da semana completo (por exemplo, Quinta-feira)\n"
+"%b\t\tNome do mês abreviado (por exemplo, Ago.)\n"
+"%B\t\tNome completo do mês (por exemplo, Agosto)\n"
+"%c\t\tRepresentação da data e hora (por exemplo, Qui. 23 de agosto 14:55:02 2001)\n"
+"%d\t\tDia do mês (01-31)\n"
+"%F\t\tData representativa (exemplo, 23-08-2001)\n"
+"%H\t\tHora em formato de 24h (00-23)\n"
+"%I\t\tHora em formato de 12h (01-12)\n"
+"%j\t\tDia do ano (001-366)\n"
+"%m\tMês como um número decimal (01-12)\n"
+"%M\tMinuto (00-59)\n"
+"%p\t\tAM ou PM designação (exemplo, PM)\n"
+"%S\t\tSegundo (00-61)\n"
+"%U\t\tNúmero da semana com o primeiro domingo como primeiro dia da semana (00-53)\n"
+"%w\t\tDia na semana como número decimal, com o domingo indicando 0 (0-6)\n"
+"%W\tNúmero da semana com a primeira segunda-feira como primeiro dia da semana (00-53)\n"
+"%x\t\tRepresentação de data (exemplo, 23/08/01)\n"
+"%X\t\tRepresentação de horário (por exemplo, 14:55:02)\n"
+"%y\t\tAno, com os últimos dois dígitos (00-99)\n"
+"%Y\t\tAno (exemplo, 2001)\n"
+"%Z Nome ou abreviação do fuso horário (por exemplo, CDT)\n"
+"%% A % sinal"
 
 #: ../ui/settings.glade:3233
 msgid "(requires restart)"
@@ -1968,7 +2013,7 @@ msgstr "0,00"
 
 #: ../ui/settings.glade:5300
 msgid "0.20"
-msgstr ""
+msgstr "0,20"
 
 #: ../ui/settings.glade:1910
 msgid "1"
@@ -2050,7 +2095,7 @@ msgstr "<b>Tamanho da página</b>"
 
 #: ../ui/toolbarCustomizeDialog.glade:196
 msgid "<b>Separators</b>"
-msgstr ""
+msgstr "<b>Separadores</b>"
 
 #: ../ui/settings.glade:952
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2136,7 +2181,7 @@ msgstr "<i>Especifique as ferramentas que serão selecionadas se um botão da st
 
 #: ../ui/settings.glade:663
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
-msgstr ""
+msgstr "<i>Esse nome será proposto se você exportar um documento para PDF.</i>"
 
 #: ../ui/settings.glade:492
 msgid "<i>This name will be proposed if you save a new document.</i>"
@@ -2209,7 +2254,7 @@ msgstr "Todas as três condições devem ser cumpridas antes que o traço seja i
 #: ../ui/settings.glade:2167
 msgctxt "eraser is always visible"
 msgid "Always"
-msgstr ""
+msgstr "Sempre"
 
 #: ../ui/latexSettings.glade:45
 msgid "Always check LaTeX dependencies before running"
@@ -2257,7 +2302,7 @@ msgstr "Carregamento automático"
 
 #: ../ui/settings.glade:4914
 msgid "Automatically Add Empty Last Page (excluding PDFs)"
-msgstr ""
+msgstr "Automaticamente Adicionar Última Página Vazia (excluindo PDFs)"
 
 #: ../ui/settings.glade:462
 msgid "Autosaving"
@@ -2281,7 +2326,7 @@ msgstr "Velocidade base"
 
 #: ../ui/settings.glade:3713
 msgid "Below preview"
-msgstr ""
+msgstr "Visualização abaixo"
 
 #: ../ui/settings.glade:3347
 msgctxt "stylus cursor uses a big pen icon"
@@ -2342,7 +2387,7 @@ msgstr "Cor do Círculo"
 
 #: ../ui/settings.glade:3714
 msgid "Circle background"
-msgstr ""
+msgstr "Fundo circular"
 
 #: ../ui/settings.glade:4206
 msgid "Clear cached paged while scrolling"
@@ -2418,11 +2463,11 @@ msgstr "Raio da zona morta"
 
 #: ../ui/latexSettings.glade:119
 msgid "Default LaTeX Text"
-msgstr ""
+msgstr "Texto LaTeX Padrão"
 
 #: ../ui/settings.glade:805
 msgid "Default Pdf export name"
-msgstr ""
+msgstr "Nome de exportação padrão de PDF"
 
 #: ../ui/settings.glade:637
 msgid "Default Save Name"
@@ -2542,7 +2587,7 @@ msgstr "Duplicar"
 
 #: ../ui/main.glade:1243
 msgid "Duplicate Page"
-msgstr ""
+msgstr "Duplicar Página"
 
 #: ../ui/main.glade:2985
 msgid "Edit (not implemented yet)"
@@ -2614,7 +2659,7 @@ msgstr "Tipo de borracha - não mudar"
 
 #: ../ui/settings.glade:2193
 msgid "Eraser visibility"
-msgstr ""
+msgstr "Visibilidade da borracha"
 
 #: ../ui/exportSettings.glade:56
 msgid "Export"
@@ -2687,7 +2732,7 @@ msgstr "Caminho do arquivo de modelo global"
 
 #: ../ui/settings.glade:4054
 msgid "Go Fullscreen"
-msgstr ""
+msgstr "Tela Cheia"
 
 #: ../ui/goto.glade:14
 msgid "Go to Page"
@@ -2925,7 +2970,7 @@ msgstr "Pressão mínima:"
 
 #: ../ui/settings.glade:5287
 msgid "Minimum Stroke Size"
-msgstr ""
+msgstr "Tamanho Mínimo do Traço"
 
 #: ../ui/settings.glade:1629 ../ui/settingsDeviceClassConfig.glade:42
 msgid "Mouse"
@@ -2945,11 +2990,11 @@ msgstr "Mover para Baixo"
 
 #: ../ui/main.glade:490
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "Mover Camada de Seleção para Baixo"
 
 #: ../ui/main.glade:480
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "Mover Camada de Seleção para Cima"
 
 #: ../ui/main.glade:2887 ../ui/main.glade:2962
 msgid "Move Up"
@@ -2966,7 +3011,7 @@ msgstr "Próxima página anotada"
 #: ../ui/settings.glade:2166
 msgctxt "eraser is never visible"
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: ../ui/main.glade:1222
 msgid "New Page _After"
@@ -3028,7 +3073,7 @@ msgstr "Página anotada anterior"
 
 #: ../ui/settings.glade:3697
 msgid "Page numbering  "
-msgstr ""
+msgstr "Numeração da página  "
 
 #: ../ui/exportSettings.glade:206
 msgid "Pages:"
@@ -3262,7 +3307,7 @@ msgstr "Mostrar Ferramentas Flutuantes"
 
 #: ../ui/settings.glade:3939 ../ui/settings.glade:4022
 msgid "Show Menubar"
-msgstr ""
+msgstr "Mostrar Barra de Menu"
 
 #: ../ui/settings.glade:2994
 msgid "Show Menubar on Startup"
@@ -3274,7 +3319,7 @@ msgstr "Mostrar a barra lateral"
 
 #: ../ui/settings.glade:3955 ../ui/settings.glade:4038
 msgid "Show Toolbar"
-msgstr ""
+msgstr "Mostrar Barra de Ferramentas"
 
 #: ../ui/main.glade:605
 msgid "Show Toolbars"
@@ -3286,7 +3331,7 @@ msgstr "Mostrar o caminho do arquivo na barra de título"
 
 #: ../ui/settings.glade:3047
 msgid "Show page number in title bar"
-msgstr ""
+msgstr "Mostrar número da página na barra de título"
 
 #: ../ui/settings.glade:3624
 msgid "Show sidebar on the right side"
@@ -3298,7 +3343,7 @@ msgstr "Mostrar barra de rolagem vertical no lado esquerdo"
 
 #: ../ui/settings.glade:3744
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra Lateral"
 
 #: ../ui/settings.glade:1078
 msgid "Slower strokes are assigned a greater pressure than faster strokes, if pressure information is absent.\n\n"
@@ -3329,7 +3374,7 @@ msgstr "Velocidade para um passo do zoom"
 
 #: ../ui/settings.glade:3715
 msgid "Square background"
-msgstr ""
+msgstr "Fundo quadrado"
 
 #: ../ui/settingsButtonConfig.glade:130
 msgid "Standard"
@@ -3349,7 +3394,7 @@ msgstr "Adicionar taxado ao texto selecionado"
 
 #: ../ui/settings.glade:5328
 msgid "Stroke Recognizer"
-msgstr ""
+msgstr "Reconhecedor de Traço"
 
 #: ../ui/settings.glade:2224
 msgid "Stylus"
@@ -3361,7 +3406,7 @@ msgstr "Botões de caneta"
 
 #: ../ui/settings.glade:2150
 msgid "Stylus-based eraser is visible"
-msgstr ""
+msgstr "A borracha da caneta está visível"
 
 #: ../ui/settings.glade:5439
 msgid "Successive (ms)"
@@ -3518,12 +3563,12 @@ msgstr "Ao desenhar com toque, gestos com dois dedos, destinados a mover a visua
 #: ../ui/settings.glade:2168
 msgctxt "eraser is only visible when floating"
 msgid "When floating"
-msgstr ""
+msgstr "Ao flutuar"
 
 #: ../ui/settings.glade:2169
 msgctxt "eraser is only visible when touching the screen"
 msgid "When touching"
-msgstr ""
+msgstr "Ao tocar"
 
 #: ../ui/settings.glade:5579
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
@@ -3813,7 +3858,7 @@ msgstr "_Borracha pontual"
 
 #: ../ui/settings.glade:4894
 msgid "disabled"
-msgstr ""
+msgstr "desabilitado"
 
 #: ../ui/exportSettings.glade:310
 msgid "dpi"
@@ -3851,9 +3896,9 @@ msgstr "muito espesso"
 
 #: ../ui/settings.glade:4879
 msgid "when drawing on last page"
-msgstr ""
+msgstr "quando desenhando na última página"
 
 #: ../ui/settings.glade:4864
 msgid "when scrolling to end of last page"
-msgstr ""
+msgstr "ao rolar para o final da última página"
 
