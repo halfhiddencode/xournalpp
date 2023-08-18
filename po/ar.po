@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-06 17:41\n"
+"PO-Revision-Date: 2023-08-18 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -3337,7 +3337,7 @@ msgstr "إظهار مسار الملف في شريط العنوان"
 
 #: ../ui/settings.glade:3047
 msgid "Show page number in title bar"
-msgstr ""
+msgstr "إظهار رقم الصفحة في شريط العنوان"
 
 #: ../ui/settings.glade:3624
 msgid "Show sidebar on the right side"
