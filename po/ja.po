@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-06 17:41\n"
+"PO-Revision-Date: 2023-08-23 00:14\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2283,7 +2283,7 @@ msgstr "ページ間の背景色"
 
 #: ../ui/settings.glade:3882
 msgid "Base speed"
-msgstr ""
+msgstr "基本速度"
 
 #: ../ui/settings.glade:3713
 msgid "Below preview"
@@ -2296,7 +2296,7 @@ msgstr "大きいペン"
 
 #: ../ui/settings.glade:3552
 msgid "Border Color"
-msgstr ""
+msgstr "枠線の色"
 
 #: ../ui/settings.glade:3513
 msgid "Border Width"
@@ -2304,7 +2304,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3106
 msgid "Border color"
-msgstr ""
+msgstr "枠線の色"
 
 #: ../ui/settings.glade:3091
 msgid "Border color for current page and other selections"
@@ -2336,7 +2336,7 @@ msgstr "変更"
 
 #: ../ui/latexSettings.glade:205
 msgid "Choose a global LaTeX template file"
-msgstr ""
+msgstr "グローバルのLaTeXテンプレートファイルを選択してください"
 
 #: ../ui/settings.glade:3395 ../ui/settings.glade:3538
 msgid "Choose the color to use for \"Highlight cursor position\""
@@ -2344,15 +2344,15 @@ msgstr "カーソル位置をハイライト表示するときに使用する色
 
 #: ../ui/settings.glade:3409
 msgid "Circle Color"
-msgstr ""
+msgstr "円の色"
 
 #: ../ui/settings.glade:3714
 msgid "Circle background"
-msgstr ""
+msgstr "円の背景"
 
 #: ../ui/settings.glade:4206
 msgid "Clear cached paged while scrolling"
-msgstr ""
+msgstr "スクロール中にキャッシュしたページを削除する"
 
 #: ../ui/settings.glade:3219
 msgid "Color"
@@ -2578,7 +2578,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5358
 msgid "Enable Tap action"
-msgstr ""
+msgstr "タップ操作を有効にする"
 
 #: ../ui/settings.glade:851
 msgid "Enable autoloading of most recent file on application startup"
@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: ../ui/settings.glade:2812
 msgid "Enable touch drawing"
-msgstr ""
+msgstr "タッチ描画を有効にする"
 
 #: ../ui/settings.glade:2675
 msgid "Enable zoom gestures (requires restart)"
@@ -2905,7 +2905,7 @@ msgstr ""
 
 #: ../ui/main.glade:1312
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "下のレイヤーと結合"
 
 #: ../ui/settings.glade:1058
 msgid "Merge button events with stylus tip events\n"
@@ -2942,11 +2942,11 @@ msgstr "下へ"
 
 #: ../ui/main.glade:490
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "選択したレイヤーを下に移動"
 
 #: ../ui/main.glade:480
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "選択したレイヤーを上に移動"
 
 #: ../ui/main.glade:2887 ../ui/main.glade:2962
 msgid "Move Up"
@@ -2979,7 +2979,7 @@ msgstr "最後に新しいページを追加(_E)"
 
 #: ../ui/main.glade:1290
 msgid "New _Layer"
-msgstr ""
+msgstr "新規レイヤー(_L)"
 
 #: ../ui/settings.glade:3345
 msgctxt "stylus cursor uses no icon"
@@ -3062,15 +3062,15 @@ msgstr "パス: "
 
 #: ../ui/main.glade:2072
 msgid "Pause"
-msgstr ""
+msgstr "一時停止"
 
 #: ../ui/main.glade:1699
 msgid "Pen _Options"
-msgstr ""
+msgstr "ペンオプション(_O)"
 
 #: ../ui/settings.glade:4235
 msgid "Performance"
-msgstr ""
+msgstr "パフォーマンス"
 
 #: ../ui/latexSettings.glade:564
 msgid "Pick the Editor's Font"
@@ -3094,11 +3094,11 @@ msgstr "プラグインの変更はXournal++の再起動後にのみ適用され
 
 #: ../ui/settings.glade:4169
 msgid "Pre-load pages after"
-msgstr ""
+msgstr "プリロードするページ数（後）"
 
 #: ../ui/settings.glade:4157
 msgid "Pre-load pages before"
-msgstr ""
+msgstr "プリロードするページ数（前）"
 
 #: ../ui/main.glade:532
 msgid "Preferences"
@@ -3174,11 +3174,11 @@ msgstr ""
 
 #: ../ui/settings.glade:6119
 msgid "Sample Rate"
-msgstr ""
+msgstr "サンプルレート"
 
 #: ../ui/renameLayerDialog.glade:65
 msgid "Sample layer name"
-msgstr ""
+msgstr "サンプルレイヤー名"
 
 #: ../ui/pageTemplate.glade:40
 msgid "Save to file"
@@ -3316,11 +3316,11 @@ msgstr "ソースコード/バグトラッカー"
 
 #: ../ui/settings.glade:4319
 msgid "Speed for Ctrl + Scroll"
-msgstr ""
+msgstr "Ctrl + スクロールの割合"
 
 #: ../ui/settings.glade:4347
 msgid "Speed for a Zoomstep"
-msgstr ""
+msgstr "ズームの割合"
 
 #: ../ui/settings.glade:3715
 msgid "Square background"
@@ -3336,7 +3336,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5901 ../ui/settings.glade:5959
 msgid "Storage Folder"
-msgstr ""
+msgstr "ストレージフォルダ"
 
 #: ../ui/main.glade:2839
 msgid "Strikethrough selected text"
@@ -3429,7 +3429,7 @@ msgstr ""
 
 #: ../ui/settings.glade:2397
 msgid "Timeout"
-msgstr ""
+msgstr "タイムアウト"
 
 #: ../ui/main.glade:2859
 msgid "Toggle standard / region text selection"
@@ -3494,7 +3494,7 @@ msgstr "バージョン: "
 
 #: ../ui/settings.glade:4266
 msgid "View"
-msgstr ""
+msgstr "表示"
 
 #: ../ui/about.glade:242
 msgid "Website"
@@ -3550,15 +3550,15 @@ msgstr "Xournal++の設定"
 
 #: ../ui/settings.glade:4564
 msgid "Zoom"
-msgstr ""
+msgstr "ズーム"
 
 #: ../ui/settings.glade:2767
 msgid "Zoom Gestures"
-msgstr ""
+msgstr "ズームジェスチャー"
 
 #: ../ui/settings.glade:4410
 msgid "Zoom Speed"
-msgstr ""
+msgstr "ズーム速度"
 
 #: ../ui/main.glade:742
 msgid "_1 Column"
@@ -3758,7 +3758,7 @@ msgstr "ツール(_T)"
 
 #: ../ui/main.glade:1159
 msgid "_Top Layer"
-msgstr ""
+msgstr "トップレイヤー(_T)"
 
 #: ../ui/main.glade:691
 msgid "_Top to Bottom"
@@ -3818,7 +3818,7 @@ msgstr "有効化,"
 
 #: ../ui/settings.glade:1926
 msgid "events"
-msgstr ""
+msgstr "イベント"
 
 #: ../ui/settings.glade:405
 msgid "every"
