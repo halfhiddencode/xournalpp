@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-23 00:14\n"
+"PO-Revision-Date: 2023-08-24 01:07\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2739,7 +2739,7 @@ msgstr ""
 
 #: ../ui/main.glade:1954
 msgid "Highlighter Opti_ons"
-msgstr ""
+msgstr "蛍光ペンのオプション(_o)"
 
 #: ../ui/settings.glade:5408
 msgid "How short (screen mm)  of the stroke  AND...\n\n"
@@ -3066,7 +3066,7 @@ msgstr "一時停止"
 
 #: ../ui/main.glade:1699
 msgid "Pen _Options"
-msgstr "ペンオプション(_O)"
+msgstr "ペンのオプション(_O)"
 
 #: ../ui/settings.glade:4235
 msgid "Performance"
@@ -3678,7 +3678,7 @@ msgstr "ヘルプ(_H)"
 
 #: ../ui/main.glade:1432
 msgid "_Highlighter"
-msgstr ""
+msgstr "蛍光ペン(_H)"
 
 #: ../ui/main.glade:633
 msgid "_Horizontal"
