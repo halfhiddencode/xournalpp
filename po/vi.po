@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-06 17:42\n"
+"PO-Revision-Date: 2023-08-28 23:26\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -131,7 +131,7 @@ msgstr "Thuộc tính màu chưa cài đặt!"
 #: ../src/core/control/AudioController.cpp:118
 msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
-msgstr ""
+msgstr "Thư mục ghi âm không hợp lệ! Chức năng ghi ân sẽ không hoạt động! Vui lòng cài đặt thư mục ghi âm trong \"Tùy chọn> Ghi âm\""
 
 #: ../src/core/control/Control.cpp:258
 msgid "Autosave failed with an error: {1}"
@@ -165,7 +165,7 @@ msgstr "Đưa ra phía trước"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:36
 msgid "Built on"
-msgstr ""
+msgstr "Dựa trên"
 
 #: ../src/core/control/Control.cpp:2340 ../src/core/control/Control.cpp:2824
 #: ../src/core/control/XournalMain.cpp:188
@@ -195,7 +195,7 @@ msgstr "Đổi chiều rộng nét bút"
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "Clear list"
-msgstr ""
+msgstr "Xóa danh sách"
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:96
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
@@ -434,7 +434,7 @@ msgstr "Vẽ Mũi tên"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
 msgid "Draw Double Arrow"
-msgstr ""
+msgstr "Vẽ cặp múi tên"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:134
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
@@ -626,7 +626,7 @@ msgstr "Xuất không quy định\n"
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "Không xóa được tập tin: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
