@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 09:06+0000\n"
-"PO-Revision-Date: 2023-08-30 09:14\n"
+"POT-Creation-Date: 2023-08-30 13:28+0000\n"
+"PO-Revision-Date: 2023-08-30 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -48,7 +48,7 @@ msgstr "%F-Nota-%H-%M"
 msgid "%{name}_annotated"
 msgstr "%{name}_annotato"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:74
+#: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
 msgstr "<b>Nessun dispositivo trovato. Sembra un errore - segnalare come bug?</b>"
 
@@ -82,11 +82,11 @@ msgstr "Opzioni avanzate di esportazione"
 msgid "All files"
 msgstr "Tutti i file"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:184
 msgid "Apply to all pages"
 msgstr "Applica a tutte le pagine"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:171
 msgid "Apply to current page"
 msgstr "Applica alla pagina corrente"
 
@@ -217,7 +217,7 @@ msgstr "Contenuti"
 msgid "Copy"
 msgstr "Copia"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:65
 msgid "Copy current"
 msgstr "Copia corrente"
 
@@ -515,7 +515,7 @@ msgstr "ElementRange::parse(): intervallo di elementi non valido."
 msgid "Emergency saved document"
 msgstr "Documento da salvataggio d'emergenza"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:272
+#: ../src/core/gui/dialog/SettingsDialog.cpp:270
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "Abilita la sensibilità alla pressione o la deduzione della pressione per modificare questa impostazione!"
 
@@ -700,7 +700,7 @@ msgstr "Riempi"
 msgid "Fill Opacity"
 msgstr "Opacità del riempimento"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:276
+#: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "Filtra la pressione. Moltiplica la pressione per il moltiplicatore di pressione. Se è inferiore al valore minimo, viene utilizzata la pressione minima."
 
