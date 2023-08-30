@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"PO-Revision-Date: 2023-08-30 16:00\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -331,7 +331,7 @@ msgstr "Nu s-a putut scrie fondul „{1}”. Continuă oricum."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Jurnal de erori"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -392,7 +392,7 @@ msgstr "Elimină această pagină"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Dezactivează audio pentru această sesiune"
 
 #: ../src/core/control/Control.cpp:2886
 msgid "Discard"
@@ -684,7 +684,7 @@ msgstr "Calea nu a putut fi găsită cu următoarea eroare:\n"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Raport de eroare"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -936,7 +936,7 @@ msgstr "Pagina următoare cu însemnări"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "No"
-msgstr ""
+msgstr "Nu"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1100,7 +1100,7 @@ msgstr "Înregistratorul nu a putut fi pornit."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Fișier de recuperare detectat"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1157,7 +1157,7 @@ msgstr "Dictando cu margine liniată"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "Operațiunea de tipărire a eșuat cu {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1434,7 +1434,7 @@ msgstr "Text"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Text găsit de %zu ori pe această pagină"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1442,11 +1442,11 @@ msgstr "Text găsit o dată pe pagina {1}"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "Text găsit o dată pe această pagină"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "Text găsit de {1} ori pe pagina {2} ({3} din {1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1504,11 +1504,11 @@ msgstr "Cel mai recent nume de fișier jurnal: {1}"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Există jurnale de erori de la Xournal++. Trimite un raport pentru ca eroarea să poată fi corectată."
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Există un jurnal de erori de la Xournal++. Trimite un raport pentru ca eroarea să poată fi corectată."
 
 #: ../src/util/XojMsgBox.cpp:196
 msgid "There was an error displaying help: {1}"
@@ -1679,7 +1679,7 @@ msgstr "Model Xournal++"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2115,7 +2115,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"Folosind locul de bifat, sistemul audio poate fi dezactivat sau activat pentru sesiunile viitoare (trebuie repornit).\n"
+"Dezactivarea sunetului pentru o singură sesiune poate fi realizată cu ajutorul <tt>--disable-audio</tt> din linia de comandă.\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2171,7 +2174,8 @@ msgstr "<i>Pune o riglă pe ecran și deplasează cursorul până când ambele r
 #: ../ui/settings.glade:5197
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>Reîncarcă mai des fondurile PDF în timp ce se face zoom pentru o calitate mai bună a redării. \n"
+"<b>Aviz:</b> Acest lucru nu ar trebui să afecteze calitatea tipăririi.</i>"
 
 #: ../ui/settings.glade:5979
 msgid "<i>Select language (requires restart)</i>"
@@ -2201,7 +2205,7 @@ msgstr "<i>Specifică instrumentul care va fi ales dacă se apasă un buton al c
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>Valoarea este specificată în pixeli.</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2237,7 +2241,7 @@ msgstr "<i>Poți configura dispozitivele neidentificate de GTK ca fiind ecran ta
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>sau</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2255,11 +2259,11 @@ msgstr "Acțiune la atingerea instrumentului"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "Culoarea selecției active (Rezultatele căutării etc.)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "Adaugă un spațiu orizontal suplimentar"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
