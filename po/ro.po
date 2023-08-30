@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 16:59\n"
+"PO-Revision-Date: 2023-08-30 17:55\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -2552,7 +2552,7 @@ msgstr "Dezactivare"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "Dezactivează audio"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2692,7 +2692,7 @@ msgstr "Activează recunoașterea palmei"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Activează sau dezactivează audio"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3109,7 +3109,7 @@ msgstr "Mută prima pagină cu acest număr de pagini când este activată opți
 #: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "Aprobă"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3203,7 +3203,7 @@ msgstr "Modificările modulelor se aplică după ce Xournal++ a fost repornit"
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Module"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
