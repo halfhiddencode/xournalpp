@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 09:06+0000\n"
-"PO-Revision-Date: 2023-08-30 09:14\n"
+"POT-Creation-Date: 2023-08-30 13:28+0000\n"
+"PO-Revision-Date: 2023-08-30 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -48,7 +48,7 @@ msgstr "%F-കുറിപ്പ്-%H-%M"
 msgid "%{name}_annotated"
 msgstr "%{name}_വ്യാഖ്യാനിച്ചു"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:74
+#: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
 msgstr "<b>ഉപകരണങ്ങളൊന്നും കണ്ടെത്താൻ സാധിച്ചില്ല. ഇത് തെറ്റാണെന്ന് തോന്നുന്നു - ബഗ്ഗ്‌ റിപ്പോർട്ട് ഫയൽ ചെയ്യണോ?</b>"
 
@@ -81,11 +81,11 @@ msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവ�
 msgid "All files"
 msgstr "എല്ലാ ഫയലുകളും"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:184
 msgid "Apply to all pages"
 msgstr "എല്ലാ താളുകൾക്കും ബാധകമാകുക"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:171
 msgid "Apply to current page"
 msgstr "നിലവിലുള്ള താളിൽ ബാധകമാകുക"
 
@@ -215,7 +215,7 @@ msgstr "ഉള്ളടക്കം"
 msgid "Copy"
 msgstr "പകർത്തുക"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:65
 msgid "Copy current"
 msgstr "നിലവിലുള്ളത് പകർത്തുക"
 
@@ -509,7 +509,7 @@ msgstr "എലമെന്റ്::പാർസ്() (ElementRange::parse()): അ
 msgid "Emergency saved document"
 msgstr "അടിയന്തിരമായി സേവ് ചെയ്ത ഡോക്യുമെന്റ്"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:272
+#: ../src/core/gui/dialog/SettingsDialog.cpp:270
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "ഈ ക്രമീകരണം മാറ്റുവാൻ സമ്മർദ്ദം തിരിച്ചറിയൽ, അല്ലെങ്കിൽ സമ്മർദാനുമാനം പ്രാപ്തമാക്കുക!"
 
@@ -693,7 +693,7 @@ msgstr "ഫിൽ"
 msgid "Fill Opacity"
 msgstr "ഫിൽ ഒപാസിറ്റി"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:276
+#: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "ഇൻപുട്ട് സമ്മർദ്ദം ഫിൽറ്റർ ചെയ്യുക. സമ്മർദ്ദ ഗുണിതസംഖ്യ ഉപയോഗിച്ച് സമ്മർദ്ദം ഗുണിക്കുക. മിനിമം സമ്മർദ്ദത്തെക്കാൾ കുറവെങ്കിൽ, മിനിമം അളവ് തന്നെ ഉപയോഗിക്കുക."
 
