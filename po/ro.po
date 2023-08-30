@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 16:00\n"
+"PO-Revision-Date: 2023-08-30 16:59\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -2267,7 +2267,7 @@ msgstr "Adaugă un spațiu orizontal suplimentar"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "Adaugă un spațiu vertical suplimentar"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2432,7 +2432,7 @@ msgstr "Șterge memoria cache în timpul răsfoirii"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Închide"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2496,11 +2496,11 @@ msgstr "Aspect întunecat (trebuie repornit programul)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Întreruptă-punctată"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "Linie întreruptă"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
