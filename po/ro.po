@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 17:55\n"
+"PO-Revision-Date: 2023-08-30 18:50\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -3271,7 +3271,7 @@ msgstr "Redenumește stratul ales"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Restabilește"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3466,7 +3466,7 @@ msgstr "Recunoaște forma"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "Tip de linie - nu schimba"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3584,7 +3584,7 @@ msgstr "Subliniază textul ales"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "Răsfoire nelimitată"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
@@ -3633,7 +3633,8 @@ msgstr "Când un element este ales și deplasat dincolo de partea vizibilă a zo
 #: ../ui/settings.glade:2516
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "Când desenezi cu ajutorul atingerii, gesturile cu două degete menite să miște zona vizibilă pot provoca în schimb zoom, ceea ce provoacă neplăceri. \n"
+"Această opțiune poate facilita desenarea prin atingere. "
 
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
