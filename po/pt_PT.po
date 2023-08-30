@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 09:06+0000\n"
-"PO-Revision-Date: 2023-08-30 09:14\n"
+"POT-Creation-Date: 2023-08-30 13:28+0000\n"
+"PO-Revision-Date: 2023-08-30 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -48,7 +48,7 @@ msgstr "%F-Nota-%H-%M"
 msgid "%{name}_annotated"
 msgstr ""
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:74
+#: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
 msgstr "<b>Não foram encontrados dispositivos. Isto é improvável - talvez deva relatar este bug?</b>"
 
@@ -82,11 +82,11 @@ msgstr "Opções de exportação avançadas"
 msgid "All files"
 msgstr "Todos os ficheiros"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:184
 msgid "Apply to all pages"
 msgstr "Aplicar a todas as páginas"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:171
 msgid "Apply to current page"
 msgstr "Aplicar à página atual"
 
@@ -217,7 +217,7 @@ msgstr "Conteúdo"
 msgid "Copy"
 msgstr "Copiar"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:65
 msgid "Copy current"
 msgstr "Copiar atual"
 
@@ -515,7 +515,7 @@ msgstr "ElementRange::parse(): intervalo de elementos inválido."
 msgid "Emergency saved document"
 msgstr "Documento guardado de emergência"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:272
+#: ../src/core/gui/dialog/SettingsDialog.cpp:270
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "Ative a sensibilidade à pressão ou inferência da pressão para alterar esta configuração!"
 
@@ -696,7 +696,7 @@ msgstr "Preencher"
 msgid "Fill Opacity"
 msgstr "Opacidade do preenchimento"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:276
+#: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr ""
 
