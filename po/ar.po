@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 09:06+0000\n"
-"PO-Revision-Date: 2023-08-30 09:14\n"
+"POT-Creation-Date: 2023-08-30 13:28+0000\n"
+"PO-Revision-Date: 2023-08-30 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -48,7 +48,7 @@ msgstr "%F-ملاحظة-%H-%M"
 msgid "%{name}_annotated"
 msgstr "%{name}_مشروح"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:74
+#: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
 msgstr "<b>لم يتم العثور على أجهزة. لا يبدو هذا صائبًا- ربما تودُّ إرسال بلاغٍ عن العطل؟</b>"
 
@@ -82,11 +82,11 @@ msgstr "خيارات التصدير المتقدمة"
 msgid "All files"
 msgstr "كل الملفات"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:184
 msgid "Apply to all pages"
 msgstr "طبق على كافة الصفحات"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:171
 msgid "Apply to current page"
 msgstr "طبق على الصفحة الحالية"
 
@@ -217,7 +217,7 @@ msgstr "المحتويات"
 msgid "Copy"
 msgstr "نسخة"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:65
 msgid "Copy current"
 msgstr "نسخ الحالي"
 
@@ -515,7 +515,7 @@ msgstr "مساحة العنصر::parse(): مساحة العنصر غير صحي�
 msgid "Emergency saved document"
 msgstr "المستند المحفوظ اضطراريا"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:272
+#: ../src/core/gui/dialog/SettingsDialog.cpp:270
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "قم بتفعيل الإحساس بضغط قلم الكتابة أو دعني احدده تلقائياً!"
 
@@ -700,7 +700,7 @@ msgstr "تعبئة"
 msgid "Fill Opacity"
 msgstr "عتامة التعبئة"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:276
+#: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "ترشيح ضغط الإدخال. اضرب الضغط في قيمة «مضاعف الضغط». وإذا كان أقل من الحد الأدنى، استخدم «الحد الأدنى للضغط»."
 
