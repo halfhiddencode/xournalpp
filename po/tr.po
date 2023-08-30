@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 09:06+0000\n"
-"PO-Revision-Date: 2023-08-30 09:14\n"
+"POT-Creation-Date: 2023-08-30 13:28+0000\n"
+"PO-Revision-Date: 2023-08-30 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -48,7 +48,7 @@ msgstr "%F-Not-%H-%M"
 msgid "%{name}_annotated"
 msgstr "%{name}_açıklanmış"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:74
+#: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
 msgstr "<b>Hiçbir aygıt bulunamadı. Bu bir sorun gibi görünüyor, bir hata raporu oluşturulsun mu?</b>"
 
@@ -82,11 +82,11 @@ msgstr "Gelişmiş dışa aktarma seçenekleri"
 msgid "All files"
 msgstr "Tüm dosyalar"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:212
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:184
 msgid "Apply to all pages"
 msgstr "Tüm sayfalara uygula"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:199
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:171
 msgid "Apply to current page"
 msgstr "Geçerli sayfaya uygula"
 
@@ -217,7 +217,7 @@ msgstr "İçindekiler"
 msgid "Copy"
 msgstr "Kopyala"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:93
+#: ../src/core/control/pagetype/PageTypeMenu.cpp:65
 msgid "Copy current"
 msgstr "Geçerliyi kopyala"
 
@@ -515,7 +515,7 @@ msgstr "ElementRange::parse(): geçersiz öge aralığı."
 msgid "Emergency saved document"
 msgstr "Acil durum kaydedilmiş belge"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:272
+#: ../src/core/gui/dialog/SettingsDialog.cpp:270
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "Bu ayarı değiştirmek için basınç duyarlılığını veya basınç çıkarımını etkinleştirin!"
 
@@ -700,7 +700,7 @@ msgstr "Doldur"
 msgid "Fill Opacity"
 msgstr "Dolgu Opaklığı"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:276
+#: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "Basınç girişini filitrele. Basıncı, basınç çarpanıyla çarp. Eğer minimumdan azsa, minimum basıncı kullan."
 
