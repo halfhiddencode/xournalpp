@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 17:02+0000\n"
-"PO-Revision-Date: 2023-08-30 01:46\n"
+"PO-Revision-Date: 2023-08-30 02:42\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -61,11 +61,11 @@ msgstr ""
 
 #: ../src/core/gui/PageView.cpp:939
 msgid "Add missing page"
-msgstr ""
+msgstr "เพิ่มหน้าที่ขาดหายไป"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:513
 msgid "Add/Edit TeX"
-msgstr ""
+msgstr "เพิ่ม/แก้ไข TeX"
 
 #: ../src/core/control/XournalMain.cpp:686
 msgid "Advanced export options"
@@ -85,7 +85,7 @@ msgstr "ใช้กับหน้าปัจจุบัน"
 
 #: ../src/core/control/tools/EditSelection.cpp:400
 msgid "Arrange"
-msgstr ""
+msgstr "จัดเรียง"
 
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:32
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:116
@@ -129,15 +129,15 @@ msgstr ""
 
 #: ../src/core/control/Control.cpp:258
 msgid "Autosave failed with an error: {1}"
-msgstr ""
+msgstr "การบันทึกอัตโนมัติล้มเหลวด้วยข้อผิดพลาด: {1}"
 
 #: ../src/core/control/Control.cpp:238
 msgid "Autosave renamed from {1} to {2}"
-msgstr ""
+msgstr "การบันทึกอัตโนมัติถูกเปลี่ยนชื่อจาก {1} เป็น {2}"
 
 #: ../src/core/control/jobs/AutosaveJob.cpp:48
 msgid "Autosaving to {1}"
-msgstr ""
+msgstr "กำลังบันทึกอัตโนมัติไปยัง {1}"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:468
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:558
@@ -297,7 +297,7 @@ msgstr ""
 
 #: ../src/core/control/latex/LatexGenerator.cpp:91
 msgid "Could not save .tex file: {1}"
-msgstr ""
+msgstr "ไม่สามารถบันทึกไฟล์ .tex ได้: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:105
 msgid "Could not start {1}: {2} (exit code: {3})"
@@ -322,7 +322,7 @@ msgstr "สร้างเลเยอร์ใหม่"
 
 #: ../src/core/gui/dialog/FormatDialog.cpp:71
 msgid "Custom"
-msgstr ""
+msgstr "กำหนดเอง"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:24
 msgid "Custom Export"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:455
 msgid "Customize Toolbars"
-msgstr ""
+msgstr "ปรับแต่งแถบเครื่องมือ"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:34
 msgid "Customized"
@@ -371,15 +371,15 @@ msgstr ""
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:82
 msgid "Delete this page"
-msgstr ""
+msgstr "ลบหน้านี้"
 
 #: ../src/core/control/Control.cpp:2821
 msgid "Discard"
-msgstr ""
+msgstr "ละทิ้ง"
 
 #: ../src/core/control/XournalMain.cpp:687
 msgid "Display advanced export options"
-msgstr ""
+msgstr "ตัวเลือกการส่งออกขั้นสูง"
 
 #: ../src/core/control/Control.cpp:2253
 msgid "Do not open Autosave files. They may will be overwritten!\n"
@@ -566,7 +566,7 @@ msgstr ""
 
 #: ../src/core/control/XournalMain.cpp:640
 msgid "Export FILE as PDF"
-msgstr ""
+msgstr "ส่งออกไฟล์เป็น PDF"
 
 #: ../src/core/control/XournalMain.cpp:642
 msgid "Export FILE as image files (one per page)\n"
@@ -580,7 +580,7 @@ msgstr "ส่งออกเป็น PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:416
 msgid "Export as PDF"
-msgstr ""
+msgstr "ส่งออกเป็น PDF"
 
 #: ../src/core/control/XournalMain.cpp:656
 msgid "Export layers progressively\n"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:72
 msgid "GNU GPLv2 or later"
-msgstr ""
+msgstr "GNU GPLv2 หรือใหม่กว่า"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:39
 msgid "GTK Version"
@@ -2211,7 +2211,7 @@ msgstr ""
 
 #: ../ui/settings.glade:462
 msgid "Autosaving"
-msgstr "บันทึกอัตโนมัต"
+msgstr "กำลังบันทึกอัตโนมัติ"
 
 #: ../ui/settings.glade:611 ../ui/settings.glade:781
 msgid "Available Placeholders"
