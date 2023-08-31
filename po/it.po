@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 18:50\n"
+"PO-Revision-Date: 2023-08-31 19:16\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -1157,7 +1157,7 @@ msgstr "A righe con margine"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "L'operazione di stampa non è riuscita con {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1434,7 +1434,7 @@ msgstr "Testo"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Testo trovato %zu volte in questa pagina"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
