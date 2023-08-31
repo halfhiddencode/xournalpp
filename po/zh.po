@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"PO-Revision-Date: 2023-08-31 02:29\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -331,7 +331,7 @@ msgstr "未能写上背景\"{1}\"，不管啦继续哦..."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "崩溃日志"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -392,7 +392,7 @@ msgstr "删除此页面"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "禁用此会话的音频"
 
 #: ../src/core/control/Control.cpp:2886
 msgid "Discard"
@@ -684,7 +684,7 @@ msgstr "因如下错误而无法解析路径:{1}"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "文件错误报告"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -936,7 +936,7 @@ msgstr "下一个标注页面"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1100,7 +1100,7 @@ msgstr "无法启动录音器。"
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "检测到恢复文件"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1157,7 +1157,7 @@ msgstr "信笺纸"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "使用 {1} 运行打印操作失败"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1434,7 +1434,7 @@ msgstr "文本"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "此页面找到的 %zu 次文本"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1442,11 +1442,11 @@ msgstr "文本在第{1}页上找到"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "在这个页面找到一次文本"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "在第 {2} 页（第 {3} 页，共 {1} 页）上找到文字 {1} 次"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1504,11 +1504,11 @@ msgstr "最近的日志文件名：{1}"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "有来自 Xournal++ 的最新错误日志文件。 请提交错误报告，以便修复该错误。"
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Xournal++ 有一个最近的错误日志文件。 请提交错误报告，以便修复该错误。"
 
 #: ../src/util/XojMsgBox.cpp:196
 msgid "There was an error displaying help: {1}"
@@ -1679,7 +1679,7 @@ msgstr "Xournal++ 模板"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2115,7 +2115,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"使用该复选框，可以为将来的会话禁用或启用音频系统（需要重新启动）。\n"
+"可以使用命令行上的 <tt>--disable-audio</tt> 标志来禁用单个会话的音频。\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2170,7 +2173,8 @@ msgstr "<i>在你的屏幕上放置一个尺子并移动滑动条直到刻度对
 #: ../ui/settings.glade:5197
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>在缩放时更频繁地重新渲染 PDF 背景，以获得更好的渲染质量。\n"
+"<b>注意：</b>这不应影响打印质量。</i>"
 
 #: ../ui/settings.glade:5979
 msgid "<i>Select language (requires restart)</i>"
@@ -2200,7 +2204,7 @@ msgstr "<i>指定当笔上的按钮被按下或使用橡皮时被选中的工具
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>以像素为单位指定数量。</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2236,7 +2240,7 @@ msgstr "<i>您可以手动配置未被GTK识别为触摸屏的设备。</i>"
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>或</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2254,15 +2258,15 @@ msgstr "工具点击操作"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "活动选区颜色(搜索结果等)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "添加其他水平间距"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "添加其他垂直间距"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2427,7 +2431,7 @@ msgstr "滚动时清除缓存的分页"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2491,11 +2495,11 @@ msgstr "暗色主题 (需要重启)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "点划线"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "虚线"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -2547,7 +2551,7 @@ msgstr "禁用"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "禁用音频"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2687,7 +2691,7 @@ msgstr "启用手势感知"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "启用或禁用音频"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3104,7 +3108,7 @@ msgstr "当启用 <b>双页</b> 显示时，偏移多个页面中的第一页"
 #: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "确定"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3197,7 +3201,7 @@ msgstr "插件改变仅在Xournal++重启后应用"
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "插件"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3265,7 +3269,7 @@ msgstr "重命名所选图层"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "重 置"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3393,7 +3397,7 @@ msgstr "标题栏显示完整路径"
 
 #: ../ui/settings.glade:2845
 msgid "Show page number in title bar"
-msgstr ""
+msgstr "在标题栏中显示页码"
 
 #: ../ui/settings.glade:3401
 msgid "Show sidebar on the right side"
@@ -3460,7 +3464,7 @@ msgstr "笔画识别"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "笔画类型 - 不更改"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3578,7 +3582,7 @@ msgstr "为选中文本添加下划线"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "无限制滚动"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
@@ -3627,7 +3631,8 @@ msgstr "当一个被选中元素被移出画布的可见部分时， 以这个�
 #: ../ui/settings.glade:2516
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "通过触摸绘图时，用于平移视图的两指手势可能会导致视图缩放，从而导致性能问题。\n"
+"此设置可以使触摸绘图更加容易。"
 
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
