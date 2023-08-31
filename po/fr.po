@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-31 14:11\n"
+"PO-Revision-Date: 2023-08-31 15:29\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1442,11 +1442,11 @@ msgstr "Texte trouvé une fois dans la page {1}"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "Texte trouvé une fois sur la page"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "Texte trouvé {1} fois sur la page {2} ({3} de {1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1504,11 +1504,11 @@ msgstr "Le nom de fichier journal le plus récent : {1}"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Il y a des journaux d'erreurs récents pour Xournal++. S'il vous plaît remplissez un rapport de bogue, afin que le bogue puisse être corrigé."
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Il y a un journal d'erreurs récent pour Xournal++. S'il vous plaît remplissez un rapport de bogue, afin que le bogue puisse être corrigé."
 
 #: ../src/util/XojMsgBox.cpp:196
 msgid "There was an error displaying help: {1}"
@@ -1679,7 +1679,7 @@ msgstr "Modèle Xournal++"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2115,7 +2115,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"En utilisant la case à cocher, le système audio peut être désactivé ou activé pour les futures sessions (redémarrage requis).\n"
+"La désactivation de l'audio pour une seule session peut être obtenue en utilisant l'option <tt>--disable-audio</tt> sur la ligne de commande.\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2170,7 +2173,8 @@ msgstr "<i>Mettez une règle sur votre écran et déplacez le curseur jusqu'à c
 #: ../ui/settings.glade:5197
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>Redessiner plus souvent les arrière-plans PDF pendant le zoom pour une meilleure qualité de rendu. \n"
+"<b>Remarque :</b> Cela ne devrait pas affecter la qualité d'impression.</i>"
 
 #: ../ui/settings.glade:5979
 msgid "<i>Select language (requires restart)</i>"
@@ -2200,7 +2204,7 @@ msgstr "<i>Spécifiez les outils qui seront sélectionnés si un bouton du style
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>La quantité est spécifiée en pixels.</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2236,7 +2240,7 @@ msgstr "<i>Vous pouvez configurer des périphériques, non identifiés par GTK c
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>ou</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2254,15 +2258,15 @@ msgstr "Action en cliquant sur l'outil"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "Couleur de sélection active (résultats de recherche, etc.)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "Ajouter un espace horizontal supplémentaire"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "Ajouter un espace vertical supplémentaire"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2427,7 +2431,7 @@ msgstr "Vider le cache paginé lors du défilement"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2491,11 +2495,11 @@ msgstr "Thème foncé (nécessite un redémarrage)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Tiret pointillé"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "Tiret"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -2547,7 +2551,7 @@ msgstr "Désactiver"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "Désactiver l'audio"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2687,7 +2691,7 @@ msgstr "Activer la reconnaissance interne de la main"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Activer ou désactiver l'audio"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3104,7 +3108,7 @@ msgstr "Décaler la première page de ce nombre de pages quand <b>pages paires</
 #: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3198,7 +3202,7 @@ msgstr "Les modifications de greffons ne sont appliquées qu'après le redémarr
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Greffons"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3266,7 +3270,7 @@ msgstr "Renommer le calque sélectionné"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Réinitialiser "
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3461,7 +3465,7 @@ msgstr "Reconnaissance d'écriture"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "Type de trait - ne pas changer"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3579,7 +3583,7 @@ msgstr "Souligner le texte sélectionné"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "Défilement illimité"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
@@ -3628,7 +3632,8 @@ msgstr "Lorsqu'un élément est sélectionné et déplacé au-delà de la partie
 #: ../ui/settings.glade:2516
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "Lorsque vous dessinez au toucher, les gestes à deux doigts destinés à déplacer la vue peuvent parfois la faire zoomer, causant des problèmes de performance. \n"
+"Ce paramètre peut faciliter le dessin tactile. "
 
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
