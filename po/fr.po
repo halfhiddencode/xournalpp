@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:54\n"
+"PO-Revision-Date: 2023-08-31 14:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -331,7 +331,7 @@ msgstr "Impossible d'écrire l'arrière-plan \"{1}\". Poursuite."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Journal d'erreurs"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -392,7 +392,7 @@ msgstr "Supprimer cette page"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Désactiver l'audio pour cette session"
 
 #: ../src/core/control/Control.cpp:2886
 msgid "Discard"
@@ -684,7 +684,7 @@ msgstr "Impossible de résoudre le chemin avec l'erreur suivante :\n"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Envoyer un rapport de bug"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -936,7 +936,7 @@ msgstr "Page annotée suivante"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1100,7 +1100,7 @@ msgstr "L'enregistrement n'a pas pu être démarré."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Fichier de récupération détecté"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1157,7 +1157,7 @@ msgstr "Tracé avec ligne verticale"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "L'opération d'impression en cours a échoué avec {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1434,7 +1434,7 @@ msgstr "Texte"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Texte trouvé %zu fois sur la page"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
