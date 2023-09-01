@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-09-01 14:58\n"
+"PO-Revision-Date: 2023-09-01 16:13\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -167,7 +167,7 @@ msgstr "اجلب للمقدمة"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:44
 msgid "Built on"
-msgstr "تم بناء هذا التطبيق في (تاريخ)"
+msgstr "وقت البناء"
 
 #: ../src/core/control/Control.cpp:2401 ../src/core/control/Control.cpp:2889
 #: ../src/core/control/XournalMain.cpp:196
