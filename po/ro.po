@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-31 20:32\n"
+"PO-Revision-Date: 2023-09-01 17:36\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -1508,7 +1508,7 @@ msgstr "Există jurnale de erori de la Xournal++. Trimite un raport pentru ca er
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr "Există un jurnal al unei erori recente de la Xournal++. Trimite un raport pentru ca eroarea să poată fi corectată."
+msgstr "Există un jurnal de erori recent de la Xournal++. Trimite un raport pentru ca eroarea să poată fi corectată."
 
 #: ../src/util/XojMsgBox.cpp:196
 msgid "There was an error displaying help: {1}"
