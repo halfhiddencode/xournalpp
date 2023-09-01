@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-09-01 13:48\n"
+"PO-Revision-Date: 2023-09-01 14:58\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -185,7 +185,7 @@ msgstr "تغيير الخط"
 
 #: ../src/core/undo/LineStyleUndoAction.cpp:78
 msgid "Change line style"
-msgstr "تغيير نمط سطر الكتابة"
+msgstr "تغيير نمط الخط"
 
 #: ../src/core/undo/FillUndoAction.cpp:81
 msgid "Change stroke fill"
@@ -331,7 +331,7 @@ msgstr "تعذر كتابة الخلفية «{1}». سنتابع على أيّة
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "سجل التعطل"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -368,7 +368,7 @@ msgstr "حذف"
 
 #: ../src/core/control/XournalMain.cpp:195
 msgid "Delete Logfile"
-msgstr "حذف ملفات المسجل بها أخطاء التطبيق"
+msgstr "حذف ملف سجل الأخطاء"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:501
 msgid "Delete current page"
@@ -471,7 +471,7 @@ msgstr "رسم مستطيل"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:46
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:542
 msgid "Draw Spline"
-msgstr "رسم خط مٌنحنِى"
+msgstr "رسم خط مُنحنِي"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:139
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:42
@@ -481,11 +481,11 @@ msgstr "رسم نظام إحداثيات"
 
 #: ../src/core/undo/InsertUndoAction.cpp:33
 msgid "Draw stroke"
-msgstr "مدى ثِقل خط القلم"
+msgstr "رسم خط أو شكل"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:125
 msgid "Drawing Type - don't change"
-msgstr "نوع الرسم - لا تغيرهُ"
+msgstr "نوع الرسم - لا تغيير"
 
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:29
 msgid "Drawing Type Combo"
@@ -505,11 +505,11 @@ msgstr "ElementRange::parse()‎: دليل العنصر المعطى أكبر م
 
 #: ../src/util/ElementRange.cpp:98
 msgid "ElementRange::parse(): interval bounds must be in increasing order."
-msgstr "ElementRange::parse()‎: يجب أن يكونا حدّي المساحة بترتيب تصاعدي."
+msgstr "ElementRange::parse()‎: يجب أن يكونا حدّي المدى بترتيب تصاعدي."
 
 #: ../src/util/ElementRange.cpp:91
 msgid "ElementRange::parse(): invalid element range."
-msgstr "مساحة العنصر::parse(): مساحة العنصر غير صحيحة."
+msgstr "ElementRange::parse()‎: مدى عنصر غير صالح."
 
 #: ../src/core/undo/EmergencySaveRestore.cpp:22
 msgid "Emergency saved document"
@@ -528,7 +528,7 @@ msgstr "محو خط أو شكل"
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:88
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:327
 msgid "Eraser"
-msgstr "الممحاة"
+msgstr "ممحاة"
 
 #: ../src/core/control/Control.cpp:2605
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -538,7 +538,7 @@ msgstr "خطأ في كتابة تعليق على ملف الـPDF المسمى �
 
 #: ../src/core/gui/GladeGui.cpp:25
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
-msgstr "تعذر تحميل الملف الذي يساعد على تحميل واجهة المستخدم , المسمى «{1}» (حاول تحميل «{2}»)"
+msgstr "تعذر تحميل ملف واجهة المستخدم المسمى «{1}» (حاول تحميل «{2}»)"
 
 #: ../src/core/control/Control.cpp:2432
 msgid "Error opening file \"{1}\""
@@ -684,7 +684,7 @@ msgstr "تعذر إيجاد المسار بالخطأ التالي:\n"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "إرسال تقرير خطأ"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -726,7 +726,7 @@ msgstr "رخصة جنو العمومية، الإصدارة الثانية أو 
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:47
 msgid "GTK Version"
-msgstr "إصدار الــــ GTK"
+msgstr "إصدار GTK"
 
 #: ../src/core/control/XournalMain.cpp:627
 msgid "Get version of xournalpp"
@@ -1100,7 +1100,7 @@ msgstr "تعذر بدء التسجيل."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "تم اكتشاف ملف استرداد"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1157,7 +1157,7 @@ msgstr "مسطر وبخط هامش"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "فشلت عملية الطباعة الجارية بالخطأ: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1446,7 +1446,7 @@ msgstr "تم العثور على النص مرة واحدة في هذه الصف
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "تم العثور على النص {1} مرات على الصفحة {2} (المرة {3} من {1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1504,11 +1504,11 @@ msgstr "اسم أحدث ملف سجل: {1}"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "توجد ملفات سجل أخطاء حديثة من Xournal++‎. برجاء إرسال تقرير خطأ حتى يتم إصلاحه."
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "يوجد ملف سجل أخطاء حديث من Xournal++‎. برجاء إرساء تقرير خطأ حتى يتم إصلاحه."
 
 #: ../src/util/XojMsgBox.cpp:196
 msgid "There was an error displaying help: {1}"
@@ -2120,7 +2120,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"يمكن تفعيل أو تمكين نظام الصوت للجلسات التالية باستخدام مربع الاختيار (يتطلب إعادة التشغيل).\n"
+"ويمكن تعطيل الصوت لجلسة واحدة باستخدام المعامل ‪<tt>--disable-audio</tt>‬ في سطر الأوامر.\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2175,7 +2178,8 @@ msgstr "<i>ضع مسطرة على شاشتك، وحرك الشريط المنز�
 #: ../ui/settings.glade:5197
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>أعد رسم خلفيات الـPDF أكثر أثناء التكبير للحصول على جودة رسم أفضل. \n"
+"<b>ملاحظة:</b> المفترض أن هذا لا يؤثر على جودة الطباعة.</i>"
 
 #: ../ui/settings.glade:5979
 msgid "<i>Select language (requires restart)</i>"
@@ -2205,7 +2209,7 @@ msgstr "<i>قم بتعيين الأدوات التي سيتم تحديدها ع�
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>تُحدد القيمة بالبكسل.</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2259,7 +2263,7 @@ msgstr "الفعل عند النقر"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "لون الاختيار المحدد (نتائج البحث وغيرها)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
@@ -2496,11 +2500,11 @@ msgstr "الوضع الليلي (يحتاج إعادة التشغيل)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "متقطع-منقط"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "متقطع"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -3271,7 +3275,7 @@ msgstr "إعادة تسمية الطبقة المحددة"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "إعادة ضبط"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3466,7 +3470,7 @@ msgstr "متعرف الأشكال"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "شكل الخط - لا تغيير"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3584,7 +3588,7 @@ msgstr "تسطير النص المحدد"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "تمرير غير محدود"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
