@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"PO-Revision-Date: 2023-09-01 13:48\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -392,7 +392,7 @@ msgstr "حذف هذه الصفحة"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "عطّل الصوت في هذه الجلسة"
 
 #: ../src/core/control/Control.cpp:2886
 msgid "Discard"
@@ -936,7 +936,7 @@ msgstr "الصفحة المعلّق عليها التالية"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "No"
-msgstr ""
+msgstr "لا"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1434,7 +1434,7 @@ msgstr "نص"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "تم العثور على النص %zu مرات في هذه الصفحة"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1442,7 +1442,7 @@ msgstr "تم العثور على النص مرة واحدة في الصفحة {1
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "تم العثور على النص مرة واحدة في هذه الصفحة"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
@@ -1679,7 +1679,7 @@ msgstr "قالب Xournal++‎"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "Yes"
-msgstr ""
+msgstr "نعم"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2241,7 +2241,7 @@ msgstr "<i>تستطيع ضبط أجهزة، لا ترى GTK أنها شاشة ل
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>أو</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2263,11 +2263,11 @@ msgstr ""
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "أضف مسافة أفقية إضافية"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "أضف مسافة رأسية إضافية"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2432,7 +2432,7 @@ msgstr "مسح الصفحات المخزنة في الذاكرة أثناء ال
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "إغلاق"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2552,7 +2552,7 @@ msgstr "تعطيل"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "تعطيل الصوت"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2692,7 +2692,7 @@ msgstr "تفعيل التعرف على اليد الداخلي"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "تفعيل أو تعطيل الصوت"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3109,7 +3109,7 @@ msgstr "ترحيل الصفحة الأولى هذا العدد من الصفحا
 #: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "موافق"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3203,7 +3203,7 @@ msgstr "يتم تطبيق التغييرات على الإضافات بعد إع
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "الإضافات"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3633,7 +3633,8 @@ msgstr "عندما يتم اختيار عنصر وتحريكه خارج الجز
 #: ../ui/settings.glade:2516
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "عند الرسم باللمس، فإن إيماءات الإصبعين المقصود بها تحريك منطقة الرسم يمكن أن تقوم بتكبير أو تصغير الشاشة، مما يسبب مشاكل في الأداء. \n"
+"هذا الإعداد يمكن أن يجعل الرسم باللمس أسهل. "
 
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
