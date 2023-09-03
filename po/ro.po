@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-09-03 16:35\n"
+"PO-Revision-Date: 2023-09-03 21:36\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -591,13 +591,13 @@ msgstr "Eroare: {1}. Te rugăm să verifici conținutul {2}"
 
 #: ../src/core/control/XournalMain.cpp:638
 msgid "Export FILE as PDF"
-msgstr "Exportă fișierul în PDF"
+msgstr "Exportă fișierul ca PDF"
 
 #: ../src/core/control/XournalMain.cpp:640
 msgid "Export FILE as image files (one per page)\n"
 "                                 Guess the output format from the extension of IMGFILE\n"
 "                                 Supported formats: .png, .svg"
-msgstr "Exportă Fișierul în fișiere imagine (unul pe pagină)\n"
+msgstr "Exportă Fișierul ca fișiere imagine (unul pe pagină)\n"
 "                                 Ghicește formatul de ieșire din extensia IMGFILE\n"
 "                                 Formate acceptate: .png, .svg"
 
@@ -607,7 +607,7 @@ msgstr "Exportă PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:428
 msgid "Export as PDF"
-msgstr "Exportă în PDF"
+msgstr "Exportă ca PDF"
 
 #: ../src/core/control/XournalMain.cpp:654
 msgid "Export layers progressively\n"
@@ -2724,7 +2724,7 @@ msgstr "Exportă"
 
 #: ../ui/main.glade:247
 msgid "Export as..."
-msgstr "Exportă în..."
+msgstr "Exportă ca..."
 
 #: ../ui/exportSettings.glade:336
 msgid "Export layers progressively"
@@ -3786,7 +3786,7 @@ msgstr "_Gumă"
 
 #: ../ui/main.glade:237
 msgid "_Export as PDF"
-msgstr "_Exportă în PDF"
+msgstr "_Exportă ca PDF"
 
 #: ../ui/main.glade:152
 msgid "_File"
