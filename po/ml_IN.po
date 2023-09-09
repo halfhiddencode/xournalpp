@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"PO-Revision-Date: 2023-09-09 07:06\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -327,7 +327,7 @@ msgstr "പശ്ചാത്തലം എഴുതാൻ സാധിച്ച�
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "ക്രാഷ് ലോഗ്"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -388,7 +388,7 @@ msgstr "ഈ താൾ നീക്കം ചെയ്യുക"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "ഈ സെഷനിൽ ഓഡിയോ പ്രവർത്തനരഹിതമാക്കുക"
 
 #: ../src/core/control/Control.cpp:2886
 msgid "Discard"
@@ -677,7 +677,7 @@ msgstr "പാത തിരിച്ചറിയുന്നതിൽ ഇനി 
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "ബഗ്ഗ്‌ റിപ്പോർട്ട് സമർപ്പിക്കുക"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -929,7 +929,7 @@ msgstr "അടുത്ത വ്യാഖ്യാനിക്കപ്പെ�
 
 #: ../src/core/control/Control.cpp:1283
 msgid "No"
-msgstr ""
+msgstr "ഇല്ല"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1091,7 +1091,7 @@ msgstr "റെക്കോർഡർ തുടങ്ങാൻ സാധിച്�
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "വീണ്ടെടുക്കാനുള്ള ഫയൽ കണ്ടെത്തി"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1148,7 +1148,7 @@ msgstr "കുത്തനെയുള്ള റൂൾഡ് വരകൾ"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "പ്രിന്റ് പ്രവർത്തനം നടപ്പിലാക്കുന്നതിൽ {1} സഹിതം പരാജയപ്പെട്ടു"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1428,11 +1428,11 @@ msgstr "താളിൽ ടെക്സ്റ്റ് ഒരു തവണ ക�
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "ഈ താളിൽ ടെക്സ്റ്റ് ഒരു തവണ കണ്ടെത്തി"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "{2}-ആം താളിൽ ({1}-ലെ {3}) ടെക്സ്റ്റ് {1} തവണ കണ്ടെത്തി"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1444,11 +1444,11 @@ msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്�
 
 #: ../src/core/control/Control.cpp:1280
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
-msgstr ""
+msgstr "\"{1}\" എന്ന ടൂൾബാർ ക്രമീകരണം മുൻപേ തിട്ടപ്പെടുത്തിയതാണ്, അത് പുനർക്രമീകരിക്കാൻ താങ്കൾ പുതിയൊരു പകർപ്പ് നിർമിക്കുമോ?"
 
 #: ../src/core/control/Control.cpp:2376
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "അറ്റാച്ച് ചെയ്ത പശ്ചാത്തല ഫയൽ കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
 #: ../src/core/control/XournalMain.cpp:242
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
@@ -1665,7 +1665,7 @@ msgstr "Xournal++ ടെമ്പ്ലേറ്റ്"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "Yes"
-msgstr ""
+msgstr "അതെ"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2271,19 +2271,19 @@ msgstr "ഓഡിയോ റെക്കോർഡിങ്"
 
 #: ../ui/pluginEntry.glade:50
 msgid "Author: "
-msgstr ""
+msgstr "ലേഖകൻ: "
 
 #: ../ui/about.glade:339
 msgid "Authors"
-msgstr ""
+msgstr "ലേഖകർ"
 
 #: ../ui/latexSettings.glade:351
 msgid "Auto-indent"
-msgstr ""
+msgstr "സ്വമേധയാ ഇൻഡന്റ് ചെയ്യുക"
 
 #: ../ui/settings.glade:2251
 msgid "Autodetect"
-msgstr ""
+msgstr "സ്വമേധയാ കണ്ടെത്തുക"
 
 #: ../ui/settings.glade:830
 msgid "Autoloading"
@@ -2368,7 +2368,7 @@ msgstr "ആഗോള ലാറ്റെക് (LaTeX) ടെമ്പ്ലേ�
 
 #: ../ui/settings.glade:3187 ../ui/settings.glade:3330
 msgid "Choose the color to use for \"Highlight cursor position\""
-msgstr ""
+msgstr "\"കഴ്സർ നിൽക്കുന്നിടം ഹൈലൈറ്റ്\" ചെയ്യുന്നതിന് വേണ്ടിയുള്ള നിറം തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/settings.glade:3201
 msgid "Circle Color"
@@ -2380,7 +2380,7 @@ msgstr "വൃത്തത്തിന്റെ പശ്ചാത്തലം"
 
 #: ../ui/settings.glade:3928
 msgid "Clear cached paged while scrolling"
-msgstr ""
+msgstr "ക്യാഷിൽ സൂക്ഷിച്ചു വച്ചിരിക്കുന്ന താളുകൾ സ്ക്രോൾ ചെയ്യുന്നതിനിടെ നീക്കം ചെയ്യുക"
 
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
@@ -2639,7 +2639,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "ഓഡിയോ പ്രവർത്തന സജ്ജമോ പ്രവർത്തന രഹിതമോ ആക്കുക"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -2708,15 +2708,15 @@ msgstr ""
 
 #: ../ui/latexSettings.glade:451
 msgid "Font: "
-msgstr ""
+msgstr "ഫോണ്ട്: "
 
 #: ../ui/main.glade:578 ../ui/settings.glade:3727
 msgid "Fullscreen"
-msgstr ""
+msgstr "പൂർണ്ണ സ്ക്രീൻ"
 
 #: ../ui/settings.glade:5756
 msgid "Gain"
-msgstr ""
+msgstr "നേട്ടം"
 
 #: ../ui/settings.glade:1247 ../ui/settings.glade:1267
 msgid "Gaussian parameter: the higher, the more stabilization and the more lag between your cursor and the painting tip."
@@ -2728,23 +2728,23 @@ msgstr ""
 
 #: ../ui/settings.glade:3088
 msgid "Global"
-msgstr ""
+msgstr "ഗ്ലോബൽ"
 
 #: ../ui/latexSettings.glade:104
 msgid "Global template file path"
-msgstr ""
+msgstr "ഗ്ലോബൽ ടെമ്പ്ലേറ്റ് ഫയൽ പാത"
 
 #: ../ui/settings.glade:3782
 msgid "Go Fullscreen"
-msgstr ""
+msgstr "പൂർണ സ്ക്രീനിലേക്ക് പ്രവേശിക്കുക"
 
 #: ../ui/goto.glade:23
 msgid "Go to Page"
-msgstr ""
+msgstr "താളിലേക്ക് പോകുക"
 
 #: ../ui/settings.glade:4877
 msgid "Grid size"
-msgstr ""
+msgstr "ഗ്രിഡ് വലുപ്പം"
 
 #: ../ui/settings.glade:4835
 msgid "Grid snapping tolerance"
@@ -2760,31 +2760,31 @@ msgstr ""
 
 #: ../ui/exportSettings.glade:42
 msgid "Height"
-msgstr ""
+msgstr "ഉയരം"
 
 #: ../ui/pageFormat.glade:169
 msgid "Height:"
-msgstr ""
+msgstr "ഉയരം:"
 
 #: ../ui/main.glade:997
 msgid "Hide Menubar"
-msgstr ""
+msgstr "മെനുബാർ മറയ്ക്കുക"
 
 #: ../ui/settings.glade:3524
 msgid "Hide the horizontal scrollbar"
-msgstr ""
+msgstr "തിരശ്ചീനമായ സ്‌ക്രോൾബാർ മറയ്ക്കുക"
 
 #: ../ui/settings.glade:3539
 msgid "Hide the vertical scrollbar"
-msgstr ""
+msgstr "കുത്തനെയുള്ള സ്‌ക്രോൾബാർ മറയ്ക്കുക"
 
 #: ../ui/settings.glade:3164
 msgid "Highlight cursor position"
-msgstr ""
+msgstr "കഴ്സർ നിൽക്കുന്നിടം ഹൈലൈറ്റ് ചെയ്യുക"
 
 #: ../ui/main.glade:2799
 msgid "Highlight selected text"
-msgstr ""
+msgstr "തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് ഹൈലൈറ്റ് ചെയ്യുക"
 
 #: ../ui/main.glade:1954
 msgid "Highlighter Opti_ons"
@@ -3053,7 +3053,7 @@ msgstr ""
 #: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "ശരി"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3118,7 +3118,7 @@ msgstr ""
 
 #: ../ui/main.glade:2072
 msgid "Pause"
-msgstr ""
+msgstr "താൽക്കാലികമായി നിർത്തുക"
 
 #: ../ui/main.glade:1699
 msgid "Pen _Options"
@@ -3126,7 +3126,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3955
 msgid "Performance"
-msgstr ""
+msgstr "പ്രകടനം"
 
 #: ../ui/latexSettings.glade:466
 msgid "Pick the Editor's Font"
