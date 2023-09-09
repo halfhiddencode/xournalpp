@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"PO-Revision-Date: 2023-09-09 12:32\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -517,7 +517,7 @@ msgstr "Documento guardado de emergencia"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:270
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
-msgstr "Para cambiar esta configuración la sensibilidad de presión o inferencia de presión debe estar activada."
+msgstr "Para cambiar esta configuración la sensibilidad de presión o inferencia de presión debe estar activada!"
 
 #: ../src/core/undo/AddUndoAction.cpp:64
 #: ../src/core/undo/DeleteUndoAction.cpp:61
