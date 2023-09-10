@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-09-07 21:48\n"
+"PO-Revision-Date: 2023-09-10 21:48\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -2170,7 +2170,8 @@ msgstr "<i>Jarri erregela bat zure pantailan eta mugitu graduatzailea bi erregel
 #: ../ui/settings.glade:5197
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>Errendatu PDFaren atzeko planoak maizago, zooma egiten duzun bitartean, errendatze-kalitate hobea lortzeko.\n"
+"<b>Oharra:</b> honek ez luke inprimatze-kalitatean eragin behar.</i>"
 
 #: ../ui/settings.glade:5979
 msgid "<i>Select language (requires restart)</i>"
@@ -2200,7 +2201,7 @@ msgstr "<i>Zehaztu hautatuko diren tresnak arkatzaren botoi bat sakatzen bada ed
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>Kopurua pixeletan adierazten da.</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2236,7 +2237,7 @@ msgstr "<i>Konfiguratu ditzakezu GTK-k ukipen-pantaila gisa identifikatzen ez di
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>edo</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2254,15 +2255,15 @@ msgstr "Tap tresnaren ekintza"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "Hautapen aktiboaren kolorea (bilaketa-emaitzak etab.)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "Gehitu espazio horizontala"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "Gehitu espazio bertikala"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2427,7 +2428,7 @@ msgstr "Garbitu cacheko orria korritzean"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Itxi"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2491,11 +2492,11 @@ msgstr "Gai iluna (berrabiaraztea eskatzen du)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Marrak-puntuak"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "Marrak"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -2547,7 +2548,7 @@ msgstr "Desgaitu"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "Desgaitu audioa"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2687,7 +2688,7 @@ msgstr "Gaitu eskuen barne ezagutzea"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Gaitu edo desgaitu audioa"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3104,7 +3105,7 @@ msgstr "Desplazatu lehenengo orria hainbat orri <b>Parekatu orriak</b> gaituta d
 #: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "Ados"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3198,7 +3199,7 @@ msgstr "Plugin aldaketak Xournal++ berrabiarazi ondoren aplikatzen dira"
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Pluginak"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3266,7 +3267,7 @@ msgstr "Berrizendatu hautatutako geruza"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Berrezarri"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3461,7 +3462,7 @@ msgstr "Trazuen identifikatzailea"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "Marratze mota - ez aldatu"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3579,7 +3580,7 @@ msgstr "Azpimarratu hautatutako testua"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "Mugarik gabeko korritzea"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
@@ -3628,7 +3629,8 @@ msgstr "Elementu bat oihalaren zati ikusgarrian hautatzen eta mugitzen denean, e
 #: ../ui/settings.glade:2516
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "Ukituarekin marraztean, korritze panoramikoa egiteko bi hatzetako keinuek zooma eragin dezakete, errendimendu akatsak sortuz.\n"
+"Ezarpen hauen bidez errazagoa da ukituarekin marraztea. "
 
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
