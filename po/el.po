@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-09-12 18:08\n"
+"PO-Revision-Date: 2023-09-12 19:17\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -1422,11 +1422,11 @@ msgstr "Κείμενο βρέθηκε μια φορά στην σελίδα {1}"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "Το κείμενο βρέθηκε μόνο μια φορά στη σελίδα αυτή"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "Το κείμενο βρέθηκε {1} φορές στη σελίδα {2} ({3} από {1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1535,7 +1535,7 @@ msgstr "Αδυναμία αναπαραγωγής ηχητικής εγγραφ�
 
 #: ../src/core/control/Control.cpp:1500
 msgid "Unable to retrieve pdf page."
-msgstr ""
+msgstr "Δεν ήταν να δυνατό να ανακτηθεί αυτή η σελίδα PDF."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:437
 #: ../src/core/undo/UndoRedoHandler.cpp:183
@@ -1938,7 +1938,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3051
 msgid "(requires restart)"
-msgstr ""
+msgstr "(απαιτεί επανεκκίνηση)"
 
 #: ../ui/settings.glade:5103
 msgid "... AND How much time must have passed since last stroke.\n\n"
@@ -3349,7 +3349,7 @@ msgstr "Προσκόλληση"
 
 #: ../ui/about.glade:246
 msgid "Source Code / Bug Tracker"
-msgstr ""
+msgstr "Πηγαίος Κώδικας / Πρόγραμμα Εντοπισμού Σφαλμάτων"
 
 #: ../ui/settings.glade:4035
 msgid "Speed for Ctrl + Scroll"
@@ -3543,7 +3543,7 @@ msgstr "Προβολή"
 
 #: ../ui/about.glade:218
 msgid "Website"
-msgstr ""
+msgstr "Ιστοσελίδα"
 
 #: ../ui/settings.glade:3625
 msgid "When an element is selected and moved past the visible portion of the canvas, pan the screen by an amount equal to this percentage of the visible part of the canvas. "
