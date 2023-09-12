@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"PO-Revision-Date: 2023-09-12 18:08\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -444,7 +444,7 @@ msgstr "Σχεδίασε Βέλος"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:538
 msgid "Draw Double Arrow"
-msgstr ""
+msgstr "Σχεδίασε Διπλό Βέλος"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:133
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
@@ -713,7 +713,7 @@ msgstr "GNU GPLv2 ή νεότερη έκδοση"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:47
 msgid "GTK Version"
-msgstr ""
+msgstr "Έκδοση GTK"
 
 #: ../src/core/control/XournalMain.cpp:627
 msgid "Get version of xournalpp"
@@ -808,7 +808,7 @@ msgstr ""
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Insert at end"
-msgstr ""
+msgstr "Εισαγωγή στο τέλος της σελίδας"
 
 #: ../src/core/undo/InsertUndoAction.cpp:82
 msgid "Insert elements"
@@ -1085,7 +1085,7 @@ msgstr "Δεν ήταν δυνατή η εκκίνηση της εγγραφής
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Εντοπίστηκε αρχείο για επαναφορά"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1218,7 +1218,7 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:84
 msgid "Select Multi-Layer Region"
-msgstr ""
+msgstr "Επιλογή Περιοχή Πολλαπλών Στρωμάτων"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:548
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
@@ -1297,7 +1297,7 @@ msgstr "Επιλογή περιοχής"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:20
 msgid "Selection Combo"
-msgstr ""
+msgstr "Συνδυαστική επιλογή"
 
 #: ../src/core/control/tools/EditSelection.cpp:426
 msgid "Send backward"
@@ -1658,7 +1658,7 @@ msgstr "Πρότυπο Xournal++"
 
 #: ../src/core/control/Control.cpp:1283
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:197
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2246,7 +2246,7 @@ msgstr "Συγγραφέας: "
 
 #: ../ui/about.glade:339
 msgid "Authors"
-msgstr ""
+msgstr "Συγγραφείς"
 
 #: ../ui/latexSettings.glade:351
 msgid "Auto-indent"
@@ -2356,7 +2356,7 @@ msgstr ""
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2778,7 +2778,7 @@ msgstr "Πόσο σύντομη (χρόνος) ΚΑΙ...\n\n"
 
 #: ../ui/about.glade:133
 msgid "Icon Designers"
-msgstr ""
+msgstr "Σχεδιαστές εικονιδιών"
 
 #: ../ui/settings.glade:3022
 msgid "Icon Theme"
