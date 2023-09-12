@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 13:28+0000\n"
-"PO-Revision-Date: 2023-08-30 13:55\n"
+"POT-Creation-Date: 2023-09-12 19:57+0000\n"
+"PO-Revision-Date: 2023-09-12 20:17\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Devam etmek istiyor musunuz?"
 
-#: ../src/core/control/Control.cpp:2389
+#: ../src/core/control/Control.cpp:2388
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -70,7 +70,7 @@ msgstr "<span foreground='red' size='x-large'>Gerekli kullanıcı arayüzü dosy
 msgid "Add missing page"
 msgstr "Eksik sayfa ekle"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:525
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:527
 msgid "Add/Edit TeX"
 msgstr "TeX Ekle/Düzenle"
 
@@ -82,11 +82,12 @@ msgstr "Gelişmiş dışa aktarma seçenekleri"
 msgid "All files"
 msgstr "Tüm dosyalar"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:184
+#: ../src/core/gui/menus/menubar/PageTypeSubmenu.cpp:46
+#: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:170
 msgid "Apply to all pages"
 msgstr "Tüm sayfalara uygula"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:171
+#: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:158
 msgid "Apply to current page"
 msgstr "Geçerli sayfaya uygula"
 
@@ -135,11 +136,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "Ses klasörü ayarlanmadı veya geçerli değil! Kayıt çalışmaz!\n"
 "Lütfen kayıt klasörünü \"Tercihler> Ses kaydı\" altında ayarlayın"
 
-#: ../src/core/control/Control.cpp:260
+#: ../src/core/control/Control.cpp:257
 msgid "Autosave failed with an error: {1}"
 msgstr "Otomatik kaydetme bir hatayla başarısız oldu: {1}"
 
-#: ../src/core/control/Control.cpp:240
+#: ../src/core/control/Control.cpp:237
 msgid "Autosave renamed from {1} to {2}"
 msgstr "Otomatik kaydetme {1} yerine {2} olarak yeniden adlandırıldı"
 
@@ -147,8 +148,8 @@ msgstr "Otomatik kaydetme {1} yerine {2} olarak yeniden adlandırıldı"
 msgid "Autosaving to {1}"
 msgstr "{1} 'e otomatik kaydediliyor"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:480
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:570
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:485
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
 msgid "Back"
 msgstr "Geri"
 
@@ -169,7 +170,7 @@ msgstr "En Öne Getir"
 msgid "Built on"
 msgstr "Üzerine inşa"
 
-#: ../src/core/control/Control.cpp:2401 ../src/core/control/Control.cpp:2889
+#: ../src/core/control/Control.cpp:2400 ../src/core/control/Control.cpp:2888
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -203,7 +204,7 @@ msgstr "Listeyi temizle"
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
 msgstr "Renk \"{1}\" bilinmiyor (varsayılan renk listesinde tanımlanmamış)!"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:553
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
 msgid "Compass"
 msgstr "Pusula"
 
@@ -211,15 +212,15 @@ msgstr "Pusula"
 msgid "Contents"
 msgstr "İçindekiler"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:443
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:448
 #: ../src/core/gui/toolbarMenubar/model/ToolbarModel.cpp:75
 #: ../src/core/gui/toolbarMenubar/model/ToolbarModel.cpp:81
 msgid "Copy"
 msgstr "Kopyala"
 
-#: ../src/core/control/pagetype/PageTypeMenu.cpp:65
-msgid "Copy current"
-msgstr "Geçerliyi kopyala"
+#: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
+msgid "Copy current background"
+msgstr ""
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -268,13 +269,13 @@ msgstr "Ek açılamadı: {1}. Hata mesajı: {2}"
 msgid "Could not open file: \"{1}\""
 msgstr "Dosya açılamadı: \"{1}\""
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:78
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:74
 msgid "Could not parse custom toolbar.ini file: {1}\n"
 "Toolbars will not be available"
 msgstr "Özel toolbar.ini dosyası ayrıştırılamadı: {1}\n"
 "Araç çubukları kullanılamayacak"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:69
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:65
 msgid "Could not parse general toolbar.ini file: {1}\n"
 "No Toolbars will be available"
 msgstr "Genel toolbar.ini dosyası ayrıştırılamadı: {1}\n"
@@ -303,7 +304,7 @@ msgstr "{2} konumundaki Araç öğesi {1} Araç Çubuğundan kaldırılamadı"
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr "{3} konumundaki {1} araç öğesi, {2} Araç Çubuğundan kaldırılamadı"
 
-#: ../src/core/control/Control.cpp:251
+#: ../src/core/control/Control.cpp:248
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "Otomatik kaydetme dosyası \"{1}\" yerine \"{2}\" olarak yeniden adlandırılamadı: {3}"
 
@@ -345,7 +346,7 @@ msgstr "Özel"
 msgid "Custom Export"
 msgstr "Özel Dışa Aktarma"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:467
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:472
 msgid "Customize Toolbars"
 msgstr "Araç Çubuklarını Özelleştir"
 
@@ -353,15 +354,15 @@ msgstr "Araç Çubuklarını Özelleştir"
 msgid "Customized"
 msgstr "Özelleştirildi"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:442
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:447
 msgid "Cut"
 msgstr "Kes"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:527
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:529
 msgid "Default Tool"
 msgstr "Varsayılan Araç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:448
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:453
 #: ../src/core/undo/DeleteUndoAction.cpp:64
 msgid "Delete"
 msgstr "Sil"
@@ -370,7 +371,7 @@ msgstr "Sil"
 msgid "Delete Logfile"
 msgstr "Log dosyasını Sil"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:501
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:506
 msgid "Delete current page"
 msgstr "Geçerli sayfayı sil"
 
@@ -394,7 +395,7 @@ msgstr "Bu sayfayı sil"
 msgid "Disable audio for this session"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2886
+#: ../src/core/control/Control.cpp:2885
 msgid "Discard"
 msgstr "Kaydetme"
 
@@ -402,7 +403,7 @@ msgstr "Kaydetme"
 msgid "Display advanced export options"
 msgstr "Gelişmiş dışa aktarma seçeneklerini görüntüle"
 
-#: ../src/core/control/Control.cpp:2314
+#: ../src/core/control/Control.cpp:2313
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -414,7 +415,7 @@ msgstr "Otomatik Kaydetme dosyalarını açmayın. Bunların üzerine yazılabil
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Arka plan PDF'sinin üzerine yazmayın! Bu hatalara neden olur!"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2879
 msgid "Document file was removed."
 msgstr "Belge dosyası kaldırıldı."
 
@@ -437,25 +438,25 @@ msgstr "Noktalı"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:135
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:38
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:536
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:538
 msgid "Draw Arrow"
 msgstr "Ok Çiz"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:137
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:538
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:540
 msgid "Draw Double Arrow"
 msgstr "Çift Ok"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:133
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:535
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:537
 msgid "Draw Ellipse"
 msgstr "Elips Çiz"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:129
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:41
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:541
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:543
 msgid "Draw Line"
 msgstr "Çizgi Çiz"
 
@@ -463,19 +464,19 @@ msgstr "Çizgi Çiz"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:34
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:100
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:103
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:534
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:536
 msgid "Draw Rectangle"
 msgstr "Dikdörtgen Çiz"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:143
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:46
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:542
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:544
 msgid "Draw Spline"
 msgstr "Eğri Çiz"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:139
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:42
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:540
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:542
 msgid "Draw coordinate system"
 msgstr "Koordinat Sistemi Çiz"
 
@@ -526,11 +527,11 @@ msgid "Erase stroke"
 msgstr "Kontur sil"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:88
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:327
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:323
 msgid "Eraser"
 msgstr "Silgi"
 
-#: ../src/core/control/Control.cpp:2605
+#: ../src/core/control/Control.cpp:2604
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "\"{1}\" PDF dosyasına açıklama eklenirken hata oluştu\n"
@@ -540,7 +541,7 @@ msgstr "\"{1}\" PDF dosyasına açıklama eklenirken hata oluştu\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "\"{1}\" glade dosyası yüklenirken hata oluştu (\"{2}\" yüklemeyi deneyin)"
 
-#: ../src/core/control/Control.cpp:2432
+#: ../src/core/control/Control.cpp:2431
 msgid "Error opening file \"{1}\""
 msgstr "\"{1}\" dosyası açılırken hata oluştu"
 
@@ -605,7 +606,7 @@ msgstr "Resim/Fotoğraf olarak dışa aktar (sayfa başına)\n"
 msgid "Export PDF"
 msgstr "PDF olarak dışa aktar"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:428
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:433
 msgid "Export as PDF"
 msgstr "PDF Olarak Dışa Aktar"
 
@@ -692,11 +693,11 @@ msgid "File couldn't be opened. You have to do it manually:\n"
 msgstr "Dosya açılamadı. Elle yapmalısınız:\n"
 "URL: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:597
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:599
 msgid "Fill"
 msgstr "Doldur"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:598
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:600
 msgid "Fill Opacity"
 msgstr "Dolgu Opaklığı"
 
@@ -704,7 +705,7 @@ msgstr "Dolgu Opaklığı"
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "Basınç girişini filitrele. Basıncı, basınç çarpanıyla çarp. Eğer minimumdan azsa, minimum basıncı kullan."
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:617
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:619
 msgid "Fine"
 msgstr "İnce"
 
@@ -716,7 +717,7 @@ msgstr "Yüzen Araç Kutusu (deneysel)"
 msgid "Font"
 msgstr "Yazı tipi"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:567
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:569
 msgid "Forward"
 msgstr "İleri"
 
@@ -744,27 +745,27 @@ msgstr "Genel şablon dosyası yok. Lütfen ayarlarınızı kontrol ediniz."
 msgid "Global template file is not a regular file. Please check your settings. "
 msgstr "Genel şablon dosyası düzenli bir dosya degil. Lütfen ayarlarınızı kontrol ediniz. "
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:479
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:484
 msgid "Go to first page"
 msgstr "İlk sayfaya git"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:483
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:488
 msgid "Go to last page"
 msgstr "Son sayfaya git"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:486
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:491
 msgid "Go to next layer"
 msgstr "Sonraki katmana git"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:481
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:486
 msgid "Go to page"
 msgstr "Sayfaya git"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:485
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:490
 msgid "Go to previous layer"
 msgstr "Önceki katmana git"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:487
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:492
 msgid "Go to top layer"
 msgstr "Üst katmana git"
 
@@ -772,7 +773,7 @@ msgstr "Üst katmana git"
 msgid "Graph"
 msgstr "Grafik"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:453
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:458
 msgid "Grid Snapping"
 msgstr "Izgara Yakalama"
 
@@ -781,7 +782,7 @@ msgid "GtkSourceView was disabled when building Xournal++! Some options will not
 msgstr "Xournal++ derlenirken GtkSourceView devre dışıydı! Bazı seçenekler kullanılamayacak."
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:97
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:551
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:553
 msgid "Hand"
 msgstr "El"
 
@@ -790,12 +791,12 @@ msgid "Hide all"
 msgstr "Tümünü gizle"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:89
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:522
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:524
 msgid "Highlighter"
 msgstr "Vurgulayıcı"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:528
 msgid "Image"
 msgstr "Resim"
 
@@ -840,7 +841,7 @@ msgstr "Lateks ekle"
 msgid "Insert layer"
 msgstr "Katman ekle"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:497
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:502
 msgid "Insert page"
 msgstr "Sayfa ekle"
 
@@ -890,11 +891,11 @@ msgstr "Katman Birleşimi Önizlemesi"
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:466
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:471
 msgid "Manage Toolbars"
 msgstr "Araç Çubuklarını Yönet"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:618
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:620
 msgid "Medium"
 msgstr "Orta"
 
@@ -922,19 +923,19 @@ msgstr "Sayfayı yukarıya doğru taşı"
 msgid "New"
 msgstr "Yeni"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:425
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:430
 msgid "New Xournal"
 msgstr "Yeni Xournal"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:482
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:487
 msgid "Next"
 msgstr "Sonraki"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:490
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:495
 msgid "Next annotated page"
 msgstr "Sonraki Açıklamalı Sayfa"
 
-#: ../src/core/control/Control.cpp:1283
+#: ../src/core/control/Control.cpp:1280
 msgid "No"
 msgstr ""
 
@@ -947,7 +948,7 @@ msgstr "Aygıt yok"
 msgid "No pages to export!"
 msgstr "Dışarıya aktarılacak sayfalar bulunamadı!"
 
-#: ../src/core/control/Control.cpp:1486
+#: ../src/core/control/Control.cpp:1483
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Eklemeye uygun pdf sayfası yok. Dosyayı tekrar baştan açmanız gerekebilir."
 
@@ -984,7 +985,7 @@ msgid "Open Logfile directory"
 msgstr "Günlük dosyası dizinini aç"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:426
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:431
 msgid "Open file"
 msgstr "Dosya aç"
 
@@ -1042,21 +1043,21 @@ msgstr "Sayfa eklendi"
 msgid "Page number"
 msgstr "Sayfa numarası"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:461
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:466
 msgid "Paired pages"
 msgstr "Eşlenen sayfalar"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:444
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
 #: ../src/core/undo/AddUndoAction.cpp:66
 msgid "Paste"
 msgstr "Yapıştır"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:561
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:563
 msgid "Pause / Play"
 msgstr "Duraklat / Oynat"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:87
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:308
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:304
 msgid "Pen"
 msgstr "Kalem"
 
@@ -1064,7 +1065,7 @@ msgstr "Kalem"
 msgid "Plain"
 msgstr "Düz"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:550
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:552
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:29
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:96
 msgid "Play Object"
@@ -1078,7 +1079,7 @@ msgstr "Lütfen dosyayı manuel olarak silin"
 msgid "Predefined"
 msgstr "Önceden tanımlanmış"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:463
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:468
 msgid "Presentation mode"
 msgstr "Sunum kipi"
 
@@ -1086,15 +1087,15 @@ msgstr "Sunum kipi"
 msgid "Previously selected language not available anymore!"
 msgstr "Önceden seçilmiş dil artık kullanılabilir değil!"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:429
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:434
 msgid "Print"
 msgstr "Yazdır"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:559
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:561
 msgid "Record Audio / Stop Recording"
 msgstr "Ses Kaydet / Kaydı Durdur"
 
-#: ../src/core/control/Control.cpp:1023
+#: ../src/core/control/Control.cpp:1020
 msgid "Recorder could not be started."
 msgstr "Kaydedici başlatılamadı."
 
@@ -1102,7 +1103,7 @@ msgstr "Kaydedici başlatılamadı."
 msgid "Recovery file detected"
 msgstr ""
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:438
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:443
 #: ../src/core/undo/UndoRedoHandler.cpp:195
 msgid "Redo"
 msgstr "Yinele"
@@ -1111,7 +1112,7 @@ msgstr "Yinele"
 msgid "Redo: "
 msgstr "Yinele: "
 
-#: ../src/core/control/Control.cpp:2400
+#: ../src/core/control/Control.cpp:2399
 msgid "Remove PDF Background"
 msgstr "PDF Arka Planını Kaldır"
 
@@ -1143,7 +1144,7 @@ msgstr "Dosyayı geri yükle"
 msgid "Rotation"
 msgstr "Döndür"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:456
 msgid "Rotation Snapping"
 msgstr "Dönme Yakalama"
 
@@ -1167,17 +1168,17 @@ msgstr "SVG grafikleri"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Örnek LaTeX dosyası başarıyla oluşturuldu."
 
-#: ../src/core/control/Control.cpp:2881 ../src/core/control/jobs/SaveJob.cpp:25
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:427
+#: ../src/core/control/Control.cpp:2880 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "Kaydet"
 
-#: ../src/core/control/Control.cpp:2881
+#: ../src/core/control/Control.cpp:2880
 msgid "Save As..."
 msgstr "Farklı kaydet..."
 
-#: ../src/core/control/Control.cpp:2704
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:86
+#: ../src/core/control/Control.cpp:2703
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:88
 msgid "Save File"
 msgstr "Dosyayı Kaydet"
 
@@ -1198,7 +1199,7 @@ msgstr "Ölçek"
 msgid "Scroll to page {1}"
 msgstr "{1}. sayfaya kaydırın"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:446
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Search"
 msgstr "Ara"
 
@@ -1210,17 +1211,17 @@ msgstr "Katkı sağlayanların tam listesine bakın"
 msgid "Select Area Text from pdf"
 msgstr "PDF'den Metin Alanını Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:557
 msgid "Select Font"
 msgstr "Yazı Tipi Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:531
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:533
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:19
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:22
 msgid "Select Linear PDF Text"
 msgstr "Doğrusal PDF Metnini Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:547
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
 msgid "Select Multi-Layer Rect"
 msgstr "Çok-Katmanlı Dikdörtgen Seç"
 
@@ -1229,13 +1230,13 @@ msgstr "Çok-Katmanlı Dikdörtgen Seç"
 msgid "Select Multi-Layer Rectangle"
 msgstr "Çok-Katmanlı Dikdörtgen Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:546
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:548
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:84
 msgid "Select Multi-Layer Region"
 msgstr "Çok-Katmanlı Bölge Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:548
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:550
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:90
 msgid "Select Object"
@@ -1253,7 +1254,7 @@ msgstr "PDF Metnini Seç"
 msgid "Select PDF Text In Rectangle"
 msgstr "Dikdörgendeki PDF Metnini Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:533
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:535
 msgid "Select PDF Text in Rectangle"
 msgstr "Dikdörgendeki PDF Metnini Seç"
 
@@ -1261,14 +1262,14 @@ msgstr "Dikdörgendeki PDF Metnini Seç"
 msgid "Select Pdf Text"
 msgstr "PDF Metnini Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:545
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:547
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:23
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:66
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:111
 msgid "Select Rectangle"
 msgstr "Dikdörtgen Seç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:544
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:546
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:72
 msgid "Select Region"
@@ -1278,7 +1279,7 @@ msgstr "Bölge Seç"
 msgid "Select Text from pdf"
 msgstr "PDF'den metin seç"
 
-#: ../src/core/control/Control.cpp:2399
+#: ../src/core/control/Control.cpp:2398
 msgid "Select another PDF"
 msgstr "Başka bir PDF seç"
 
@@ -1348,11 +1349,11 @@ msgstr "PNG dışarı aktarmaları için sayfa genişliği belirtin\n"
 "                                 -i/--create-img=foo.png şeklinde ise etkisizdir\n"
 "                                 --export-png-dpi şeklinde ise bu ayar gözardı edilir"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:552
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:554
 msgid "Setsquare"
 msgstr "Kareayarla"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:529
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:531
 msgid "Shape Recognizer"
 msgstr "Şekil Tanıyıcı"
 
@@ -1388,7 +1389,7 @@ msgstr "Ayırıcı"
 msgid "Staves"
 msgstr "Porteler"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:564
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:566
 msgid "Stop"
 msgstr "Durdur"
 
@@ -1427,7 +1428,7 @@ msgid "System Default"
 msgstr "Sistem Varsayılanı"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:90
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:524
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
 msgid "Text"
 msgstr "Metin"
 
@@ -1456,11 +1457,11 @@ msgstr "Metin bulunumadı"
 msgid "Text not found, searched on all pages"
 msgstr "Metin bulunamadı, tüm sayfalarda arandı"
 
-#: ../src/core/control/Control.cpp:1280
+#: ../src/core/control/Control.cpp:1277
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "\"{1}\" Araç Çubuğu yapılandırması önceden tanımlandı, düzenlemek için bir kopya oluşturur musunuz?"
 
-#: ../src/core/control/Control.cpp:2376
+#: ../src/core/control/Control.cpp:2375
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Eklenmiş arka plan dosyası bulunamadı. Taşınmış, yeniden adlandırılmış veya silinmiş olabilir."
 
@@ -1468,7 +1469,7 @@ msgstr "Eklenmiş arka plan dosyası bulunamadı. Taşınmış, yeniden adlandı
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "Arka plan dosyası \"{1}\" bulunamadı. Taşınmış, yeniden adlandırılmış veya silinmiş olabilir."
 
-#: ../src/core/control/Control.cpp:2379
+#: ../src/core/control/Control.cpp:2378
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Arka plan dosyası {1} bulunamadı. Taşınmış, yeniden adlandırılmış veya silinmiş olabilir.\n"
@@ -1478,7 +1479,7 @@ msgstr "Arka plan dosyası {1} bulunamadı. Taşınmış, yeniden adlandırılm�
 msgid "The check for overwriting the background failed with:\n"
 msgstr "Arka plan üzerine yazma kontrolü şu şekilde başarısız oldu:\n"
 
-#: ../src/core/control/Control.cpp:2440
+#: ../src/core/control/Control.cpp:2439
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Açılmakta olan dosya şu anki Xournal++ sürümünden daha yeni bir sürüme sahip, bu nedenle düzgün yüklenmeyebilir. Yine de aç?"
 
@@ -1514,19 +1515,19 @@ msgstr ""
 msgid "There was an error displaying help: {1}"
 msgstr "Yardım görüntülenirken bir hata oluştu: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:619
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:621
 msgid "Thick"
 msgstr "Kalın"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2879
 msgid "This document is not saved yet."
 msgstr "Bu belge henüz kaydedilmemiş."
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:162
+#: ../src/core/control/PageBackgroundChangeController.cpp:151
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "Bu resim yüklenemedi. Hata mesajı: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:464
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:469
 msgid "Toggle fullscreen"
 msgstr "Tam ekrana geç"
 
@@ -1554,11 +1555,11 @@ msgstr "{1} konumundaki genel şablon dosyası açılamıyor. Dosya mevcut mu?"
 msgid "Unable to play audio recording {1}"
 msgstr "Ses kaydı oynatılamıyor {1}"
 
-#: ../src/core/control/Control.cpp:1500
+#: ../src/core/control/Control.cpp:1497
 msgid "Unable to retrieve pdf page."
 msgstr "Pdf sayfası alınamadı."
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:437
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:442
 #: ../src/core/undo/UndoRedoHandler.cpp:183
 msgid "Undo"
 msgstr "Geri al"
@@ -1603,7 +1604,7 @@ msgstr "Bilinmeyen kontur başığı türü: \"{1}\", yuvarlak varsayılıyor"
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Bilinmeyen kontur türü: \"{1}\", kalem varsayarak"
 
-#: ../src/core/control/Control.cpp:2761
+#: ../src/core/control/Control.cpp:2760
 msgid "Unsaved Document"
 msgstr "Kaydedilmemiş Belge"
 
@@ -1611,7 +1612,7 @@ msgstr "Kaydedilmemiş Belge"
 msgid "Unsupported graphics format: "
 msgstr "Desteklenmeyen grafik biçimi: "
 
-#: ../src/core/control/Control.cpp:2397
+#: ../src/core/control/Control.cpp:2396
 msgid "Use proposed PDF"
 msgstr "Önerilen PDF'yi kullan"
 
@@ -1619,7 +1620,7 @@ msgstr "Önerilen PDF'yi kullan"
 msgid "Version"
 msgstr "Sürüm"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:551
 msgid "Vertical Space"
 msgstr "Dikey Boşluk"
 
@@ -1627,11 +1628,11 @@ msgstr "Dikey Boşluk"
 msgid "Vertical space"
 msgstr "Dikey boşluk"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:616
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:618
 msgid "Very Fine"
 msgstr "Çok İnce"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:620
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:622
 msgid "Very Thick"
 msgstr "Çok Kalın"
 
@@ -1667,21 +1668,21 @@ msgstr "Xournal dosyaları"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ son kez çöktü. Son düzenlenen dosyayı geri yüklemek ister misiniz?"
 
-#: ../src/core/control/Control.cpp:2710
+#: ../src/core/control/Control.cpp:2709
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ dosyaları"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:69
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:92
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:94
 msgid "Xournal++ template"
 msgstr "Xournal++ şablonu"
 
-#: ../src/core/control/Control.cpp:1283
+#: ../src/core/control/Control.cpp:1280
 msgid "Yes"
 msgstr ""
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:197
+#: ../src/core/control/PageBackgroundChangeController.cpp:186
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Aralarından seçim yapabileceğiniz PDF sayfanız yok. İşlemi iptal edin.\n"
@@ -1699,27 +1700,27 @@ msgstr "Mevcut belgenizde PDF Sayfa {1} yok\n"
 msgid "Zoom Slider"
 msgstr "Yakınlaştırma kaydırıcısı"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:471
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:476
 msgid "Zoom fit to screen"
 msgstr "Ekrana sığdır"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:470
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:475
 msgid "Zoom in"
 msgstr "Yakınlaştır"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:469
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:474
 msgid "Zoom out"
 msgstr "Uzaklaştır"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:472
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:477
 msgid "Zoom to 100%"
 msgstr "100% Yakınlaştır"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2703
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:87
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
 msgid "_Cancel"
 msgstr "İ_ptal et"
 
@@ -1728,9 +1729,9 @@ msgstr "İ_ptal et"
 msgid "_Open"
 msgstr "_Aç"
 
-#: ../src/core/control/Control.cpp:2705
+#: ../src/core/control/Control.cpp:2704
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:87
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
 msgid "_Save"
 msgstr "_Kaydet"
 
@@ -1738,13 +1739,13 @@ msgstr "_Kaydet"
 msgid "cursor"
 msgstr "imleç"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:316
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:516
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:312
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:518
 msgid "dash-/ dotted"
 msgstr "tire-/ noktalı"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:313
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:514
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:309
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:516
 msgid "dashed"
 msgstr "kesik çizgili"
 
@@ -1756,12 +1757,12 @@ msgstr "varsayılan olarak devre dışı"
 msgid "default enabled"
 msgstr "varsayılan olarak etkin"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:331
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:327
 msgid "delete stroke"
 msgstr "konturu sil"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:319
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:517
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:315
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:519
 msgid "dotted"
 msgstr "noktalı"
 
@@ -1774,7 +1775,7 @@ msgstr "öğeler"
 msgid "eraser"
 msgstr "silgi"
 
-#: ../src/core/control/Control.cpp:2328
+#: ../src/core/control/Control.cpp:2327
 msgid "file: {1}"
 msgstr "dosya: {1}"
 
@@ -1804,9 +1805,9 @@ msgstr "kalem"
 msgid "show"
 msgstr "göster"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:310
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:329
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:513
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:306
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:325
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:515
 msgid "standard"
 msgstr "standart"
 
@@ -1836,7 +1837,7 @@ msgstr "dokunmatik ekran"
 msgid "trackpoint"
 msgstr "parça noktası"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:330
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:326
 msgid "whiteout"
 msgstr "Beyazlat"
 
@@ -2060,11 +2061,11 @@ msgstr "5"
 msgid "<b>... or select already used Image:</b>"
 msgstr "<b>... veya önceden kullanılmış Resmi seçin:</b>"
 
-#: ../ui/pageTemplate.glade:245
+#: ../ui/pageTemplate.glade:248
 msgid "<b>Background Color</b>"
 msgstr "<b>Arka plan Rengi</b>"
 
-#: ../ui/pageTemplate.glade:258
+#: ../ui/pageTemplate.glade:261
 msgid "<b>Background</b>"
 msgstr "<b>Arka plan</b>"
 
@@ -2453,7 +2454,7 @@ msgstr "Yeni sayfa şablonunu yapılandır"
 msgid "Copy current page background instead"
 msgstr "Bunun yerine geçerli sayfa arka planını kopyala"
 
-#: ../ui/pageTemplate.glade:269
+#: ../ui/pageTemplate.glade:272
 msgid "Copy current page size instead"
 msgstr "Bunun yerine geçerli sayfa boyutunu kopyala"
 
@@ -3593,7 +3594,7 @@ msgstr "Yazı tipini sistem temadan kullan."
 msgid "Use snapping for recognized shapes"
 msgstr "Tanınan şekiller için yakalamayı kullan"
 
-#: ../ui/pageTemplate.glade:274
+#: ../ui/pageTemplate.glade:277
 msgid "Use the current page size instead of the page size above."
 msgstr "Yukarıdaki sayfa boyutu yerine geçerli sayfa boyutunu kullan."
 
