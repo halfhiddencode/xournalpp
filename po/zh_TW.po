@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -194,7 +194,7 @@ msgstr "改變筆劃粗細"
 msgid "Change stroke width"
 msgstr "改變筆劃粗細"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr "清空列表"
 
@@ -946,7 +946,7 @@ msgstr "沒有頁面可以匯出！"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "沒有可以添加的PDF頁面。您可能需要重新開啟文件檔。"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr "沒有最近的檔案"
 
