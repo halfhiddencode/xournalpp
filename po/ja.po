@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:19\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -196,7 +196,7 @@ msgstr "ストロークの塗りつぶしを変更する"
 msgid "Change stroke width"
 msgstr "ストロークの幅を変更する"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr "リストを消去"
 
@@ -951,7 +951,7 @@ msgstr "エクスポートするページがありません。"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "追加できるpdfページがありません。ドキュメントを再度開く必要があるかもしれません。"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr "最近開いたファイルはありません"
 
