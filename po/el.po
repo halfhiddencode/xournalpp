@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 23:03\n"
+"PO-Revision-Date: 2023-09-13 00:17\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -32,7 +32,8 @@ msgstr "\n"
 #: ../src/core/control/Control.cpp:2388
 msgid "\n"
 "Proposed replacement file: \"{1}\""
-msgstr ""
+msgstr "\n"
+"Προτεινόμενο αρχείο αντικατάστασης: \"{1}\""
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:37
 msgctxt "Page {pagenumber} \"of {pagecount}\""
@@ -197,7 +198,7 @@ msgstr "Αλλαγή πάχους μολυβιάς"
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "Clear list"
-msgstr ""
+msgstr "Εκκαθάριση λίστας"
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:96
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
@@ -924,7 +925,7 @@ msgstr "Επόμενη σημειωμένη σελίδα"
 
 #: ../src/core/control/Control.cpp:1280
 msgid "No"
-msgstr ""
+msgstr "Όχι"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -941,7 +942,7 @@ msgstr ""
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
 msgid "No recent files"
-msgstr ""
+msgstr "Κανένα πρόσφατο αρχείο"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:127
 msgid "Normal drawing"
@@ -998,7 +999,7 @@ msgstr "Αρχεία PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:47
 msgid "PDF {1}"
-msgstr ""
+msgstr "PDF {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:29
 msgid "PNG graphics"
@@ -1058,7 +1059,7 @@ msgstr "Αναπαραγωγή Αντικειμένου"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Παρακαλώ σβήσε το αρχείο χειροκίνητα"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1169,7 +1170,7 @@ msgstr "Αποθήκευση Αρχείου"
 
 #: ../src/core/control/jobs/SaveJob.cpp:117
 msgid "Save file error, can't backup: {1}"
-msgstr ""
+msgstr "Σφάλμα κατά την αποθήκευση αρχείου, αδυναμία δημιουργίας αντιγράφου ασφαλείας: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:131
 #: ../src/core/control/jobs/SaveJob.cpp:131
@@ -1245,7 +1246,7 @@ msgstr ""
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:83
 msgid "Select Pdf Text"
-msgstr ""
+msgstr "Επιλογή κειμένου PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:547
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:23
@@ -1315,19 +1316,24 @@ msgstr "Διαχωριστικό"
 #: ../src/core/control/XournalMain.cpp:669
 msgid "Set DPI for PNG exports. Default is 300\n"
 "                                 No effect without -i/--create-img=foo.png"
-msgstr ""
+msgstr "Θέσε DPI για εξαγωγές PNG. Το σύνηθες είναι 300\n"
+"                                 Κανένα αποτέλεσμα χωρίς -i/--create-img=foo.png"
 
 #: ../src/core/control/XournalMain.cpp:679
 msgid "Set page height for PNG exports\n"
 "                                 No effect without -i/--create-img=foo.png\n"
 "                                 Ignored if --export-png-dpi or --export-png-width is used"
-msgstr ""
+msgstr "Θέσε το μήκος σελίδας για εξαγωγές PNG\n"
+"                                 Κανένα αποτέλεσμα χωρίς -i/--create-img=foo.png\n"
+"                                 Παραλείπεται αν χρησιμοποιηθεί το --export-png-dpi ή το --export-png-width"
 
 #: ../src/core/control/XournalMain.cpp:673
 msgid "Set page width for PNG exports\n"
 "                                 No effect without -i/--create-img=foo.png\n"
 "                                 Ignored if --export-png-dpi is used"
-msgstr ""
+msgstr "Θέσε το πλάτος σελίδας για εξαγωγές PNG\n"
+"                                 Κανένα αποτέλεσμα χωρίς -i/--create-img=foo.png\n"
+"                                 Παραλείπεται αν χρησιμοποιείται το --export-png-dpi"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:554
 msgid "Setsquare"
@@ -1389,11 +1395,11 @@ msgstr "Υποστηριζόμενα αρχεία"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:72
 msgid "Swap the current layer with the one above"
-msgstr ""
+msgstr "Άλλαξε την τρέχουσα στρώση με την αμέσως παραπάνω"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:73
 msgid "Swap the current layer with the one below"
-msgstr ""
+msgstr "Άλλαξε την τρέχουσα στρώση με την αμέσως παρακάτω"
 
 #: ../src/core/gui/sidebar/previews/page/SidebarPreviewPages.cpp:80
 msgid "Swap the current page with the one above"
@@ -1415,7 +1421,7 @@ msgstr "Κείμενο"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Το κείμενο βρέθηκε %zu φορές σε αυτήν τη σελίδα"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1443,16 +1449,16 @@ msgstr "Η διαμόρφωση τη γραμμής εργαλείων \"{1}\" �
 
 #: ../src/core/control/Control.cpp:2375
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "Το επισυναπτόμενο αρχείο φόντο ήταν αδύνατο να βρεθεί. Δύναται να έχει μετακινηθεί, μετονομαστεί ή διαγραφτεί."
 
 #: ../src/core/control/XournalMain.cpp:242
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
-msgstr ""
+msgstr "Το αρχείο φόντου \"{1}\" ήταν αδύνατο να βρεθεί. Δύναται να έχει μετακινηθεί, μετονομαστεί ή διαγραφτεί."
 
 #: ../src/core/control/Control.cpp:2378
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
-msgstr ""
+msgstr "Το αρχείο φόντου \"{1}\" ήταν αδύνατο να βρεθεί. Δύναται να έχει μετακινηθεί, μετονομαστεί ή διαγραφτεί. Την τελευταία φορά εντοπίστηκε στο: \"{2}\""
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:52
 msgid "The check for overwriting the background failed with:\n"
@@ -1460,7 +1466,7 @@ msgstr ""
 
 #: ../src/core/control/Control.cpp:2439
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
-msgstr ""
+msgstr "Το αρχείο προς φόρτωση έχει μια έκδοση τύπου αρχείου νεότερη από αυτή που υποστηρίζεται από την τρέχουσα έκδοση του Xournal++, όποτε μπορεί να μη φορτωθεί ορθά. Άνοιγμα παρ'όλα αυτά;"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:141
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
@@ -1989,7 +1995,7 @@ msgstr ""
 
 #: ../ui/settings.glade:1229
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../ui/images.glade:88
 msgid "<b>... or select already used Image:</b>"
@@ -2332,7 +2338,7 @@ msgstr "Κουμπί 2"
 
 #: ../ui/pageTemplate.glade:160
 msgid "Change"
-msgstr ""
+msgstr "Αλλαγή"
 
 #: ../ui/latexSettings.glade:155
 msgid "Choose a global LaTeX template file"
@@ -2361,7 +2367,7 @@ msgstr "Κλείσιμο"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
-msgstr ""
+msgstr "Χρώμα"
 
 #: ../ui/settings.glade:3072
 msgid "Colors"
@@ -2389,7 +2395,7 @@ msgstr ""
 
 #: ../ui/main.glade:2777
 msgid "Copy selected text"
-msgstr ""
+msgstr "Αντιγραφή του επιλεγμένου κειμένου"
 
 #: ../ui/pageTemplate.glade:192
 msgid "Copy the background of the current page instead of using the background set above."
@@ -2538,7 +2544,7 @@ msgstr ""
 
 #: ../ui/main.glade:1540
 msgid "Draw Coordinate System"
-msgstr ""
+msgstr "Σχεδίασε σύστημα συντεταγμένων"
 
 #: ../ui/main.glade:1551
 msgid "Draw _Line"
@@ -2570,7 +2576,7 @@ msgstr "Επεξεργασία (μη υλοποιημένο)"
 
 #: ../ui/latexSettings.glade:504
 msgid "Editor settings"
-msgstr ""
+msgstr "Ρυθμίσεις συντάκτη"
 
 #: ../ui/settings.glade:2347
 msgid "Enable"
@@ -2614,7 +2620,7 @@ msgstr "Ενεργοποιείστε της εσωτερικής Αναγνώρ�
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Ενεργοποίηση ή Απενεργοποίηση Ήχου"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -2638,7 +2644,7 @@ msgstr "Τύπος γόμας - καμία αλλαγή"
 
 #: ../ui/settings.glade:2046
 msgid "Eraser visibility"
-msgstr ""
+msgstr "Ορατότητα γόμας"
 
 #: ../ui/exportSettings.glade:65
 msgid "Export"
@@ -2811,7 +2817,7 @@ msgstr "Αγνόησε Χρόνο (ms)"
 
 #: ../ui/settings.glade:1779
 msgid "Ignore the first"
-msgstr ""
+msgstr "Αγνόησε το πρώτο"
 
 #: ../ui/exportSettings.glade:114
 msgid "Image quality"
@@ -2835,7 +2841,7 @@ msgstr "Σύστημα Εισόδου"
 
 #: ../ui/settings.glade:1352
 msgid "Input stabilization"
-msgstr ""
+msgstr "Σταθεροποίηση εισόδου"
 
 #: ../ui/settings.glade:1334
 msgid "Input stabilization can create a gap at the end of your stroke. If enabled, this gap is filled."
@@ -2867,7 +2873,7 @@ msgstr ""
 
 #: ../ui/settings.glade:6010 ../ui/settings.glade:6056
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 #: ../ui/settings.glade:6026
 msgid "Language Settings"
