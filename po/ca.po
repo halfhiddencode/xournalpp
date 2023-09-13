@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -196,7 +196,7 @@ msgstr "Canviar emplenament de traç"
 msgid "Change stroke width"
 msgstr "Canviar amplada de traç"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr ""
 
@@ -948,7 +948,7 @@ msgstr "No hi ha cap pàgina per a exportar!"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "No hi ha pàgines PDF disponibles per a afegir. És possible que sigui necessari reobrir el document primer."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr ""
 
