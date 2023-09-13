@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: Afrikaans\n"
 "Language: af_ZA\n"
@@ -194,7 +194,7 @@ msgstr "Verander pen vul"
 msgid "Change stroke width"
 msgstr "Verander pen wydte"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr ""
 
@@ -948,7 +948,7 @@ msgstr "Geen bladsye om uit te voer nie!"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Geen pdf blaai is beskikbaar om aan te heg nie. Jy moet dalk die dokument eers weer oop maak."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr ""
 
