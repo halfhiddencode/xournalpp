@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -194,7 +194,7 @@ msgstr "സ്ട്രോക്ക് ഫിൽ മാറ്റുക"
 msgid "Change stroke width"
 msgstr "സ്ട്രോക്ക് വീതി മാറ്റുക"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr "പട്ടിക നീക്കം ചെയ്യുക"
 
@@ -945,7 +945,7 @@ msgstr "എക്സ്പോർട്ട് ചെയ്യാനായി ത�
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "കൂട്ടിച്ചേർക്കാനായി പിഡിഎഫ് താളുകൾ ലഭ്യമല്ല. നിങ്ങൾ ഒരിക്കൽ കൂടി ഡോക്യുമെന്റ് തുറക്കേണ്ടതായി വരും."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr "സമീപകാല ഫയലുകൾ ഒന്നുമില്ല"
 
