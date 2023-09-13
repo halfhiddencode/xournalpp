@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -196,7 +196,7 @@ msgstr "Aldatu trazua betetzea"
 msgid "Change stroke width"
 msgstr "Aldatu trazuaren zabalera"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr "Garbitu zerrenda"
 
@@ -952,7 +952,7 @@ msgstr "Ez dago orririk esportatzeko!"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Ez dago pdf orririk eransteko. Komeni da aurretik dokumentua berriro irekitzea."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr "Ez dago duela gutxiko fitxategirik"
 
