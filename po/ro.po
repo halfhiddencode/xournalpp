@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-13 09:07+0000\n"
-"PO-Revision-Date: 2023-09-13 10:20\n"
+"PO-Revision-Date: 2023-09-13 16:47\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -220,7 +220,7 @@ msgstr "Copiază"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Copiază fondul actual"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
