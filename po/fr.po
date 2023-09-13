@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:16\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:19\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -196,7 +196,7 @@ msgstr "Changer le remplissage"
 msgid "Change stroke width"
 msgstr "Changer la largeur du trait"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr "Vider la liste"
 
@@ -952,7 +952,7 @@ msgstr "Aucune page à exporter !"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Aucune page PDF de disponible à ajouter. Vous devrez peut-être rouvrir le document d'abord."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr "Aucun fichier récent"
 
