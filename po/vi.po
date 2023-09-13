@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-12 19:57+0000\n"
-"PO-Revision-Date: 2023-09-12 20:17\n"
+"POT-Creation-Date: 2023-09-13 09:07+0000\n"
+"PO-Revision-Date: 2023-09-13 10:19\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -194,7 +194,7 @@ msgstr "Đổi nét tô"
 msgid "Change stroke width"
 msgstr "Đổi chiều rộng nét bút"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
 msgstr "Xóa danh sách"
 
@@ -948,7 +948,7 @@ msgstr "Không có trang nào để xuất!"
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Không có trang pdf nào hiện sẵn để gắn vào. Bạn có thể cần phải mở lại tài liệu trước."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:56
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
 msgstr ""
 
