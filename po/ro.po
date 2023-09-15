@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:07+0000\n"
-"PO-Revision-Date: 2023-09-13 16:47\n"
+"POT-Creation-Date: 2023-09-15 07:50+0000\n"
+"PO-Revision-Date: 2023-09-15 08:00\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 " Vrei să continui?"
 
-#: ../src/core/control/Control.cpp:2388
+#: ../src/core/control/Control.cpp:2383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -170,7 +170,7 @@ msgstr "Adu în prim-plan"
 msgid "Built on"
 msgstr "Data creării"
 
-#: ../src/core/control/Control.cpp:2400 ../src/core/control/Control.cpp:2888
+#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -395,7 +395,7 @@ msgstr "Elimină această pagină"
 msgid "Disable audio for this session"
 msgstr "Dezactivează audio pentru această sesiune"
 
-#: ../src/core/control/Control.cpp:2885
+#: ../src/core/control/Control.cpp:2880
 msgid "Discard"
 msgstr "Nu salva"
 
@@ -403,7 +403,7 @@ msgstr "Nu salva"
 msgid "Display advanced export options"
 msgstr "Arată opțiuni avansate de exportare"
 
-#: ../src/core/control/Control.cpp:2313
+#: ../src/core/control/Control.cpp:2308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -415,7 +415,7 @@ msgstr "Nu deschide fișierele salvate automat. Acestea pot fi înlocuite!\n"
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Nu înlocui fondul PDF! Acest lucru va provoca erori!"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "Document file was removed."
 msgstr "Fișierul documentului a fost eliminat."
 
@@ -531,7 +531,7 @@ msgstr "Elimină linia"
 msgid "Eraser"
 msgstr "Gumă"
 
-#: ../src/core/control/Control.cpp:2604
+#: ../src/core/control/Control.cpp:2599
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Eroare la însemnarea fișierului PDF „{1}”\n"
@@ -541,7 +541,7 @@ msgstr "Eroare la însemnarea fișierului PDF „{1}”\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Eroare la încărcarea fișierului glade „{1}” (încerc să încarc „{2}”)"
 
-#: ../src/core/control/Control.cpp:2431
+#: ../src/core/control/Control.cpp:2426
 msgid "Error opening file \"{1}\""
 msgstr "Eroare la deschiderea fișierului „{1}”"
 
@@ -1112,7 +1112,7 @@ msgstr "Refă"
 msgid "Redo: "
 msgstr "Refă: "
 
-#: ../src/core/control/Control.cpp:2399
+#: ../src/core/control/Control.cpp:2394
 msgid "Remove PDF Background"
 msgstr "Elimină fondul PDF"
 
@@ -1168,17 +1168,17 @@ msgstr "Grafică SVG"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Exemplu de fișier LaTeX generat cu succes."
 
-#: ../src/core/control/Control.cpp:2880 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "Salvează"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Save As..."
 msgstr "Salvează ca..."
 
-#: ../src/core/control/Control.cpp:2703
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:88
+#: ../src/core/control/Control.cpp:2698
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Salvează fișierul"
 
@@ -1279,7 +1279,7 @@ msgstr "Alege o zonă"
 msgid "Select Text from pdf"
 msgstr "Alege textul din PDF"
 
-#: ../src/core/control/Control.cpp:2398
+#: ../src/core/control/Control.cpp:2393
 msgid "Select another PDF"
 msgstr "Alege un alt PDF"
 
@@ -1461,7 +1461,7 @@ msgstr "Textul nu a fost găsit, căutat pe toate paginile"
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Configurarea benzii cu instrumente „{1}” este predefinită. Vrei să modifici o copie?"
 
-#: ../src/core/control/Control.cpp:2375
+#: ../src/core/control/Control.cpp:2370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Fișierul fondului atașat nu a putut fi găsit. Este posibil să fi fost mutat, redenumit sau eliminat."
 
@@ -1469,7 +1469,7 @@ msgstr "Fișierul fondului atașat nu a putut fi găsit. Este posibil să fi fos
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "Fișierul fondului „{1}” nu a putut fi găsit. Este posibil să fi fost mutat, redenumit sau eliminat."
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Fișierul fondului „{1}” nu a putut fi găsit. Este posibil să fi fost mutat, redenumit sau eliminat.\n"
@@ -1479,7 +1479,7 @@ msgstr "Fișierul fondului „{1}” nu a putut fi găsit. Este posibil să fi f
 msgid "The check for overwriting the background failed with:\n"
 msgstr "Verificarea pentru înlocuirea fondului a eșuat cu:\n"
 
-#: ../src/core/control/Control.cpp:2439
+#: ../src/core/control/Control.cpp:2434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Fișierul în curs de încărcare are o versiune de format mai nouă decât cea acceptată în prezent de această versiune de Xournal++, deci este posibil să nu se încarce în mod corespunzător. Deschizi oricum?"
 
@@ -1519,7 +1519,7 @@ msgstr "A apărut o eroare la afișarea ajutorului: {1}"
 msgid "Thick"
 msgstr "Gros"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "This document is not saved yet."
 msgstr "Acest document nu este salvat încă."
 
@@ -1604,7 +1604,7 @@ msgstr "Tip necunoscut de contur: „{1}”, se presupune a fi un cerc"
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Tip necunoscut de linie: „{1}”, se presupune a fi de creion"
 
-#: ../src/core/control/Control.cpp:2760
+#: ../src/core/control/Control.cpp:2755
 msgid "Unsaved Document"
 msgstr "Document nesalvat"
 
@@ -1612,7 +1612,7 @@ msgstr "Document nesalvat"
 msgid "Unsupported graphics format: "
 msgstr "Format grafic neacceptat: "
 
-#: ../src/core/control/Control.cpp:2396
+#: ../src/core/control/Control.cpp:2391
 msgid "Use proposed PDF"
 msgstr "Folosește fișierul PDF propus"
 
@@ -1668,13 +1668,13 @@ msgstr "Fișiere Xournal"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ s-a blocat ultima dată. Vrei să recuperezi ultimul fișier?"
 
-#: ../src/core/control/Control.cpp:2709
+#: ../src/core/control/Control.cpp:2704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Fișier Xournal++"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:69
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:94
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:117
 msgid "Xournal++ template"
 msgstr "Model Xournal++"
 
@@ -1716,11 +1716,11 @@ msgstr "Micșorează"
 msgid "Zoom to 100%"
 msgstr "Zoom 100%"
 
-#: ../src/core/control/Control.cpp:2703
+#: ../src/core/control/Control.cpp:2698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "_Cancel"
 msgstr "_Renunță"
 
@@ -1729,9 +1729,9 @@ msgstr "_Renunță"
 msgid "_Open"
 msgstr "_Deschide"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Salvează"
 
@@ -1775,7 +1775,7 @@ msgstr "elemente"
 msgid "eraser"
 msgstr "gumă"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2322
 msgid "file: {1}"
 msgstr "fișier: {1}"
 
@@ -2061,11 +2061,11 @@ msgstr "5"
 msgid "<b>... or select already used Image:</b>"
 msgstr "<b>... sau alege imaginea deja folosită:</b>"
 
-#: ../ui/pageTemplate.glade:248
+#: ../ui/pageTemplate.glade:179
 msgid "<b>Background Color</b>"
 msgstr "<b>Culoarea fondului</b>"
 
-#: ../ui/pageTemplate.glade:261
+#: ../ui/pageTemplate.glade:192
 msgid "<b>Background</b>"
 msgstr "<b>Fond</b>"
 
@@ -2099,7 +2099,7 @@ msgid "<b>Fill opacity settings</b>\n"
 msgstr "<b>Decide opacitatea umplerii</b>\n"
 "Alege opacitatea culorii de umplere"
 
-#: ../ui/pageTemplate.glade:135
+#: ../ui/pageTemplate.glade:67
 msgid "<b>Page size</b>"
 msgstr "<b>Dimensiuni pagină</b>"
 
@@ -2406,7 +2406,7 @@ msgstr "Butonul 1"
 msgid "Button 2"
 msgstr "Butonul 2"
 
-#: ../ui/pageTemplate.glade:160
+#: ../ui/pageTemplate.glade:92
 msgid "Change"
 msgstr "Schimbă"
 
@@ -2451,15 +2451,15 @@ msgstr "Comanda de generare"
 msgid "Configure Page Template"
 msgstr "Configurează modelul de pagină"
 
-#: ../ui/pageTemplate.glade:18
+#: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
 msgstr "Configurează un nou model de pagină"
 
-#: ../ui/pageTemplate.glade:187
+#: ../ui/pageTemplate.glade:119
 msgid "Copy current page background instead"
 msgstr "Copiază în schimb fondul paginii actuale"
 
-#: ../ui/pageTemplate.glade:272
+#: ../ui/pageTemplate.glade:203
 msgid "Copy current page size instead"
 msgstr "Copiază în schimb dimensiunile paginii actuale"
 
@@ -2467,7 +2467,7 @@ msgstr "Copiază în schimb dimensiunile paginii actuale"
 msgid "Copy selected text"
 msgstr "Copiază textul ales"
 
-#: ../ui/pageTemplate.glade:192
+#: ../ui/pageTemplate.glade:124
 msgid "Copy the background of the current page instead of using the background set above."
 msgstr "Copiază fondul paginii actuale în loc de fondul stabilit mai sus."
 
@@ -2976,7 +2976,7 @@ msgstr "Încarcă / Salvează"
 msgid "Load file"
 msgstr "Încarcă un fişier"
 
-#: ../ui/pageTemplate.glade:54
+#: ../ui/pageTemplate.glade:247
 msgid "Load from file"
 msgstr "Încarcă un fișier"
 
@@ -3106,9 +3106,9 @@ msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
 msgstr "Mută prima pagină cu acest număr de pagini când este activată opțiunea <b>Pagini alăturate</b>"
 
 #: ../ui/exportSettings.glade:425 ../ui/fillOpacity.glade:135
-#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/plugin.glade:113
-#: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
-#: ../ui/texdialog.glade:203
+#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
+#: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
+#: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
 msgid "Ok"
 msgstr "Aprobă"
 
@@ -3298,7 +3298,7 @@ msgstr "Frecvența de eșantionare"
 msgid "Sample layer name"
 msgstr "Exemplu de nume de strat"
 
-#: ../ui/pageTemplate.glade:40
+#: ../ui/pageTemplate.glade:233
 msgid "Save to file"
 msgstr "Salvează"
 
@@ -3310,7 +3310,7 @@ msgstr "Bare de răsfoire"
 msgid "Scrolling outside the page"
 msgstr "Deplasare în afara paginii"
 
-#: ../ui/pageTemplate.glade:177
+#: ../ui/pageTemplate.glade:109
 msgid "Select Background Color"
 msgstr "Alege culoarea fondului"
 
@@ -3546,7 +3546,7 @@ msgstr "Formula matematică introdusă în instrumentul LaTeX."
 msgid "The unit of the ruler is cm"
 msgstr "Unitatea de măsură a riglei este cm"
 
-#: ../ui/pageTemplate.glade:114
+#: ../ui/pageTemplate.glade:45
 msgid "These settings will be used for new pages"
 msgstr "Aceste configurări vor fi folosite pentru paginile noi"
 
@@ -3599,7 +3599,7 @@ msgstr "Folosește tipul de litere al sistemului."
 msgid "Use snapping for recognized shapes"
 msgstr "Folosește ancorarea pentru formele recunoscute"
 
-#: ../ui/pageTemplate.glade:277
+#: ../ui/pageTemplate.glade:208
 msgid "Use the current page size instead of the page size above."
 msgstr "Folosește dimensiunile actuale ale paginii în loc de dimensiunile de mai sus."
 
