@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:07+0000\n"
-"PO-Revision-Date: 2023-09-13 10:20\n"
+"POT-Creation-Date: 2023-09-15 07:50+0000\n"
+"PO-Revision-Date: 2023-09-15 08:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "¿Quieres continuar?"
 
-#: ../src/core/control/Control.cpp:2388
+#: ../src/core/control/Control.cpp:2383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -170,7 +170,7 @@ msgstr "Traer al frente"
 msgid "Built on"
 msgstr "Compilado el"
 
-#: ../src/core/control/Control.cpp:2400 ../src/core/control/Control.cpp:2888
+#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -395,7 +395,7 @@ msgstr "Eliminar esta página"
 msgid "Disable audio for this session"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2885
+#: ../src/core/control/Control.cpp:2880
 msgid "Discard"
 msgstr "Descartar"
 
@@ -403,7 +403,7 @@ msgstr "Descartar"
 msgid "Display advanced export options"
 msgstr "Mostrar opciones avanzadas de exportación"
 
-#: ../src/core/control/Control.cpp:2313
+#: ../src/core/control/Control.cpp:2308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -415,7 +415,7 @@ msgstr "No abra los archivos de guardado automático; se sobrescribirán.\n"
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "No sobrescriba el PDF de fondo; ello provocará problemas."
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "Document file was removed."
 msgstr "Se eliminó el archivo del documento."
 
@@ -531,7 +531,7 @@ msgstr "Borrar trazo"
 msgid "Eraser"
 msgstr "Borrador"
 
-#: ../src/core/control/Control.cpp:2604
+#: ../src/core/control/Control.cpp:2599
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Error al anotar el archivo PDF «{1}»\n"
@@ -541,7 +541,7 @@ msgstr "Error al anotar el archivo PDF «{1}»\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Error al cargar el archivo de Glade «{1}» (se intentará cargar «{2}»)"
 
-#: ../src/core/control/Control.cpp:2431
+#: ../src/core/control/Control.cpp:2426
 msgid "Error opening file \"{1}\""
 msgstr "Error al abrir el archivo «{1}»"
 
@@ -1112,7 +1112,7 @@ msgstr "Rehacer"
 msgid "Redo: "
 msgstr "Rehacer: "
 
-#: ../src/core/control/Control.cpp:2399
+#: ../src/core/control/Control.cpp:2394
 msgid "Remove PDF Background"
 msgstr "Quitar fondo PDF"
 
@@ -1168,17 +1168,17 @@ msgstr "Imágenes SVG"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Archivo LaTeX de ejemplo generado con éxito."
 
-#: ../src/core/control/Control.cpp:2880 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "Guardar"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Save As..."
 msgstr "Guardar como…"
 
-#: ../src/core/control/Control.cpp:2703
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:88
+#: ../src/core/control/Control.cpp:2698
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Guardar archivo"
 
@@ -1279,7 +1279,7 @@ msgstr "Seleccionar región"
 msgid "Select Text from pdf"
 msgstr "Seleccionar texto del PDF"
 
-#: ../src/core/control/Control.cpp:2398
+#: ../src/core/control/Control.cpp:2393
 msgid "Select another PDF"
 msgstr "Seleccionar otro PDF"
 
@@ -1460,7 +1460,7 @@ msgstr "No se encontró el texto; se buscó en todas las páginas"
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "La configuración de barras de herramientas «{1}» es la predefinida. ¿Quiere crear una copia para editarla?"
 
-#: ../src/core/control/Control.cpp:2375
+#: ../src/core/control/Control.cpp:2370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "No se pudo encontrar el archivo de fondo adjunto. Podría haber sido movido, renombrado o eliminado."
 
@@ -1468,7 +1468,7 @@ msgstr "No se pudo encontrar el archivo de fondo adjunto. Podría haber sido mov
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "No se ha encontrado el archivo de fondo \"{1}\". Podría haber sido movido, renombrado o eliminado."
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "No se ha encontrado el archivo de fondo \"{1}\". Puede haber sido movido, renombrado o eliminado.\n"
@@ -1478,7 +1478,7 @@ msgstr "No se ha encontrado el archivo de fondo \"{1}\". Puede haber sido movido
 msgid "The check for overwriting the background failed with:\n"
 msgstr "La comprobación al sobrescribir el fondo ha fallado por:\n"
 
-#: ../src/core/control/Control.cpp:2439
+#: ../src/core/control/Control.cpp:2434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "El archivo que se está cargando tiene una versión del formato más nueva que la que está soportada por esta versión de Xournal++, así que podría no cargarse correctamente. ¿Deseas abrirlo igualmente?"
 
@@ -1518,7 +1518,7 @@ msgstr "Se produjo un error al mostrar la ayuda: {1}"
 msgid "Thick"
 msgstr "Grueso"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "This document is not saved yet."
 msgstr "Aún no se ha guardado este documento."
 
@@ -1603,7 +1603,7 @@ msgstr "Tipo de terminación de trazo desconocido: \"{1}\", se asume terminació
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Se desconoce el tipo de trazo: «{1}»; se asume de lápiz"
 
-#: ../src/core/control/Control.cpp:2760
+#: ../src/core/control/Control.cpp:2755
 msgid "Unsaved Document"
 msgstr "Documento no guardado"
 
@@ -1611,7 +1611,7 @@ msgstr "Documento no guardado"
 msgid "Unsupported graphics format: "
 msgstr "Formato gráfico no compatible: "
 
-#: ../src/core/control/Control.cpp:2396
+#: ../src/core/control/Control.cpp:2391
 msgid "Use proposed PDF"
 msgstr "Usar el PDF propuesto"
 
@@ -1667,13 +1667,13 @@ msgstr "Archivos de Xournal"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ se cerró inesperadamente durante el último uso. ¿Quiere restaurar el último archivo editado?"
 
-#: ../src/core/control/Control.cpp:2709
+#: ../src/core/control/Control.cpp:2704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Archivos de Xournal++"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:69
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:94
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:117
 msgid "Xournal++ template"
 msgstr "Plantilla de Xournal++"
 
@@ -1715,11 +1715,11 @@ msgstr "Reducir"
 msgid "Zoom to 100%"
 msgstr "Escala al 100 %"
 
-#: ../src/core/control/Control.cpp:2703
+#: ../src/core/control/Control.cpp:2698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "_Cancel"
 msgstr "_Cancelar"
 
@@ -1728,9 +1728,9 @@ msgstr "_Cancelar"
 msgid "_Open"
 msgstr "_Abrir"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Guardar"
 
@@ -1774,7 +1774,7 @@ msgstr "elementos"
 msgid "eraser"
 msgstr "borrador"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2322
 msgid "file: {1}"
 msgstr "archivo: {1}"
 
@@ -2015,11 +2015,11 @@ msgstr "5"
 msgid "<b>... or select already used Image:</b>"
 msgstr "<b>… o bien, seleccione una imagen ya utilizada:</b>"
 
-#: ../ui/pageTemplate.glade:248
+#: ../ui/pageTemplate.glade:179
 msgid "<b>Background Color</b>"
 msgstr "<b>Color de fondo</b>"
 
-#: ../ui/pageTemplate.glade:261
+#: ../ui/pageTemplate.glade:192
 msgid "<b>Background</b>"
 msgstr "<b>Fondo</b>"
 
@@ -2053,7 +2053,7 @@ msgid "<b>Fill opacity settings</b>\n"
 msgstr "<b>Opciones de opacidad de relleno</b>\n"
 "Seleccionar la opacidad para el color de relleno"
 
-#: ../ui/pageTemplate.glade:135
+#: ../ui/pageTemplate.glade:67
 msgid "<b>Page size</b>"
 msgstr "<b>Tamaño de página</b>"
 
@@ -2355,7 +2355,7 @@ msgstr "Botón 1"
 msgid "Button 2"
 msgstr "Botón 2"
 
-#: ../ui/pageTemplate.glade:160
+#: ../ui/pageTemplate.glade:92
 msgid "Change"
 msgstr "Cambiar"
 
@@ -2400,15 +2400,15 @@ msgstr "Salida de comandos"
 msgid "Configure Page Template"
 msgstr "Configurar plantilla de página"
 
-#: ../ui/pageTemplate.glade:18
+#: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
 msgstr "Configurar plantilla de página nueva"
 
-#: ../ui/pageTemplate.glade:187
+#: ../ui/pageTemplate.glade:119
 msgid "Copy current page background instead"
 msgstr "Copiar el fondo de página actual en su lugar"
 
-#: ../ui/pageTemplate.glade:272
+#: ../ui/pageTemplate.glade:203
 msgid "Copy current page size instead"
 msgstr "Copiar el tamaño de la página actual en su lugar"
 
@@ -2416,7 +2416,7 @@ msgstr "Copiar el tamaño de la página actual en su lugar"
 msgid "Copy selected text"
 msgstr "Copiar el texto seleccionado"
 
-#: ../ui/pageTemplate.glade:192
+#: ../ui/pageTemplate.glade:124
 msgid "Copy the background of the current page instead of using the background set above."
 msgstr "Copiar el fondo de la página actual en lugar de usar el fondo establecido arriba."
 
@@ -2925,7 +2925,7 @@ msgstr "Cargar/guardar"
 msgid "Load file"
 msgstr "Cargar archivo"
 
-#: ../ui/pageTemplate.glade:54
+#: ../ui/pageTemplate.glade:247
 msgid "Load from file"
 msgstr "Cargar desde un archivo"
 
@@ -3055,9 +3055,9 @@ msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
 msgstr "Desfasar la primera página tantas páginas cuando <b>páginas emparejadas</b> está activado"
 
 #: ../ui/exportSettings.glade:425 ../ui/fillOpacity.glade:135
-#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/plugin.glade:113
-#: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
-#: ../ui/texdialog.glade:203
+#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
+#: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
+#: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
 msgid "Ok"
 msgstr ""
 
@@ -3247,7 +3247,7 @@ msgstr "Tasa de muestreo"
 msgid "Sample layer name"
 msgstr "Nombre de la capa de muestra"
 
-#: ../ui/pageTemplate.glade:40
+#: ../ui/pageTemplate.glade:233
 msgid "Save to file"
 msgstr "Guardar en un archivo"
 
@@ -3259,7 +3259,7 @@ msgstr "Barras de desplazamiento"
 msgid "Scrolling outside the page"
 msgstr "Desplazamiento fuera de la página"
 
-#: ../ui/pageTemplate.glade:177
+#: ../ui/pageTemplate.glade:109
 msgid "Select Background Color"
 msgstr "Seleccionar color de fondo"
 
@@ -3495,7 +3495,7 @@ msgstr "La fórmula en modo matemático dibujada en la herramienta LaTeX."
 msgid "The unit of the ruler is cm"
 msgstr "La unidad de la regla es el cm"
 
-#: ../ui/pageTemplate.glade:114
+#: ../ui/pageTemplate.glade:45
 msgid "These settings will be used for new pages"
 msgstr "Estos ajustes serán usados para las nuevas páginas"
 
@@ -3548,7 +3548,7 @@ msgstr "Usar la misma fuente del sistema."
 msgid "Use snapping for recognized shapes"
 msgstr "Utilizar el ajuste para formas reconocidas"
 
-#: ../ui/pageTemplate.glade:277
+#: ../ui/pageTemplate.glade:208
 msgid "Use the current page size instead of the page size above."
 msgstr "Usar el tamaño de página actual en lugar del tamaño de página anterior."
 
