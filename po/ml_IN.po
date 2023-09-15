@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:07+0000\n"
-"PO-Revision-Date: 2023-09-13 10:20\n"
+"POT-Creation-Date: 2023-09-15 07:50+0000\n"
+"PO-Revision-Date: 2023-09-15 08:00\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുവോ?"
 
-#: ../src/core/control/Control.cpp:2388
+#: ../src/core/control/Control.cpp:2383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -168,7 +168,7 @@ msgstr "മുന്നിലേക്ക് കൊണ്ടുവരിക"
 msgid "Built on"
 msgstr "നിർമിതമായത്"
 
-#: ../src/core/control/Control.cpp:2400 ../src/core/control/Control.cpp:2888
+#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -391,7 +391,7 @@ msgstr "ഈ താൾ നീക്കം ചെയ്യുക"
 msgid "Disable audio for this session"
 msgstr "ഈ സെഷനിൽ ഓഡിയോ പ്രവർത്തനരഹിതമാക്കുക"
 
-#: ../src/core/control/Control.cpp:2885
+#: ../src/core/control/Control.cpp:2880
 msgid "Discard"
 msgstr "ഒഴിവാക്കുക"
 
@@ -399,7 +399,7 @@ msgstr "ഒഴിവാക്കുക"
 msgid "Display advanced export options"
 msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവിധാനങ്ങൾ കാണിക്കുക"
 
-#: ../src/core/control/Control.cpp:2313
+#: ../src/core/control/Control.cpp:2308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -409,7 +409,7 @@ msgstr "ഓട്ടോസേവ് ചെയ്ത ഫയലുകൾ തുറ
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം തിരുത്തരുത്! അവ പിശകുകൾക്ക് കാരണമാകും!"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "Document file was removed."
 msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
@@ -525,7 +525,7 @@ msgstr "സ്ട്രോക്ക് മായ്ക്കുക"
 msgid "Eraser"
 msgstr "ഇറേസർ"
 
-#: ../src/core/control/Control.cpp:2604
+#: ../src/core/control/Control.cpp:2599
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്നതിൽ പിശക് \"{1}\"\n"
@@ -535,7 +535,7 @@ msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്�
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "ഗ്ലേഡ് ഫയൽ \"{1}\" ലോഡ് ചെയ്യുന്നതിൽ പിശക് സംഭവിച്ചു (\"{2}\" ലോഡ് ചെയ്യാൻ ശ്രമിക്കൂ)"
 
-#: ../src/core/control/Control.cpp:2431
+#: ../src/core/control/Control.cpp:2426
 msgid "Error opening file \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
@@ -1103,7 +1103,7 @@ msgstr "വീണ്ടും ചെയ്യുക"
 msgid "Redo: "
 msgstr "വീണ്ടും ചെയ്യുക: "
 
-#: ../src/core/control/Control.cpp:2399
+#: ../src/core/control/Control.cpp:2394
 msgid "Remove PDF Background"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം നീക്കം ചെയ്യുക"
 
@@ -1159,17 +1159,17 @@ msgstr "എസ് വി ജി (SVG) ഗ്രാഫിക്സ്"
 msgid "Sample LaTeX file generated successfully."
 msgstr "ഉദാഹരണ (ലാറ്റെക്) LaTeX ഫയൽ വിജയകരമായി ഉത്പാദിപ്പിച്ചു."
 
-#: ../src/core/control/Control.cpp:2880 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "സേവ്"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Save As..."
 msgstr "സേവ് തരം..."
 
-#: ../src/core/control/Control.cpp:2703
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:88
+#: ../src/core/control/Control.cpp:2698
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "ഫയൽ സേവ്"
 
@@ -1270,7 +1270,7 @@ msgstr "മണ്ഡലം തിരഞ്ഞെടുക്കുക"
 msgid "Select Text from pdf"
 msgstr "പിഡിഎഫിൽ നിന്നും ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/control/Control.cpp:2398
+#: ../src/core/control/Control.cpp:2393
 msgid "Select another PDF"
 msgstr "മറ്റൊരു പിഡിഎഫ് തിരഞ്ഞെടുക്കുക"
 
@@ -1447,7 +1447,7 @@ msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്�
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "\"{1}\" എന്ന ടൂൾബാർ ക്രമീകരണം മുൻപേ തിട്ടപ്പെടുത്തിയതാണ്, അത് പുനർക്രമീകരിക്കാൻ താങ്കൾ പുതിയൊരു പകർപ്പ് നിർമിക്കുമോ?"
 
-#: ../src/core/control/Control.cpp:2375
+#: ../src/core/control/Control.cpp:2370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "അറ്റാച്ച് ചെയ്ത പശ്ചാത്തല ഫയൽ കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
@@ -1455,7 +1455,7 @@ msgstr "അറ്റാച്ച് ചെയ്ത പശ്ചാത്തല 
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം.\n"
@@ -1465,7 +1465,7 @@ msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്ത�
 msgid "The check for overwriting the background failed with:\n"
 msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന്നതിനു വേണ്ടിയുള്ള പരിശോധനയിൽ ഇത് സഹിതം പരാജയപ്പെട്ടു:\n"
 
-#: ../src/core/control/Control.cpp:2439
+#: ../src/core/control/Control.cpp:2434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "ഇപ്പോൾ തുറക്കാൻ ശ്രമിക്കുന്ന ഫയലിന്റെ പതിപ്പ് Xournal++ പിന്തുണയ്ക്കുന്ന പതിപ്പിനേക്കാൾ പുതുതാണ്. ആയതിനാൽ ശരിയായ വിധം ഫയൽ പ്രവർത്തിച്ചേക്കണമെന്നില്ല. എന്തുതന്നെയായാലും ഫയൽ തുറക്കണോ?"
 
@@ -1505,7 +1505,7 @@ msgstr "സഹായം ലഭ്യമാക്കുന്നതിൽ ഒര�
 msgid "Thick"
 msgstr "കനത്തിലുള്ളത്"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "This document is not saved yet."
 msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ് ചെയ്യപ്പെട്ടിട്ടില്ല."
 
@@ -1590,7 +1590,7 @@ msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് ക്യാ�
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് തരം: \"{1}\", പേന ആണെന്ന് അനുമാനിക്കുന്നു"
 
-#: ../src/core/control/Control.cpp:2760
+#: ../src/core/control/Control.cpp:2755
 msgid "Unsaved Document"
 msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്റ്"
 
@@ -1598,7 +1598,7 @@ msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്�
 msgid "Unsupported graphics format: "
 msgstr "നിരവലംബമായ ഗ്രാഫിക്സ് തരം: "
 
-#: ../src/core/control/Control.cpp:2396
+#: ../src/core/control/Control.cpp:2391
 msgid "Use proposed PDF"
 msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപയോഗിക്കുക"
 
@@ -1654,13 +1654,13 @@ msgstr "Xournal ഫയലുകൾ"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ കഴിഞ്ഞ തവണ പ്രവർത്തന രഹിതമായിരുന്നു. ഏറ്റവും അവസാനം തിരുത്തിക്കൊണ്ടിരുന്ന ഫയൽ തിരികെ കൊണ്ടുവരേണ്ടതുണ്ടോ?"
 
-#: ../src/core/control/Control.cpp:2709
+#: ../src/core/control/Control.cpp:2704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ ഫയലുകൾ"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:69
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:94
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:117
 msgid "Xournal++ template"
 msgstr "Xournal++ ടെമ്പ്ലേറ്റ്"
 
@@ -1700,11 +1700,11 @@ msgstr "ചെറുതാക്കുക"
 msgid "Zoom to 100%"
 msgstr "100% വലുപ്പത്തിലേക്ക് എത്തിക്കുക"
 
-#: ../src/core/control/Control.cpp:2703
+#: ../src/core/control/Control.cpp:2698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "_Cancel"
 msgstr "_ഉപേക്ഷിക്കുക"
 
@@ -1713,9 +1713,9 @@ msgstr "_ഉപേക്ഷിക്കുക"
 msgid "_Open"
 msgstr "_തുറക്കുക"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_സേവ്"
 
@@ -1759,7 +1759,7 @@ msgstr "ഘടകങ്ങൾ"
 msgid "eraser"
 msgstr "ഇറേസർ"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2322
 msgid "file: {1}"
 msgstr "ഫയൽ: {1}"
 
@@ -2022,11 +2022,11 @@ msgstr "5"
 msgid "<b>... or select already used Image:</b>"
 msgstr "<b>... അല്ലെങ്കിൽ ഒരുവട്ടം ഉപയോഗിച്ച ചിത്രം തന്നെ വീണ്ടും തിരഞ്ഞെടുക്കുക</b>"
 
-#: ../ui/pageTemplate.glade:248
+#: ../ui/pageTemplate.glade:179
 msgid "<b>Background Color</b>"
 msgstr "<b>പശ്ചാത്തല നിറം</b>"
 
-#: ../ui/pageTemplate.glade:261
+#: ../ui/pageTemplate.glade:192
 msgid "<b>Background</b>"
 msgstr "<b>പശ്ചാത്തലം</b>"
 
@@ -2059,7 +2059,7 @@ msgid "<b>Fill opacity settings</b>\n"
 msgstr "<b>ഫിൽ ഒപാസിറ്റി ക്രമീകരണങ്ങൾ</b>\n"
 "ഫിൽ നിറത്തിന് വേണ്ടി ഒപാസിറ്റി തിരഞ്ഞെടുക്കുക"
 
-#: ../ui/pageTemplate.glade:135
+#: ../ui/pageTemplate.glade:67
 msgid "<b>Page size</b>"
 msgstr "<b>താൾ വലുപ്പം</b>"
 
@@ -2359,7 +2359,7 @@ msgstr "ബട്ടൺ 1"
 msgid "Button 2"
 msgstr "ബട്ടൺ 2"
 
-#: ../ui/pageTemplate.glade:160
+#: ../ui/pageTemplate.glade:92
 msgid "Change"
 msgstr "മാറ്റുക"
 
@@ -2404,15 +2404,15 @@ msgstr "കമാൻഡ് ഫലം"
 msgid "Configure Page Template"
 msgstr "താൾ ടെമ്പ്ലേറ്റ് സജ്ജീകരിക്കുക"
 
-#: ../ui/pageTemplate.glade:18
+#: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
 msgstr "പുതിയ താൾ ടെമ്പ്ലേറ്റ് സജ്ജീകരിക്കുക"
 
-#: ../ui/pageTemplate.glade:187
+#: ../ui/pageTemplate.glade:119
 msgid "Copy current page background instead"
 msgstr "നിലവിലെ താളിന്റെ പശ്ചാത്തലം പകരം പകർത്തുക"
 
-#: ../ui/pageTemplate.glade:272
+#: ../ui/pageTemplate.glade:203
 msgid "Copy current page size instead"
 msgstr "നിലവിയിലെ താളിന്റെ വലുപ്പം പകരം പകർത്തുക"
 
@@ -2420,7 +2420,7 @@ msgstr "നിലവിയിലെ താളിന്റെ വലുപ്പ�
 msgid "Copy selected text"
 msgstr "തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് പകർത്തുക"
 
-#: ../ui/pageTemplate.glade:192
+#: ../ui/pageTemplate.glade:124
 msgid "Copy the background of the current page instead of using the background set above."
 msgstr "നിലവിയിലെ താളിന്റെ പശ്ചാത്തലം മുകളിലെ പശ്ചാത്തല കൂട്ടത്തിന് പകരം പകർത്തുക."
 
@@ -2921,7 +2921,7 @@ msgstr "ലോഡ്/സേവ്"
 msgid "Load file"
 msgstr "ഫയൽ തുറക്കുക"
 
-#: ../ui/pageTemplate.glade:54
+#: ../ui/pageTemplate.glade:247
 msgid "Load from file"
 msgstr "ഫയലിൽ നിന്നും ലോഡ് ചെയ്യുക"
 
@@ -3050,9 +3050,9 @@ msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
 msgstr ""
 
 #: ../ui/exportSettings.glade:425 ../ui/fillOpacity.glade:135
-#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/plugin.glade:113
-#: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
-#: ../ui/texdialog.glade:203
+#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
+#: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
+#: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
 msgid "Ok"
 msgstr "ശരി"
 
@@ -3241,7 +3241,7 @@ msgstr ""
 msgid "Sample layer name"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:40
+#: ../ui/pageTemplate.glade:233
 msgid "Save to file"
 msgstr "ഫയലിലേക്ക് സേവ് ചെയ്യുക"
 
@@ -3253,7 +3253,7 @@ msgstr "സ്ക്രോൾബാറുകൾ"
 msgid "Scrolling outside the page"
 msgstr "താളിനു പുറത്ത് സ്ക്രോൾ ചെയ്യുക"
 
-#: ../ui/pageTemplate.glade:177
+#: ../ui/pageTemplate.glade:109
 msgid "Select Background Color"
 msgstr "പശ്ചാത്തല നിറം തിരഞ്ഞെടുക്കുക"
 
@@ -3488,7 +3488,7 @@ msgstr ""
 msgid "The unit of the ruler is cm"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:114
+#: ../ui/pageTemplate.glade:45
 msgid "These settings will be used for new pages"
 msgstr ""
 
@@ -3541,7 +3541,7 @@ msgstr ""
 msgid "Use snapping for recognized shapes"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:277
+#: ../ui/pageTemplate.glade:208
 msgid "Use the current page size instead of the page size above."
 msgstr ""
 
