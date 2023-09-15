@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:07+0000\n"
-"PO-Revision-Date: 2023-09-13 10:20\n"
+"POT-Creation-Date: 2023-09-15 07:50+0000\n"
+"PO-Revision-Date: 2023-09-15 08:00\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Wilt u doorgaan?"
 
-#: ../src/core/control/Control.cpp:2388
+#: ../src/core/control/Control.cpp:2383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr ""
@@ -168,7 +168,7 @@ msgstr "Naar voorgrond brengen"
 msgid "Built on"
 msgstr "Gebouwd op"
 
-#: ../src/core/control/Control.cpp:2400 ../src/core/control/Control.cpp:2888
+#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -393,7 +393,7 @@ msgstr "Huidige pagina verwijderen"
 msgid "Disable audio for this session"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2885
+#: ../src/core/control/Control.cpp:2880
 msgid "Discard"
 msgstr "Verwerpen"
 
@@ -401,7 +401,7 @@ msgstr "Verwerpen"
 msgid "Display advanced export options"
 msgstr "Toon geavanceerde exportopties"
 
-#: ../src/core/control/Control.cpp:2313
+#: ../src/core/control/Control.cpp:2308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -413,7 +413,7 @@ msgstr "Open geen automatisch opgeslagen bestanden; deze worden overschreven!\n"
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Overschrijf de achtergrond-pdf niet: dit veroorzaakt fouten!"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "Document file was removed."
 msgstr "Het documentbestand is verwijderd."
 
@@ -529,7 +529,7 @@ msgstr "Penseelstreek verwijderen"
 msgid "Eraser"
 msgstr "Gum"
 
-#: ../src/core/control/Control.cpp:2604
+#: ../src/core/control/Control.cpp:2599
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Kan PDF-bestand niet '{1}' voorzien van aantekeningen\n"
@@ -539,7 +539,7 @@ msgstr "Kan PDF-bestand niet '{1}' voorzien van aantekeningen\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Kan glade-bestand '{1}' niet laden (probeer '{2}' te laden"
 
-#: ../src/core/control/Control.cpp:2431
+#: ../src/core/control/Control.cpp:2426
 msgid "Error opening file \"{1}\""
 msgstr "Kan bestand '{1}' niet openen"
 
@@ -1106,7 +1106,7 @@ msgstr "Opnieuw uitvoeren"
 msgid "Redo: "
 msgstr "Opnieuw uitvoeren: "
 
-#: ../src/core/control/Control.cpp:2399
+#: ../src/core/control/Control.cpp:2394
 msgid "Remove PDF Background"
 msgstr "PDF-achtergrond verwijderen"
 
@@ -1162,17 +1162,17 @@ msgstr "SVG-afbeeldingen"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Voorbeeld LaTeX-bestand succesvol gegenereerd."
 
-#: ../src/core/control/Control.cpp:2880 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Save As..."
 msgstr "Opslaan als..."
 
-#: ../src/core/control/Control.cpp:2703
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:88
+#: ../src/core/control/Control.cpp:2698
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Bestand opslaan"
 
@@ -1273,7 +1273,7 @@ msgstr "Gebied kiezen"
 msgid "Select Text from pdf"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2398
+#: ../src/core/control/Control.cpp:2393
 msgid "Select another PDF"
 msgstr "Ander PDF-bestand kiezen"
 
@@ -1453,7 +1453,7 @@ msgstr "Tekst komt niet voor; alle pagina's zijn doorzocht"
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "De werkbalkconfiguratie '{1}' is vooringesteld. Wil je een kopie maken die kunt aanpassen?"
 
-#: ../src/core/control/Control.cpp:2375
+#: ../src/core/control/Control.cpp:2370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
@@ -1461,7 +1461,7 @@ msgstr ""
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
@@ -1470,7 +1470,7 @@ msgstr ""
 msgid "The check for overwriting the background failed with:\n"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2439
+#: ../src/core/control/Control.cpp:2434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr ""
 
@@ -1510,7 +1510,7 @@ msgstr "Er is een fout opgetreden tijdens het openen van het hulpscherm: {1}"
 msgid "Thick"
 msgstr "Dik"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "This document is not saved yet."
 msgstr "Dit document is nog niet opgeslagen."
 
@@ -1595,7 +1595,7 @@ msgstr ""
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Onbekende penseelsoort: '{1}' - aangenomen wordt dat het een pen is"
 
-#: ../src/core/control/Control.cpp:2760
+#: ../src/core/control/Control.cpp:2755
 msgid "Unsaved Document"
 msgstr "Niet-opgeslagen document"
 
@@ -1603,7 +1603,7 @@ msgstr "Niet-opgeslagen document"
 msgid "Unsupported graphics format: "
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2396
+#: ../src/core/control/Control.cpp:2391
 msgid "Use proposed PDF"
 msgstr ""
 
@@ -1659,13 +1659,13 @@ msgstr "Xournal-bestanden"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ is de vorige keer gecrasht. Wil je het laatstgebruikte bestand herstellen?"
 
-#: ../src/core/control/Control.cpp:2709
+#: ../src/core/control/Control.cpp:2704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++-bestanden"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:69
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:94
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:117
 msgid "Xournal++ template"
 msgstr "Xournal++-sjabloon"
 
@@ -1707,11 +1707,11 @@ msgstr "Uitzoomen"
 msgid "Zoom to 100%"
 msgstr "100% zoomen"
 
-#: ../src/core/control/Control.cpp:2703
+#: ../src/core/control/Control.cpp:2698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "_Cancel"
 msgstr "_Annuleren"
 
@@ -1720,9 +1720,9 @@ msgstr "_Annuleren"
 msgid "_Open"
 msgstr "_Openen"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "Op_slaan"
 
@@ -1766,7 +1766,7 @@ msgstr "elementen"
 msgid "eraser"
 msgstr "gum"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2322
 msgid "file: {1}"
 msgstr "bestand: {1}"
 
@@ -2007,11 +2007,11 @@ msgstr ""
 msgid "<b>... or select already used Image:</b>"
 msgstr "<b>... of kies een reeds gebruikte afbeelding:</b>"
 
-#: ../ui/pageTemplate.glade:248
+#: ../ui/pageTemplate.glade:179
 msgid "<b>Background Color</b>"
 msgstr "<b>Achtergrondkleur</b>"
 
-#: ../ui/pageTemplate.glade:261
+#: ../ui/pageTemplate.glade:192
 msgid "<b>Background</b>"
 msgstr "<b>Achtergrond</b>"
 
@@ -2044,7 +2044,7 @@ msgid "<b>Fill opacity settings</b>\n"
 msgstr "<b>Ondoorzichtigheidintellingen</b>\n"
 "Selecteer ondoorzichtigheid voor vulkleur"
 
-#: ../ui/pageTemplate.glade:135
+#: ../ui/pageTemplate.glade:67
 msgid "<b>Page size</b>"
 msgstr "<b>Paginagrootte</b>"
 
@@ -2344,7 +2344,7 @@ msgstr "Knop 1"
 msgid "Button 2"
 msgstr "Knop 2"
 
-#: ../ui/pageTemplate.glade:160
+#: ../ui/pageTemplate.glade:92
 msgid "Change"
 msgstr ""
 
@@ -2389,15 +2389,15 @@ msgstr ""
 msgid "Configure Page Template"
 msgstr "Paginasjabloon instellen"
 
-#: ../ui/pageTemplate.glade:18
+#: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:187
+#: ../ui/pageTemplate.glade:119
 msgid "Copy current page background instead"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:272
+#: ../ui/pageTemplate.glade:203
 msgid "Copy current page size instead"
 msgstr ""
 
@@ -2405,7 +2405,7 @@ msgstr ""
 msgid "Copy selected text"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:192
+#: ../ui/pageTemplate.glade:124
 msgid "Copy the background of the current page instead of using the background set above."
 msgstr ""
 
@@ -2911,7 +2911,7 @@ msgstr "Laden/Opslaan"
 msgid "Load file"
 msgstr "Bestand laden"
 
-#: ../ui/pageTemplate.glade:54
+#: ../ui/pageTemplate.glade:247
 msgid "Load from file"
 msgstr ""
 
@@ -3040,9 +3040,9 @@ msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
 msgstr "Compensatie voor eerste pagina voor zoveel pagina's als <b>Pagina's koppelen</b> ingeschakeld is"
 
 #: ../ui/exportSettings.glade:425 ../ui/fillOpacity.glade:135
-#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/plugin.glade:113
-#: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
-#: ../ui/texdialog.glade:203
+#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
+#: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
+#: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
 msgid "Ok"
 msgstr ""
 
@@ -3232,7 +3232,7 @@ msgstr "Samplesnelheid"
 msgid "Sample layer name"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:40
+#: ../ui/pageTemplate.glade:233
 msgid "Save to file"
 msgstr ""
 
@@ -3244,7 +3244,7 @@ msgstr "Schuifbalken"
 msgid "Scrolling outside the page"
 msgstr "Buiten de pagina scrollen"
 
-#: ../ui/pageTemplate.glade:177
+#: ../ui/pageTemplate.glade:109
 msgid "Select Background Color"
 msgstr "Achtergrondkleur kiezen"
 
@@ -3479,7 +3479,7 @@ msgstr ""
 msgid "The unit of the ruler is cm"
 msgstr "De eenheid van de liniaal is cm"
 
-#: ../ui/pageTemplate.glade:114
+#: ../ui/pageTemplate.glade:45
 msgid "These settings will be used for new pages"
 msgstr ""
 
@@ -3532,7 +3532,7 @@ msgstr ""
 msgid "Use snapping for recognized shapes"
 msgstr ""
 
-#: ../ui/pageTemplate.glade:277
+#: ../ui/pageTemplate.glade:208
 msgid "Use the current page size instead of the page size above."
 msgstr ""
 
