@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:07+0000\n"
-"PO-Revision-Date: 2023-09-13 10:20\n"
+"POT-Creation-Date: 2023-09-15 07:50+0000\n"
+"PO-Revision-Date: 2023-09-15 08:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "是否繼續?"
 
-#: ../src/core/control/Control.cpp:2388
+#: ../src/core/control/Control.cpp:2383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr ""
@@ -168,7 +168,7 @@ msgstr "移到上層"
 msgid "Built on"
 msgstr "基於"
 
-#: ../src/core/control/Control.cpp:2400 ../src/core/control/Control.cpp:2888
+#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -392,7 +392,7 @@ msgstr "刪除此頁面"
 msgid "Disable audio for this session"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2885
+#: ../src/core/control/Control.cpp:2880
 msgid "Discard"
 msgstr "丟棄"
 
@@ -400,7 +400,7 @@ msgstr "丟棄"
 msgid "Display advanced export options"
 msgstr "顯示進階輸出選項"
 
-#: ../src/core/control/Control.cpp:2313
+#: ../src/core/control/Control.cpp:2308
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -412,7 +412,7 @@ msgstr "請勿開啟自動保存檔案，否則它們可能會被覆寫！\n"
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "請勿覆寫背景 PDF 檔！這樣可能導致錯誤！"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "Document file was removed."
 msgstr "文檔已刪除。"
 
@@ -528,7 +528,7 @@ msgstr "擦除筆劃"
 msgid "Eraser"
 msgstr "橡皮"
 
-#: ../src/core/control/Control.cpp:2604
+#: ../src/core/control/Control.cpp:2599
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "PDF檔案\"{1}\"標註出錯\n"
@@ -538,7 +538,7 @@ msgstr "PDF檔案\"{1}\"標註出錯\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "加載glade檔案\"{1}\"出錯(嘗試加載\"{2}\")"
 
-#: ../src/core/control/Control.cpp:2431
+#: ../src/core/control/Control.cpp:2426
 msgid "Error opening file \"{1}\""
 msgstr "打開檔案\"{1}\"出錯"
 
@@ -1105,7 +1105,7 @@ msgstr "重複"
 msgid "Redo: "
 msgstr "重複："
 
-#: ../src/core/control/Control.cpp:2399
+#: ../src/core/control/Control.cpp:2394
 msgid "Remove PDF Background"
 msgstr "去掉PDF背景"
 
@@ -1161,17 +1161,17 @@ msgstr "svg圖形"
 msgid "Sample LaTeX file generated successfully."
 msgstr "產生範例 LaTeX file 成功。"
 
-#: ../src/core/control/Control.cpp:2880 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "保存"
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Save As..."
 msgstr "另存為..."
 
-#: ../src/core/control/Control.cpp:2703
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:88
+#: ../src/core/control/Control.cpp:2698
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "保存檔案"
 
@@ -1272,7 +1272,7 @@ msgstr "選擇區域"
 msgid "Select Text from pdf"
 msgstr "從PDF中選擇文字"
 
-#: ../src/core/control/Control.cpp:2398
+#: ../src/core/control/Control.cpp:2393
 msgid "Select another PDF"
 msgstr "選擇其他PDF"
 
@@ -1454,7 +1454,7 @@ msgstr "找遍所有頁面未找到文本"
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "工具條配置\"{1}\"是預置的，要產生一個拷貝到編輯?"
 
-#: ../src/core/control/Control.cpp:2375
+#: ../src/core/control/Control.cpp:2370
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
@@ -1462,7 +1462,7 @@ msgstr ""
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2373
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
@@ -1471,7 +1471,7 @@ msgstr ""
 msgid "The check for overwriting the background failed with:\n"
 msgstr "覆蓋背景失敗：\n"
 
-#: ../src/core/control/Control.cpp:2439
+#: ../src/core/control/Control.cpp:2434
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "正在開啟的檔案格式版本筆目前Xournal++支持的文件格式版本更新， 可能無法正確開啟，仍要開啟？"
 
@@ -1511,7 +1511,7 @@ msgstr "顯示說明文件時發生錯誤。{1}"
 msgid "Thick"
 msgstr "粗"
 
-#: ../src/core/control/Control.cpp:2879
+#: ../src/core/control/Control.cpp:2874
 msgid "This document is not saved yet."
 msgstr "此文件尚未存檔"
 
@@ -1596,7 +1596,7 @@ msgstr "未知的筆觸類型：“{1}“，設為圓形"
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "未知的筆類別： \"{1}\"，假設爲畫筆"
 
-#: ../src/core/control/Control.cpp:2760
+#: ../src/core/control/Control.cpp:2755
 msgid "Unsaved Document"
 msgstr "未保存文檔"
 
@@ -1604,7 +1604,7 @@ msgstr "未保存文檔"
 msgid "Unsupported graphics format: "
 msgstr "不支援的圖像格式: "
 
-#: ../src/core/control/Control.cpp:2396
+#: ../src/core/control/Control.cpp:2391
 msgid "Use proposed PDF"
 msgstr "使用建議的PDF"
 
@@ -1660,13 +1660,13 @@ msgstr "Xournal檔案"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ 上次崩溃了。您想恢復最後一個编辑的文件？"
 
-#: ../src/core/control/Control.cpp:2709
+#: ../src/core/control/Control.cpp:2704
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ 檔案"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:69
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:94
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:117
 msgid "Xournal++ template"
 msgstr "Xournal++ 樣本"
 
@@ -1708,11 +1708,11 @@ msgstr "縮小"
 msgid "Zoom to 100%"
 msgstr "原始尺寸"
 
-#: ../src/core/control/Control.cpp:2703
+#: ../src/core/control/Control.cpp:2698
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "_Cancel"
 msgstr "取消 (_C)"
 
@@ -1721,9 +1721,9 @@ msgstr "取消 (_C)"
 msgid "_Open"
 msgstr "開啟 (_O)"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
-#: ../src/core/gui/dialog/PageTemplateDialog.cpp:89
+#: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "儲存 (_S)"
 
@@ -1767,7 +1767,7 @@ msgstr "元素"
 msgid "eraser"
 msgstr "橡皮"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:2322
 msgid "file: {1}"
 msgstr "檔案: {1}"
 
@@ -2008,11 +2008,11 @@ msgstr "5"
 msgid "<b>... or select already used Image:</b>"
 msgstr "<b>...或者選擇已用圖片：</b>"
 
-#: ../ui/pageTemplate.glade:248
+#: ../ui/pageTemplate.glade:179
 msgid "<b>Background Color</b>"
 msgstr "<b>背景顏色</b>"
 
-#: ../ui/pageTemplate.glade:261
+#: ../ui/pageTemplate.glade:192
 msgid "<b>Background</b>"
 msgstr "<b>背景</b>"
 
@@ -2046,7 +2046,7 @@ msgid "<b>Fill opacity settings</b>\n"
 msgstr "<b>填充透明度設定</b>\n"
 "選擇填充顏色的透明度"
 
-#: ../ui/pageTemplate.glade:135
+#: ../ui/pageTemplate.glade:67
 msgid "<b>Page size</b>"
 msgstr "<b>頁面尺寸</b>"
 
@@ -2348,7 +2348,7 @@ msgstr "按鈕 1"
 msgid "Button 2"
 msgstr "按鈕 2"
 
-#: ../ui/pageTemplate.glade:160
+#: ../ui/pageTemplate.glade:92
 msgid "Change"
 msgstr "變更"
 
@@ -2393,15 +2393,15 @@ msgstr "指令輸出"
 msgid "Configure Page Template"
 msgstr "設定頁面範本"
 
-#: ../ui/pageTemplate.glade:18
+#: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
 msgstr "設定新頁面模板"
 
-#: ../ui/pageTemplate.glade:187
+#: ../ui/pageTemplate.glade:119
 msgid "Copy current page background instead"
 msgstr "複製當前頁面背景"
 
-#: ../ui/pageTemplate.glade:272
+#: ../ui/pageTemplate.glade:203
 msgid "Copy current page size instead"
 msgstr "複製當前頁面尺寸"
 
@@ -2409,7 +2409,7 @@ msgstr "複製當前頁面尺寸"
 msgid "Copy selected text"
 msgstr "複製已選取文字"
 
-#: ../ui/pageTemplate.glade:192
+#: ../ui/pageTemplate.glade:124
 msgid "Copy the background of the current page instead of using the background set above."
 msgstr "複製當前頁面的背景，而不是使用上面設置的背景。"
 
@@ -2918,7 +2918,7 @@ msgstr "加載/保存"
 msgid "Load file"
 msgstr "加載檔案"
 
-#: ../ui/pageTemplate.glade:54
+#: ../ui/pageTemplate.glade:247
 msgid "Load from file"
 msgstr "從檔案載入"
 
@@ -3048,9 +3048,9 @@ msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
 msgstr "當啟用 <b>雙頁</b> 顯示時，偏移多個頁面中的第一頁"
 
 #: ../ui/exportSettings.glade:425 ../ui/fillOpacity.glade:135
-#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/plugin.glade:113
-#: ../ui/renameLayerDialog.glade:71 ../ui/settings.glade:6095
-#: ../ui/texdialog.glade:203
+#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
+#: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
+#: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
 msgid "Ok"
 msgstr ""
 
@@ -3240,7 +3240,7 @@ msgstr "採樣率"
 msgid "Sample layer name"
 msgstr "範例圖層名稱"
 
-#: ../ui/pageTemplate.glade:40
+#: ../ui/pageTemplate.glade:233
 msgid "Save to file"
 msgstr "儲存到檔案"
 
@@ -3252,7 +3252,7 @@ msgstr "滾動條"
 msgid "Scrolling outside the page"
 msgstr "在頁面外滾動"
 
-#: ../ui/pageTemplate.glade:177
+#: ../ui/pageTemplate.glade:109
 msgid "Select Background Color"
 msgstr "選擇背景顏色"
 
@@ -3488,7 +3488,7 @@ msgstr "在 LaTeX 工具中鍵入的數學模式公式。"
 msgid "The unit of the ruler is cm"
 msgstr "標尺的單位是釐米"
 
-#: ../ui/pageTemplate.glade:114
+#: ../ui/pageTemplate.glade:45
 msgid "These settings will be used for new pages"
 msgstr "這些設定將應用於新頁面"
 
@@ -3541,7 +3541,7 @@ msgstr "使用系統主題的字型"
 msgid "Use snapping for recognized shapes"
 msgstr "對已識別的形狀使用捕捉"
 
-#: ../ui/pageTemplate.glade:277
+#: ../ui/pageTemplate.glade:208
 msgid "Use the current page size instead of the page size above."
 msgstr "使用當前頁面大小而不是上面的頁面大小。"
 
