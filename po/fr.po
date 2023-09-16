@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-15 08:00\n"
+"PO-Revision-Date: 2023-09-16 08:26\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -206,7 +206,7 @@ msgstr "Couleur \"{1}\" inconnue (non définie dans la liste de couleurs par dé
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
 msgid "Compass"
-msgstr "Boussole"
+msgstr "Rapporteur"
 
 #: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
