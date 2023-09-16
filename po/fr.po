@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-16 08:26\n"
+"PO-Revision-Date: 2023-09-16 10:21\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -38,7 +38,7 @@ msgstr "\n"
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:37
 msgctxt "Page {pagenumber} \"of {pagecount}\""
 msgid " of {1}"
-msgstr " de {1}"
+msgstr " sur {1}"
 
 #: ../src/core/control/settings/Settings.cpp:150
 msgid "%F-Note-%H-%M"
@@ -1223,18 +1223,18 @@ msgstr "Sélectionner des lignes de texte PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
 msgid "Select Multi-Layer Rect"
-msgstr "Sélectionner Rect Multi-Layer"
+msgstr "Sélectionner un rectangle multicalque"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:78
 msgid "Select Multi-Layer Rectangle"
-msgstr "Sélectionner le Rectangle Multi-Couche"
+msgstr "Sélectionner un rectangle multicalque"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:548
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:84
 msgid "Select Multi-Layer Region"
-msgstr "Sélectionnez la région Multi-Layer"
+msgstr "Sélectionner une région multicalque"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:550
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
