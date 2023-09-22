@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-15 08:00\n"
+"PO-Revision-Date: 2023-09-22 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -46,7 +46,7 @@ msgstr "%F-Заметка-%H-%M"
 
 #: ../src/core/control/settings/Settings.cpp:152
 msgid "%{name}_annotated"
-msgstr ""
+msgstr "%{name}_аннотирован"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
@@ -206,7 +206,7 @@ msgstr "Неизвестный цвет «{1}» (не определен в сп
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
 msgid "Compass"
-msgstr ""
+msgstr "Компас"
 
 #: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
@@ -220,7 +220,7 @@ msgstr "Копировать"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Копировать текущий фон"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -332,7 +332,7 @@ msgstr "Не удалось записать фон «{1}». Тем не мен�
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Журнал сбоев"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -393,7 +393,7 @@ msgstr "Удалить эту страницу"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Отключить аудио для этой сессии"
 
 #: ../src/core/control/Control.cpp:2880
 msgid "Discard"
@@ -638,7 +638,7 @@ msgstr "Экспорт без линования\n"
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "Не удалось удалить файл: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
@@ -685,7 +685,7 @@ msgstr "Не удалось определить путь со следующе�
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Отчет об ошибке"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -699,7 +699,7 @@ msgstr "Заливка"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:600
 msgid "Fill Opacity"
-msgstr ""
+msgstr "Прозрачность заливки"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -937,7 +937,7 @@ msgstr "Следующая аннотированная страница"
 
 #: ../src/core/control/Control.cpp:1280
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -954,7 +954,7 @@ msgstr "Нет доступных страниц pdf для добавления
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
-msgstr ""
+msgstr "Нет недавних файлов"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:127
 msgid "Normal drawing"
@@ -1072,7 +1072,7 @@ msgstr "Воспроизвести объект"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Пожалуйста, удалите файл вручную"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1100,7 +1100,7 @@ msgstr "Запись не может быть запущена."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Обнаружен файл восстановления"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:443
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1157,7 +1157,7 @@ msgstr "В линейку с полями"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "Ошибка при выполнении операции печати с {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1183,7 +1183,7 @@ msgstr "Сохранить файл"
 
 #: ../src/core/control/jobs/SaveJob.cpp:117
 msgid "Save file error, can't backup: {1}"
-msgstr ""
+msgstr "Ошибка файла сохранения, невозможно сделать резервную копию: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:131
 #: ../src/core/control/jobs/SaveJob.cpp:131
@@ -1196,7 +1196,7 @@ msgstr "Маштабирование"
 
 #: ../src/core/gui/PageView.cpp:953
 msgid "Scroll to page {1}"
-msgstr ""
+msgstr "Прокрутить до {1}"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Search"
@@ -1222,7 +1222,7 @@ msgstr "Выбрать линейный PDF текст"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
 msgid "Select Multi-Layer Rect"
-msgstr ""
+msgstr "Выберите многоуровневый вывод"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:78
