@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-22 17:56\n"
+"PO-Revision-Date: 2023-09-22 19:04\n"
 "Last-Translator: \n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
@@ -27,7 +27,7 @@ msgstr "\n\n"
 msgid "\n"
 " Do you want to continue?"
 msgstr "\n"
-"Queres continuar?"
+" Queres continuar?"
 
 #: ../src/core/control/Control.cpp:2383
 msgid "\n"
@@ -59,12 +59,12 @@ msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
 "  Not relative\n"
 "  Not in the Working Path\n"
 "  Not in {2}"
-msgstr "<span foreground='red' size='x-large'>Falta un ficheiro imprescindíbel de IU:\n"
+msgstr "<span foreground='red' size='x-large'>Falta un ficheiro imprescindíbel da interface:\n"
 "<b>{1}</b></span>\n"
-"Non se puido atopar en ningunha localización.\n"
-"  Nen nunha relativa\n"
-"  Nen no directorio de traballo\n"
-"  Nen en {2}"
+"Non foi posíbel atopar en ningunha localización.\n"
+"  Nin nunha relativa\n"
+"  Nin no directorio de traballo\n"
+"  Nin en {2}"
 
 #: ../src/core/gui/PageView.cpp:955
 msgid "Add missing page"
@@ -272,17 +272,17 @@ msgstr "Non se puido abrir o ficheiro: «{1}»"
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:74
 msgid "Could not parse custom toolbar.ini file: {1}\n"
 "Toolbars will not be available"
-msgstr "Non se puido procesar o ficheiro personalizado toolbar.ini: {1}"
+msgstr "Non foi posíbel procesar o ficheiro personalizado toolbar.ini: {1}"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:65
 msgid "Could not parse general toolbar.ini file: {1}\n"
 "No Toolbars will be available"
-msgstr "Non se puido procesar o ficheiro xeral de toolbar.ini:{1}"
+msgstr "Non foi posíbel procesar o ficheiro xeral de toolbar.ini:{1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:386
 #: ../src/core/control/xojfile/LoadHandler.cpp:409
 msgid "Could not read image: {1}. Error message: {2}"
-msgstr "Non se puido ler a imaxe:{1}. Mensaxe de erro:{2}"
+msgstr "Non foi posíbel ler a imaxe:{1}. Mensaxe de erro:{2}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:419
 msgid "Could not read page number for cloned background image: {1}."
@@ -291,24 +291,24 @@ msgstr "Non foi posíbel ler o número de páxina da imaxe de fondo clonada: {1}
 #: ../src/core/undo/UndoRedoHandler.cpp:144
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
-msgstr "Non se puido refacer «{1}»\n"
+msgstr "Non foi posíbel refacer «{1}»\n"
 "Algo foi mal… Remita un informe de erro…"
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:179
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
-msgstr "Non se puido retirar a ferramenta da Barra de ferramentas {1} na posición {2}"
+msgstr "Non foi posíbel retirar a ferramenta da Barra de ferramentas {1} na posición {2}"
 
 #: ../src/core/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:174
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
-msgstr "Non se puido retirar a ferramenta {1} da Barra de ferramentas {2} na posición {3}"
+msgstr "Non foi posíbel retirar a ferramenta {1} da Barra de ferramentas {2} na posición {3}"
 
 #: ../src/core/control/Control.cpp:248
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
-msgstr "Non se puido renomear o ficheiro de autogardado de «{1}» a «{2}»: {3}"
+msgstr "Non foi posíbel renomear o ficheiro de gardado automático de «{1}» a «{2}»: {3}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:91
 msgid "Could not save .tex file: {1}"
-msgstr "Non se puido gardar o ficheiro .tex: {1}"
+msgstr "Non foi posíbel gardar o ficheiro .tex: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:105
 msgid "Could not start {1}: {2} (exit code: {3})"
@@ -317,16 +317,16 @@ msgstr "Non foi posíbel inicial {1}: {2} (código de saída: {3})"
 #: ../src/core/undo/UndoRedoHandler.cpp:115
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
-msgstr "Non se puido desfacer «{1}»\n"
+msgstr "Non foi posíbel desfacer «{1}»\n"
 "Algo foi mal… Remita un informe de erro…"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:253
 msgid "Could not write background \"{1}\", {2}"
-msgstr "Non se puido escribir o fondo «{1}», {2}"
+msgstr "Non foi posíbel escribir o fondo «{1}», {2}"
 
 #: ../src/core/control/xojfile/SaveHandler.cpp:350
 msgid "Could not write background \"{1}\". Continuing anyway."
-msgstr "Non se puido escribir o fondo «{1}». Continuando de todas maneiras."
+msgstr "Non foi posíbel escribir o fondo «{1}». Continuando de todas maneiras."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
@@ -1546,15 +1546,15 @@ msgstr "Tentando un gardado de emerxencia do actualmente aberto documento…"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:142
 msgid "Unable to open global template file at {1}. Does it exist?"
-msgstr "Non se puido abrir o ficheiro modelo global en {1}. Existe?"
+msgstr "Non foi posíbel abrir o ficheiro modelo global en {1}. Existe?"
 
 #: ../src/core/gui/PageView.cpp:382
 msgid "Unable to play audio recording {1}"
-msgstr "Non se puido reproducir a gravación de son {1}"
+msgstr "Non foi posíbel reproducir a gravación de son {1}"
 
 #: ../src/core/control/Control.cpp:1497
 msgid "Unable to retrieve pdf page."
-msgstr "Non se puido recuperar a páxina pdf."
+msgstr "Non foi posíbel recuperar a páxina pdf."
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:442
 #: ../src/core/undo/UndoRedoHandler.cpp:183
@@ -1683,7 +1683,7 @@ msgstr ""
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Non ten ningunha páxina de PDF da que seleccionar. Anular a operación.\n"
-"Seleccione outro tipo de fondo: Menú «Diario» → «Configurar modelo de páxina»."
+"Seleccione outro tipo de fondo: Menú «Caderno» → «Configurar modelo de páxina»."
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:90
 msgid "Your current document does not contain PDF Page no {1}\n"
@@ -1691,7 +1691,7 @@ msgid "Your current document does not contain PDF Page no {1}\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
 msgstr "O documento actual non contén a páxina PDF núm. {1}\n"
 "Quere inserir esta páxina?\n\n"
-"Nota: Pode seleccionar Diario→ Fondo de folla→ Fondo de PDF, para inserir unha páxina PDF."
+"Nota: Pode seleccionar Caderno → Fondo do papel→ Fondo de PDF, para inserir unha páxina PDF."
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:136
 msgid "Zoom Slider"
@@ -1848,7 +1848,7 @@ msgstr "xoj-preview-extractor: chamar con INPUT.xoj OUTPUT.png"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:185
 msgid "xoj-preview-extractor: could not find icon \"{1}\""
-msgstr "xoj-preview-extractor: non se puido atopar a icona «{1}»"
+msgstr "xoj-preview-extractor: non puido atopar a icona «{1}»"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:142
 msgid "xoj-preview-extractor: file \"{1}\" contains no preview"
@@ -2099,7 +2099,8 @@ msgstr "<i>Exemplo:</i> 1-3 ou 1,3,5-7 etc."
 #: ../ui/settings.glade:338
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xoj\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>Se o documento xa estivese gardado, pódeo atopar no mesmo cartafol coa extensión .autosave.xoj\n"
+"Se o ficheiro non estivese gardado aínda, pódeo atopar en ~/.cache/xournalpp/autosaves</i>"
 
 #: ../ui/settings.glade:4317
 msgid "<i>If you add additional space beside the pages you can choose the area of the screen you would like to work on.</i>"
@@ -2174,7 +2175,7 @@ msgstr "<i>Trocar visibilidade da barra de menú con F10</i>"
 
 #: ../ui/settings.glade:2487
 msgid "<i>Use pinch gestures to zoom journal pages.</i>"
-msgstr "<i>Utilizar xestos de pinza para aumentar páxinas.</i>"
+msgstr "<i>Utilizar xestos de pinza para ampliar páxinas do caderno.</i>"
 
 #: ../ui/settings.glade:2614
 msgid "<i>Use the touchscreen like a multi-touch-aware pen.</i>"
