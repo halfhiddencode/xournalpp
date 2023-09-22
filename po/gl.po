@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-22 16:44\n"
+"PO-Revision-Date: 2023-09-22 17:56\n"
 "Last-Translator: \n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
@@ -32,12 +32,13 @@ msgstr "\n"
 #: ../src/core/control/Control.cpp:2383
 msgid "\n"
 "Proposed replacement file: \"{1}\""
-msgstr ""
+msgstr "\n"
+"Ficheiro substituto proposto: «{1}»"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:37
 msgctxt "Page {pagenumber} \"of {pagecount}\""
 msgid " of {1}"
-msgstr ""
+msgstr " de {1}"
 
 #: ../src/core/control/settings/Settings.cpp:150
 msgid "%F-Note-%H-%M"
@@ -45,7 +46,7 @@ msgstr "%F-Nota-%H-%M"
 
 #: ../src/core/control/settings/Settings.cpp:152
 msgid "%{name}_annotated"
-msgstr ""
+msgstr "%{name}_anotado"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
@@ -67,11 +68,11 @@ msgstr "<span foreground='red' size='x-large'>Falta un ficheiro imprescindíbel 
 
 #: ../src/core/gui/PageView.cpp:955
 msgid "Add missing page"
-msgstr ""
+msgstr "Engadir a páxina que falta"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:527
 msgid "Add/Edit TeX"
-msgstr ""
+msgstr "Engadir/Editar TeX"
 
 #: ../src/core/control/XournalMain.cpp:684
 msgid "Advanced export options"
@@ -132,7 +133,8 @@ msgstr "Atributo de cor non definido!"
 #: ../src/core/control/AudioController.cpp:118
 msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
-msgstr ""
+msgstr "O cartafol de son non está configurado ou é incorrecto! Non será posíbel gravar!\n"
+"Configure o cartafol de gravacións en «Preferencias > Gravación de son»"
 
 #: ../src/core/control/Control.cpp:257
 msgid "Autosave failed with an error: {1}"
@@ -196,7 +198,7 @@ msgstr "Cambiar largura de trazo"
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
 msgid "Clear list"
-msgstr ""
+msgstr "Limpar listaxe"
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:96
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
@@ -204,7 +206,7 @@ msgstr "A cor «{1}» é descoñecida (non está recollida na lista de cores pre
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
 msgid "Compass"
-msgstr ""
+msgstr "Compás"
 
 #: ../src/core/gui/sidebar/indextree/SidebarIndexPage.cpp:170
 msgid "Contents"
@@ -218,7 +220,7 @@ msgstr "Copiar"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Copiar fondo actual"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -284,7 +286,7 @@ msgstr "Non se puido ler a imaxe:{1}. Mensaxe de erro:{2}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:419
 msgid "Could not read page number for cloned background image: {1}."
-msgstr ""
+msgstr "Non foi posíbel ler o número de páxina da imaxe de fondo clonada: {1}."
 
 #: ../src/core/undo/UndoRedoHandler.cpp:144
 msgid "Could not redo \"{1}\"\n"
@@ -328,7 +330,7 @@ msgstr "Non se puido escribir o fondo «{1}». Continuando de todas maneiras."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Rexistro de quebras"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -389,7 +391,7 @@ msgstr "Eliminar esta páxina"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Desactivar son para esta sesión"
 
 #: ../src/core/control/Control.cpp:2880
 msgid "Discard"
@@ -442,7 +444,7 @@ msgstr "Debuxar frecha"
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:540
 msgid "Draw Double Arrow"
-msgstr ""
+msgstr "Debuxar frecha dupla"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:133
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
@@ -486,7 +488,7 @@ msgstr "Tipo de debuxo - non trocar"
 
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:29
 msgid "Drawing Type Combo"
-msgstr ""
+msgstr "Caixa de elección de tipo de debuxo"
 
 #: ../src/core/undo/TextBoxUndoAction.cpp:43
 msgid "Edit text"
@@ -604,7 +606,7 @@ msgstr "Exportar en PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:433
 msgid "Export as PDF"
-msgstr ""
+msgstr "Exportar como PDF"
 
 #: ../src/core/control/XournalMain.cpp:654
 msgid "Export layers progressively\n"
@@ -634,7 +636,7 @@ msgstr "Exportar sen normas\n"
 
 #: ../src/core/control/XournalMain.cpp:146
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "Non foi posíbel eliminar o ficheiro: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
@@ -655,11 +657,11 @@ msgstr "Non foi posíbel iniciar a superficie de Cairo de PDF"
 
 #: ../src/core/control/tools/ImageHandler.cpp:72
 msgid "Failed to load image, could not determine image size!"
-msgstr ""
+msgstr "Non foi posíbel cargar a imaxe; non foi posíbel determinar o tamaño da imaxe!"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:180
 msgid "Failed to open content.xml in zip archive: \"{1}\""
-msgstr ""
+msgstr "Non foi posíbel abrir content.xml no arquivo zip: «{1}»"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:72
 msgid "Failed to parse LaTeX generator command: {1}"
@@ -667,7 +669,7 @@ msgstr "Fallou o procesamento da orde do xerador LaTeX: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:61
 msgid "Failed to parse LaTeX generator path: {1}"
-msgstr ""
+msgstr "Non foi posíbel analizar a ruta do xerador de LaTeX: {1}"
 
 #: ../src/core/control/LatexController.cpp:82
 msgid "Failed to read global template file. Please check your settings."
@@ -681,7 +683,7 @@ msgstr "Fallou a resolución da ruta co seguinte erro:\n"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Informar dun fallo"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -695,7 +697,7 @@ msgstr "Encher"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:600
 msgid "Fill Opacity"
-msgstr ""
+msgstr "Opacidade do enchido"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -723,7 +725,7 @@ msgstr "GNU GPLv2 ou posterior"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:47
 msgid "GTK Version"
-msgstr ""
+msgstr "Versión de GTK"
 
 #: ../src/core/control/XournalMain.cpp:627
 msgid "Get version of xournalpp"
@@ -775,7 +777,7 @@ msgstr "Axustar á grade"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:63
 msgid "GtkSourceView was disabled when building Xournal++! Some options will not be available."
-msgstr ""
+msgstr "GtkSourceView foi desactivado ao construír Xournal++! Algunhas opcións non estarán dispoñíbeis."
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:97
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:553
@@ -814,11 +816,11 @@ msgstr "Inserir unha copia da páxina actual a seguir"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:86
 msgid "Insert after current page"
-msgstr ""
+msgstr "Inserir após páxina actual"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Insert at end"
-msgstr ""
+msgstr "Inserir no final"
 
 #: ../src/core/undo/InsertUndoAction.cpp:82
 msgid "Insert elements"
@@ -855,7 +857,7 @@ msgstr "Saltar á páxina (primeira páxina: 1)"
 
 #: ../src/core/gui/dialog/LatexSettingsPanel.cpp:53
 msgid "LaTeX editor theme:"
-msgstr ""
+msgstr "Tema do editor de LaTeX:"
 
 #: ../src/core/control/LatexController.cpp:262
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
@@ -867,7 +869,7 @@ msgstr "Capa"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:237
 msgid "Layer Combo"
-msgstr ""
+msgstr "Caixa de opcións de capa"
 
 #: ../src/core/gui/sidebar/previews/layer/SidebarPreviewLayers.cpp:78
 msgid "Layer Preview"
@@ -897,7 +899,7 @@ msgstr "Medio"
 
 #: ../src/core/undo/MergeLayerDownUndoAction.cpp:32
 msgid "Merge layer down"
-msgstr ""
+msgstr "Fusionar capa para abaixo"
 
 #: ../src/core/undo/MoveUndoAction.cpp:19
 msgid "Move"
@@ -933,7 +935,7 @@ msgstr "Seguinte páxina anotada"
 
 #: ../src/core/control/Control.cpp:1280
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -950,7 +952,7 @@ msgstr "Non hai páxinas pdf dispoñíbeis para engadir. Pode ser que se necesit
 
 #: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
 msgid "No recent files"
-msgstr ""
+msgstr "Sen ficheiros recentes"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:127
 msgid "Normal drawing"
@@ -959,7 +961,8 @@ msgstr "Debuxo normal"
 #: ../src/core/control/XournalMain.cpp:665
 msgid "On export, only export the layers specified by RANGE (e.g. \"2-3,5,7-\")\n"
 "                                 No effect without -p/--create-pdf or -i/--create-img"
-msgstr ""
+msgstr "Ao exportar, exportar unicamente as capas do INTERVALO (p.ex. \"2-3,5,7-\")\n"
+"                                 Non ten efectos sen -p/--create-pdf ou -i/--create-img"
 
 #: ../src/core/control/XournalMain.cpp:661
 msgid "Only export the pages specified by RANGE (e.g. \"2-3,5,7-\")\n"
@@ -1008,7 +1011,7 @@ msgstr "Ficheiros PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:47
 msgid "PDF {1}"
-msgstr ""
+msgstr "PDF {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:29
 msgid "PNG graphics"
@@ -1068,7 +1071,7 @@ msgstr "Reproducir obxecto"
 
 #: ../src/core/control/XournalMain.cpp:148
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Elimine o ficheiro manualmente"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1096,7 +1099,7 @@ msgstr "A gravadora non puido arrincar."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Detectouse un ficheiro de recuperación"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:443
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1153,7 +1156,7 @@ msgstr "Raiado con liña vertical"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "Produciuse un fallo ao executar a operación de impresión con {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1192,7 +1195,7 @@ msgstr "Escalar"
 
 #: ../src/core/gui/PageView.cpp:953
 msgid "Scroll to page {1}"
-msgstr ""
+msgstr "Desprazarse até a páxina {1}"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Search"
@@ -1200,11 +1203,11 @@ msgstr "Buscar"
 
 #: ../src/core/gui/dialog/AboutDialog.cpp:61
 msgid "See the full list of contributors"
-msgstr ""
+msgstr "Vexa a lista completa de colaboracións"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:100
 msgid "Select Area Text from pdf"
-msgstr ""
+msgstr "Seleccionar área de texto do pdf"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:557
 msgid "Select Font"
@@ -1214,22 +1217,22 @@ msgstr "Seleccionar tipo"
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:19
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:22
 msgid "Select Linear PDF Text"
-msgstr ""
+msgstr "Seleccionar texto lineal do PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
 msgid "Select Multi-Layer Rect"
-msgstr ""
+msgstr "Seleccionar rectángulo de varias capas"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:78
 msgid "Select Multi-Layer Rectangle"
-msgstr ""
+msgstr "Seleccionar rectángulo de varias capas"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:548
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:84
 msgid "Select Multi-Layer Region"
-msgstr ""
+msgstr "Seleccionar rexión de varias capas"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:550
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
@@ -1680,7 +1683,7 @@ msgstr ""
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "Non ten ningunha páxina de PDF da que seleccionar. Anular a operación.\n"
-"Seleccione outro tipo de fondo: Menú «Lámina» → «Configurar modelo de páxina»."
+"Seleccione outro tipo de fondo: Menú «Diario» → «Configurar modelo de páxina»."
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:90
 msgid "Your current document does not contain PDF Page no {1}\n"
@@ -1688,7 +1691,7 @@ msgid "Your current document does not contain PDF Page no {1}\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
 msgstr "O documento actual non contén a páxina PDF núm. {1}\n"
 "Quere inserir esta páxina?\n\n"
-"Nota: Pode seleccionar Lámina→ Fondo de folla→ Fondo de PDF, para inserir unha páxina PDF."
+"Nota: Pode seleccionar Diario→ Fondo de folla→ Fondo de PDF, para inserir unha páxina PDF."
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:136
 msgid "Zoom Slider"
@@ -2064,7 +2067,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"Ao empregar a caixa de opción pódese desactivar ou desactivar o sistema de son para sesións futuras (requírese reiniciar).\n"
+"Pódese desactivar o son para unha única sesión empregando a bandeira <tt>--disable-audio</tt> na liña de ordes.\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2241,7 +2247,7 @@ msgstr "Comprobar sempre as dependencias LaTeX antes de poñerse en marcha"
 
 #: ../ui/main.glade:1253
 msgid "Append New PDF Pages"
-msgstr ""
+msgstr "Amecer novas páxinas PDF"
 
 #: ../ui/settings.glade:249
 msgid "Arithmetic mean"
@@ -2583,7 +2589,7 @@ msgstr "Duplicar"
 
 #: ../ui/main.glade:1243
 msgid "Duplicate Page"
-msgstr ""
+msgstr "Duplicar páxina"
 
 #: ../ui/main.glade:2985
 msgid "Edit (not implemented yet)"
@@ -2704,7 +2710,7 @@ msgstr "Desprazamento da primeira páxina "
 
 #: ../ui/latexSettings.glade:451
 msgid "Font: "
-msgstr ""
+msgstr "Tipo de letra: "
 
 #: ../ui/main.glade:578 ../ui/settings.glade:3727
 msgid "Fullscreen"
@@ -2800,7 +2806,7 @@ msgstr "Como de curto (tempo) E...\n\n"
 
 #: ../ui/about.glade:133
 msgid "Icon Designers"
-msgstr ""
+msgstr "Deseño de iconas"
 
 #: ../ui/settings.glade:3022
 msgid "Icon Theme"
@@ -2948,11 +2954,11 @@ msgstr ""
 
 #: ../ui/main.glade:2903
 msgid "Merge Down"
-msgstr ""
+msgstr "Fusionar para abaixo"
 
 #: ../ui/main.glade:1312
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "Fusionar capa para abaixo"
 
 #: ../ui/settings.glade:1000
 msgid "Merge button events with stylus tip events\n"
@@ -3006,7 +3012,7 @@ msgstr ""
 
 #: ../ui/main.glade:1175
 msgid "N_ext Annotated Page"
-msgstr ""
+msgstr "Páxina anotada seguinte"
 
 #: ../ui/settings.glade:2021
 msgctxt "eraser is never visible"
@@ -3076,7 +3082,7 @@ msgstr "Caché de PDF"
 
 #: ../ui/main.glade:1186
 msgid "P_revious Annotated Page"
-msgstr ""
+msgstr "Páxina anotada anterior"
 
 #: ../ui/settings.glade:3460
 msgid "Page numbering  "
@@ -3130,7 +3136,7 @@ msgstr "Rendemento"
 
 #: ../ui/latexSettings.glade:466
 msgid "Pick the Editor's Font"
-msgstr ""
+msgstr "Escoller o tipo de letra do editor"
 
 #: ../ui/settings.glade:5861
 msgid "Playback Settings"
@@ -3326,7 +3332,7 @@ msgstr "Amosar a barra de menús no inicio"
 
 #: ../ui/main.glade:589 ../ui/settings.glade:3708 ../ui/settings.glade:3797
 msgid "Show Sidebar"
-msgstr ""
+msgstr "Mostrar barra lateral"
 
 #: ../ui/settings.glade:3693 ../ui/settings.glade:3767
 msgid "Show Toolbar"
@@ -3354,7 +3360,7 @@ msgstr "Amosar a barra de desprazamento vertical á esquerda"
 
 #: ../ui/settings.glade:3498
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra lateral"
 
 #: ../ui/settings.glade:1019
 msgid "Slower strokes are assigned a greater pressure than faster strokes, if pressure information is absent.\n\n"
@@ -3466,7 +3472,7 @@ msgstr "Probar se a configuración actual é correcta executando a orde de xerac
 
 #: ../ui/main.glade:2050
 msgid "Text Font..."
-msgstr "Tipo para texto..."
+msgstr "Tipo de letra do texto..."
 
 #: ../ui/latexSettings.glade:102
 msgid "The LaTeX file to use as a template for the LaTeX tool."
@@ -3535,7 +3541,7 @@ msgstr ""
 
 #: ../ui/latexSettings.glade:431
 msgid "Use font from system theme."
-msgstr ""
+msgstr "Empregar o tipo de letra do tema do sistema."
 
 #: ../ui/settings.glade:4908
 msgid "Use snapping for recognized shapes"
@@ -3567,7 +3573,7 @@ msgstr "Ver"
 
 #: ../ui/about.glade:218
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: ../ui/settings.glade:3625
 msgid "When an element is selected and moved past the visible portion of the canvas, pan the screen by an amount equal to this percentage of the visible part of the canvas. "
