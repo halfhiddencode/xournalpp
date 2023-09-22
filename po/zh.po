@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-15 08:00\n"
+"PO-Revision-Date: 2023-09-22 07:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -220,7 +220,7 @@ msgstr "拷贝"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "复制当前背景"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -1447,7 +1447,7 @@ msgstr "在这个页面找到一次文本"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr "在第 {2} 页（第 {3} 页，共 {1} 页）上找到文字 {1} 次"
+msgstr "文本在第{2}页中出现{1}次（第{3}次，共{1}次）"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
