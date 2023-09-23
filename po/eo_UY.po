@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-15 08:00\n"
+"POT-Creation-Date: 2023-09-23 15:38+0000\n"
+"PO-Revision-Date: 2023-09-23 15:47\n"
 "Last-Translator: \n"
 "Language-Team: Esperanto\n"
 "Language: eo_UY\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Ĉu daŭrigi?"
 
-#: ../src/core/control/Control.cpp:2383
+#: ../src/core/control/Control.cpp:2378
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -136,11 +136,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "La sondosierujo estas ne agordita aŭ ne valida! Registrado ne funkcios!\n"
 "Bonvolu agordi la sondosierujon ĉe «Agordoj > Sonregistrado»"
 
-#: ../src/core/control/Control.cpp:257
+#: ../src/core/control/Control.cpp:252
 msgid "Autosave failed with an error: {1}"
 msgstr "Aŭtomata konservado malsukcesis pro la jena eraro: {1}"
 
-#: ../src/core/control/Control.cpp:237
+#: ../src/core/control/Control.cpp:232
 msgid "Autosave renamed from {1} to {2}"
 msgstr "Nomo de aŭtomata konservaĵo estas ŝanĝita de {1} al {2}"
 
@@ -170,7 +170,7 @@ msgstr "Porti malfonen"
 msgid "Built on"
 msgstr "Surbaze de"
 
-#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
+#: ../src/core/control/Control.cpp:2390 ../src/core/control/Control.cpp:2878
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -305,7 +305,7 @@ msgstr "Malsukcesis forigi ilon el la ilobreto {1} ĉe la pozicio {2}"
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr "Malsukcesis forigi la ilon {1} el la ilobreto {2} ĉe la pozicio {3}"
 
-#: ../src/core/control/Control.cpp:248
+#: ../src/core/control/Control.cpp:243
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "Ne eblas ŝanĝi la nomon de la aŭtomate konservita dosiero de «{1}» al «{2}»: {3}"
 
@@ -396,7 +396,7 @@ msgstr "Forviŝi ĉi tiun paĝon"
 msgid "Disable audio for this session"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Discard"
 msgstr "Forĵeti"
 
@@ -404,7 +404,7 @@ msgstr "Forĵeti"
 msgid "Display advanced export options"
 msgstr "Montri komplikajn opciojn pri elportado"
 
-#: ../src/core/control/Control.cpp:2308
+#: ../src/core/control/Control.cpp:2303
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -416,7 +416,7 @@ msgstr "Ne malfermu aŭtomate konservitajn dosierojn. Ili estas superskribotaj!\
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Ne superskribu la fonan PDF! Tio kaŭzus erarojn!"
 
-#: ../src/core/control/Control.cpp:2874
+#: ../src/core/control/Control.cpp:2869
 msgid "Document file was removed."
 msgstr "Dokumenta dosiero estis forigita."
 
@@ -532,7 +532,7 @@ msgstr "Forskrapi strekon"
 msgid "Eraser"
 msgstr "Skrapgumo"
 
-#: ../src/core/control/Control.cpp:2599
+#: ../src/core/control/Control.cpp:2594
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Eraro prinotante PDF-dosieron «{1}»\n"
@@ -542,7 +542,7 @@ msgstr "Eraro prinotante PDF-dosieron «{1}»\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Eraro ŝargante Glade-dosieron «{1}» (provante ŝargi «{2}»)"
 
-#: ../src/core/control/Control.cpp:2426
+#: ../src/core/control/Control.cpp:2421
 msgid "Error opening file \"{1}\""
 msgstr "Eraro malfermante la dosieron «{1}»"
 
@@ -934,7 +934,7 @@ msgstr "Sekva"
 msgid "Next annotated page"
 msgstr "Sekva prinotita paĝo"
 
-#: ../src/core/control/Control.cpp:1280
+#: ../src/core/control/Control.cpp:1275
 msgid "No"
 msgstr ""
 
@@ -947,7 +947,7 @@ msgstr "Neniu aparato"
 msgid "No pages to export!"
 msgstr "Neniu elportota paĝo!"
 
-#: ../src/core/control/Control.cpp:1483
+#: ../src/core/control/Control.cpp:1478
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Neniu postgluebla PDF-paĝo. Eble necesas remalfermi la dokumenton."
 
@@ -1094,7 +1094,7 @@ msgstr "Presi"
 msgid "Record Audio / Stop Recording"
 msgstr "Ekregistri sonon / ĉesigi registradon"
 
-#: ../src/core/control/Control.cpp:1020
+#: ../src/core/control/Control.cpp:1015
 msgid "Recorder could not be started."
 msgstr "Malsukcesis ekfunkciigi la registrilon."
 
@@ -1111,7 +1111,7 @@ msgstr "Refari"
 msgid "Redo: "
 msgstr "Refari: "
 
-#: ../src/core/control/Control.cpp:2394
+#: ../src/core/control/Control.cpp:2389
 msgid "Remove PDF Background"
 msgstr "Forviŝi PDF-fonon"
 
@@ -1167,16 +1167,16 @@ msgstr "SVG-bildoj"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Ekzempla LaTeX-dosiero estis farita sukcese."
 
-#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2870 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "Konservi"
 
-#: ../src/core/control/Control.cpp:2875
+#: ../src/core/control/Control.cpp:2870
 msgid "Save As..."
 msgstr "Konservi kiel..."
 
-#: ../src/core/control/Control.cpp:2698
+#: ../src/core/control/Control.cpp:2693
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Konservi dosieron"
@@ -1278,7 +1278,7 @@ msgstr "Elekti regionon"
 msgid "Select Text from pdf"
 msgstr "Elekti tekston el PDF"
 
-#: ../src/core/control/Control.cpp:2393
+#: ../src/core/control/Control.cpp:2388
 msgid "Select another PDF"
 msgstr "Elekti alian PDF"
 
@@ -1456,11 +1456,11 @@ msgstr "Teksto ne troviĝis"
 msgid "Text not found, searched on all pages"
 msgstr "Teksto ne troviĝis sur ajna paĝo"
 
-#: ../src/core/control/Control.cpp:1277
+#: ../src/core/control/Control.cpp:1272
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "La ilobreta agordo «{1}» estas antaŭdifinita; ĉu krei kopion modifotan?"
 
-#: ../src/core/control/Control.cpp:2370
+#: ../src/core/control/Control.cpp:2365
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
@@ -1468,7 +1468,7 @@ msgstr ""
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2373
+#: ../src/core/control/Control.cpp:2368
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
@@ -1477,7 +1477,7 @@ msgstr ""
 msgid "The check for overwriting the background failed with:\n"
 msgstr "La kontrolo por superskribi la fonon malsukcesis pro la jeno:\n"
 
-#: ../src/core/control/Control.cpp:2434
+#: ../src/core/control/Control.cpp:2429
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "La versio de la ŝargata dosiero estas pli nova ol tiuj, kiuj estas subtenataj de ĉi tiu versio de Xournal++; tial, la dosiero eble misŝargiĝos. Ĉu malfermi malgraŭ tio?"
 
@@ -1517,7 +1517,7 @@ msgstr "Okazis eraro montrante helpon: {1}"
 msgid "Thick"
 msgstr "Dika"
 
-#: ../src/core/control/Control.cpp:2874
+#: ../src/core/control/Control.cpp:2869
 msgid "This document is not saved yet."
 msgstr "Ĉi tiu dokumento estas ankoraŭ ne konservita."
 
@@ -1553,7 +1553,7 @@ msgstr "Ne eblas malfermi la ĉiean ŝablonan dosieron ĉe {1}. Ĉu ĝi ekzistas
 msgid "Unable to play audio recording {1}"
 msgstr "Ne eblas ludi sonregistraĵon {1}"
 
-#: ../src/core/control/Control.cpp:1497
+#: ../src/core/control/Control.cpp:1492
 msgid "Unable to retrieve pdf page."
 msgstr "Ne eblas akiri PDF-paĝon."
 
@@ -1602,7 +1602,7 @@ msgstr "Nekonata strekopinta tipo: «{1}», supozante «ronda»"
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Nekonata tipo de streko: «{1}», supozante plumon"
 
-#: ../src/core/control/Control.cpp:2755
+#: ../src/core/control/Control.cpp:2750
 msgid "Unsaved Document"
 msgstr "Nekonservita dokumento"
 
@@ -1610,7 +1610,7 @@ msgstr "Nekonservita dokumento"
 msgid "Unsupported graphics format: "
 msgstr "Nesubtenata grafika dosierformo: "
 
-#: ../src/core/control/Control.cpp:2391
+#: ../src/core/control/Control.cpp:2386
 msgid "Use proposed PDF"
 msgstr "Uzi proponitan PDF"
 
@@ -1666,7 +1666,7 @@ msgstr "Xournal-dosieroj"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ kolapsis lastatempe. Ĉu restaŭri la laste redaktitan dosieron?"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++-dosieroj"
@@ -1676,7 +1676,7 @@ msgstr "Xournal++-dosieroj"
 msgid "Xournal++ template"
 msgstr "Xournal++-ŝablono"
 
-#: ../src/core/control/Control.cpp:1280
+#: ../src/core/control/Control.cpp:1275
 msgid "Yes"
 msgstr ""
 
@@ -1714,7 +1714,7 @@ msgstr "Malpligrandigi"
 msgid "Zoom to 100%"
 msgstr "Ŝanĝi zomon al 100%"
 
-#: ../src/core/control/Control.cpp:2698
+#: ../src/core/control/Control.cpp:2693
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1727,7 +1727,7 @@ msgstr "_Nuligi"
 msgid "_Open"
 msgstr "_Malfermi"
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2694
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
@@ -1773,7 +1773,7 @@ msgstr "elementoj"
 msgid "eraser"
 msgstr "skrapgumo"
 
-#: ../src/core/control/Control.cpp:2322
+#: ../src/core/control/Control.cpp:2317
 msgid "file: {1}"
 msgstr "dosiero: {1}"
 
