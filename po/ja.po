@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-15 07:50+0000\n"
-"PO-Revision-Date: 2023-09-15 08:00\n"
+"POT-Creation-Date: 2023-09-23 15:38+0000\n"
+"PO-Revision-Date: 2023-09-23 15:46\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "続行しますか？"
 
-#: ../src/core/control/Control.cpp:2383
+#: ../src/core/control/Control.cpp:2378
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -136,11 +136,11 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "オーディオフォルダーが未設定か正しくないため録音が機能しません。\n"
 "\"環境設定 > 録音\"でオーディオフォルダーを設定してください"
 
-#: ../src/core/control/Control.cpp:257
+#: ../src/core/control/Control.cpp:252
 msgid "Autosave failed with an error: {1}"
 msgstr "オートセーブがエラーで失敗します: {1}"
 
-#: ../src/core/control/Control.cpp:237
+#: ../src/core/control/Control.cpp:232
 msgid "Autosave renamed from {1} to {2}"
 msgstr "オートセーブが{1} から{2} まで名前変更します"
 
@@ -170,7 +170,7 @@ msgstr "前景に持って来る"
 msgid "Built on"
 msgstr "ビルド"
 
-#: ../src/core/control/Control.cpp:2395 ../src/core/control/Control.cpp:2883
+#: ../src/core/control/Control.cpp:2390 ../src/core/control/Control.cpp:2878
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -304,7 +304,7 @@ msgstr "{2} にあるツールバー{1} からツールを削除することが�
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr "{3} にあるツールバー{2} から{1} を削除できませんでした。"
 
-#: ../src/core/control/Control.cpp:248
+#: ../src/core/control/Control.cpp:243
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "自動保存するファイルの名前を「{1}」から「{2}」に変更できませんでした：{3}"
 
@@ -395,7 +395,7 @@ msgstr "このページを削除"
 msgid "Disable audio for this session"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2880
+#: ../src/core/control/Control.cpp:2875
 msgid "Discard"
 msgstr "破棄"
 
@@ -403,7 +403,7 @@ msgstr "破棄"
 msgid "Display advanced export options"
 msgstr "高度なエクスポートオプションを表示"
 
-#: ../src/core/control/Control.cpp:2308
+#: ../src/core/control/Control.cpp:2303
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -415,7 +415,7 @@ msgstr "Autosaveファイルを開かないでください。上書きされて�
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "背景のPDFを上書きしないでください。エラーの原因になります。"
 
-#: ../src/core/control/Control.cpp:2874
+#: ../src/core/control/Control.cpp:2869
 msgid "Document file was removed."
 msgstr "ドキュメントファイルが削除されました。"
 
@@ -531,7 +531,7 @@ msgstr "ストロークを消去"
 msgid "Eraser"
 msgstr "消しゴム"
 
-#: ../src/core/control/Control.cpp:2599
+#: ../src/core/control/Control.cpp:2594
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "PDF ファイル \"{1}\"\n"
@@ -541,7 +541,7 @@ msgstr "PDF ファイル \"{1}\"\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2426
+#: ../src/core/control/Control.cpp:2421
 msgid "Error opening file \"{1}\""
 msgstr "ファイル \"{1}\" の展開中にエラー"
 
@@ -934,7 +934,7 @@ msgstr "次へ"
 msgid "Next annotated page"
 msgstr "次の注釈ページへ"
 
-#: ../src/core/control/Control.cpp:1280
+#: ../src/core/control/Control.cpp:1275
 msgid "No"
 msgstr ""
 
@@ -947,7 +947,7 @@ msgstr "デバイスがありません"
 msgid "No pages to export!"
 msgstr "エクスポートするページがありません。"
 
-#: ../src/core/control/Control.cpp:1483
+#: ../src/core/control/Control.cpp:1478
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "追加できるpdfページがありません。ドキュメントを再度開く必要があるかもしれません。"
 
@@ -1094,7 +1094,7 @@ msgstr "印刷"
 msgid "Record Audio / Stop Recording"
 msgstr "録音開始/録音停止"
 
-#: ../src/core/control/Control.cpp:1020
+#: ../src/core/control/Control.cpp:1015
 msgid "Recorder could not be started."
 msgstr "録音を開始できませんでした。"
 
@@ -1111,7 +1111,7 @@ msgstr "やり直し"
 msgid "Redo: "
 msgstr "やり直し: "
 
-#: ../src/core/control/Control.cpp:2394
+#: ../src/core/control/Control.cpp:2389
 msgid "Remove PDF Background"
 msgstr "PDFの背景を削除"
 
@@ -1167,16 +1167,16 @@ msgstr "SVG画像"
 msgid "Sample LaTeX file generated successfully."
 msgstr "サンプルのLaTeXファイルが作成されました。"
 
-#: ../src/core/control/Control.cpp:2875 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2870 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "保存"
 
-#: ../src/core/control/Control.cpp:2875
+#: ../src/core/control/Control.cpp:2870
 msgid "Save As..."
 msgstr "名前を付けて保存..."
 
-#: ../src/core/control/Control.cpp:2698
+#: ../src/core/control/Control.cpp:2693
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "ファイルを保存"
@@ -1278,7 +1278,7 @@ msgstr "エリアの選択"
 msgid "Select Text from pdf"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2393
+#: ../src/core/control/Control.cpp:2388
 msgid "Select another PDF"
 msgstr "他のPDFを選択"
 
@@ -1452,11 +1452,11 @@ msgstr "テキストが見つかりません"
 msgid "Text not found, searched on all pages"
 msgstr "テキストが見つかりません。すべてのページで検索されました。"
 
-#: ../src/core/control/Control.cpp:1277
+#: ../src/core/control/Control.cpp:1272
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2370
+#: ../src/core/control/Control.cpp:2365
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
@@ -1464,7 +1464,7 @@ msgstr ""
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "背景ファイル \"{1}\" が見つかりませんでした。ファイルの移動、名前の変更または削除された可能性があります。"
 
-#: ../src/core/control/Control.cpp:2373
+#: ../src/core/control/Control.cpp:2368
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "背景ファイル \"{1}\" が見つかりませんでした。ファイルの移動、名前の変更または削除された可能性があります。最後に確認された場所: \"{2}\""
@@ -1473,7 +1473,7 @@ msgstr "背景ファイル \"{1}\" が見つかりませんでした。ファイ
 msgid "The check for overwriting the background failed with:\n"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2434
+#: ../src/core/control/Control.cpp:2429
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "読み込まれるファイルにはこのバージョンの Xournal++で現在サポートされているものよりも新しいファイル形式のバージョンがあり、 正しくロードされない可能性があります それでも開きますか？"
 
@@ -1513,7 +1513,7 @@ msgstr "ヘルプの表示中にエラーが発生しました: {1}"
 msgid "Thick"
 msgstr "太い"
 
-#: ../src/core/control/Control.cpp:2874
+#: ../src/core/control/Control.cpp:2869
 msgid "This document is not saved yet."
 msgstr "このドキュメントはまだ保存されていません。"
 
@@ -1549,7 +1549,7 @@ msgstr ""
 msgid "Unable to play audio recording {1}"
 msgstr "録音した音声 {1} を再生できません"
 
-#: ../src/core/control/Control.cpp:1497
+#: ../src/core/control/Control.cpp:1492
 msgid "Unable to retrieve pdf page."
 msgstr "PDFページを取得できません。"
 
@@ -1598,7 +1598,7 @@ msgstr ""
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2755
+#: ../src/core/control/Control.cpp:2750
 msgid "Unsaved Document"
 msgstr "保存されていないドキュメント"
 
@@ -1606,7 +1606,7 @@ msgstr "保存されていないドキュメント"
 msgid "Unsupported graphics format: "
 msgstr "サポートされていないグラフィック形式: "
 
-#: ../src/core/control/Control.cpp:2391
+#: ../src/core/control/Control.cpp:2386
 msgid "Use proposed PDF"
 msgstr "提案されたPDFを使用する"
 
@@ -1662,7 +1662,7 @@ msgstr "Xournalファイル"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "前回Xournal++がクラッシュしました。最後に編集したファイルを復元しますか？"
 
-#: ../src/core/control/Control.cpp:2704
+#: ../src/core/control/Control.cpp:2699
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ファイル"
@@ -1672,7 +1672,7 @@ msgstr "Xournal++ファイル"
 msgid "Xournal++ template"
 msgstr "Xournal++テンプレート"
 
-#: ../src/core/control/Control.cpp:1280
+#: ../src/core/control/Control.cpp:1275
 msgid "Yes"
 msgstr ""
 
@@ -1707,7 +1707,7 @@ msgstr "縮小"
 msgid "Zoom to 100%"
 msgstr "100%の縮尺にする"
 
-#: ../src/core/control/Control.cpp:2698
+#: ../src/core/control/Control.cpp:2693
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1720,7 +1720,7 @@ msgstr "キャンセル (_C)"
 msgid "_Open"
 msgstr "開く (_O)"
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2694
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
@@ -1766,7 +1766,7 @@ msgstr "要素"
 msgid "eraser"
 msgstr "消しゴム"
 
-#: ../src/core/control/Control.cpp:2322
+#: ../src/core/control/Control.cpp:2317
 msgid "file: {1}"
 msgstr "ファイル: {1}"
 
