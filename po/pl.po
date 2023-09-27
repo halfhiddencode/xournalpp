@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-23 15:38+0000\n"
-"PO-Revision-Date: 2023-09-23 15:46\n"
+"PO-Revision-Date: 2023-09-27 20:15\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -220,7 +220,7 @@ msgstr "Kopiuj"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Skopiuj bieżące tło"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -332,7 +332,7 @@ msgstr "Nie można zapisać tła \"{1}\". Kontynuuję mimo to."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Dziennik awarii"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -393,7 +393,7 @@ msgstr "Usuń stronę"
 
 #: ../src/core/control/XournalMain.cpp:629
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Wyłącz dźwięk dla tej sesji"
 
 #: ../src/core/control/Control.cpp:2875
 msgid "Discard"
@@ -936,7 +936,7 @@ msgstr "Następna adnotowana strona"
 
 #: ../src/core/control/Control.cpp:1275
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1100,7 +1100,7 @@ msgstr "Nagrywarka nie mogła zostać uruchomiona."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Wykryto plik odzyskiwania"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:443
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1679,7 +1679,7 @@ msgstr "Szablony Xournal++"
 
 #: ../src/core/control/Control.cpp:1275
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:186
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -1981,7 +1981,7 @@ msgstr "0.00"
 
 #: ../ui/settings.glade:4968
 msgid "0.20"
-msgstr ""
+msgstr "0.20"
 
 #: ../ui/settings.glade:1797
 msgid "1"
@@ -2063,7 +2063,7 @@ msgstr "<b>Rozmiar strony</b>"
 
 #: ../ui/toolbarCustomizeDialog.glade:174
 msgid "<b>Separators</b>"
-msgstr ""
+msgstr "<b>Separatory</b>"
 
 #: ../ui/settings.glade:5494
 msgid "<i>\n"
@@ -2191,7 +2191,7 @@ msgstr "<i>Możesz skonfigurować urządzenia które nie zostały zidentyfikowan
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>lub</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2373,7 +2373,7 @@ msgstr "Kolor okręgu"
 
 #: ../ui/settings.glade:3477
 msgid "Circle background"
-msgstr ""
+msgstr "Okrągłe tło"
 
 #: ../ui/settings.glade:3928
 msgid "Clear cached paged while scrolling"
@@ -2382,7 +2382,7 @@ msgstr "Wyczyść buforowane strony podczas przewijania"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2446,11 +2446,11 @@ msgstr "Ciemny motyw (wymaga restartu)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Przerywana kropkowana"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "Przerywana"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -2502,7 +2502,7 @@ msgstr "Wyłącz"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "Wyłącz dźwięk"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2642,7 +2642,7 @@ msgstr "Włącz wewnętrzne rozpoznawanie dłoni"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Włącz lub wyłącz dźwięk"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3059,7 +3059,7 @@ msgstr "Przesuń pierwszą stronę o tyle stron, gdy włączono <b>Strony w para
 #: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
 #: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: ../ui/fillOpacity.glade:23
 msgid "Opacity settings"
@@ -3152,7 +3152,7 @@ msgstr "Zmiany wtyczek są stosowane tylko po ponownym uruchomieniu Xournal++"
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Wtyczki"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3220,7 +3220,7 @@ msgstr "Zmień nazwę wybranej warstwy"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Resetuj"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3391,7 +3391,7 @@ msgstr "Krok powiększania/pomniejszania"
 
 #: ../ui/settings.glade:3478
 msgid "Square background"
-msgstr ""
+msgstr "Kwadratowe tło"
 
 #: ../ui/settingsButtonConfig.glade:126 ../ui/settingsButtonConfig.glade:144
 msgid "Standard"
@@ -3587,12 +3587,12 @@ msgstr ""
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
 msgid "When floating"
-msgstr ""
+msgstr "Podczas przeciągania"
 
 #: ../ui/settings.glade:2024
 msgctxt "eraser is only visible when touching the screen"
 msgid "When touching"
-msgstr ""
+msgstr "Podczas dotykania"
 
 #: ../ui/settings.glade:5218
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
