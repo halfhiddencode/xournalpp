@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-23 15:38+0000\n"
-"PO-Revision-Date: 2023-09-23 15:46\n"
+"POT-Creation-Date: 2023-09-29 16:38+0000\n"
+"PO-Revision-Date: 2023-09-29 16:47\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "Θέλεις να συνεχίσεις;"
 
-#: ../src/core/control/Control.cpp:2378
+#: ../src/core/control/Control.cpp:2402
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -51,6 +51,11 @@ msgstr ""
 #: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
 msgstr "<b>Δεν βρέθηκαν συσκευές. Κάτι δεν πάει καλά - μήπως να κάνετε μια αναφορά σφάλματος;</b>"
+
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
+msgid "<b>{1}</b>\n"
+"{2}{3}"
+msgstr ""
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -170,7 +175,7 @@ msgstr "Φέρτε μπροστά"
 msgid "Built on"
 msgstr "Χτίστηκε στις"
 
-#: ../src/core/control/Control.cpp:2390 ../src/core/control/Control.cpp:2878
+#: ../src/core/control/Control.cpp:2414 ../src/core/control/Control.cpp:2902
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -395,7 +400,7 @@ msgstr "Διαγραφή της σελίδας"
 msgid "Disable audio for this session"
 msgstr "Απενεργοποίηση ήχου για την υπόλοιπη διάρκεια εκτέλεσης του προγράμματος"
 
-#: ../src/core/control/Control.cpp:2875
+#: ../src/core/control/Control.cpp:2899
 msgid "Discard"
 msgstr "Απόρριψη"
 
@@ -403,7 +408,7 @@ msgstr "Απόρριψη"
 msgid "Display advanced export options"
 msgstr "Εμφάνιση επιλογών προχωρημένης εξαγωγής"
 
-#: ../src/core/control/Control.cpp:2303
+#: ../src/core/control/Control.cpp:2327
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -415,7 +420,7 @@ msgstr "Μην ανοίγετε αρχεία αυτόματης αποθήκευ
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Μην επανεγγράφετε το PDF του υποβάθρου! Θα προκαλέσει προβλήματα!"
 
-#: ../src/core/control/Control.cpp:2869
+#: ../src/core/control/Control.cpp:2893
 msgid "Document file was removed."
 msgstr "Το έγγραφο αφαιρέθηκε."
 
@@ -531,7 +536,7 @@ msgstr "Διαγραφή μολυβιάς"
 msgid "Eraser"
 msgstr "Γόμα"
 
-#: ../src/core/control/Control.cpp:2594
+#: ../src/core/control/Control.cpp:2618
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Σφάλμα σημειωμένου αρχείου PDF \"{1}\"\n"
@@ -541,7 +546,7 @@ msgstr "Σφάλμα σημειωμένου αρχείου PDF \"{1}\"\n"
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "Σφάλμα κατά την φόρτωση αρχείου glade \"{1}\" (προσπαθήστε να φορτώσετε \"{2}\")"
 
-#: ../src/core/control/Control.cpp:2421
+#: ../src/core/control/Control.cpp:2445
 msgid "Error opening file \"{1}\""
 msgstr "Σφάλμα κατά το άνοιγμα αρχείου \"{1}\""
 
@@ -689,6 +694,11 @@ msgstr "Γέμισμα"
 msgid "Fill Opacity"
 msgstr ""
 
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
+msgid "Fill color"
+msgstr ""
+
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr ""
@@ -782,6 +792,10 @@ msgstr "Aπόκρυψη όλων"
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:524
 msgid "Highlighter"
 msgstr "Υπογραμμισμός"
+
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
+msgid "Highlighter Options"
+msgstr ""
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:528
@@ -923,7 +937,7 @@ msgstr "Επόμενο"
 msgid "Next annotated page"
 msgstr "Επόμενη σημειωμένη σελίδα"
 
-#: ../src/core/control/Control.cpp:1275
+#: ../src/core/control/Control.cpp:1299
 msgid "No"
 msgstr "Όχι"
 
@@ -936,7 +950,7 @@ msgstr "Καμία συσκευή"
 msgid "No pages to export!"
 msgstr "Δεν υπάρχουν σελίδες για εξαγωγή!"
 
-#: ../src/core/control/Control.cpp:1478
+#: ../src/core/control/Control.cpp:1502
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr ""
 
@@ -982,6 +996,14 @@ msgstr "Εξαγωγή σε PDF"
 #: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:41
 msgid "PDF Page {1}"
 msgstr "PDF σελίδα {1}"
+
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
+msgid "PDF Text Marker"
+msgstr ""
+
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
+msgid "PDF Text Options"
+msgstr ""
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1047,6 +1069,10 @@ msgstr "Παύση/Αναπαραγωγή"
 msgid "Pen"
 msgstr "Στυλό"
 
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
+msgid "Pen Options"
+msgstr ""
+
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
 msgstr "Κενή"
@@ -1081,7 +1107,7 @@ msgstr "Εκτύπωση"
 msgid "Record Audio / Stop Recording"
 msgstr "Εγγραφή ήχου / Λήξη εγγραφής"
 
-#: ../src/core/control/Control.cpp:1015
+#: ../src/core/control/Control.cpp:1019
 msgid "Recorder could not be started."
 msgstr "Δεν ήταν δυνατή η εκκίνηση της εγγραφής."
 
@@ -1098,7 +1124,7 @@ msgstr "Ακύρωση Αναίρεσης"
 msgid "Redo: "
 msgstr "Ακύρωση Αναίρεσης: "
 
-#: ../src/core/control/Control.cpp:2389
+#: ../src/core/control/Control.cpp:2413
 msgid "Remove PDF Background"
 msgstr "Αφαίρεση φόντου PDF"
 
@@ -1154,16 +1180,16 @@ msgstr "SVG γραφικά"
 msgid "Sample LaTeX file generated successfully."
 msgstr "Το δείγμα αρχείου LaTeX δημιουργήθηκε επιτυχώς."
 
-#: ../src/core/control/Control.cpp:2870 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/control/Control.cpp:2894 ../src/core/control/jobs/SaveJob.cpp:25
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
 msgid "Save"
 msgstr "Αποθήκευση"
 
-#: ../src/core/control/Control.cpp:2870
+#: ../src/core/control/Control.cpp:2894
 msgid "Save As..."
 msgstr "Αποθήκευση Ως..."
 
-#: ../src/core/control/Control.cpp:2693
+#: ../src/core/control/Control.cpp:2717
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Αποθήκευση Αρχείου"
@@ -1265,7 +1291,7 @@ msgstr "Επιλογή Περιοχής"
 msgid "Select Text from pdf"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2388
+#: ../src/core/control/Control.cpp:2412
 msgid "Select another PDF"
 msgstr "Επιλέξτε άλλο PDF"
 
@@ -1277,7 +1303,7 @@ msgstr "Επιλέξτε άλλο όνομα"
 msgid "Select background color"
 msgstr "Επιλέξτε χρώμα του φόντου"
 
-#: ../src/core/gui/toolbarMenubar/ColorToolItem.cpp:79
+#: ../src/core/gui/toolbarMenubar/ColorToolItem.cpp:82
 msgid "Select color"
 msgstr "Επιλέξτε χρώμα"
 
@@ -1287,6 +1313,10 @@ msgstr ""
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:95
 msgid "Select multi layer region"
+msgstr ""
+
+#: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
+msgid "Select opacity for: "
 msgstr ""
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
@@ -1443,11 +1473,11 @@ msgstr "Δεν βρέθηκε το κείμενο"
 msgid "Text not found, searched on all pages"
 msgstr "Δεν βρέθηκε το κείμενο, αναζητήθηκε σε όλες τις σελίδες"
 
-#: ../src/core/control/Control.cpp:1272
+#: ../src/core/control/Control.cpp:1296
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Η διαμόρφωση τη γραμμής εργαλείων \"{1}\" είναι προκαθορισμένη, θα θέλατε να δημιουργήσετε αντίγραφο για να την επεξεργαστείτε;"
 
-#: ../src/core/control/Control.cpp:2365
+#: ../src/core/control/Control.cpp:2389
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "Το επισυναπτόμενο αρχείο φόντο ήταν αδύνατο να βρεθεί. Δύναται να έχει μετακινηθεί, μετονομαστεί ή διαγραφτεί."
 
@@ -1455,7 +1485,7 @@ msgstr "Το επισυναπτόμενο αρχείο φόντο ήταν αδ�
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "Το αρχείο φόντου \"{1}\" ήταν αδύνατο να βρεθεί. Δύναται να έχει μετακινηθεί, μετονομαστεί ή διαγραφτεί."
 
-#: ../src/core/control/Control.cpp:2368
+#: ../src/core/control/Control.cpp:2392
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "Το αρχείο φόντου \"{1}\" ήταν αδύνατο να βρεθεί. Δύναται να έχει μετακινηθεί, μετονομαστεί ή διαγραφτεί. Την τελευταία φορά εντοπίστηκε στο: \"{2}\""
@@ -1464,7 +1494,7 @@ msgstr "Το αρχείο φόντου \"{1}\" ήταν αδύνατο να βρ
 msgid "The check for overwriting the background failed with:\n"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2429
+#: ../src/core/control/Control.cpp:2453
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Το αρχείο προς φόρτωση έχει μια έκδοση τύπου αρχείου νεότερη από αυτή που υποστηρίζεται από την τρέχουσα έκδοση του Xournal++, όποτε μπορεί να μη φορτωθεί ορθά. Άνοιγμα παρ'όλα αυτά;"
 
@@ -1504,7 +1534,7 @@ msgstr "Παρουσιάστηκε σφάλμα κατά την προβολή �
 msgid "Thick"
 msgstr "Παχύ"
 
-#: ../src/core/control/Control.cpp:2869
+#: ../src/core/control/Control.cpp:2893
 msgid "This document is not saved yet."
 msgstr "Το αρχείο δεν έχει αποθηκευτεί ακόμα."
 
@@ -1540,7 +1570,7 @@ msgstr ""
 msgid "Unable to play audio recording {1}"
 msgstr "Αδυναμία αναπαραγωγής ηχητικής εγγραφής {1}"
 
-#: ../src/core/control/Control.cpp:1492
+#: ../src/core/control/Control.cpp:1516
 msgid "Unable to retrieve pdf page."
 msgstr "Δεν ήταν να δυνατό να ανακτηθεί αυτή η σελίδα PDF."
 
@@ -1589,7 +1619,7 @@ msgstr ""
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "Άγνωστος τύπος μολυβιάς: \"{1}\", υποθέτω στυλό"
 
-#: ../src/core/control/Control.cpp:2750
+#: ../src/core/control/Control.cpp:2774
 msgid "Unsaved Document"
 msgstr "Μη Αποθηκευμένο Έγγραφο"
 
@@ -1597,7 +1627,7 @@ msgstr "Μη Αποθηκευμένο Έγγραφο"
 msgid "Unsupported graphics format: "
 msgstr ""
 
-#: ../src/core/control/Control.cpp:2386
+#: ../src/core/control/Control.cpp:2410
 msgid "Use proposed PDF"
 msgstr ""
 
@@ -1653,7 +1683,7 @@ msgstr "Αρχεία Xournal"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Το Xournal++ κατέρρευσε την προηγούμενη φορά. Θα θέλατε να επαναφέρετε το τελευταίο αρχείο που επεξεργαστήκατε;"
 
-#: ../src/core/control/Control.cpp:2699
+#: ../src/core/control/Control.cpp:2723
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Αρχεία Xournal++"
@@ -1663,7 +1693,7 @@ msgstr "Αρχεία Xournal++"
 msgid "Xournal++ template"
 msgstr "Πρότυπο Xournal++"
 
-#: ../src/core/control/Control.cpp:1275
+#: ../src/core/control/Control.cpp:1299
 msgid "Yes"
 msgstr "Ναι"
 
@@ -1701,7 +1731,7 @@ msgstr "Σμίκρυνση"
 msgid "Zoom to 100%"
 msgstr "Μεγέθυνση στο 100%"
 
-#: ../src/core/control/Control.cpp:2693
+#: ../src/core/control/Control.cpp:2717
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1714,7 +1744,7 @@ msgstr "_Άκυρο"
 msgid "_Open"
 msgstr "_Άνοιγμα"
 
-#: ../src/core/control/Control.cpp:2694
+#: ../src/core/control/Control.cpp:2718
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
@@ -1760,7 +1790,7 @@ msgstr "στοιχεία"
 msgid "eraser"
 msgstr "γόμα"
 
-#: ../src/core/control/Control.cpp:2317
+#: ../src/core/control/Control.cpp:2341
 msgid "file: {1}"
 msgstr ""
 
@@ -2029,11 +2059,6 @@ msgstr ""
 #: ../ui/main.glade:110
 msgid "<b>Empty Toolbox</b>\n"
 "            <i>Menu: View/Toolbars</i>"
-msgstr ""
-
-#: ../ui/fillOpacity.glade:49
-msgid "<b>Fill opacity settings</b>\n"
-"Select opacity for fill color"
 msgstr ""
 
 #: ../ui/pageTemplate.glade:67
@@ -2393,7 +2418,7 @@ msgstr ""
 msgid "Copy current page size instead"
 msgstr ""
 
-#: ../ui/main.glade:2777
+#: ../ui/main.glade:2802
 msgid "Copy selected text"
 msgstr "Αντιγραφή του επιλεγμένου κειμένου"
 
@@ -2562,7 +2587,7 @@ msgstr "Περιοχή Σχεδιασμού"
 msgid "Drawing Tools - Set Modifiers by Draw Direction (Experimental)"
 msgstr "Εργαλεία Σχεδιασμού - Ορισμός Χαρακτηριστικών μέσω της Κατεύθυνσης Σχεδιασμού (Πειραματικό)"
 
-#: ../ui/main.glade:2911 ../ui/main.glade:2948
+#: ../ui/main.glade:2936 ../ui/main.glade:2973
 msgid "Duplicate"
 msgstr "Δημιουργία διπλοτύπου / αντιγράφου"
 
@@ -2570,7 +2595,7 @@ msgstr "Δημιουργία διπλοτύπου / αντιγράφου"
 msgid "Duplicate Page"
 msgstr ""
 
-#: ../ui/main.glade:2985
+#: ../ui/main.glade:3010
 msgid "Edit (not implemented yet)"
 msgstr "Επεξεργασία (μη υλοποιημένο)"
 
@@ -2675,11 +2700,11 @@ msgstr ""
 msgid "Finalize the stroke"
 msgstr ""
 
-#: ../ui/main.glade:2575
+#: ../ui/main.glade:2600
 msgid "Find next occurrence of the search string"
 msgstr "Βρες την επόμενη εμφάνιση της αναζητούμενης συμβολοσειράς"
 
-#: ../ui/main.glade:2553
+#: ../ui/main.glade:2578
 msgid "Find previous occurrence of the search string"
 msgstr "Βρες την προηγούμενη εμφάνιση της αναζητούμενης συμβολοσειράς"
 
@@ -2763,7 +2788,7 @@ msgstr "Απόκρυψη της κατακόρυφης μπάρας κύλιση
 msgid "Highlight cursor position"
 msgstr "Έμφαση στην θέση του κέρσορα"
 
-#: ../ui/main.glade:2799
+#: ../ui/main.glade:2824
 msgid "Highlight selected text"
 msgstr ""
 
@@ -2851,11 +2876,11 @@ msgstr ""
 msgid "Insert Latex"
 msgstr "Εισαγωγή Latex"
 
-#: ../ui/main.glade:2940
+#: ../ui/main.glade:2965
 msgid "Insert Page After"
 msgstr "Εισαγωγή Σελίδας Μετά"
 
-#: ../ui/main.glade:2932
+#: ../ui/main.glade:2957
 msgid "Insert Page Before"
 msgstr "Εισαγωγή Σελίδας Πριν"
 
@@ -2915,6 +2940,10 @@ msgstr ""
 msgid "Manage Toolbar"
 msgstr "Διαχείριση Γραμμής Εργαλείων"
 
+#: ../ui/main.glade:2061
+msgid "Marker Opacity"
+msgstr ""
+
 #: ../ui/settings.glade:1216
 msgid "Mass"
 msgstr ""
@@ -2931,7 +2960,7 @@ msgstr "Μέγιστο μήκος (μμ)"
 msgid "Max multiplier"
 msgstr ""
 
-#: ../ui/main.glade:2903
+#: ../ui/main.glade:2928
 msgid "Merge Down"
 msgstr ""
 
@@ -2968,7 +2997,7 @@ msgstr "Πλήκτρα Ποντικιού"
 msgid "Mouse+Keyboard Combo"
 msgstr "Ποντίκι+Πληκτρολόγιο combo"
 
-#: ../ui/main.glade:2895 ../ui/main.glade:2970
+#: ../ui/main.glade:2920 ../ui/main.glade:2995
 msgid "Move Down"
 msgstr "Μετακίνηση προς τα Κάτω"
 
@@ -2980,7 +3009,7 @@ msgstr ""
 msgid "Move Selection Layer Up"
 msgstr ""
 
-#: ../ui/main.glade:2887 ../ui/main.glade:2962
+#: ../ui/main.glade:2912 ../ui/main.glade:2987
 msgid "Move Up"
 msgstr "Μετακίνηση προς τα Επάνω"
 
@@ -3031,14 +3060,15 @@ msgstr ""
 msgid "Offset first page this many pages when <b>Pair Pages</b> enabled"
 msgstr "Μετατόπιση της πρώτης σελίδας αυτό τον αριθμό σελίδων όταν η επιλογή <b>Διπλές Σελίδες</b> είναι ενεργοποιημένη"
 
-#: ../ui/exportSettings.glade:425 ../ui/fillOpacity.glade:135
-#: ../ui/goto.glade:108 ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
+#: ../ui/exportSettings.glade:425 ../ui/goto.glade:108
+#: ../ui/pageFormat.glade:346 ../ui/pageTemplate.glade:278
 #: ../ui/plugin.glade:113 ../ui/renameLayerDialog.glade:71
-#: ../ui/settings.glade:6095 ../ui/texdialog.glade:203
+#: ../ui/selectOpacity.glade:134 ../ui/settings.glade:6095
+#: ../ui/texdialog.glade:203
 msgid "Ok"
 msgstr ""
 
-#: ../ui/fillOpacity.glade:23
+#: ../ui/selectOpacity.glade:23
 msgid "Opacity settings"
 msgstr ""
 
@@ -3100,7 +3130,7 @@ msgstr "Μερικός βασισμένο στο Xournal\n"
 msgid "Path: "
 msgstr ""
 
-#: ../ui/main.glade:2072
+#: ../ui/main.glade:2097
 msgid "Pause"
 msgstr "Παύση"
 
@@ -3120,7 +3150,7 @@ msgstr ""
 msgid "Playback Settings"
 msgstr "Ρυθμίσεις αναπαραγωγής"
 
-#: ../ui/main.glade:2137
+#: ../ui/main.glade:2162
 msgid "Plugin _Manager"
 msgstr "Διαχείριση _Προσθέτων"
 
@@ -3180,7 +3210,7 @@ msgstr ""
 msgid "Recent _Documents"
 msgstr "Πρόσφατα _Έγγραφα"
 
-#: ../ui/main.glade:2062
+#: ../ui/main.glade:2087
 msgid "Record / Stop"
 msgstr "Έναρξη / Διακοπή Εγγραφής"
 
@@ -3255,6 +3285,10 @@ msgstr ""
 #: ../ui/pdfpages.glade:8
 msgid "Select PDF Page"
 msgstr "Επιλογή Σελίδας PDF"
+
+#: ../ui/main.glade:2050
+msgid "Select PDF Text Options"
+msgstr ""
 
 #: ../ui/main.glade:1420
 msgid "Select Text In Rectangle"
@@ -3382,7 +3416,7 @@ msgstr ""
 msgid "Storage Folder"
 msgstr "Φάκελος Αποθήκευσης"
 
-#: ../ui/main.glade:2839
+#: ../ui/main.glade:2864
 msgid "Strikethrough selected text"
 msgstr ""
 
@@ -3447,7 +3481,7 @@ msgstr ""
 msgid "Test if the current configuration is valid by running the LaTeX generation command on the global template file with a test formula."
 msgstr ""
 
-#: ../ui/main.glade:2050
+#: ../ui/main.glade:2075
 msgid "Text Font..."
 msgstr "Γραμματοσειρά κειμένου..."
 
@@ -3479,7 +3513,7 @@ msgstr ""
 msgid "Timeout"
 msgstr "Χρονικό όριο"
 
-#: ../ui/main.glade:2859
+#: ../ui/main.glade:2884
 msgid "Toggle standard / region text selection"
 msgstr ""
 
@@ -3504,7 +3538,7 @@ msgstr "Προσπαθήστε να επιλέξετε αντικείμενο π
 msgid "Try to select object first; if nothing selected then show floating toolbox if enabled."
 msgstr "Να δοκιμαστεί η επιλογή αντικειμένου πρώτα, αν δεν έχει επιλεγεί τίποτε τότε να εμφανιστεί το αιωρούμενο κουτί εργαλείων."
 
-#: ../ui/main.glade:2819
+#: ../ui/main.glade:2844
 msgid "Underline selected text"
 msgstr ""
 
@@ -3724,7 +3758,7 @@ msgstr "_Πρώτη σελίδα"
 msgid "_Goto Page"
 msgstr "_Μετάβαση σε σελίδα"
 
-#: ../ui/main.glade:2151
+#: ../ui/main.glade:2176
 msgid "_Help"
 msgstr "_Βοήθεια"
 
@@ -3776,7 +3810,7 @@ msgstr "_Διπλές σελίδες"
 msgid "_Pen"
 msgstr "_Στυλό"
 
-#: ../ui/main.glade:2126
+#: ../ui/main.glade:2151
 msgid "_Plugin"
 msgstr "_Πρόσθετο"
 
