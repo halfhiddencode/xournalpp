@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"PO-Revision-Date: 2023-10-03 21:32\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -55,7 +55,8 @@ msgstr "<b>Ez da gailurik aurkitu. Hau okerra dirudi, agian akatsen berri eman?<
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -548,7 +549,7 @@ msgstr "Errorea \"{1}\" Glade fitxategia kargatzean (saiatu \"{2}\" kargatzen)"
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "Errore bat gertatu da menu-barrako XML fitxategia kargatzean (saiatu \"{1}\" kargatzen)"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -713,7 +714,7 @@ msgstr "Betetzeko opakutasuna"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "Bete kolorea"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -811,7 +812,7 @@ msgstr "Nabarmentzailea"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "Nabarmentzailearen aukerak"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -1017,11 +1018,11 @@ msgstr "PDF orria {1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "PDF testu-markatzailea"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "PDF testu-aukerak"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1089,7 +1090,7 @@ msgstr "Arkatza"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "Arkatzaren aukerak"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1107,11 +1108,11 @@ msgstr "Ezabatu fitxategia eskuz"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "Plugina"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "Plugin kudeatzailea"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1336,7 +1337,7 @@ msgstr "Hautatu geruza anitzeko zona"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "Hautatu opakutasuna: "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
