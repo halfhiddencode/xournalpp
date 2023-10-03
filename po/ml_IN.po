@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-29 16:38+0000\n"
-"PO-Revision-Date: 2023-09-29 16:47\n"
+"POT-Creation-Date: 2023-10-03 14:17+0000\n"
+"PO-Revision-Date: 2023-10-03 15:17\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -29,7 +29,7 @@ msgid "\n"
 msgstr "\n"
 "നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുവോ?"
 
-#: ../src/core/control/Control.cpp:2402
+#: ../src/core/control/Control.cpp:2040
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
@@ -74,11 +74,11 @@ msgstr "<span foreground='red' size='x-large'>ആവശ്യമുള്ള യ
 msgid "Add missing page"
 msgstr "കാണാതായ താൾ ചേർക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:527
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:571
 msgid "Add/Edit TeX"
 msgstr "ടെക്സ് (TeX) ചേർക്കുക/തിരുത്തുക"
 
-#: ../src/core/control/XournalMain.cpp:684
+#: ../src/core/control/XournalMain.cpp:688
 msgid "Advanced export options"
 msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവിധാനങ്ങൾ"
 
@@ -86,7 +86,7 @@ msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവ�
 msgid "All files"
 msgstr "എല്ലാ ഫയലുകളും"
 
-#: ../src/core/gui/menus/menubar/PageTypeSubmenu.cpp:46
+#: ../src/core/gui/menus/menubar/PageTypeSubmenu.cpp:47
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:170
 msgid "Apply to all pages"
 msgstr "എല്ലാ താളുകൾക്കും ബാധകമാകുക"
@@ -151,8 +151,8 @@ msgstr "ഓട്ടോസേവ് നാമം {1}-ൽ നിന്നും {
 msgid "Autosaving to {1}"
 msgstr "{1}-ലേക്ക് ഓട്ടോസേവ് ചെയ്യുന്നു"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:485
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:527
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:618
 msgid "Back"
 msgstr "പിന്നോട്ട്"
 
@@ -173,7 +173,7 @@ msgstr "മുന്നിലേക്ക് കൊണ്ടുവരിക"
 msgid "Built on"
 msgstr "നിർമിതമായത്"
 
-#: ../src/core/control/Control.cpp:2414 ../src/core/control/Control.cpp:2902
+#: ../src/core/control/Control.cpp:2052 ../src/core/control/Control.cpp:2540
 #: ../src/core/control/XournalMain.cpp:196
 #: ../src/core/gui/sidebar/Sidebar.cpp:85
 msgid "Cancel"
@@ -199,7 +199,7 @@ msgstr "സ്ട്രോക്ക് ഫിൽ മാറ്റുക"
 msgid "Change stroke width"
 msgstr "സ്ട്രോക്ക് വീതി മാറ്റുക"
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:75
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:77
 msgid "Clear list"
 msgstr "പട്ടിക നീക്കം ചെയ്യുക"
 
@@ -207,7 +207,7 @@ msgstr "പട്ടിക നീക്കം ചെയ്യുക"
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
 msgstr "\"{1}\" നിറം അജ്ഞാതമാണ് (നിർദിഷ്ട നിറങ്ങളുടെ പട്ടികയിൽ ഉൾപ്പെടുത്തിയിട്ടില്ല)!"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:580
 msgid "Compass"
 msgstr "കോമ്പസ്"
 
@@ -215,7 +215,7 @@ msgstr "കോമ്പസ്"
 msgid "Contents"
 msgstr "ഉള്ളടക്കം"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:448
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:494
 #: ../src/core/gui/toolbarMenubar/model/ToolbarModel.cpp:75
 #: ../src/core/gui/toolbarMenubar/model/ToolbarModel.cpp:81
 msgid "Copy"
@@ -272,12 +272,12 @@ msgstr "അറ്റാച്ച്മെന്റ് തുറക്കാൻ �
 msgid "Could not open file: \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ സാധിച്ചില്ല: \"{1}\""
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:74
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:78
 msgid "Could not parse custom toolbar.ini file: {1}\n"
 "Toolbars will not be available"
 msgstr "ടൂൾബാർ.ഐഎൻഐ (toolbar.ini) ഫയൽ വിശകലനം ചെയ്യാൻ സാധിച്ചില്ല: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:65
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:69
 msgid "Could not parse general toolbar.ini file: {1}\n"
 "No Toolbars will be available"
 msgstr "പൊതുവായ ടൂൾബാർ.ഐഎൻഐ (toolbar.ini) ഫയൽ വിശകലനം ചെയ്യാൻ സാധിച്ചില്ല: {1}"
@@ -347,7 +347,7 @@ msgstr "ഇഷ്ടാനുസൃതം"
 msgid "Custom Export"
 msgstr "ഇഷ്ടാനുസൃതമായി എക്സ്പോർട്ട്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:472
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:514
 msgid "Customize Toolbars"
 msgstr "ടൂൾബാറുകൾ ഇഷ്ടാനുസൃതമാക്കുക"
 
@@ -355,15 +355,15 @@ msgstr "ടൂൾബാറുകൾ ഇഷ്ടാനുസൃതമാക്�
 msgid "Customized"
 msgstr "ഇഷ്ടാനുസൃതം"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:447
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:493
 msgid "Cut"
 msgstr "കട്ട്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:529
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:573
 msgid "Default Tool"
 msgstr "മൂല ഉപകരണം"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:453
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:499
 #: ../src/core/undo/DeleteUndoAction.cpp:64
 msgid "Delete"
 msgstr "നീക്കം ചെയ്യുക"
@@ -372,7 +372,7 @@ msgstr "നീക്കം ചെയ്യുക"
 msgid "Delete Logfile"
 msgstr "ലോഗ്ഫയൽ നീക്കം ചെയ്യുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:506
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:545
 msgid "Delete current page"
 msgstr "നിലവിലുള്ള താൾ നീക്കം ചെയ്യുക"
 
@@ -392,19 +392,19 @@ msgstr "ഈ പാളി നീക്കം ചെയ്യുക"
 msgid "Delete this page"
 msgstr "ഈ താൾ നീക്കം ചെയ്യുക"
 
-#: ../src/core/control/XournalMain.cpp:629
+#: ../src/core/control/XournalMain.cpp:633
 msgid "Disable audio for this session"
 msgstr "ഈ സെഷനിൽ ഓഡിയോ പ്രവർത്തനരഹിതമാക്കുക"
 
-#: ../src/core/control/Control.cpp:2899
+#: ../src/core/control/Control.cpp:2537
 msgid "Discard"
 msgstr "ഒഴിവാക്കുക"
 
-#: ../src/core/control/XournalMain.cpp:685
+#: ../src/core/control/XournalMain.cpp:689
 msgid "Display advanced export options"
 msgstr "വിപുലമായ എക്സ്പോർട്ട് സംവിധാനങ്ങൾ കാണിക്കുക"
 
-#: ../src/core/control/Control.cpp:2327
+#: ../src/core/control/Control.cpp:1965
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -414,7 +414,7 @@ msgstr "ഓട്ടോസേവ് ചെയ്ത ഫയലുകൾ തുറ
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം തിരുത്തരുത്! അവ പിശകുകൾക്ക് കാരണമാകും!"
 
-#: ../src/core/control/Control.cpp:2893
+#: ../src/core/control/Control.cpp:2531
 msgid "Document file was removed."
 msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
@@ -436,46 +436,46 @@ msgid "Dotted"
 msgstr "ഡോട്ട് ഇട്ടത്"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:135
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:38
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:538
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:587
 msgid "Draw Arrow"
 msgstr "അമ്പ് വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:137
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:39
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:540
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:40
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:589
 msgid "Draw Double Arrow"
 msgstr "ഇരട്ട തലയുള്ള അമ്പ് വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:133
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:36
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:537
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:37
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:586
 msgid "Draw Ellipse"
 msgstr "ദീർഘവൃത്തം വരയ്‌ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:129
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:41
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:543
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:42
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:592
 msgid "Draw Line"
 msgstr "ലൈൻ വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:131
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:34
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:100
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:103
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:536
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:35
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:101
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:104
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:585
 msgid "Draw Rectangle"
 msgstr "ദീർഘചതുരം വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:143
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:46
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:544
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:47
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:593
 msgid "Draw Spline"
 msgstr "സ്പ്ലൈൻ വരയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:139
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:42
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:542
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:43
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:591
 msgid "Draw coordinate system"
 msgstr "കോർഡിനേറ്റ് സിസ്റ്റം വരയ്ക്കുക"
 
@@ -487,7 +487,7 @@ msgstr "സ്ട്രോക്ക് വരയ്ക്കുക"
 msgid "Drawing Type - don't change"
 msgstr "വരയ്ക്കുന്ന ശൈലി - മാറ്റരുത്"
 
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:29
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:110
 msgid "Drawing Type Combo"
 msgstr "വരയ്ക്കുന്ന ശൈലി കോംബോ"
 
@@ -526,11 +526,11 @@ msgid "Erase stroke"
 msgstr "സ്ട്രോക്ക് മായ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:88
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:323
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:562
 msgid "Eraser"
 msgstr "ഇറേസർ"
 
-#: ../src/core/control/Control.cpp:2618
+#: ../src/core/control/Control.cpp:2256
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്നതിൽ പിശക് \"{1}\"\n"
@@ -540,7 +540,11 @@ msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്�
 msgid "Error loading glade file \"{1}\" (try to load \"{2}\")"
 msgstr "ഗ്ലേഡ് ഫയൽ \"{1}\" ലോഡ് ചെയ്യുന്നതിൽ പിശക് സംഭവിച്ചു (\"{2}\" ലോഡ് ചെയ്യാൻ ശ്രമിക്കൂ)"
 
-#: ../src/core/control/Control.cpp:2445
+#: ../src/core/gui/menus/menubar/Menubar.cpp:54
+msgid "Error loading menubar XML file (try to load \"{1}\")"
+msgstr ""
+
+#: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
@@ -589,11 +593,11 @@ msgstr "പിശക്: {1} ശരിയായ ഫയൽ അല്ല. ദയ�
 msgid "Error: {1}. Please check the contents of {2}"
 msgstr "പിശക്: {1}. ദയവായി {2}-ന്റെ ഉള്ളടക്കം പരിശോധിക്കുക"
 
-#: ../src/core/control/XournalMain.cpp:638
+#: ../src/core/control/XournalMain.cpp:642
 msgid "Export FILE as PDF"
 msgstr "ഫയൽ പിഡിഎഫ് ആയി എക്സ്പോർട്ട് ചെയ്യുക"
 
-#: ../src/core/control/XournalMain.cpp:640
+#: ../src/core/control/XournalMain.cpp:644
 msgid "Export FILE as image files (one per page)\n"
 "                                 Guess the output format from the extension of IMGFILE\n"
 "                                 Supported formats: .png, .svg"
@@ -605,11 +609,11 @@ msgstr "ഫയൽ ചിത്രങ്ങളുടെ ഫയലുകളായ�
 msgid "Export PDF"
 msgstr "പിഡിഎഫ് എക്സ്പോർട്ട് ചെയ്യുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:433
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:479
 msgid "Export as PDF"
 msgstr "പിഡിഎഫ് ആയി എക്സ്പോർട്ട് ചെയ്യുക"
 
-#: ../src/core/control/XournalMain.cpp:654
+#: ../src/core/control/XournalMain.cpp:658
 msgid "Export layers progressively\n"
 "                                 In PDF export, Render layers progressively one by one.\n"
 "                                 This results in N export pages per page with N layers,\n"
@@ -621,7 +625,7 @@ msgstr "പാളികൾ ഒന്നൊന്നായി എക്സ്പ�
 "                                 ഒന്നൊന്നായി പാളികളുടെ കൂന നിർമിക്കുന്നു\n"
 "                                 ഇങ്ങനെ ലഭിക്കുന്ന പിഡിഎഫ് ഫയൽ ഒരു പ്രസന്റേഷൻ അവതരിപ്പിക്കുന്നതിനായി ഉപയോഗിക്കാം.\n"
 
-#: ../src/core/control/XournalMain.cpp:645
+#: ../src/core/control/XournalMain.cpp:649
 msgid "Export without background\n"
 "                                 The exported file has transparent or white background,\n"
 "                                 depending on what its format supports\n"
@@ -629,7 +633,7 @@ msgstr "പശ്ചാത്തല രഹിത എക്സ്പോർട്�
 "                                 എക്സ്പോർട്ട് ചെയ്യപ്പെടുന്ന ഫയലിന് രശ്‌മീപാരകമായ/വെള്ള പശ്ചാത്തലം ഉണ്ടണ്ടാകും\n"
 "                                 അത് ഫയലിന്റെ തരത്തിന്റെ അടിസ്ഥാനത്തിലായിരിക്കും തീരുമാനിക്കുക\n"
 
-#: ../src/core/control/XournalMain.cpp:650
+#: ../src/core/control/XournalMain.cpp:654
 msgid "Export without ruling\n"
 "                                 The exported file has no paper ruling\n"
 msgstr "റൂളിംഗ് ഇല്ലാതെ എക്സ്പോർട്ട് ചെയ്യുക\n"
@@ -691,11 +695,11 @@ msgid "File couldn't be opened. You have to do it manually:\n"
 msgstr "ഫയൽ തുറക്കാൻ സാധിച്ചില്ല. നിങ്ങൾക്ക് സ്വമേധയാ അത് ചെയ്യേണ്ടി വരും:\n"
 "URL: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:599
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:654
 msgid "Fill"
 msgstr "ഫിൽ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:600
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:655
 msgid "Fill Opacity"
 msgstr "ഫിൽ ഒപാസിറ്റി"
 
@@ -708,7 +712,7 @@ msgstr ""
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "ഇൻപുട്ട് സമ്മർദ്ദം ഫിൽറ്റർ ചെയ്യുക. സമ്മർദ്ദ ഗുണിതസംഖ്യ ഉപയോഗിച്ച് സമ്മർദ്ദം ഗുണിക്കുക. മിനിമം സമ്മർദ്ദത്തെക്കാൾ കുറവെങ്കിൽ, മിനിമം അളവ് തന്നെ ഉപയോഗിക്കുക."
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:619
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:658
 msgid "Fine"
 msgstr "നേർത്ത"
 
@@ -716,11 +720,11 @@ msgstr "നേർത്ത"
 msgid "Floating Toolbox (experimental)"
 msgstr "പൊങ്ങിക്കിടക്കുന്ന ടൂൾബോക്സ് (പരീക്ഷണാവസ്ഥയിൽ)"
 
-#: ../src/core/gui/toolbarMenubar/FontButton.cpp:65
+#: ../src/core/gui/toolbarMenubar/FontButton.cpp:67
 msgid "Font"
 msgstr "ഫോണ്ട്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:569
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:617
 msgid "Forward"
 msgstr "മുന്നോട്ട്"
 
@@ -732,7 +736,7 @@ msgstr "ഗ്നു ജിപിഎൽവി2 അല്ലെങ്കിൽ �
 msgid "GTK Version"
 msgstr "ജിടികെ വേർഷൻ"
 
-#: ../src/core/control/XournalMain.cpp:627
+#: ../src/core/control/XournalMain.cpp:631
 msgid "Get version of xournalpp"
 msgstr "Xournalpp-യുടെ പതിപ്പ് ലഭിക്കുക"
 
@@ -748,27 +752,27 @@ msgstr "ആഗോള ടെമ്പ്ലേറ്റ് നിലവിലി�
 msgid "Global template file is not a regular file. Please check your settings. "
 msgstr "ആഗോള ടെമ്പ്ലേറ്റ് ഒരു സാധാരണ ഫയൽ അല്ല. ദയവായി നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പരിശോധിക്കുക. "
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:484
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
 msgid "Go to first page"
 msgstr "അടുത്ത താളിലേക്ക് പോകുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:488
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:530
 msgid "Go to last page"
 msgstr "അവസാനത്തെ താളിലേക്ക് പോകുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:491
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:533
 msgid "Go to next layer"
 msgstr "അടുത്ത പാളിയിലേക്ക് പോകുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:486
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:528
 msgid "Go to page"
 msgstr "താളിലേക്ക് പോകുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:490
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:532
 msgid "Go to previous layer"
 msgstr "മുൻപത്തെ താളിലേക്ക് പോവുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:492
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:534
 msgid "Go to top layer"
 msgstr "മുകളിലത്തെ പാളിയിലേക്ക് പോവുക"
 
@@ -776,7 +780,7 @@ msgstr "മുകളിലത്തെ പാളിയിലേക്ക് പ�
 msgid "Graph"
 msgstr "ഗ്രാഫ്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:458
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:502
 msgid "Grid Snapping"
 msgstr "ഗ്രിഡ് സ്നാപ്പിങ്"
 
@@ -785,7 +789,7 @@ msgid "GtkSourceView was disabled when building Xournal++! Some options will not
 msgstr "ജിടികെ സോഴ്സ് വ്യൂ (GtkSourceView) Xournal++ നിർമിക്കുന്ന സമയം പ്രവർത്തനരഹിതമാക്കിയിരുന്നു! അതിനാൽ ചില സംവിധാനങ്ങൾ ലഭ്യമാവില്ല."
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:97
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:553
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:608
 msgid "Hand"
 msgstr "കൈ"
 
@@ -794,7 +798,7 @@ msgid "Hide all"
 msgstr "എല്ലാം മറയ്ക്കുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:89
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:524
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:568
 msgid "Highlighter"
 msgstr "ഹൈലൈറ്റർ"
 
@@ -803,7 +807,7 @@ msgid "Highlighter Options"
 msgstr ""
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:528
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
 msgid "Image"
 msgstr "ചിത്രം"
 
@@ -848,7 +852,7 @@ msgstr "ലാറ്റെക് (LaTeX) ചേർക്കുക"
 msgid "Insert layer"
 msgstr "പാളി ചേർക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:502
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:543
 msgid "Insert page"
 msgstr "താൾ ചേർക്കുക"
 
@@ -860,7 +864,7 @@ msgstr "ഐസോമെട്രിക് ആയി ഡോട്ടുകൾ ഉ
 msgid "Isometric Graph"
 msgstr "ഐസോമെട്രിക് ഗ്രാഫ്"
 
-#: ../src/core/control/XournalMain.cpp:623
+#: ../src/core/control/XournalMain.cpp:627
 msgid "Jump to Page (first Page: 1)"
 msgstr "താളിലേക്ക് ചാടുക (ആദ്യത്തെ താൾ: 1)"
 
@@ -872,7 +876,7 @@ msgstr "ലാറ്റെക് (LaTeX) എഡിറ്ററിന്റെ �
 msgid "Latex generation encountered an error: {1} (exit code: {2})"
 msgstr "ലാറ്റെക് (LaTeX) ഉത്‌പാദക സംവിധാനം ഒരു പിശക് നേരിട്ടു: {1} (നിർഗമന കോഡ്: {2})"
 
-#: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:251
+#: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:248
 msgid "Layer"
 msgstr "പാളി"
 
@@ -884,7 +888,7 @@ msgstr "പാളികളുടെ കോംബോ"
 msgid "Layer Preview"
 msgstr "പാളിയുടെ പ്രീവ്യൂ"
 
-#: ../src/core/control/layer/LayerController.cpp:377
+#: ../src/core/control/layer/LayerController.cpp:354
 msgid "Layer {1}"
 msgstr "പാളി {1}"
 
@@ -898,11 +902,11 @@ msgstr "പാളികളുടെ കൂട്ടം പ്രിവ്യു"
 msgid "Loading..."
 msgstr "ലോഡ് ചെയ്യുന്നു..."
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:471
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:513
 msgid "Manage Toolbars"
 msgstr "ടൂൾബാറുകൾ ക്രമീകരിക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:620
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:659
 msgid "Medium"
 msgstr "ഇടത്തരം"
 
@@ -930,19 +934,19 @@ msgstr "താൾ മുകളിലേക്ക് നീക്കുക"
 msgid "New"
 msgstr "പുതിയത്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:430
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:476
 msgid "New Xournal"
 msgstr "പുതിയ Xournal"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:487
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:529
 msgid "Next"
 msgstr "അടുത്തത്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:495
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:537
 msgid "Next annotated page"
 msgstr "അടുത്ത വ്യാഖ്യാനിക്കപ്പെട്ട താൾ"
 
-#: ../src/core/control/Control.cpp:1299
+#: ../src/core/control/Control.cpp:1135
 msgid "No"
 msgstr "ഇല്ല"
 
@@ -955,11 +959,11 @@ msgstr "ഉപകരണങ്ങൾ ഒന്നുമില്ല"
 msgid "No pages to export!"
 msgstr "എക്സ്പോർട്ട് ചെയ്യാനായി താളുകൾ ഇല്ല!"
 
-#: ../src/core/control/Control.cpp:1502
+#: ../src/core/control/Control.cpp:1344
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "കൂട്ടിച്ചേർക്കാനായി പിഡിഎഫ് താളുകൾ ലഭ്യമല്ല. നിങ്ങൾ ഒരിക്കൽ കൂടി ഡോക്യുമെന്റ് തുറക്കേണ്ടതായി വരും."
 
-#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:65
+#: ../src/core/gui/menus/menubar/RecentDocumentsSubmenu.cpp:67
 msgid "No recent files"
 msgstr "സമീപകാല ഫയലുകൾ ഒന്നുമില്ല"
 
@@ -967,12 +971,12 @@ msgstr "സമീപകാല ഫയലുകൾ ഒന്നുമില്ല"
 msgid "Normal drawing"
 msgstr "സാധാരണ വര"
 
-#: ../src/core/control/XournalMain.cpp:665
+#: ../src/core/control/XournalMain.cpp:669
 msgid "On export, only export the layers specified by RANGE (e.g. \"2-3,5,7-\")\n"
 "                                 No effect without -p/--create-pdf or -i/--create-img"
 msgstr ""
 
-#: ../src/core/control/XournalMain.cpp:661
+#: ../src/core/control/XournalMain.cpp:665
 msgid "Only export the pages specified by RANGE (e.g. \"2-3,5,7-\")\n"
 "                                 No effect without -p/--create-pdf or -i/--create-img"
 msgstr ""
@@ -990,7 +994,7 @@ msgid "Open Logfile directory"
 msgstr "ലോഗ്‌ഫയൽ ഡയറക്ടറി തുറക്കുക"
 
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:431
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:477
 msgid "Open file"
 msgstr "ഫയൽ തുറക്കുക"
 
@@ -1032,7 +1036,7 @@ msgstr "പിഡിഎഫ് {1}"
 msgid "PNG graphics"
 msgstr "പിഎൻജി ഗ്രാഫിക്സ്"
 
-#: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:88
+#: ../src/core/gui/toolbarMenubar/ToolPageSpinner.cpp:86
 msgid "Page"
 msgstr "താൾ"
 
@@ -1056,21 +1060,21 @@ msgstr "താൾ ചേർക്കപ്പെട്ടു"
 msgid "Page number"
 msgstr "താൾ സംഖ്യ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:466
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:509
 msgid "Paired pages"
 msgstr "ജോഡിയാക്കിയ താളുകൾ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:449
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:495
 #: ../src/core/undo/AddUndoAction.cpp:66
 msgid "Paste"
 msgstr "ഒട്ടിക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:563
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:615
 msgid "Pause / Play"
 msgstr "നിറുത്തുക/തുടരുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:87
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:304
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:552
 msgid "Pen"
 msgstr "പേന"
 
@@ -1082,9 +1086,9 @@ msgstr ""
 msgid "Plain"
 msgstr "ലളിതമായ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:552
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:29
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:96
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:607
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:32
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:100
 msgid "Play Object"
 msgstr "വസ്തു പ്രവർത്തിപ്പിക്കുക"
 
@@ -1092,11 +1096,19 @@ msgstr "വസ്തു പ്രവർത്തിപ്പിക്കുക"
 msgid "Please delete the file manually"
 msgstr "ദയവായി ഈ ഫയൽ സ്വമേധയാ നീക്കം ചെയ്യുക"
 
+#: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
+msgid "Plugin"
+msgstr ""
+
+#: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
+msgid "Plugin Manager"
+msgstr ""
+
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
 msgstr "മുൻപ് നിശ്ചയിച്ച പ്രകാരം"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:468
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:510
 msgid "Presentation mode"
 msgstr "അവതരണ മട്ട്‌"
 
@@ -1104,23 +1116,19 @@ msgstr "അവതരണ മട്ട്‌"
 msgid "Previously selected language not available anymore!"
 msgstr "മുൻപ് തിരഞ്ഞെടുത്ത ഭാഷ ഇനി മുതൽ ലഭ്യമല്ല!"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:434
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:480
 msgid "Print"
 msgstr "പ്രിൻ്റ് ചെയ്യുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:561
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:613
 msgid "Record Audio / Stop Recording"
 msgstr "ഓഡിയോ റെക്കോർഡ് ചെയ്യുക/നിറുത്തുക"
-
-#: ../src/core/control/Control.cpp:1019
-msgid "Recorder could not be started."
-msgstr "റെക്കോർഡർ തുടങ്ങാൻ സാധിച്ചില്ല."
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
 msgstr "വീണ്ടെടുക്കാനുള്ള ഫയൽ കണ്ടെത്തി"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:443
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:489
 #: ../src/core/undo/UndoRedoHandler.cpp:195
 msgid "Redo"
 msgstr "വീണ്ടും ചെയ്യുക"
@@ -1129,7 +1137,7 @@ msgstr "വീണ്ടും ചെയ്യുക"
 msgid "Redo: "
 msgstr "വീണ്ടും ചെയ്യുക: "
 
-#: ../src/core/control/Control.cpp:2413
+#: ../src/core/control/Control.cpp:2051
 msgid "Remove PDF Background"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം നീക്കം ചെയ്യുക"
 
@@ -1161,7 +1169,7 @@ msgstr "ഫയൽ തിരികെ കൊണ്ടുവരിക"
 msgid "Rotation"
 msgstr "കറക്കം"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:456
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:501
 msgid "Rotation Snapping"
 msgstr "കറക്കൽ സ്നാപ്പിങ്"
 
@@ -1185,16 +1193,16 @@ msgstr "എസ് വി ജി (SVG) ഗ്രാഫിക്സ്"
 msgid "Sample LaTeX file generated successfully."
 msgstr "ഉദാഹരണ (ലാറ്റെക്) LaTeX ഫയൽ വിജയകരമായി ഉത്പാദിപ്പിച്ചു."
 
-#: ../src/core/control/Control.cpp:2894 ../src/core/control/jobs/SaveJob.cpp:25
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:432
+#: ../src/core/control/Control.cpp:2532 ../src/core/control/jobs/SaveJob.cpp:25
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:478
 msgid "Save"
 msgstr "സേവ്"
 
-#: ../src/core/control/Control.cpp:2894
+#: ../src/core/control/Control.cpp:2532
 msgid "Save As..."
 msgstr "സേവ് തരം..."
 
-#: ../src/core/control/Control.cpp:2717
+#: ../src/core/control/Control.cpp:2355
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "ഫയൽ സേവ്"
@@ -1216,7 +1224,7 @@ msgstr "സ്കെയിൽ"
 msgid "Scroll to page {1}"
 msgstr "{1}-ആം താളിലേക്ക് സ്ക്രോൾ ചെയ്യുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:497
 msgid "Search"
 msgstr "തിരയുക"
 
@@ -1228,67 +1236,64 @@ msgstr "മുഴുവൻ സഹായകരുടെയും പട്ടി�
 msgid "Select Area Text from pdf"
 msgstr "പിഡിഎഫിൽ നിന്നും ഏരിയ ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:557
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:610
 msgid "Select Font"
 msgstr "ഫോണ്ട് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:533
-#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:19
-#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:22
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:575
+#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:25
+#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:95
 msgid "Select Linear PDF Text"
 msgstr "രേഖീയമായ പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:549
-msgid "Select Multi-Layer Rect"
-msgstr "അനേകം പാളികൾക്ക് മേൽ റെക്ട് തിരഞ്ഞെടുക്കുക"
-
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:25
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:78
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:602
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:81
 msgid "Select Multi-Layer Rectangle"
 msgstr "അനേകം പാളികൾക്ക് മേൽ ദീർഘചതുരം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:548
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:84
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:600
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:29
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:88
 msgid "Select Multi-Layer Region"
 msgstr "അനേകം പാളികൾക്ക് മേൽ മണ്ഡലം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:550
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:90
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:604
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:30
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:94
 msgid "Select Object"
 msgstr "വസ്തു തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:68
+#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:70
 msgid "Select PDF Area Text"
 msgstr "പിഡിഎഫ് ഏരിയ ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:61
+#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:63
 msgid "Select PDF Text"
 msgstr "പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:24
+#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:27
 msgid "Select PDF Text In Rectangle"
 msgstr "ദീർഘചതുരത്തിലെ പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:535
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:577
 msgid "Select PDF Text in Rectangle"
 msgstr "ദീർഘചതുരത്തിലെ പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:83
+#: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:85
 msgid "Select Pdf Text"
 msgstr "പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:547
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:23
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:66
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:111
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:598
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:26
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:68
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:115
 msgid "Select Rectangle"
 msgstr "ദീർഘചതുരം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:546
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:24
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:72
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:596
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:27
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:74
 msgid "Select Region"
 msgstr "മണ്ഡലം തിരഞ്ഞെടുക്കുക"
 
@@ -1296,7 +1301,7 @@ msgstr "മണ്ഡലം തിരഞ്ഞെടുക്കുക"
 msgid "Select Text from pdf"
 msgstr "പിഡിഎഫിൽ നിന്നും ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/control/Control.cpp:2412
+#: ../src/core/control/Control.cpp:2050
 msgid "Select another PDF"
 msgstr "മറ്റൊരു പിഡിഎഫ് തിരഞ്ഞെടുക്കുക"
 
@@ -1332,7 +1337,7 @@ msgstr "ദീർഘചതുരം തിരഞ്ഞെടുക്കുക"
 msgid "Select region"
 msgstr "മണ്ഡലം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:20
+#: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:125
 msgid "Selection Combo"
 msgstr "കോംബോ തിരഞ്ഞെടുക്കുക"
 
@@ -1348,29 +1353,29 @@ msgstr "പിന്നോട്ടയക്കുക"
 msgid "Separator"
 msgstr "വേർപെടുത്തൽ"
 
-#: ../src/core/control/XournalMain.cpp:669
+#: ../src/core/control/XournalMain.cpp:673
 msgid "Set DPI for PNG exports. Default is 300\n"
 "                                 No effect without -i/--create-img=foo.png"
 msgstr "പിഎൻജി എക്സ്പോർട്ടിന് വേണ്ടി ഡിപിഐ തീരുമാനിക്കുക. സ്ഥിരമൂല്യം 300 ആണ്\n"
 "                                 -i/--create-img=foo.png ഉപയോഗിക്കാതെ ഒരു ഫലവും ലഭിക്കില്ല"
 
-#: ../src/core/control/XournalMain.cpp:679
+#: ../src/core/control/XournalMain.cpp:683
 msgid "Set page height for PNG exports\n"
 "                                 No effect without -i/--create-img=foo.png\n"
 "                                 Ignored if --export-png-dpi or --export-png-width is used"
 msgstr ""
 
-#: ../src/core/control/XournalMain.cpp:673
+#: ../src/core/control/XournalMain.cpp:677
 msgid "Set page width for PNG exports\n"
 "                                 No effect without -i/--create-img=foo.png\n"
 "                                 Ignored if --export-png-dpi is used"
 msgstr ""
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:554
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:579
 msgid "Setsquare"
 msgstr "സെറ്റ്സ്‌ക്വയർ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:531
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:584
 msgid "Shape Recognizer"
 msgstr "ആകൃതി തിരിച്ചറിയുന്നത്"
 
@@ -1386,13 +1391,13 @@ msgstr "ഉപയോഗിക്കാത്ത താളുകൾ മാത്�
 msgid "Show only not used pages ({1} unused pages)"
 msgstr "ഉപയോഗിക്കാത്ത താളുകൾ മാത്രം കാണിക്കുക ({1} ഉപയോഗിക്കാത്ത താളുകൾ)"
 
-#: ../src/core/control/XournalMain.cpp:495
+#: ../src/core/control/XournalMain.cpp:499
 msgid "Sorry, Xournal++ can only open one file at once.\n"
 "Others are ignored."
 msgstr "ക്ഷമിക്കണം, Xournal++-നു ഒരു സമയം ഒറ്റ ഫയൽ മാത്രമേ തുറക്കാൻ സാധിക്കുകയുള്ളൂ.\n"
 "മറ്റുള്ളവ തിരസ്കരിക്കപ്പെടും."
 
-#: ../src/core/control/XournalMain.cpp:510
+#: ../src/core/control/XournalMain.cpp:514
 msgid "Sorry, Xournal++ cannot open remote files at the moment.\n"
 "You have to copy the file to a local directory."
 msgstr "ക്ഷമിക്കണം, Xournal++-നു വിദൂര ഫയലുകൾ തുറക്കാൻ ഇപ്പോൾ സാധിക്കില്ല. ലോക്കൽ ഡയറക്ടറിയിലേക്ക് ആ ഫയൽ നിങ്ങൾക്ക് പകർത്തേണ്ടതായി വരും."
@@ -1405,12 +1410,12 @@ msgstr "വിടവ്"
 msgid "Staves"
 msgstr "സ്റ്റേവ്സ്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:566
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:616
 msgid "Stop"
 msgstr "നിര്‍ത്തുക"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
-#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:47
+#: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:48
 #: ../src/core/undo/RecognizerUndoAction.cpp:76
 msgid "Stroke recognizer"
 msgstr "സ്ട്രോക്ക് തിരിച്ചറിയുന്നത്"
@@ -1444,7 +1449,7 @@ msgid "System Default"
 msgstr "സിസ്റ്റം സ്ഥിരസ്ഥിതി"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:90
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:526
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:570
 msgid "Text"
 msgstr "ടെക്സ്റ്റ്"
 
@@ -1473,11 +1478,11 @@ msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്�
 msgid "Text not found, searched on all pages"
 msgstr "ടെക്സ്റ്റ് കണ്ടെത്തിയില്ല, എല്ലാ താളുകളിലും തിരഞ്ഞു"
 
-#: ../src/core/control/Control.cpp:1296
+#: ../src/core/control/Control.cpp:1132
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "\"{1}\" എന്ന ടൂൾബാർ ക്രമീകരണം മുൻപേ തിട്ടപ്പെടുത്തിയതാണ്, അത് പുനർക്രമീകരിക്കാൻ താങ്കൾ പുതിയൊരു പകർപ്പ് നിർമിക്കുമോ?"
 
-#: ../src/core/control/Control.cpp:2389
+#: ../src/core/control/Control.cpp:2027
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "അറ്റാച്ച് ചെയ്ത പശ്ചാത്തല ഫയൽ കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
@@ -1485,7 +1490,7 @@ msgstr "അറ്റാച്ച് ചെയ്ത പശ്ചാത്തല 
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted."
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
-#: ../src/core/control/Control.cpp:2392
+#: ../src/core/control/Control.cpp:2030
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം.\n"
@@ -1495,7 +1500,7 @@ msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്ത�
 msgid "The check for overwriting the background failed with:\n"
 msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന്നതിനു വേണ്ടിയുള്ള പരിശോധനയിൽ ഇത് സഹിതം പരാജയപ്പെട്ടു:\n"
 
-#: ../src/core/control/Control.cpp:2453
+#: ../src/core/control/Control.cpp:2091
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "ഇപ്പോൾ തുറക്കാൻ ശ്രമിക്കുന്ന ഫയലിന്റെ പതിപ്പ് Xournal++ പിന്തുണയ്ക്കുന്ന പതിപ്പിനേക്കാൾ പുതുതാണ്. ആയതിനാൽ ശരിയായ വിധം ഫയൽ പ്രവർത്തിച്ചേക്കണമെന്നില്ല. എന്തുതന്നെയായാലും ഫയൽ തുറക്കണോ?"
 
@@ -1531,11 +1536,11 @@ msgstr ""
 msgid "There was an error displaying help: {1}"
 msgstr "സഹായം ലഭ്യമാക്കുന്നതിൽ ഒരു പിശക് സംഭവിച്ചു: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:621
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:660
 msgid "Thick"
 msgstr "കനത്തിലുള്ളത്"
 
-#: ../src/core/control/Control.cpp:2893
+#: ../src/core/control/Control.cpp:2531
 msgid "This document is not saved yet."
 msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ് ചെയ്യപ്പെട്ടിട്ടില്ല."
 
@@ -1543,7 +1548,7 @@ msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ�
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "ഈ ചിത്രം പ്രദർശിപ്പിക്കാൻ സാധിച്ചില്ല. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: {1}"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:469
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:511
 msgid "Toggle fullscreen"
 msgstr "പൂർണ്ണസ്‌ക്രീൻ ടോഗിൾ ചെയ്യുക"
 
@@ -1571,11 +1576,11 @@ msgstr "{1}-ലുള്ള ആഗോള ടെമ്പ്ലേറ്റ് �
 msgid "Unable to play audio recording {1}"
 msgstr "ഓഡിയോ റെക്കോർഡിങ് പ്രവർത്തിപ്പിക്കാൻ സാധിക്കുന്നില്ല {1}"
 
-#: ../src/core/control/Control.cpp:1516
+#: ../src/core/control/Control.cpp:1358
 msgid "Unable to retrieve pdf page."
 msgstr "പിഡിഎഫ് താൾ ലഭ്യമാക്കാൻ സാധിക്കുന്നില്ല."
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:442
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:488
 #: ../src/core/undo/UndoRedoHandler.cpp:183
 msgid "Undo"
 msgstr "പഴയപടിയാക്കുക"
@@ -1620,7 +1625,7 @@ msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് ക്യാ�
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "അജ്ഞാതമായ സ്ട്രോക്ക് തരം: \"{1}\", പേന ആണെന്ന് അനുമാനിക്കുന്നു"
 
-#: ../src/core/control/Control.cpp:2774
+#: ../src/core/control/Control.cpp:2412
 msgid "Unsaved Document"
 msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്റ്"
 
@@ -1628,7 +1633,7 @@ msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്�
 msgid "Unsupported graphics format: "
 msgstr "നിരവലംബമായ ഗ്രാഫിക്സ് തരം: "
 
-#: ../src/core/control/Control.cpp:2410
+#: ../src/core/control/Control.cpp:2048
 msgid "Use proposed PDF"
 msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപയോഗിക്കുക"
 
@@ -1636,7 +1641,7 @@ msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപ
 msgid "Version"
 msgstr "പതിപ്പ്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:551
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:606
 msgid "Vertical Space"
 msgstr "കുത്തനെയുള്ള വ്യാപ്തി"
 
@@ -1644,11 +1649,11 @@ msgstr "കുത്തനെയുള്ള വ്യാപ്തി"
 msgid "Vertical space"
 msgstr "കുത്തനെയുള്ള വ്യാപ്തി"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:618
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:657
 msgid "Very Fine"
 msgstr "വളരെ നേർത്ത"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:622
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:662
 msgid "Very Thick"
 msgstr "വളരെ കനത്തിലുള്ള"
 
@@ -1684,7 +1689,7 @@ msgstr "Xournal ഫയലുകൾ"
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
 msgstr "Xournal++ കഴിഞ്ഞ തവണ പ്രവർത്തന രഹിതമായിരുന്നു. ഏറ്റവും അവസാനം തിരുത്തിക്കൊണ്ടിരുന്ന ഫയൽ തിരികെ കൊണ്ടുവരേണ്ടതുണ്ടോ?"
 
-#: ../src/core/control/Control.cpp:2723
+#: ../src/core/control/Control.cpp:2361
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:62
 msgid "Xournal++ files"
 msgstr "Xournal++ ഫയലുകൾ"
@@ -1694,7 +1699,7 @@ msgstr "Xournal++ ഫയലുകൾ"
 msgid "Xournal++ template"
 msgstr "Xournal++ ടെമ്പ്ലേറ്റ്"
 
-#: ../src/core/control/Control.cpp:1299
+#: ../src/core/control/Control.cpp:1135
 msgid "Yes"
 msgstr "അതെ"
 
@@ -1710,27 +1715,27 @@ msgid "Your current document does not contain PDF Page no {1}\n"
 msgstr "നിങ്ങളുടെ നിലവിലുള്ള ഡോക്യുമെന്റിൽ പിഡിഎഫ് താൾ സംഖ്യ {1} ഇല്ല. ഈ താൾ ഡോക്യൂമെന്റിലേക്ക് ചേർക്കേണമോ?\n\n"
 "അഭിപ്രായം: നിങ്ങൾക്ക് ജേർണൽ (Journal) → പേപ്പർ പശ്ചാത്തലം (Paper Background) → പിഡിഎഫ് പശ്ചാത്തലം (PDF Background) ഉപയോഗിച്ച് ഒരു പിഡിഎഫ് താൾ ചേർക്കാവുന്നതാണ്."
 
-#: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:136
+#: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:134
 msgid "Zoom Slider"
 msgstr "സൂം സ്ലൈഡർ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:476
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:518
 msgid "Zoom fit to screen"
 msgstr "സ്ക്രീനിന് സമമായി സൂം ചെയ്യുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:475
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:517
 msgid "Zoom in"
 msgstr "വലുതാക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:474
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:516
 msgid "Zoom out"
 msgstr "ചെറുതാക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:477
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:519
 msgid "Zoom to 100%"
 msgstr "100% വലുപ്പത്തിലേക്ക് എത്തിക്കുക"
 
-#: ../src/core/control/Control.cpp:2717
+#: ../src/core/control/Control.cpp:2355
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:15
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:16
@@ -1743,7 +1748,7 @@ msgstr "_ഉപേക്ഷിക്കുക"
 msgid "_Open"
 msgstr "_തുറക്കുക"
 
-#: ../src/core/control/Control.cpp:2718
+#: ../src/core/control/Control.cpp:2356
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
@@ -1753,13 +1758,13 @@ msgstr "_സേവ്"
 msgid "cursor"
 msgstr "കഴ്സർ"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:312
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:518
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:359
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:558
 msgid "dash-/ dotted"
 msgstr "ഡാഷ്-/ ഡോട്ടുള്ളത്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:309
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:516
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:358
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:556
 msgid "dashed"
 msgstr "ഡാഷുകൾ ഉള്ളത്"
 
@@ -1771,12 +1776,12 @@ msgstr "സ്ഥിരസ്ഥിതി പ്രവർത്തനരഹി�
 msgid "default enabled"
 msgstr "സ്ഥിരസ്ഥിതി പ്രവർത്തനക്ഷമം"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:327
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:394
 msgid "delete stroke"
 msgstr "സ്ട്രോക്ക് നീക്കം ചെയ്യുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:315
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:519
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:360
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:559
 msgid "dotted"
 msgstr "ഡോട്ട് ഇട്ടത്"
 
@@ -1789,7 +1794,7 @@ msgstr "ഘടകങ്ങൾ"
 msgid "eraser"
 msgstr "ഇറേസർ"
 
-#: ../src/core/control/Control.cpp:2341
+#: ../src/core/control/Control.cpp:1979
 msgid "file: {1}"
 msgstr "ഫയൽ: {1}"
 
@@ -1819,9 +1824,9 @@ msgstr "പേന"
 msgid "show"
 msgstr "കാണിക്കുക"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:306
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:325
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:515
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:357
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:392
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:555
 msgid "standard"
 msgstr "സാധാരണ"
 
@@ -1851,7 +1856,7 @@ msgstr "ടച്ച്സ്ക്രീൻ"
 msgid "trackpoint"
 msgstr "ട്രാക്‌പോയിന്റ്"
 
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:326
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:393
 msgid "whiteout"
 msgstr "വൈറ്റ്ഔട്ട്"
 
@@ -2274,10 +2279,6 @@ msgstr "എപ്പോഴും"
 msgid "Always check LaTeX dependencies before running"
 msgstr "പ്രവർത്തിപ്പിക്കുന്നതിന് മുൻപ് എപ്പോഴും ലാറ്റെക് (LaTeX) ഡിപെൻഡൻസികൾ ശ്രദ്ധിക്കണം"
 
-#: ../ui/main.glade:1253
-msgid "Append New PDF Pages"
-msgstr "പുതിയ പിഡിഎഫ് താളുകൾ ചേർക്കുക"
-
 #: ../ui/settings.glade:249
 msgid "Arithmetic mean"
 msgstr "ശരാശരി"
@@ -2363,14 +2364,6 @@ msgstr "അതിര് നിറം"
 msgid "Border color for current page and other selections"
 msgstr "ഈ താളിനും മറ്റു തിരഞ്ഞെടുത്തവയ്ക്കുമുള്ള അതിര് നിറം"
 
-#: ../ui/main.glade:321
-msgid "Bring Forward"
-msgstr "മുന്നോട്ട് കൊണ്ടുവരിക"
-
-#: ../ui/main.glade:312
-msgid "Bring to Front"
-msgstr "മുന്നിലേക്ക് കൊണ്ടുവരിക"
-
 #: ../ui/settings.glade:1124
 msgid "Buffersize"
 msgstr "ബഫർ വലിപ്പം"
@@ -2424,10 +2417,6 @@ msgstr "നിറങ്ങൾ"
 msgid "Command Output"
 msgstr "കമാൻഡ് ഫലം"
 
-#: ../ui/main.glade:1263
-msgid "Configure Page Template"
-msgstr "താൾ ടെമ്പ്ലേറ്റ് സജ്ജീകരിക്കുക"
-
 #: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
 msgstr "പുതിയ താൾ ടെമ്പ്ലേറ്റ് സജ്ജീകരിക്കുക"
@@ -2440,7 +2429,7 @@ msgstr "നിലവിലെ താളിന്റെ പശ്ചാത്ത�
 msgid "Copy current page size instead"
 msgstr "നിലവിയിലെ താളിന്റെ വലുപ്പം പകരം പകർത്തുക"
 
-#: ../ui/main.glade:2802
+#: ../ui/main.glade:728
 msgid "Copy selected text"
 msgstr "തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് പകർത്തുക"
 
@@ -2512,10 +2501,6 @@ msgstr "സ്ഥിരസ്ഥിതിയിലുള്ള നാമം: "
 msgid "Defaults"
 msgstr "സ്ഥിരസ്ഥിതി"
 
-#: ../ui/main.glade:1301
-msgid "Delete Layer"
-msgstr "പാളി നീക്കം ചെയ്യുക"
-
 #: ../ui/settingsButtonConfig.glade:128
 msgid "Delete stroke"
 msgstr "സ്ട്രോക്ക് നീക്കം ചെയ്യുക"
@@ -2586,14 +2571,6 @@ msgstr ""
 msgid "Drag: If the value is too small, unwanted oscillations may appear. If the value is too high, there will be no stabilization."
 msgstr ""
 
-#: ../ui/main.glade:1540
-msgid "Draw Coordinate System"
-msgstr "കോർഡിനേറ്റ് സിസ്റ്റം വരയ്ക്കുക"
-
-#: ../ui/main.glade:1551
-msgid "Draw _Line"
-msgstr ""
-
 #: ../ui/settings.glade:3169
 msgid "Draw a transparent circle around the cursor"
 msgstr ""
@@ -2606,15 +2583,11 @@ msgstr ""
 msgid "Drawing Tools - Set Modifiers by Draw Direction (Experimental)"
 msgstr ""
 
-#: ../ui/main.glade:2936 ../ui/main.glade:2973
+#: ../ui/main.glade:854 ../ui/main.glade:942
 msgid "Duplicate"
 msgstr "ഡ്യൂപ്ലിക്കേറ്റ്"
 
-#: ../ui/main.glade:1243
-msgid "Duplicate Page"
-msgstr "ഡ്യൂപ്ലിക്കേറ്റ് താൾ"
-
-#: ../ui/main.glade:3010
+#: ../ui/main.glade:891
 msgid "Edit (not implemented yet)"
 msgstr "തിരുത്തുക (ഇത് വരെ നടപ്പിലാക്കിയിട്ടില്ല)"
 
@@ -2678,10 +2651,6 @@ msgstr ""
 msgid "Enter / edit LaTeX Text"
 msgstr ""
 
-#: ../ui/main.glade:1845
-msgid "Eraser Optio_ns"
-msgstr "ഇറേസർ ഓപ്ഷ_നുകൾ"
-
 #: ../ui/settingsButtonConfig.glade:125
 msgid "Eraser Type - don't change"
 msgstr "ഇറേസർ തരം - മാറ്റരുത്"
@@ -2694,10 +2663,6 @@ msgstr "ഇറേസർ ദൃശ്യത"
 msgid "Export"
 msgstr "എക്സ്പോര്‍ട്ട്‌"
 
-#: ../ui/main.glade:247
-msgid "Export as..."
-msgstr "എക്സ്പോർട്ട് ചെയ്യേണ്ട വിധം..."
-
 #: ../ui/exportSettings.glade:336
 msgid "Export layers progressively"
 msgstr "പാളികൾ ഒന്നൊന്നായി എക്സ്പോർട്ട് ചെയ്യുക"
@@ -2707,23 +2672,15 @@ msgstr "പാളികൾ ഒന്നൊന്നായി എക്സ്പ�
 msgid "Export the document without any background (None) or with PDF and image backgrounds only (No ruling) or with all background types (All)."
 msgstr ""
 
-#: ../ui/main.glade:1821 ../ui/main.glade:2026
-msgid "Fi_ll"
-msgstr "ഫി_ൽ"
-
-#: ../ui/main.glade:1831 ../ui/main.glade:2036
-msgid "Fill opacity"
-msgstr "ഫിൽ ഒപാസിറ്റി"
-
 #: ../ui/settings.glade:1329
 msgid "Finalize the stroke"
 msgstr "സ്ട്രോക്ക് അന്തിമമായി തീരുമാനിക്കുക"
 
-#: ../ui/main.glade:2600
+#: ../ui/main.glade:526
 msgid "Find next occurrence of the search string"
 msgstr "തിരയുന്ന സ്ട്രിംഗിന്റെ അടുത്ത പ്രഭാവം കണ്ടെത്തുക"
 
-#: ../ui/main.glade:2578
+#: ../ui/main.glade:504
 msgid "Find previous occurrence of the search string"
 msgstr "തിരയുന്ന സ്ട്രിംഗിന്റെ മുൻപത്തെ പ്രഭാവം കണ്ടെത്തുക"
 
@@ -2735,7 +2692,7 @@ msgstr ""
 msgid "Font: "
 msgstr "ഫോണ്ട്: "
 
-#: ../ui/main.glade:578 ../ui/settings.glade:3727
+#: ../ui/settings.glade:3727
 msgid "Fullscreen"
 msgstr "പൂർണ്ണ സ്ക്രീൻ"
 
@@ -2775,10 +2732,6 @@ msgstr "ഗ്രിഡ് വലുപ്പം"
 msgid "Grid snapping tolerance"
 msgstr ""
 
-#: ../ui/main.glade:1661
-msgid "H_and Tool"
-msgstr ""
-
 #: ../ui/settings.glade:2460
 msgid "Hand Recognition"
 msgstr ""
@@ -2790,10 +2743,6 @@ msgstr "ഉയരം"
 #: ../ui/pageFormat.glade:169
 msgid "Height:"
 msgstr "ഉയരം:"
-
-#: ../ui/main.glade:997
-msgid "Hide Menubar"
-msgstr "മെനുബാർ മറയ്ക്കുക"
 
 #: ../ui/settings.glade:3524
 msgid "Hide the horizontal scrollbar"
@@ -2807,13 +2756,9 @@ msgstr "കുത്തനെയുള്ള സ്‌ക്രോൾബാർ �
 msgid "Highlight cursor position"
 msgstr "കഴ്സർ നിൽക്കുന്നിടം ഹൈലൈറ്റ് ചെയ്യുക"
 
-#: ../ui/main.glade:2824
+#: ../ui/main.glade:750
 msgid "Highlight selected text"
 msgstr "തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് ഹൈലൈറ്റ് ചെയ്യുക"
-
-#: ../ui/main.glade:1954
-msgid "Highlighter Opti_ons"
-msgstr "ഹൈലൈറ്റർ ഓപ്ഷ_നുകൾ"
 
 #: ../ui/settings.glade:5060
 msgid "How short (screen mm)  of the stroke  AND...\n\n"
@@ -2893,11 +2838,11 @@ msgstr "ഇൻപുട്ട് സ്ഥിരതപ്പെടുത്ത�
 msgid "Insert Latex"
 msgstr "ലാറ്റെക് (LaTeX) ചേർക്കുക"
 
-#: ../ui/main.glade:2965
+#: ../ui/main.glade:846
 msgid "Insert Page After"
 msgstr "ശേഷം താൾ ചേർക്കുക"
 
-#: ../ui/main.glade:2957
+#: ../ui/main.glade:838
 msgid "Insert Page Before"
 msgstr "മുൻപേ താൾ ചേർക്കുക"
 
@@ -2920,10 +2865,6 @@ msgstr "ഭാഷ"
 #: ../ui/settings.glade:6026
 msgid "Language Settings"
 msgstr "ഭാഷാ ക്രമീകരണങ്ങള്‍"
-
-#: ../ui/main.glade:621
-msgid "Layout"
-msgstr "ലേഔട്ട്"
 
 #: ../ui/settings.glade:3435
 msgid "Left / Right-Handed"
@@ -2957,10 +2898,6 @@ msgstr "ലുസൈഡ്"
 msgid "Manage Toolbar"
 msgstr "ടൂൾബാറുകൾ ക്രമീകരിക്കുക"
 
-#: ../ui/main.glade:2061
-msgid "Marker Opacity"
-msgstr ""
-
 #: ../ui/settings.glade:1216
 msgid "Mass"
 msgstr "സാന്ദ്രത"
@@ -2977,13 +2914,9 @@ msgstr "ഏറ്റവും കൂടുതൽ നീളം (മിമീ/mm)"
 msgid "Max multiplier"
 msgstr "ഏറ്റവും വലിയ ഗുണിതസംഖ്യ"
 
-#: ../ui/main.glade:2928
+#: ../ui/main.glade:934
 msgid "Merge Down"
 msgstr "താഴേക്ക് കൂട്ടിച്ചേർക്കുക"
-
-#: ../ui/main.glade:1312
-msgid "Merge Layer Down"
-msgstr "പാളി താഴേക്ക് കൂട്ടി ചേർക്കുക"
 
 #: ../ui/settings.glade:1000
 msgid "Merge button events with stylus tip events\n"
@@ -3014,19 +2947,11 @@ msgstr "മൗസ് ബട്ടണുകൾ"
 msgid "Mouse+Keyboard Combo"
 msgstr "മൗസ്+കീബോർഡ് കോംബോ"
 
-#: ../ui/main.glade:2920 ../ui/main.glade:2995
+#: ../ui/main.glade:876 ../ui/main.glade:926
 msgid "Move Down"
 msgstr "താഴേയ്ക്കു നീക്കുക"
 
-#: ../ui/main.glade:490
-msgid "Move Selection Layer Down"
-msgstr "തിരഞ്ഞെടുത്ത പാളി താഴേക്ക് നീക്കുക"
-
-#: ../ui/main.glade:480
-msgid "Move Selection Layer Up"
-msgstr "തിരഞ്ഞെടുത്ത പാളി മുകളിലേക്ക് നീക്കുക"
-
-#: ../ui/main.glade:2912 ../ui/main.glade:2987
+#: ../ui/main.glade:868 ../ui/main.glade:918
 msgid "Move Up"
 msgstr "മുകളിലേക്ക് നീക്കുക"
 
@@ -3034,30 +2959,10 @@ msgstr "മുകളിലേക്ക് നീക്കുക"
 msgid "Multiply the panning speed by up to this amount, based on how much of the selected element is out of view."
 msgstr ""
 
-#: ../ui/main.glade:1175
-msgid "N_ext Annotated Page"
-msgstr ""
-
 #: ../ui/settings.glade:2021
 msgctxt "eraser is never visible"
 msgid "Never"
 msgstr "ഒരിക്കലും ചെയ്യരുത്"
-
-#: ../ui/main.glade:1222
-msgid "New Page _After"
-msgstr "പുതിയ താൾ _ശേഷം"
-
-#: ../ui/main.glade:1212
-msgid "New Page _Before"
-msgstr "പുതിയ താൾ _മുൻപേ"
-
-#: ../ui/main.glade:1233
-msgid "New Page at _End"
-msgstr "പുതിയ താൾ _അവസാനം"
-
-#: ../ui/main.glade:1290
-msgid "New _Layer"
-msgstr "പുതിയ _പാളി"
 
 #: ../ui/settings.glade:3136
 msgctxt "stylus cursor uses no icon"
@@ -3105,10 +3010,6 @@ msgstr "ലാറ്റെക് (LaTeX) കമാൻഡ് ഉപയോഗി�
 msgid "PDF Cache"
 msgstr "പിഡിഎഫ് കാഷ് (cache)"
 
-#: ../ui/main.glade:1186
-msgid "P_revious Annotated Page"
-msgstr "മു_ൻപേ വിശകലനം ചെയ്ത താൾ"
-
 #: ../ui/settings.glade:3460
 msgid "Page numbering  "
 msgstr "താൾ സംഖ്യ തിട്ടപ്പെടുത്തും വിധം  "
@@ -3121,21 +3022,9 @@ msgstr "താളുകൾ:"
 msgid "Paired Pages"
 msgstr "ജോഡിയാക്കിയ താളുകൾ"
 
-#: ../ui/main.glade:1360
-msgid "Paper B_ackground"
-msgstr "പേപ്പർ പ_ശ്ചാത്തലം"
-
 #: ../ui/pageFormat.glade:28
 msgid "Paper Format"
 msgstr "പേപ്പർ ഫോർമാറ്റ്"
-
-#: ../ui/main.glade:1350
-msgid "Paper _Color"
-msgstr "പേപ്പർ _നിറം"
-
-#: ../ui/main.glade:1340
-msgid "Paper _Format"
-msgstr "പേപ്പർ _ഫോർമാറ്റ്"
 
 #: ../ui/about.glade:186
 msgid "Partially based on Xournal\n"
@@ -3144,14 +3033,6 @@ msgstr ""
 
 #: ../ui/pluginEntry.glade:87
 msgid "Path: "
-msgstr ""
-
-#: ../ui/main.glade:2097
-msgid "Pause"
-msgstr "താൽക്കാലികമായി നിർത്തുക"
-
-#: ../ui/main.glade:1699
-msgid "Pen _Options"
 msgstr ""
 
 #: ../ui/settings.glade:3955
@@ -3164,10 +3045,6 @@ msgstr ""
 
 #: ../ui/settings.glade:5861
 msgid "Playback Settings"
-msgstr ""
-
-#: ../ui/main.glade:2162
-msgid "Plugin _Manager"
 msgstr ""
 
 #: ../ui/plugin.glade:80
@@ -3184,10 +3061,6 @@ msgstr ""
 
 #: ../ui/settings.glade:3879
 msgid "Pre-load pages before"
-msgstr ""
-
-#: ../ui/main.glade:532
-msgid "Preferences"
 msgstr ""
 
 #: ../ui/settings.glade:1281
@@ -3222,21 +3095,9 @@ msgstr "വ്യാപ്തി"
 msgid "Re-render when the page's zoom changes by more than "
 msgstr ""
 
-#: ../ui/main.glade:187
-msgid "Recent _Documents"
-msgstr "അടുത്തിടെയുള്ള _ഡോക്യൂമെന്റുകൾ"
-
-#: ../ui/main.glade:2087
-msgid "Record / Stop"
-msgstr "റെക്കോർഡ്/നിറുത്തുക"
-
 #: ../ui/settings.glade:5803
 msgid "Recording Quality"
 msgstr "റെക്കോർഡിംഗ് ഗുണമേന്മ"
-
-#: ../ui/main.glade:1323
-msgid "Rename Layer"
-msgstr "പാളി പുനർനാമകരണം ചെയ്യുക"
 
 #: ../ui/renameLayerDialog.glade:17
 msgid "Rename selected layer"
@@ -3294,21 +3155,9 @@ msgstr "ഫോൾഡർ തിരഞ്ഞെടുക്കുക"
 msgid "Select Image"
 msgstr "ചിത്രം തിരഞ്ഞെടുക്കുക"
 
-#: ../ui/main.glade:1408
-msgid "Select Linear Text"
-msgstr "രേഖീയമായ ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
-
 #: ../ui/pdfpages.glade:8
 msgid "Select PDF Page"
 msgstr "പിഡിഎഫ് താൾ തിരഞ്ഞെടുക്കുക"
-
-#: ../ui/main.glade:2050
-msgid "Select PDF Text Options"
-msgstr ""
-
-#: ../ui/main.glade:1420
-msgid "Select Text In Rectangle"
-msgstr "ദീർഘചതുരത്തിലെ പിഡിഎഫ് ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക"
 
 #: ../ui/settings.glade:3817
 msgid "Select toolbar:"
@@ -3322,25 +3171,9 @@ msgstr "തിരഞ്ഞെടുത്ത നിറം (ടെക്സ്റ
 msgid "Selection Edge Panning"
 msgstr ""
 
-#: ../ui/main.glade:330
-msgid "Send Backward"
-msgstr "പിന്നിലേക്ക് അയക്കുക"
-
-#: ../ui/main.glade:339
-msgid "Send to Back"
-msgstr "പിന്നോട്ടയക്കുക"
-
 #: ../ui/settings.glade:1722
 msgid "Sensitivity Scale"
 msgstr ""
-
-#: ../ui/main.glade:730
-msgid "Set Columns"
-msgstr ""
-
-#: ../ui/main.glade:835
-msgid "Set Rows"
-msgstr "വരി സെറ്റ് ചെയ്യുക"
 
 #: ../ui/settings.glade:5141
 msgid "Settings:"
@@ -3358,17 +3191,13 @@ msgstr ""
 msgid "Show Menubar on Startup"
 msgstr ""
 
-#: ../ui/main.glade:589 ../ui/settings.glade:3708 ../ui/settings.glade:3797
+#: ../ui/settings.glade:3708 ../ui/settings.glade:3797
 msgid "Show Sidebar"
 msgstr ""
 
 #: ../ui/settings.glade:3693 ../ui/settings.glade:3767
 msgid "Show Toolbar"
 msgstr "ടൂൾബാർ കാണിക്കുക"
-
-#: ../ui/main.glade:605
-msgid "Show Toolbars"
-msgstr "ടൂൾബാറുകൾ കാണിക്കുക"
 
 #: ../ui/settings.glade:2830
 msgid "Show filepath in title bar"
@@ -3432,7 +3261,7 @@ msgstr ""
 msgid "Storage Folder"
 msgstr ""
 
-#: ../ui/main.glade:2864
+#: ../ui/main.glade:790
 msgid "Strikethrough selected text"
 msgstr ""
 
@@ -3469,10 +3298,6 @@ msgctxt "stylus cursor uses system cursor"
 msgid "System cursor"
 msgstr "സിസ്റ്റം കഴ്സർ"
 
-#: ../ui/main.glade:949
-msgid "T_oolbars"
-msgstr "ടൂ_ൾബാറുകൾ"
-
 #: ../ui/texdialog.glade:98
 msgid "TeX Source"
 msgstr ""
@@ -3496,10 +3321,6 @@ msgstr "പരിശോധന സജ്ജീകരണം"
 #: ../ui/latexSettings.glade:246
 msgid "Test if the current configuration is valid by running the LaTeX generation command on the global template file with a test formula."
 msgstr ""
-
-#: ../ui/main.glade:2075
-msgid "Text Font..."
-msgstr "ടെക്സ്റ്റ്‌ ഫോണ്ട്..."
 
 #: ../ui/latexSettings.glade:102
 msgid "The LaTeX file to use as a template for the LaTeX tool."
@@ -3529,7 +3350,7 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
-#: ../ui/main.glade:2884
+#: ../ui/main.glade:810
 msgid "Toggle standard / region text selection"
 msgstr ""
 
@@ -3554,7 +3375,7 @@ msgstr ""
 msgid "Try to select object first; if nothing selected then show floating toolbox if enabled."
 msgstr ""
 
-#: ../ui/main.glade:2844
+#: ../ui/main.glade:770
 msgid "Underline selected text"
 msgstr ""
 
@@ -3662,250 +3483,6 @@ msgstr "സൂം ആംഗ്യങ്ങൾ"
 msgid "Zoom Speed"
 msgstr "സൂം വേഗത"
 
-#: ../ui/main.glade:742
-msgid "_1 Column"
-msgstr "_1 ശ്രേണി"
-
-#: ../ui/main.glade:847
-msgid "_1 Row"
-msgstr "_1 നിര"
-
-#: ../ui/main.glade:753
-msgid "_2 Columns"
-msgstr "_2 ശ്രേണികൾ"
-
-#: ../ui/main.glade:858
-msgid "_2 Rows"
-msgstr "_2 നിരകൾ"
-
-#: ../ui/main.glade:764
-msgid "_3 Columns"
-msgstr "_3 ശ്രേണികൾ"
-
-#: ../ui/main.glade:869
-msgid "_3 Rows"
-msgstr "_3 നിരകൾ"
-
-#: ../ui/main.glade:775
-msgid "_4 Columns"
-msgstr "_4 ശ്രേണികൾ"
-
-#: ../ui/main.glade:880
-msgid "_4 Rows"
-msgstr "_4 നിരകൾ"
-
-#: ../ui/main.glade:786
-msgid "_5 Columns"
-msgstr "_5 ശ്രേണികൾ"
-
-#: ../ui/main.glade:891
-msgid "_5 Rows"
-msgstr "_5 നിരകൾ"
-
-#: ../ui/main.glade:797
-msgid "_6 Columns"
-msgstr "_6 ശ്രേണികൾ"
-
-#: ../ui/main.glade:902
-msgid "_6 Rows"
-msgstr "_6 നിരകൾ"
-
-#: ../ui/main.glade:808
-msgid "_7 Columns"
-msgstr "_7 ശ്രേണികൾ"
-
-#: ../ui/main.glade:913
-msgid "_7 Rows"
-msgstr "_7 നിരകൾ"
-
-#: ../ui/main.glade:819
-msgid "_8 Columns"
-msgstr "_8 ശ്രേണികൾ"
-
-#: ../ui/main.glade:924
-msgid "_8 Rows"
-msgstr ""
-
-#: ../ui/main.glade:196
-msgid "_Annotate PDF"
-msgstr ""
-
-#: ../ui/main.glade:702
-msgid "_Bottom to Top"
-msgstr ""
-
-#: ../ui/main.glade:717
-msgid "_Cols/Rows"
-msgstr ""
-
-#: ../ui/main.glade:977
-msgid "_Customize"
-msgstr ""
-
-#: ../ui/main.glade:1468
-msgid "_Default Tools"
-msgstr ""
-
-#: ../ui/main.glade:1273
-msgid "_Delete Page"
-msgstr ""
-
-#: ../ui/main.glade:292
-msgid "_Edit"
-msgstr ""
-
-#: ../ui/main.glade:1396
-msgid "_Eraser"
-msgstr ""
-
-#: ../ui/main.glade:237
-msgid "_Export as PDF"
-msgstr ""
-
-#: ../ui/main.glade:152
-msgid "_File"
-msgstr ""
-
-#: ../ui/main.glade:1076
-msgid "_First Page"
-msgstr ""
-
-#: ../ui/main.glade:1098
-msgid "_Goto Page"
-msgstr ""
-
-#: ../ui/main.glade:2176
-msgid "_Help"
-msgstr ""
-
-#: ../ui/main.glade:1432
-msgid "_Highlighter"
-msgstr ""
-
-#: ../ui/main.glade:633
-msgid "_Horizontal"
-msgstr ""
-
-#: ../ui/main.glade:1456
-msgid "_Image"
-msgstr ""
-
-#: ../ui/main.glade:1201
-msgid "_Journal"
-msgstr ""
-
-#: ../ui/main.glade:1120
-msgid "_Last Page"
-msgstr ""
-
-#: ../ui/main.glade:662
-msgid "_Left to Right"
-msgstr ""
-
-#: ../ui/main.glade:967
-msgid "_Manage"
-msgstr ""
-
-#: ../ui/main.glade:1065
-msgid "_Navigation"
-msgstr ""
-
-#: ../ui/main.glade:1148
-msgid "_Next Layer"
-msgstr ""
-
-#: ../ui/main.glade:1109
-msgid "_Next Page"
-msgstr ""
-
-#: ../ui/main.glade:557
-msgid "_Pair Pages"
-msgstr ""
-
-#: ../ui/main.glade:1384
-msgid "_Pen"
-msgstr ""
-
-#: ../ui/main.glade:2151
-msgid "_Plugin"
-msgstr ""
-
-#: ../ui/main.glade:567
-msgid "_Presentation Mode"
-msgstr ""
-
-#: ../ui/main.glade:1137
-msgid "_Previous Layer"
-msgstr ""
-
-#: ../ui/main.glade:1087
-msgid "_Previous Page"
-msgstr ""
-
-#: ../ui/main.glade:673
-msgid "_Right to Left"
-msgstr ""
-
-#: ../ui/main.glade:1485
-msgid "_Shape Recognizer"
-msgstr ""
-
-#: ../ui/main.glade:1444
-msgid "_Text"
-msgstr ""
-
-#: ../ui/main.glade:1373
-msgid "_Tools"
-msgstr ""
-
-#: ../ui/main.glade:1159
-msgid "_Top Layer"
-msgstr ""
-
-#: ../ui/main.glade:691
-msgid "_Top to Bottom"
-msgstr ""
-
-#: ../ui/main.glade:644
-msgid "_Vertical"
-msgstr ""
-
-#: ../ui/main.glade:1637
-msgid "_Vertical Space"
-msgstr ""
-
-#: ../ui/main.glade:546
-msgid "_View"
-msgstr ""
-
-#: ../ui/main.glade:1939
-msgid "_delete strokes"
-msgstr ""
-
-#: ../ui/main.glade:1721 ../ui/main.glade:1867 ../ui/main.glade:1976
-msgid "_fine"
-msgstr ""
-
-#: ../ui/main.glade:1732 ../ui/main.glade:1878 ../ui/main.glade:1987
-msgid "_medium"
-msgstr ""
-
-#: ../ui/main.glade:1917
-msgid "_standard"
-msgstr ""
-
-#: ../ui/main.glade:1743 ../ui/main.glade:1889 ../ui/main.glade:1998
-msgid "_thick"
-msgstr ""
-
-#: ../ui/main.glade:1710 ../ui/main.glade:1856 ../ui/main.glade:1965
-msgid "_very fine"
-msgstr ""
-
-#: ../ui/main.glade:1928
-msgid "_whiteout"
-msgstr ""
-
 #: ../ui/settings.glade:4657
 msgid "disabled"
 msgstr ""
@@ -3937,10 +3514,6 @@ msgstr ""
 
 #: ../ui/settings.glade:2280
 msgid "s <i>(after which the touchscreen will be reactivated again)</i>"
-msgstr ""
-
-#: ../ui/main.glade:1754 ../ui/main.glade:1900 ../ui/main.glade:2009
-msgid "ver_y thick"
 msgstr ""
 
 #: ../ui/settings.glade:4642
