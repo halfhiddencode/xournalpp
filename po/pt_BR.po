@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"PO-Revision-Date: 2023-10-04 19:29\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -55,7 +55,8 @@ msgstr "<b>Nenhum dispositivo encontrado. Isto parece errado - talvez arquive um
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -225,7 +226,7 @@ msgstr "Copiar"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Copiar o fundo atual"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -337,7 +338,7 @@ msgstr "Não foi possível escrever o fundo \"{1}\". Continuando mesmo assim."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Registro de erros"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -398,7 +399,7 @@ msgstr "Excluir esta página"
 
 #: ../src/core/control/XournalMain.cpp:633
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Desabilitar áudio para essa sessão"
 
 #: ../src/core/control/Control.cpp:2537
 msgid "Discard"
@@ -548,7 +549,7 @@ msgstr "Erro ao carregar o arquivo \"{1}\" (tente carregar \"{2}\")"
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "Erro ao carregar arquivo XML da barra de menu (tente carregar \"{1}\")"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -694,7 +695,7 @@ msgstr "Falha ao determinar o caminho com o seguinte erro:\n"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Submeter relatório de bug"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -713,7 +714,7 @@ msgstr "Opacidade do Preenchimento"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "Cor de preenchimento"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -811,7 +812,7 @@ msgstr "Destaque"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "Opções de marcador"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -955,7 +956,7 @@ msgstr "Próxima página anotada"
 
 #: ../src/core/control/Control.cpp:1135
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1017,11 +1018,11 @@ msgstr "Página do PDF {1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "Marcador de Texto PDF"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "Opções de Texto PDF"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1089,7 +1090,7 @@ msgstr "Caneta"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "Opções da Caneta"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1107,11 +1108,11 @@ msgstr "Por favor, deletar o arquivo manualmente"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "Gerenciador de Plugins"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1135,7 +1136,7 @@ msgstr "Gravar Áudio / Parar Gravação"
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Arquivo de recuperação detectado"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:489
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1192,7 +1193,7 @@ msgstr "Pautado com uma linha vertical"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "Falha ao executar operação de impressão com {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1336,7 +1337,7 @@ msgstr "Selecionar região de multi camada"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "Selecione opacidade para: "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
@@ -1470,7 +1471,7 @@ msgstr "Texto"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Texto encontrado %zu vezes nesta página"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1478,11 +1479,11 @@ msgstr "Texto encontrado uma vez na página {1}"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "Texto encontrado uma vez nesta página"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "Texto encontrado {1} vezes na página {2} ({3} of {1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1714,7 +1715,7 @@ msgstr "Modelo Xournal++"
 
 #: ../src/core/control/Control.cpp:1135
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:186
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2229,7 +2230,7 @@ msgstr "<i>Especifique as ferramentas que serão selecionadas se um botão da st
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>A quantidade é especificada em pixels.</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2265,7 +2266,7 @@ msgstr "<i>Você pode configurar dispositivos, não identificados pelo GTK como 
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>ou</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2283,15 +2284,15 @@ msgstr "Ação na Ferramenta de Toque"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "Cor de Seleção Ativa (Resultados de Buscas etc.)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "Adicionar espaço horizontal adicional"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "Adicionar espaço vertical adicional"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2444,7 +2445,7 @@ msgstr "Limpar cache de página durante a rolagem"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2504,11 +2505,11 @@ msgstr "Tema Escuro (requer reinicialização)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Pontilhado"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "Tracejado"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -2556,7 +2557,7 @@ msgstr "Desativar"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "Desabilitar Áudio"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2684,7 +2685,7 @@ msgstr "Habilitar reconhecimento interno da mão"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Habilitar ou Desabilitar Áudio"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3038,7 +3039,7 @@ msgstr "Deslocar a primeira página com esta quantidade de páginas quando <b>em
 #: ../ui/selectOpacity.glade:134 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: ../ui/selectOpacity.glade:23
 msgid "Opacity settings"
@@ -3104,7 +3105,7 @@ msgstr "As alterações de plugin só são aplicadas após Xournal++ ser reinici
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3156,7 +3157,7 @@ msgstr "Renomear camada selecionada"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Redefinir"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3323,7 +3324,7 @@ msgstr "Reconhecedor de Traço"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "Estilo de Traço — não alterar"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3433,7 +3434,7 @@ msgstr "Sublinhar o texto selecionado"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "Rolagem infinita"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
