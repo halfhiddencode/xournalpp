@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-04 16:24\n"
+"PO-Revision-Date: 2023-10-04 17:51\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -549,7 +549,7 @@ msgstr "Errore nel caricamento del file glade \"{1}\" (tentativo di caricare \"{
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "Errore nel caricare il file XML delle opzioni (prova a caricare \"{1}\")"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -714,7 +714,7 @@ msgstr "Opacità del riempimento"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "Colore riempimento"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -812,7 +812,7 @@ msgstr "Evidenziatore"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "Opzioni Evidenziatore"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -1018,11 +1018,11 @@ msgstr "Pagina PDF {1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "Marcatore testo PDF"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "Opzioni Testo PDF"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1090,7 +1090,7 @@ msgstr "Penna"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "Opzioni Penna"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1108,11 +1108,11 @@ msgstr "Si prega di eliminare il file manualmente"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "Gestore Plugin"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1337,7 +1337,7 @@ msgstr "Seleziona regione multilivello"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "Seleziona opacità per: "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
