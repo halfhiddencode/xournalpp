@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"PO-Revision-Date: 2023-10-04 12:32\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -549,7 +549,7 @@ msgstr "Eroare la încărcarea fișierului glade „{1}” (încerc să încarc 
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "Eroare la încărcarea fișierului XML cu opțiuni (încearcă să încarci „{1}”)"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
