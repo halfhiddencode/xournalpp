@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"PO-Revision-Date: 2023-10-04 16:24\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -55,7 +55,8 @@ msgstr "<b>Nessun dispositivo trovato. Sembra un errore - segnalare come bug?</b
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
