@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 21:32\n"
+"POT-Creation-Date: 2023-10-05 16:10+0000\n"
+"PO-Revision-Date: 2023-10-05 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -1163,7 +1163,7 @@ msgstr "{1} tresna elementua kendu da tresna barratik {2} ID {3}"
 msgid "Rename layer"
 msgstr "Berrizendatu geruza"
 
-#: ../src/util/XojMsgBox.cpp:178
+#: ../src/util/XojMsgBox.cpp:169
 msgid "Replace"
 msgstr "Ordeztu"
 
@@ -1315,7 +1315,7 @@ msgstr "Hautatu testua pdf-an"
 msgid "Select another PDF"
 msgstr "Hautatu beste PDF"
 
-#: ../src/util/XojMsgBox.cpp:177
+#: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
 msgstr "Hautatu beste izena"
 
@@ -1547,7 +1547,7 @@ msgstr "Xournal++-ren erroreen erregistro-fitxategiak daude. Aurkeztu akatsen tx
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
 msgstr "Xournal++-ren duela gutxiko erroreen erregistro-fitxategiak dago. Aurkeztu akatsen txostena, akatsa konpontzeko."
 
-#: ../src/util/XojMsgBox.cpp:196
+#: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
 msgstr "Laguntza erakusteak huts egin du: {1}"
 
