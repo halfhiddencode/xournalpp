@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-04 17:51\n"
+"POT-Creation-Date: 2023-10-05 16:10+0000\n"
+"PO-Revision-Date: 2023-10-05 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -1163,7 +1163,7 @@ msgstr "Rimosso lo strumento {1} dalla Barra degli Strumenti {2} ID {3}"
 msgid "Rename layer"
 msgstr "Rinomina livello"
 
-#: ../src/util/XojMsgBox.cpp:178
+#: ../src/util/XojMsgBox.cpp:169
 msgid "Replace"
 msgstr "Sostituisci"
 
@@ -1315,7 +1315,7 @@ msgstr "Seleziona testo dal PDF"
 msgid "Select another PDF"
 msgstr "Seleziona un altro PDF"
 
-#: ../src/util/XojMsgBox.cpp:177
+#: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
 msgstr "Seleziona un altro nome"
 
@@ -1547,7 +1547,7 @@ msgstr "Ci sono registri degli errori di Xournal++. Invia una segnalazione di er
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
 msgstr "C'è un file di errore recente di Xournal++. Invia una segnalazione di errore, in modo che possa essere corretto."
 
-#: ../src/util/XojMsgBox.cpp:196
+#: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
 msgstr "Si è verificato un errore nella schermata di aiuto: {1}"
 
