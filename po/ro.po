@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-04 14:32\n"
+"POT-Creation-Date: 2023-10-05 16:10+0000\n"
+"PO-Revision-Date: 2023-10-05 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -1163,7 +1163,7 @@ msgstr "Instrumentul {1} a fost eliminat din banda cu instrumente {2} ID {3}"
 msgid "Rename layer"
 msgstr "Redenumește stratul"
 
-#: ../src/util/XojMsgBox.cpp:178
+#: ../src/util/XojMsgBox.cpp:169
 msgid "Replace"
 msgstr "Înlocuiește"
 
@@ -1315,7 +1315,7 @@ msgstr "Alege textul din PDF"
 msgid "Select another PDF"
 msgstr "Alege un alt PDF"
 
-#: ../src/util/XojMsgBox.cpp:177
+#: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
 msgstr "Alege un alt nume"
 
@@ -1547,7 +1547,7 @@ msgstr "Există jurnale de erori de la Xournal++. Trimite un raport pentru ca er
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
 msgstr "Există un jurnal de erori recent de la Xournal++. Trimite un raport pentru ca eroarea să poată fi corectată."
 
-#: ../src/util/XojMsgBox.cpp:196
+#: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
 msgstr "A apărut o eroare la afișarea ajutorului: {1}"
 
