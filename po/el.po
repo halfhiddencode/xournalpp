@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"POT-Creation-Date: 2023-10-05 16:10+0000\n"
+"PO-Revision-Date: 2023-10-05 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -1148,7 +1148,7 @@ msgstr "Αφαιρέθηκε το εργαλείο {1} από την γραμμ�
 msgid "Rename layer"
 msgstr "Μετονομασία επιπέδου"
 
-#: ../src/util/XojMsgBox.cpp:178
+#: ../src/util/XojMsgBox.cpp:169
 msgid "Replace"
 msgstr "Αντικατάσταση"
 
@@ -1300,7 +1300,7 @@ msgstr ""
 msgid "Select another PDF"
 msgstr "Επιλέξτε άλλο PDF"
 
-#: ../src/util/XojMsgBox.cpp:177
+#: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
 msgstr "Επιλέξτε άλλο όνομα"
 
@@ -1531,7 +1531,7 @@ msgstr ""
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
 msgstr ""
 
-#: ../src/util/XojMsgBox.cpp:196
+#: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
 msgstr "Παρουσιάστηκε σφάλμα κατά την προβολή της βοήθειας: {1}"
 
