@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"POT-Creation-Date: 2023-10-05 16:10+0000\n"
+"PO-Revision-Date: 2023-10-05 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -1153,7 +1153,7 @@ msgstr "ടൂൾബാർ {2} ID {3}-ൽ നിന്നും ടൂൾ തര
 msgid "Rename layer"
 msgstr "പാളി പുനർനാമകരണം ചെയ്യുക"
 
-#: ../src/util/XojMsgBox.cpp:178
+#: ../src/util/XojMsgBox.cpp:169
 msgid "Replace"
 msgstr "പകരം വയ്ക്കുക"
 
@@ -1305,7 +1305,7 @@ msgstr "പിഡിഎഫിൽ നിന്നും ടെക്സ്റ്�
 msgid "Select another PDF"
 msgstr "മറ്റൊരു പിഡിഎഫ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/util/XojMsgBox.cpp:177
+#: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
 msgstr "മറ്റൊരു നാമം തിരഞ്ഞെടുക്കുക"
 
@@ -1532,7 +1532,7 @@ msgstr ""
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
 msgstr ""
 
-#: ../src/util/XojMsgBox.cpp:196
+#: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
 msgstr "സഹായം ലഭ്യമാക്കുന്നതിൽ ഒരു പിശക് സംഭവിച്ചു: {1}"
 
