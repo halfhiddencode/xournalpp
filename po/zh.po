@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 14:17+0000\n"
-"PO-Revision-Date: 2023-10-03 15:17\n"
+"POT-Creation-Date: 2023-10-05 16:10+0000\n"
+"PO-Revision-Date: 2023-10-05 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -1162,7 +1162,7 @@ msgstr "已从ID为 {3} 的工具栏 {2} 中移除工具 {1}"
 msgid "Rename layer"
 msgstr "重命名图层"
 
-#: ../src/util/XojMsgBox.cpp:178
+#: ../src/util/XojMsgBox.cpp:169
 msgid "Replace"
 msgstr "替换"
 
@@ -1314,7 +1314,7 @@ msgstr "从 PDF 选择文本"
 msgid "Select another PDF"
 msgstr "选择其他PDF"
 
-#: ../src/util/XojMsgBox.cpp:177
+#: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
 msgstr "选择另一个名称"
 
@@ -1546,7 +1546,7 @@ msgstr "有来自 Xournal++ 的最新错误日志文件。 请提交错误报告
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
 msgstr "Xournal++ 有一个最近的错误日志文件。 请提交错误报告，以便修复该错误。"
 
-#: ../src/util/XojMsgBox.cpp:196
+#: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
 msgstr "显示帮助时出错: {1}"
 
