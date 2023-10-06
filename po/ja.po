@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-05 16:11\n"
+"PO-Revision-Date: 2023-10-06 09:34\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -337,7 +337,7 @@ msgstr "背景\"{1}\"を書き込めませんでした。とにかく続行し�
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "クラッシュログ"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -398,7 +398,7 @@ msgstr "このページを削除"
 
 #: ../src/core/control/XournalMain.cpp:633
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "このセッションのオーディオを無効にする"
 
 #: ../src/core/control/Control.cpp:2537
 msgid "Discard"
@@ -1106,11 +1106,11 @@ msgstr "手動でファイルを削除してください"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "プラグイン"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "プラグインマネージャー"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1714,13 +1714,16 @@ msgstr ""
 #: ../src/core/control/PageBackgroundChangeController.cpp:186
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
-msgstr ""
+msgstr "選択するPDFページがありません。操作をキャンセルします。\n"
+"メニューの「Journal」→「ページテンプレートの設定」から、別の背景タイプを選択してください。"
 
 #: ../src/core/gui/sidebar/Sidebar.cpp:90
 msgid "Your current document does not contain PDF Page no {1}\n"
 "Would you like to insert this page?\n\n"
 "Tip: You can select Journal → Paper Background → PDF Background to insert a PDF page."
-msgstr ""
+msgstr "現在のドキュメントにはPDFページ {1} が含まれていません。\n"
+"このページを挿入しますか？\n\n"
+"Tips：「Journal」→「用紙の背景」→「PDF背景あり」から挿入するPDFページを選択できます。"
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:134
 msgid "Zoom Slider"
@@ -2133,7 +2136,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"このチェックボックスを使用することでオーディオシステムを無効にしたり、今後のセッションで有効にしたりすることができます（再起動が必要です）。\n"
+"単一のセッションでオーディオを無効にするときは、コマンドラインで<tt>--disable-audio</tt>フラグを使用します。\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2141,7 +2147,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5559
 msgid "<i>Audio recordings are currently stored in a separate folder and referenced from the journal.</i>"
-msgstr ""
+msgstr "<i>録音音声は現在別々のフォルダに保存され、ジャーナルから参照されています。</i>"
 
 #: ../ui/settings.glade:5875
 msgid "<i>Changes take only effect on new recordings and playbacks.</i>"
@@ -2208,7 +2214,8 @@ msgstr ""
 #: ../ui/settings.glade:5640
 msgid "<i>Specify the audio devices used for recording and playback of audio attachments.\n"
 "If available select <small><tt>pulse</tt></small> as input / output device.</i>"
-msgstr ""
+msgstr "<i>オーディオアタッチメントの録音と再生に使用するオーディオデバイスを指定します。利用可能な場合は入力/出力デバイスとして\n"
+" <small><tt>pulse</tt></small> を選択します。</i>"
 
 #: ../ui/settings.glade:1861
 msgid "<i>Specify the tools that will be selected if a button of the stylus is pressed or the eraser is used. After releasing the button, the previous tool will be selected.</i>"
@@ -2541,7 +2548,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "オーディオを無効にする"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2663,7 +2670,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "オーディオを有効または無効にする"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -3317,7 +3324,7 @@ msgstr ""
 
 #: ../ui/latexSettings.glade:365
 msgid "Syntax highlighting"
-msgstr ""
+msgstr "構文の強調表示"
 
 #: ../ui/settings.glade:3139
 msgctxt "stylus cursor uses system cursor"
