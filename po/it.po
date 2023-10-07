@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-05 16:11\n"
+"POT-Creation-Date: 2023-10-07 08:11+0000\n"
+"PO-Revision-Date: 2023-10-07 08:19\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -522,7 +522,7 @@ msgstr "ElementRange::parse(): intervallo di elementi non valido."
 msgid "Emergency saved document"
 msgstr "Documento da salvataggio d'emergenza"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:270
+#: ../src/core/gui/dialog/SettingsDialog.cpp:271
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "Abilita la sensibilità alla pressione o la deduzione della pressione per modificare questa impostazione!"
 
@@ -716,7 +716,7 @@ msgstr "Opacità del riempimento"
 msgid "Fill color"
 msgstr "Colore riempimento"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:274
+#: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "Filtra la pressione. Moltiplica la pressione per il moltiplicatore di pressione. Se è inferiore al valore minimo, viene utilizzata la pressione minima."
 
