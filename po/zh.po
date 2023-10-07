@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-05 16:11\n"
+"POT-Creation-Date: 2023-10-07 08:11+0000\n"
+"PO-Revision-Date: 2023-10-07 08:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -521,7 +521,7 @@ msgstr "ElementRange::parse(): 无效元素范围。"
 msgid "Emergency saved document"
 msgstr "紧急保存的文档"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:270
+#: ../src/core/gui/dialog/SettingsDialog.cpp:271
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "启用压感或压力提示以更改此设置！"
 
@@ -715,7 +715,7 @@ msgstr "填充不透明度"
 msgid "Fill color"
 msgstr ""
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:274
+#: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "过滤输入压力，压力乘以压力乘数，如果小于最小压力，则使用最小压力。"
 
