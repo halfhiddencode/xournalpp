@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-05 16:11\n"
+"PO-Revision-Date: 2023-10-07 01:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -46,7 +46,7 @@ msgstr "%F-Nota-%H-%M"
 
 #: ../src/core/control/settings/Settings.cpp:152
 msgid "%{name}_annotated"
-msgstr ""
+msgstr "%{name}_anotado"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:72
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
@@ -55,7 +55,8 @@ msgstr "<b>No se encontró ningún dispositivo. Esto es inusual; recomendamos qu
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -225,7 +226,7 @@ msgstr "Copiar"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Copiar fondo actual"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -337,7 +338,7 @@ msgstr "No se pudo escribir el fondo «{1}». Se continúa de todos modos."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Registro de errores"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -398,7 +399,7 @@ msgstr "Eliminar esta página"
 
 #: ../src/core/control/XournalMain.cpp:633
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Deshabilitar audio para esta sesión"
 
 #: ../src/core/control/Control.cpp:2537
 msgid "Discard"
@@ -548,7 +549,7 @@ msgstr "Error al cargar el archivo de Glade «{1}» (se intentará cargar «{2}�
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "Error cargando la barra del archivo XML(intento cargar \"{1}\")"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -694,7 +695,7 @@ msgstr "Error al resolver la ruta al archivo con el siguiente error:\n"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Reportar un fallo"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -713,7 +714,7 @@ msgstr "Opacidad del relleno"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "Rellenar color"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:274
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -811,7 +812,7 @@ msgstr "Resaltador"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "Opciones de resaltado"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -955,7 +956,7 @@ msgstr "Página anotada siguiente"
 
 #: ../src/core/control/Control.cpp:1135
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
