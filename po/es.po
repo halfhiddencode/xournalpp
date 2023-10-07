@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-07 01:46\n"
+"PO-Revision-Date: 2023-10-07 03:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1018,11 +1018,11 @@ msgstr "Página de PDF {1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "Marcador de texto PDF"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "Opciones de texto PDF"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1090,7 +1090,7 @@ msgstr "Lápiz"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "_Opciones de lápiz"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1108,11 +1108,11 @@ msgstr "Por favor, elimine el archivo manualmente"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "Gestor de complementos"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1136,7 +1136,7 @@ msgstr "Grabar audio/dejar de grabar"
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Archivo de recuperación detectado"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:489
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1193,7 +1193,7 @@ msgstr "Con renglones y línea vertical"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "Operación de impresión en ejecución falló con {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1260,13 +1260,13 @@ msgstr "Seleccionar texto PDF en línea"
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:81
 msgid "Select Multi-Layer Rectangle"
-msgstr ""
+msgstr "Seleccionar rectángulo multicapa"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:600
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:29
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:88
 msgid "Select Multi-Layer Region"
-msgstr ""
+msgstr "Seleccionar región de multicapa"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:604
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:30
@@ -1329,15 +1329,15 @@ msgstr "Seleccionar color"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:96
 msgid "Select multi layer rect"
-msgstr ""
+msgstr "Seleccionar recta multicapa"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:95
 msgid "Select multi layer region"
-msgstr ""
+msgstr "Seleccionar región de multicapa"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "Seleccionar opacidad para: "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
@@ -1470,7 +1470,7 @@ msgstr "Texto"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Se encontró el texto %zu veces en la página"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1478,11 +1478,11 @@ msgstr "Se encontró el texto 1 vez en la página {1}"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "Texto encontrado una vez en esta página"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "Se encontró el texto {1} en la página {2} ({3} de {1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1540,7 +1540,7 @@ msgstr "Nombre del archivo de registro más reciente: {1}"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Hay archivos de registro de errores recientes de Xournal++. Por favor, envíe un informe de errores para que el error pueda ser arreglado."
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
