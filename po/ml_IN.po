@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-05 16:11\n"
+"POT-Creation-Date: 2023-10-07 08:11+0000\n"
+"PO-Revision-Date: 2023-10-07 08:19\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -515,7 +515,7 @@ msgstr "എലമെന്റ്::പാർസ്() (ElementRange::parse()): അ
 msgid "Emergency saved document"
 msgstr "അടിയന്തിരമായി സേവ് ചെയ്ത ഡോക്യുമെന്റ്"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:270
+#: ../src/core/gui/dialog/SettingsDialog.cpp:271
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "ഈ ക്രമീകരണം മാറ്റുവാൻ സമ്മർദ്ദം തിരിച്ചറിയൽ, അല്ലെങ്കിൽ സമ്മർദാനുമാനം പ്രാപ്തമാക്കുക!"
 
@@ -708,7 +708,7 @@ msgstr "ഫിൽ ഒപാസിറ്റി"
 msgid "Fill color"
 msgstr ""
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:274
+#: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "ഇൻപുട്ട് സമ്മർദ്ദം ഫിൽറ്റർ ചെയ്യുക. സമ്മർദ്ദ ഗുണിതസംഖ്യ ഉപയോഗിച്ച് സമ്മർദ്ദം ഗുണിക്കുക. മിനിമം സമ്മർദ്ദത്തെക്കാൾ കുറവെങ്കിൽ, മിനിമം അളവ് തന്നെ ഉപയോഗിക്കുക."
 
