@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-07 08:11+0000\n"
-"PO-Revision-Date: 2023-10-07 08:19\n"
+"PO-Revision-Date: 2023-10-07 11:24\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -55,7 +55,8 @@ msgstr "<b>لم يتم العثور على أجهزة. لا يبدو هذا صا
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -548,7 +549,7 @@ msgstr "تعذر تحميل ملف واجهة المستخدم المسمى «{1
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "تعذّر تحميل ملف XML لشريط القوائم (حاوِل تحميل \"{1}\")"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -713,7 +714,7 @@ msgstr "عتامة التعبئة"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "لون التعبئة"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -811,7 +812,7 @@ msgstr "قلم تظليل"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "خيارات قلم التظليل"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -1017,11 +1018,11 @@ msgstr "صفحة PDF رقم {1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "علامة نص PDF"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "خيارات نص PDF"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1089,7 +1090,7 @@ msgstr "قلم"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "خيارات القلم"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1107,11 +1108,11 @@ msgstr "نرجو حذف الملف يدويا"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "الإضافات"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "مدير الإضافات"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1336,7 +1337,7 @@ msgstr "تحديد منطقة متعددة الطبقات"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "حدد التعتيم لـ: "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
