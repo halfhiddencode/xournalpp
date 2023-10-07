@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-07 08:11+0000\n"
-"PO-Revision-Date: 2023-10-07 08:19\n"
+"PO-Revision-Date: 2023-10-07 10:12\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -55,7 +55,8 @@ msgstr "<b>Nem található eszköz. Ez gyanús - talán egy jelenteni való hiba
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -225,7 +226,7 @@ msgstr "Másolás"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:140
 msgid "Copy current background"
-msgstr ""
+msgstr "Jelenlegi háttér másolása"
 
 #: ../src/core/undo/CopyUndoAction.cpp:62
 msgid "Copy page"
@@ -337,7 +338,7 @@ msgstr "A(z) \"{1}\" háttér nem írható. Folytatás ettől függetlenül."
 
 #: ../src/core/control/XournalMain.cpp:197
 msgid "Crash log"
-msgstr ""
+msgstr "Összeomlási napló"
 
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:88
 msgid "Create new layer"
@@ -398,7 +399,7 @@ msgstr "Oldal törlése"
 
 #: ../src/core/control/XournalMain.cpp:633
 msgid "Disable audio for this session"
-msgstr ""
+msgstr "Hang letiltása ehhez a munkamenethez"
 
 #: ../src/core/control/Control.cpp:2537
 msgid "Discard"
@@ -487,11 +488,11 @@ msgstr "Koordinátarendszer rajzolása"
 
 #: ../src/core/undo/InsertUndoAction.cpp:33
 msgid "Draw stroke"
-msgstr "Vonalrajzolás"
+msgstr "Vonásírás rajzolása"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:125
 msgid "Drawing Type - don't change"
-msgstr "Rajzolási típus - ne változzon"
+msgstr "Rajzolási típus - ne módosítsa"
 
 #: ../src/core/gui/toolbarMenubar/ToolDrawCombocontrol.cpp:110
 msgid "Drawing Type Combo"
@@ -548,7 +549,7 @@ msgstr "Hiba a(z) „{1}” glade-fájl betöltése közben (próbálja meg bet�
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "Hiba történt a menüsor XML-fájljának betöltésekor (próbálja meg betölteni a következőt: „{1}”)"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -693,7 +694,7 @@ msgstr "Az adott hely értelmezése közben az alábbi hiba lépett fel: {1}"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "File Bug Report"
-msgstr ""
+msgstr "Hiba jelentése"
 
 #: ../src/util/PathUtil.cpp:170
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -712,7 +713,7 @@ msgstr "Kitöltési átlátszatlanság"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "Kitöltőszín"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -810,7 +811,7 @@ msgstr "Kiemelő"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "Kiemelő beállításai"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -954,7 +955,7 @@ msgstr "Következő széljegyzeteket tartalmazó lap"
 
 #: ../src/core/control/Control.cpp:1135
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:67
 msgid "No device"
@@ -1016,11 +1017,11 @@ msgstr "PDF oldal {1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "PDF-szövegjelölő"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "PDF-szövegbeállításai"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1088,7 +1089,7 @@ msgstr "Toll"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "Toll beállításai"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1106,11 +1107,11 @@ msgstr "Kérjük, kézzel törölje a fájlt"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "Beépülő modul"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "Beépülő modulkezelő"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1134,7 +1135,7 @@ msgstr "Hangfelvétel indítása/leállítása"
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Recovery file detected"
-msgstr ""
+msgstr "Helyreállítási fájl észlelve"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:489
 #: ../src/core/undo/UndoRedoHandler.cpp:195
@@ -1191,7 +1192,7 @@ msgstr "Vonalas vertikális vonallal"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "A nyomtatási művelet futtatása nem sikerült a következővel: {1}"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
@@ -1335,7 +1336,7 @@ msgstr "Többrétegű régió kijelölése"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "Átlátszatlanság kijelölése a következőhöz: "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
@@ -1469,7 +1470,7 @@ msgstr "Szöveg"
 #: ../src/core/gui/SearchBar.cpp:82
 #, c-format
 msgid "Text found %zu times on this page"
-msgstr ""
+msgstr "Szöveg %zu alkalommal található ezen az oldalon"
 
 #: ../src/core/gui/SearchBar.cpp:130
 msgid "Text found once on page {1}"
@@ -1477,11 +1478,11 @@ msgstr "A keresett szöveg egyszer megtalálható a(z) {1} oldalon"
 
 #: ../src/core/gui/SearchBar.cpp:80
 msgid "Text found once on this page"
-msgstr ""
+msgstr "Egyszer található szöveg ezen az oldalon"
 
 #: ../src/core/gui/SearchBar.cpp:131
 msgid "Text found {1} times on page {2} ({3} of {1})"
-msgstr ""
+msgstr "Szöveg {1} alkalommal található a {2} oldalon ({3}/{1})"
 
 #: ../src/core/gui/SearchBar.cpp:87
 msgid "Text not found"
@@ -1539,11 +1540,11 @@ msgstr "A legfrissebb eseménynapló neve: {1}"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "A Xournal++ legújabb hibanaplófájljai vannak. Kérjük, küldjön egy hibajelentést, hogy a hiba kijavítható legyen."
 
 #: ../src/core/control/XournalMain.cpp:184
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Van egy nemrégiben készült hibanaplófájl a Xournal++-tól. Kérjük, küldjön egy hibajelentést, hogy a hiba kijavítható legyen."
 
 #: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
@@ -1567,7 +1568,7 @@ msgstr "Teljes képernyőre váltás"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:86
 msgid "Tool - don't change"
-msgstr "Eszköz - ne változzon"
+msgstr "Eszköz - ne módosítsa"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -1714,7 +1715,7 @@ msgstr "Xournal++ sablon"
 
 #: ../src/core/control/Control.cpp:1135
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:186
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
@@ -2144,7 +2145,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"A jelölőnégyzet használatával a hangrendszer letiltható vagy engedélyezhető a jövőbeli munkamenetekhez (újraindítás szükséges).\n"
+"A hang egyetlen munkamenetre történő letiltása a parancssorban található <tt>--disable-audio</tt> jelzővel érhető el.\n"
+"</i>"
 
 #: ../ui/settings.glade:904
 msgid "<i>Assign device classes to each input device of your system. Only change these values if your devices are not correctly matched. (e.g. your pen shows up as touchscreen)</i>"
@@ -2199,7 +2203,8 @@ msgstr "<i>Helyezzen egy vonalzót a képernyőre, és mozgassa a csúszkát, am
 #: ../ui/settings.glade:5197
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>A jobb megjelenítési minőség érdekében nagyítás közben gyakrabban jelenítse meg újra a PDF háttereket.\n"
+"<b>Megjegyzés:</b> Ez nem befolyásolja a nyomtatás minőségét.</i>"
 
 #: ../ui/settings.glade:5979
 msgid "<i>Select language (requires restart)</i>"
@@ -2229,7 +2234,7 @@ msgstr "<i>Adja meg azokat az eszközöket, amelyek a mutató valamelyik gombjá
 
 #: ../ui/settings.glade:4509
 msgid "<i>The amount is specified in pixels.</i>"
-msgstr ""
+msgstr "<i>Az összeg képpontban van megadva.</i>"
 
 #: ../ui/settings.glade:627
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2265,7 +2270,7 @@ msgstr "<i>A GTK által nem érintőképernyőként azonosított eszközöket be
 
 #: ../ui/settings.glade:4473
 msgid "<i>or</i>"
-msgstr ""
+msgstr "<i>vagy</i>"
 
 #: ../ui/about.glade:93
 msgid "<span size=\"xx-large\" weight=\"bold\">Xournal++</span>\n"
@@ -2283,15 +2288,15 @@ msgstr "Eszközkoppintás művelete"
 
 #: ../ui/settings.glade:2964
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "Aktív kijelölés színe (keresési eredmények stb.)"
 
 #: ../ui/settings.glade:4439
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "További vízszintes terület hozzáadása"
 
 #: ../ui/settings.glade:4455
 msgid "Add additional vertical space"
-msgstr ""
+msgstr "További függőleges terület hozzáadása"
 
 #: ../ui/settings.glade:4776
 msgid "After resizing a selection, the line width of all strokes will be the same as before the resizing operation. "
@@ -2444,7 +2449,7 @@ msgstr "Gyorsítótárazott oldalak törlése görgetés közben"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #: ../ui/settings.glade:3037
 msgid "Color"
@@ -2504,11 +2509,11 @@ msgstr "Sötét téma (újraindítás szükséges)"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Szaggatott-pontozott"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
-msgstr ""
+msgstr "Szaggatott"
 
 #: ../ui/settings.glade:266
 msgid "Deadzone"
@@ -2556,7 +2561,7 @@ msgstr "Letiltás"
 
 #: ../ui/settings.glade:5510
 msgid "Disable Audio"
-msgstr ""
+msgstr "Hang letiltása"
 
 #: ../ui/settings.glade:2687
 msgid "Disable GTK's built-in inertial scroll functionality (requires restart)."
@@ -2684,7 +2689,7 @@ msgstr "Belső kézfelismerés engedélyezése"
 
 #: ../ui/settings.glade:5532
 msgid "Enable or Disable Audio"
-msgstr ""
+msgstr "Hang engedélyezése vagy letiltása"
 
 #: ../ui/settings.glade:2627
 msgid "Enable touch drawing"
@@ -2700,7 +2705,7 @@ msgstr "LaTeX-szöveg szerkesztése"
 
 #: ../ui/settingsButtonConfig.glade:125
 msgid "Eraser Type - don't change"
-msgstr "Radír típusa - ne változzon"
+msgstr "Radír típusa - ne módosítsa"
 
 #: ../ui/settings.glade:2046
 msgid "Eraser visibility"
@@ -3038,7 +3043,7 @@ msgstr "Az első oldal eltolása ennyi oldallal, ha engedélyezve van az <b>Olda
 #: ../ui/selectOpacity.glade:134 ../ui/settings.glade:6095
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "Rendben"
 
 #: ../ui/selectOpacity.glade:23
 msgid "Opacity settings"
@@ -3104,7 +3109,7 @@ msgstr "A beépülő modulok módosításai csak a Xournal++ újraindítása ut�
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Beépülő modulok"
 
 #: ../ui/settings.glade:3891
 msgid "Pre-load pages after"
@@ -3156,7 +3161,7 @@ msgstr "Kiválasztott réteg átnevezése"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Visszaállítás"
 
 #: ../ui/settings.glade:4787
 msgid "Resizing"
@@ -3256,7 +3261,7 @@ msgstr "Fájl elérési útjának megjelenítése a címsorban"
 
 #: ../ui/settings.glade:2845
 msgid "Show page number in title bar"
-msgstr ""
+msgstr "Oldalszám megjelenítése a címsorban"
 
 #: ../ui/settings.glade:3401
 msgid "Show sidebar on the right side"
@@ -3323,7 +3328,7 @@ msgstr "Vonalfelismerő"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "Vonásírás tipusa - ne módosítsa"
 
 #: ../ui/settings.glade:2077
 msgid "Stylus"
@@ -3433,7 +3438,7 @@ msgstr "Kijelölt szöveg aláhúzása"
 
 #: ../ui/settings.glade:4485
 msgid "Unlimited scrolling"
-msgstr ""
+msgstr "Korlátlan görgetés"
 
 #: ../ui/settings.glade:3001
 msgid "Use available Stock Icons (requires restart)"
@@ -3482,7 +3487,8 @@ msgstr "Ha egy elemet kijelöl, és a vászon látható részén túl van mozgat
 #: ../ui/settings.glade:2516
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "Amikor érintéssel rajzol, a nézet pásztázására szolgáló kétujjas kézmozdulatok ehelyett nagyítást okozhatnak, ami teljesítménybeli problémákat okozhat.\n"
+"Ez a beállítás megkönnyítheti az érintéssel történő rajzolást. "
 
 #: ../ui/settings.glade:2023
 msgctxt "eraser is only visible when floating"
