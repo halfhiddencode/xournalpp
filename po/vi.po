@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-05 16:10+0000\n"
-"PO-Revision-Date: 2023-10-05 16:11\n"
+"POT-Creation-Date: 2023-10-07 08:11+0000\n"
+"PO-Revision-Date: 2023-10-07 08:19\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -519,7 +519,7 @@ msgstr ""
 msgid "Emergency saved document"
 msgstr "Tệp tin đã được sao lưu khẩn cấp"
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:270
+#: ../src/core/gui/dialog/SettingsDialog.cpp:271
 msgid "Enable pressure sensitivity or pressure inference to change this setting!"
 msgstr "Bật lực nhạy hoặc hệ quả của lực để thay đổi cài đặt này!"
 
@@ -711,7 +711,7 @@ msgstr ""
 msgid "Fill color"
 msgstr ""
 
-#: ../src/core/gui/dialog/SettingsDialog.cpp:274
+#: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
 msgstr "Lọc lực nén đầu vào. Nhân lực nén với nhân tử áp suất. Nếu nhỏ hơn mức tối thiểu, sử dụng lực nén tối thiểu."
 
