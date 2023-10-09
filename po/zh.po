@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-07 08:11+0000\n"
-"PO-Revision-Date: 2023-10-07 08:19\n"
+"PO-Revision-Date: 2023-10-09 07:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -55,7 +55,8 @@ msgstr "<b>没有找到设备。可能出错了，要提交 bug 报告吗？</b>
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:50
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/control/XournalMain.cpp:404
 msgid "<span foreground='red' size='x-large'>Missing the needed UI file:\n"
@@ -548,7 +549,7 @@ msgstr "加载glade文件\"{1}\"出错(尝试加载\"{2}\")"
 
 #: ../src/core/gui/menus/menubar/Menubar.cpp:54
 msgid "Error loading menubar XML file (try to load \"{1}\")"
-msgstr ""
+msgstr "加载菜单栏 XML 文件时出错（尝试加载“{1}”）"
 
 #: ../src/core/control/Control.cpp:2083
 msgid "Error opening file \"{1}\""
@@ -713,7 +714,7 @@ msgstr "填充不透明度"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
 msgid "Fill color"
-msgstr ""
+msgstr "填充色"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:275
 msgid "Filter input pressure. Multiply the pressure by the pressure multiplier. If less than the minimum, use the minimum pressure."
@@ -811,7 +812,7 @@ msgstr "高亮"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "高亮选项"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:41
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:572
@@ -1017,11 +1018,11 @@ msgstr "PDF页码{1}"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "PDF 文本标记"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "PDF 文本选项"
 
 #: ../src/core/control/PdfCache.cpp:123
 msgid "PDF background missing"
@@ -1089,7 +1090,7 @@ msgstr "画笔"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "笔选项"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:29
 msgid "Plain"
@@ -1107,11 +1108,11 @@ msgstr "请手动删除文件"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:32
 msgid "Plugin"
-msgstr ""
+msgstr "插件"
 
 #: ../src/core/gui/menus/menubar/PluginsSubmenu.cpp:15
 msgid "Plugin Manager"
-msgstr ""
+msgstr "插件管理器"
 
 #: ../src/core/gui/dialog/ToolbarManageDialog.cpp:27
 msgid "Predefined"
@@ -1336,7 +1337,7 @@ msgstr "选择多层区域"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:28
 msgid "Select opacity for: "
-msgstr ""
+msgstr "选择不透明度： "
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:94
 msgid "Select rectangle"
